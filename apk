@@ -246,7 +246,7 @@ case $command in
         echo "(apk del) is a work in progress not ready yet! TODO: delete only packages from apk repo"
         ;;
     update)
-    echo "Updating repository list..."    
+    echo "Updating repository list..."
     # Check if the file list exists
     if [ -f "$_DSHARE/$_FLIST" ]; then
         LISTNUM=$(cat "$_DSHARE/$_FLIST")
@@ -269,7 +269,7 @@ case $command in
         cd "$saved_dir" || exit
         echo "$_FLIST Updated!"
         fi
-        
+
     else
         if [ -f "$_DSHARE/$_FLIST.bak" ]; then
         echo "$_DSHARE/$_FLIST does not exist!"
@@ -291,7 +291,7 @@ case $command in
         echo "$_FLIST created successfully!"
         echo "Please run one more time <apk update> to complete set-up!"
         fi
-        
+
     fi
 
     # Check if FDATA exists
@@ -309,6 +309,14 @@ case $command in
         cd "$saved_dir" || exit
         echo "$_FDATA created successfully!"
     fi
+    # check if installed packages list exist
+    if [ -d "$_DDATA" ]; then
+    echo "Listing installed apk packages:"
+    cat "$_FDATA"
+    else
+    mkdir -p "$_DDATA"
+    echo "0" > "$_FDATA"
+    fi
     ;;
 
     info)
@@ -318,7 +326,7 @@ case $command in
         else
         echo "$_FDATA not found."
         echo "Try <apk update> to fix this."
-        echo "Else please open an issue in $MAIN_REPO/issues"
+        echo "If you already did, please open an issue in $MAIN_REPO/issues"
         fi
         ;;
     stats)
