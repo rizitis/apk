@@ -1,14 +1,19 @@
 # apk
 **emulation** of apk package manager **commands** on a slackware system for the specific repository **only** and for slackware**64-current**
 
+---
+
 ## ?
 Personal and *unofficial* binary repository with its own Package Manager, for Slackware64-current.<br>
 It is tradition almost every *unofficial* Slackware repository to have its own package manager, so here is mine which work only with this repository **of course** :D
 
+---
 
 ### !
 This is not apk-tools (Alpine Package Keeper) or  Chimera`s next-generation version 3.<br>
 This apk is a simple bash script which was written from scratch to work exclusively with this repository. 
+
+---
 
 #### %
 - Dependencies: None in full Slackware installation. Else:`"bash curl pkgtools"`
@@ -19,6 +24,9 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 - HowTo use it always as root command: `apk --help`
 - To uninstall as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
 
+---
 
 #### @#$^!
+Stop screaming and open an issue:<br>
 https://github.com/rizitis/apk/issues
+With God`s help maybe we can fix it...
