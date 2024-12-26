@@ -1,0 +1,356 @@
+#!/bin/bash
+# shellcheck disable=SC1091,SC2013
+
+# Christmas 2024 somewere in Greece...
+# Merry Christmas
+
+# GNU General Public License v2.0
+# For more information, please refer <https://github.com/rizitis/apk/blob/main/LICENSE>
+
+# source env
+. /etc/apk/apk.env
+
+# home dir
+saved_dir=$(pwd)
+
+# Extract the command argument
+command=$1
+PKG=$2
+
+# List of commands that do not accept $2
+invalid_with_second_arg="update|upgrade|restore-apk|upgrade-apk|info|stats|help|--help|-h"
+
+# Check if $1 matches any command in the list
+if [[ "$1" =~ $invalid_with_second_arg ]]; then
+    if [[ -n "$2" ]]; then
+        echo "Error: Command '$1' does not accept a second argument."
+        echo "Please command <apk help> for help."
+        exit 1
+    fi
+fi
+
+if [[ "$1" == "--help" || "$1" == "-h" || "$1" == "help" ]]; then
+    echo "
+    # === Commands for  Download,Install,Upgrade,Remove,Search <packages> === #
+    #
+    # apk add pkg       Add/Install a package
+    # apk del pkg       Delete a package
+    # apk search pkg    Search for packages
+    # apk fix pkg       Repair package or Upgrade it without modifying dependencies
+    # apk download pkg  Download package files but not install
+    #
+    # === Commands which not followed by <package> === #
+    #
+    # apk update        Update apk repository {local files and package list}.
+    # apk upgrade       Upgrade all installed packages from the apk repository ONLY.
+    # apk info          List all installed packages from the apk repository ONLY.
+    # apk stats         Show statistics ONLY about apk repository and installations.
+    # apk upgrade-apk   Upgrade apk script version and apk.env.
+    # apk restore-apk   downgrade apk script and apk.env to previous status before upgrade-apk.
+    # apk help          Print help message
+    "
+else
+    # Check if at least one argument is provided
+if [ "$#" -lt 1 ]; then
+    echo "Usage: $0 <command> [<package>]"
+    echo "Commands: fix, show, add, download, search, upgrade, del, update, info, stats, upgrade-apk, restore-apk, help"
+    echo '
+    # apk update        Update apk repository local files and package list
+    # apk upgrade       Upgrade all installed pkg from apk repository
+    # apk add pkg       Add/Install a package
+    # apk del pkg       Delete a package
+    # apk search pkg    Search for packages
+    # apk info          List all installed packages
+    # apk fix           Repair package or Upgrade it without modifying dependencies
+    # apk stats         Show statistics about repositories and installations
+    # apk download pkg  Download package files but not install
+    # apk upgrade-apk   Upgrade apk version
+    # apk restore-apk   downgrade apk one version back
+    # apk help          Print help message
+    '
+    exit 1
+fi
+
+shift
+
+# Handle commands
+case $command in
+    fix)
+        echo "Fixing package..."
+        temp_dir=$(mktemp -d)
+        if [ ! -d "$temp_dir" ]; then
+        echo "Failed to create temporary directory"
+        exit 1
+        fi
+        cd "$temp_dir" || exit
+
+        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        FN="$(cat BIN_NAME)"
+        echo "$FN"
+        for file in "$FN" "$FN".md5; do
+        curl -L -O "$RF"/"$PKG"/"$file"
+        done
+
+        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
+        # Compute the checksum of the downloaded file
+        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
+        # Compare the checksums
+        if [ "$expected_checksum" = "$computed_checksum" ]; then
+        echo "Validation successful: Checksums match."
+        else
+        echo "Validation failed: Checksums do not match!"
+        exit 1
+        fi
+
+        upgradepkg --install-new --reinstall "$FN"
+
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
+        ;;
+    show)
+        echo "Showing package info..."
+        temp_dir=$(mktemp -d)
+        if [ ! -d "$temp_dir" ]; then
+        echo "Failed to create temporary directory"
+        exit 1
+        fi
+        cd "$temp_dir" || exit
+
+        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        FN="$(cat BIN_NAME)"
+        echo "$FN"
+        for file in "$FN" "$FN".txt makepkg-"$PKG".log "$PKG".dep; do
+        echo "Attempting to download $file..."
+        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
+        echo "Downloaded $file successfully."
+        else
+        echo "File $file does not exist or failed to download. Skipping."
+        fi
+        done
+        for file in "$FN" "$FN".txt makepkg-"$PKG".log; do
+        if [ -f "$file" ]; then
+        cat "$file"
+        else
+        echo "File $file does not exist."
+        fi
+        done
+        if [ -f "$PKG".dep ]; then
+        echo "dependencies:"
+        cat "$PKG".dep
+        else
+        echo "No dependencies found for $PKG."
+        fi
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
+        ;;
+    add)
+        temp_dir=$(mktemp -d)
+        if [ ! -d "$temp_dir" ]; then
+        echo "Failed to create temporary directory"
+        exit 1
+        fi
+
+        cd "$temp_dir" || exit
+
+        # Download BIN_NAME and extract the filename
+        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        FN="$(cat BIN_NAME)"
+
+        # Download related files: main file, checksum, and dependencies
+        for file in "$FN" "$FN".md5 "$PKG".dep; do
+        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
+        echo "Downloaded $file successfully."
+        else
+        echo "File $file does not exist or failed to download. Skipping."
+        fi
+        done
+
+        # Check for dependencies and install them
+        if [ -f "$PKG.dep" ]; then
+        echo "Dependencies found:"
+        cat "$PKG".dep
+        for dep in $(cat "$PKG".dep); do
+        echo "Installing dependency: $dep"
+        apk add "$dep" || true  # Continue even if a dependency fails or not exist in repository
+        done
+        else
+        echo "No dependencies found for $PKG."
+        fi
+
+        # Validate checksum
+        if [ -f "$FN".md5 ]; then
+        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
+        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
+
+        if [ "$expected_checksum" = "$computed_checksum" ]; then
+        echo "Validation successful: Checksums match."
+        else
+        echo "Validation failed: Checksums do not match!"
+        exit 1
+        fi
+        else
+        echo "Checksum file $FN.md5 not found. Skipping validation."
+        fi
+
+        # Finally Upgrade package
+        echo "Upgrading package using: $FN"
+        upgradepkg --install-new --reinstall "$FN"
+
+        # Clean up
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
+        ;;
+    download)
+        mkdir -p /tmp/"$PKG"
+        cd /tmp/"$PKG" || exit
+        echo "Downloading $PKG files"
+        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        FN="$(cat BIN_NAME)"
+        echo "$FN"
+        for file in "$FN" "$FN".txt makepkg-"$PKG".log "$PKG".dep "$FN".md5; do
+        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
+        echo "Downloaded $file successfully."
+        else
+        echo "File $file does not exist or failed to download. Skipping."
+        fi
+        done
+        pwd
+        ls
+        ;;
+    search)
+        temp_dir=$(mktemp -d)
+        if [ ! -d "$temp_dir" ]; then
+        echo "Failed to create temporary directory"
+        exit 1
+        fi
+
+        cd "$temp_dir" || exit
+        surl="$RF"/"$PKG"/BIN_NAME
+
+        # Use curl to download the file and print its contents
+        if curl -L --silent --fail "$surl"; then
+        echo "File exists in apk repo:"
+        curl -L --silent "$surl"  # Print the file's contents
+        else
+        echo "File does not exist in apk repo"
+        fi
+
+        # Clean up
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
+        ;;
+    upgrade)
+        echo "(apk upgrade) is a work in progress not ready yet! TODO: upgrade packages only from apk repo"
+        ;;
+    del)
+        echo "(apk del) is a work in progress not ready yet! TODO: delete only packages from apk repo"
+        ;;
+    update)
+        echo "Updating repository list..."
+        if [ -f "$_DSHARE/$_FLIST" ]; then
+        LISTNUM=$(cat "$_DSHARE/$_FLIST")
+        if [[ "$LISTNUM" == 0 ]]; then
+        echo "This is the first time you run apk update"
+        echo "Creating $_FLIST ..."
+        cd "$_DSHARE" || exit
+        mv "$_FLIST" "$_FLIST".bak
+        curl -L -O "$RF"/"$FLIST".TXT
+        mv "$_FLIST".TXT "$_FLIST"
+        cd "$saved_dir" || exit
+        echo "$_FLIST Updated!"
+        else
+        echo "Updating $_FLIST ..."
+        mv "$_DSHARE/$_FLIST" "$_DSHARE/$_FLIST".bak
+        cd "$_DSHARE" || exit
+        curl -L -O "$RF"/"$FLIST".TXT
+        mv "$_FLIST".TXT "$_FLIST"
+        cd "$saved_dir" || exit
+        echo "$_FLIST Updated!"
+        fi
+        else
+        if [ -f "$_DSHARE/$_FLIST".bak ]; then
+        echo "$_DSHARE/$_FLIST not exist!"
+        echo "But $_DSHARE/$_FLIST.bak exist..."
+        echo "Thats a problem!!! Something is wrong. Better remove apk and reinstall it."
+        echo "Any way trying to fix this issue, by creating $_DSHARE/$_FLIST... and see if work!"
+        cd "$_DSHARE" || exit
+        curl -L -O "$RF"/"$FLIST".TXT
+        mv "$_FLIST".TXT "$_FLIST"
+        cd "$saved_dir" || exit
+        echo "$_FLIST was created But still something might be wrong..."
+        else
+        echo "Looks apk was not installed properly in your system"
+        echo "Please remove it and reinstall"
+        fi
+        fi
+        if [ -f "$_FDATA" ]; then
+        FDATA_NUM=$(cat "$_FDATA")
+        if [[ "$FDATA_NUM" == 0 ]]; then
+        echo "No apk packages are installed so far!"
+        fi
+        else
+        echo "$_FDATA not found."
+        echo "Thats a problem, something is wrong please remove apk and reinstall it."
+        echo "Trying to fix this issue by creating $_DDATA and $_FDATA...and see if works."
+        mkdir -p "$_DDATA"
+        cd "$_DDATA" || exit
+        curl -L -O "$RF"/"$FDATA"
+        echo "File was created please try install a package using: <apk add pkg_name>"
+        echo "If still things not working properly remove apk and open an issue: $MAIN_REPO/issues"
+        cd "$saved_dir" || exit
+        fi
+        ;;
+    info)
+       if [ -f "$_FDATA" ]; then
+        echo "Listing apk installed packages..."
+        cat "$_FDATA"
+        else
+        echo "$_FDATA not found."
+        echo "Try <apk update> to fix this."
+        echo "Else please open an issue in $MAIN_REPO/issues"
+        fi
+        ;;
+    stats)
+        echo "Displaying apk statistics..."
+        echo "Work in progress...not ready yet!"
+        ;;
+    upgrade-apk)
+        echo "Taking backup $_FENV"
+        if [ -f "$_FENV".back ]; then
+        cat "$_FENV" > "$_FENV".back
+        else
+        cp "$_FENV" "$_FENV".back
+        fi
+        echo "Taking backup $_APK"
+        if [ -f "$_APK".back ]; then
+        cat "$_APK" > "$_APK".back
+        chmod -x "$_APK".back
+        else
+        cp "$_APK" "$_APK".back
+        chmod -x "$_APK".back
+        fi
+        echo "Upgrading $_APK"
+        pushd "$_DAPK" || exit
+        rm "$_APK" || exit
+        curl -L -O "$RF"/"$APK"
+        chmod +x "$_APK"
+        echo "Upgrading $_FENV"
+        cd "$_DETC" || exit
+        rm "$_FENV" || exit
+        curl -L -O "$RF"/"$FENV"
+        popd || exit
+        echo "apk succesfully upgraded it self"
+        echo "If something is wrong, command <apk restore-apk> to downgrade it to previous version."
+        ;;
+    restore-apk)
+        echo "Restoring apk to previous version"
+        cat "$_APK".back > "$_APK" || exit
+        cat "$_FENV".back > "$_FENV" || exit
+        echo "Success. apk restored to previous version. Please report a bug if needed: $MAIN_REPO/issues"
+        ;;
+    *)
+        echo "Unknown command: $command"
+        exit 1
+        ;;
+esac
+fi
