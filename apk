@@ -311,9 +311,9 @@ case $command in
     fi
     # check if installed packages list exist
     if [ -d "$_DDATA" ]; then
-    echo "Listing installed apk packages:"
-    cat "$_FDATA"
+    echo "Installed $_DDATA exist"
     else
+    echo "Installed $_DDATA not exist, creating one with 0 packages..."
     mkdir -p "$_DDATA"
     echo "0" > "$_FDATA"
     fi
