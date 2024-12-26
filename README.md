@@ -21,8 +21,9 @@ This apk is a simple bash script which was written from scratch to work exclusiv
   - As regular user paste in terminal all this ugly cmd line: `mkdir /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env`
   - Then be root (su -l) and command: `cd /tmp/apk || exit && mkdir -p /etc/apk && cp ./apk.env /etc/apk/ && cp ./apk /usr/local/sbin/ && chmod +x /usr/local/sbin/apk`
   - Finally always as root run the update command: `apk update` to connect apk with remote packages repository.
-- HowTo use it always as root command: `apk --help`
-- To uninstall as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
+  - To blacklist apk repository packages for slackpkg, as root: `echo "[0-9]+_rtz" >> /etc/slackpkg/blacklist`
+- HowTo use apk, always as root command: `apk --help`
+- To uninstall apk, as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
 
 ---
 
