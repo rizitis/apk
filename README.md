@@ -26,10 +26,10 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 ```
 # === Commands for  Download,Install,Upgrade,Remove,Search <packages> === #
     #
-    # apk add pkg       Add/Install a package
+    # apk add pkg       Add/Install a package and its dependencies if exist in apk repository
     # apk del pkg       Delete a package
     # apk search pkg    Search for packages
-    # apk fix pkg       Repair package or Upgrade it without modifying dependencies
+    # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
     #
     # === Commands which not followed by <package> === #
