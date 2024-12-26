@@ -10,7 +10,7 @@ It is tradition almost every *unofficial* Slackware repository to have its own p
 This is not apk-tools (Alpine Package Keeper) or  Chimera`s next-generation version 3.<br>
 This apk is a simple bash script which was written from scratch to work exclusively with this repository. 
 
-#### #
+#### %
 - Dependencies: None in full Slackware installation. Else:`"bash curl pkgtools"`
 - To install apk (meaning the package manager):
   - As regular user command: `mkdir -p /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env`
