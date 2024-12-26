@@ -296,33 +296,26 @@ case $command in
 
     # Check if FDATA exists
     if [ -f "$_FDATA" ]; then
-        FDATA_NUM=$(cat "$_FDATA")
-        if [[ "$FDATA_NUM" == 0 ]]; then
-            echo "No apk packages are installed so far!"
-        fi
+        echo "$_FDATA found..."
     else
         echo "Package data file ($_FDATA) not found."
-        echo "Creating $_FDATA..."
+        echo "Creating $_FDATA with 0 packages in."
         mkdir -p "$_DDATA"
         cd "$_DDATA" || exit
         curl -L -O "$RF/$FDATA"
         cd "$saved_dir" || exit
         echo "$_FDATA created successfully!"
     fi
-    # check if installed packages list exist
-    if [ -d "$_DDATA" ]; then
-    echo "Installed $_DDATA exist"
-    else
-    echo "Installed $_DDATA not exist, creating one with 0 packages..."
-    mkdir -p "$_DDATA"
-    echo "0" > "$_FDATA"
-    fi
     ;;
-
     info)
        if [ -f "$_FDATA" ]; then
-        echo "Listing apk installed packages..."
-        cat "$_FDATA"
+       FDATA_NUM=$(cat "$_FDATA")
+            if [[ "$FDATA_NUM" == 0 ]]; then
+            echo "No apk packages are installed so far!"
+            else
+            echo "Listing apk installed packages..."
+            cat "$_FDATA"
+            fi
         else
         echo "$_FDATA not found."
         echo "Try <apk update> to fix this."
