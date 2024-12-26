@@ -1,0 +1,3 @@
+c-lcrypt: c-lcrypt (Unbreakable Binary-Level Encryption)
+c-lcrypt:
+c-lcrypt: Remake of LCRYPT on C++ | Gained +99.68c-lcrypt: https://github.com/Locotir/C-LCRYPT
