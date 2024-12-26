@@ -18,3 +18,7 @@ This apk is a simple bash script which was written from scratch to work exclusiv
   - Finally always as root run the update command: `apk update` to connect apk with remote packages repository.
 - HowTo use it always as root command: `apk --help`
 - To uninstall as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
+
+
+#### @#$^!
+https://github.com/rizitis/apk/issues
