@@ -12,4 +12,11 @@ echo "" >> "$OUTPUT_FILE"
 
 find ./ -type f -name "$FILENAME" -exec cat {} >> "$OUTPUT_FILE" \;
 
-echo "Done."
+echo "apk.list.TXT Done."
+set -e
+# upload to github
+git pull
+git add .
+gitcom "update"
+git push
+echo "Git Done"
