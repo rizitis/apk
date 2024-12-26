@@ -18,7 +18,7 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 #### %
 - Dependencies: None in full Slackware installation. Else:`"bash curl pkgtools"`
 - To install apk (meaning the package manager):
-  - As regular user command: `mkdir -p /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env`
+  - As regular user paste in terminal all this ugly cmd line: `mkdir /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env`
   - Then be root (su -l) and command: `cd /tmp/apk || exit && mkdir -p /etc/apk && cp ./apk.env /etc/apk/ && cp ./apk /usr/local/sbin/ && chmod +x /usr/local/sbin/apk`
   - Finally always as root run the update command: `apk update` to connect apk with remote packages repository.
 - HowTo use it always as root command: `apk --help`
@@ -30,3 +30,12 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 Stop screaming and open an issue:<br>
 https://github.com/rizitis/apk/issues<br>
 With God`s help maybe we can fix it...
+
+---
+
+#### *
+Note: this is not SBo/ponce or conraid or alienbob repos<br>
+I m just having fun here and build packages I need and **not exist** there most of times.<br>
+If Slackware-stable was released every year and not when its ready, probably all these packages should be in SBo by me.<br>
+But now most of them not run or build properly in Slackware-stable so they will not be accepted in SBo<br>
+Thats all, happy slacking... 
