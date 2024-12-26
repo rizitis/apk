@@ -365,7 +365,7 @@ case $command in
         echo "Restoring apk to previous version"
         cat "$_APK".back > "$_APK" || exit
         cat "$_FENV".back > "$_FENV" || exit
-        echo "Success. apk restored to previous version. Please report a bug if needed: $MAIN_REPO/issues"
+        echo "Success. apk restored to previous version. Please run <apk update> and report a bug if needed: $MAIN_REPO/issues"
         ;;
     *)
         echo "Unknown command: $command"
