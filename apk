@@ -246,16 +246,12 @@ case $command in
         echo "(apk del) is a work in progress not ready yet! TODO: delete only packages from apk repo"
         ;;
     update)
-    echo "Updating repository list..."
-    
+    echo "Updating repository list..."    
     # Check if the file list exists
     if [ -f "$_DSHARE/$_FLIST" ]; then
         LISTNUM=$(cat "$_DSHARE/$_FLIST")
         if [[ "$LISTNUM" == 0 ]]; then
-            echo "This is the first time you run apk update."
-        else
-            echo "Updating $_FLIST ..."
-        fi
+        echo "This is the second time you run apk update."
         # Backup and update the file list
         cd "$_DSHARE" || exit
         mv "$_FLIST" "$_FLIST".bak
@@ -263,21 +259,39 @@ case $command in
         mv "$FLIST.TXT" "$_FLIST"
         cd "$saved_dir" || exit
         echo "$_FLIST Updated!"
-    else
-        if [ -f "$_DSHARE/$_FLIST.bak" ]; then
-            echo "$_DSHARE/$_FLIST does not exist!"
-            echo "However, a backup $_FLIST.bak exists..."
-            echo "Attempting to fix this issue by recreating $_FLIST..."
         else
-            echo "$_DSHARE/$_FLIST not found. Creating directory and file..."
-            mkdir -p "$_DSHARE"
-        fi
-        # Create the file list
+        echo "Updating $_FLIST ..."
+        # Backup and update the file list
         cd "$_DSHARE" || exit
+        mv "$_FLIST" "$_FLIST".bak
         curl -L -O "$RF/$FLIST.TXT"
         mv "$FLIST.TXT" "$_FLIST"
         cd "$saved_dir" || exit
+        echo "$_FLIST Updated!"
+        fi
+        
+    else
+        if [ -f "$_DSHARE/$_FLIST.bak" ]; then
+        echo "$_DSHARE/$_FLIST does not exist!"
+        echo "However, a backup $_FLIST.bak exists..."
+        echo "Attempting to fix this issue by using the back-up $_FLIST..."
+        cd "$_DSHARE" || exit
+        mv "$_FLIST".bak "$_FLIST"
+        cd "$saved_dir" || exit
+        echo "You are now using the back up file"
+        echo "Please run one more time <apk update>"
+        else
+        echo "$_DSHARE/$_FLIST not found. Creating directory and file..."
+        # Create the file list
+        mkdir -p "$_DSHARE"
+        cd "$_DSHARE" || exit
+        curl -L -O "$RF/$FLIST0"
+        mv "$FLIST0" "$_FLIST"
+        cd "$saved_dir" || exit
         echo "$_FLIST created successfully!"
+        echo "Please run one more time <apk update> to complete set-up!"
+        fi
+        
     fi
 
     # Check if FDATA exists
