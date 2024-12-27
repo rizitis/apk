@@ -1,6 +1,6 @@
 🚧 Project Status: In Development 🚧
 
-This project is currently under active development and is not ready for production use. Features, functionality, and APIs may change frequently as I work toward a stable release.
+This project is currently under active development and **is not ready** for use. Features, functionality, and APIs may change frequently as I work toward a stable release.
 
 Please be aware that this project **not yet meet stability or completeness standards**.
 
