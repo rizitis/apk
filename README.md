@@ -49,8 +49,7 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 ---
 
 #### @#$^!
-Stop screaming and open an issue:<br>
-https://github.com/rizitis/apk/issues<br>
+Stop screaming and open an [issue:](https://github.com/rizitis/apk/issues)<br>
 With God`s help maybe we can fix it...
 
 ---
