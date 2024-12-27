@@ -61,3 +61,9 @@ I m just having fun here and build packages I need and **not exist** there most 
 If Slackware-stable was released every year and not when its ready, probably all these packages should be in SBo by me.<br>
 But now most of them do not run or build properly in Slackware-stable so they will not be accepted in SBo<br>
 Thats all, happy slacking...* 
+
+---
+
+### Ɔ
+I prefer the `unlicence` but now I will use what Alpine Package Keeper use,<br>
+so `GNU GENERAL PUBLIC LICENSE Version 2, June 1991`
