@@ -20,7 +20,10 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 #### %
 - Dependencies: None in full Slackware installation. Else:`"bash curl pkgtools"`
 - To install apk (meaning the package manager):
-  - As regular user paste in terminal all this ugly cmd line: `mkdir /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env`
+  - As regular user paste in terminal all this ugly cmd line:
+    ```
+    mkdir /tmp/apk && cd /tmp/apk || exit && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk && curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk.env
+    ```
   - Then be root (su -l) and command: `cd /tmp/apk || exit && mkdir -p /etc/apk && cp ./apk.env /etc/apk/ && cp ./apk /usr/local/sbin/ && chmod +x /usr/local/sbin/apk`
   - Finally always as root run the update command 2 times: `apk update` to connect apk with remote repository and again `apk update` to update pakcages lists.
   - To blacklist packages for slackpkg, as root: `echo "[0-9]+_rtz" >> /etc/slackpkg/blacklist`
