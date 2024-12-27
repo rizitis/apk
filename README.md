@@ -1,3 +1,13 @@
+🚧 Project Status: In Development 🚧
+
+This project is currently under active development and is not ready for production use. Features, functionality, and APIs may change frequently as I work toward a stable release.
+
+Please be aware that this project **not yet meet stability or completeness standards**.
+
+Stay tuned for updates and a future release announcement! 🎉
+
+---
+
 # apk
 **emulation** of apk package manager **commands** on a slackware system for the specific repository **only** and for slackware**64-current**
 
