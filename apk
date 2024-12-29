@@ -1,5 +1,5 @@
 #!/bin/bash
-# shellcheck disable=SC1091,SC2013,SC2153
+# shellcheck disable=SC1091,SC2013,SC2153,SC2002
 
 # Christmas 2024 somewere in Greece...
 # Merry Christmas
@@ -237,13 +237,20 @@ case $command in
         else
         echo "File does not exist in apk repo"
         fi
-
+        echo ""
+        echo "Search if exist in apk installed pkgs:"
+        cat "$_FDATA" | grep "$PKG"
         # Clean up
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
     upgrade)
-        echo "(apk upgrade) is a work in progress not ready yet! TODO: upgrade packages only from apk repo"
+        echo "(apk upgrade) upgrade packages only from apk repo."
+        apk update
+        PAK=$(sed 's/-[0-9]\+.*//' $_FDATA)
+        for up in $PAK; do
+        apk fix "$up" || true
+        done
         ;;
     del)
         echo "(apk del) is a work in progress not ready yet! TODO: delete only packages from apk repo"
