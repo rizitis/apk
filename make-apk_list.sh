@@ -17,6 +17,6 @@ set -e
 # upload to github
 git pull
 git add .
-gitcom "update"
+git commit -s -m "update"
 git push
 echo "Git Done"
