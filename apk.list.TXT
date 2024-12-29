@@ -1,5 +1,6 @@
-# Fri Dec 27 22:55:02 EET 2024
+# Sun Dec 29 22:05:59 EET 2024
 
+htmlq-0.4.0-x86_64-1_rtz.tlz
 tzyfetch-1.0.0-x86_64-1_rtz.tlz
 c-lcrypt-2.0.0-x86_64-1_rtz.tlz
 chromashift-1.5.0-x86_64-1_rtz.tlz
