@@ -1,11 +1,17 @@
 #!/bin/bash
-# shellcheck disable=SC1091,SC2013,SC2153,SC2002
+# shellcheck disable=SC1091,SC2013,SC2153,SC2002,SC2126
 
 # Christmas 2024 somewere in Greece...
 # Merry Christmas
 
 # GNU General Public License v2.0
 # For more information, please refer <https://github.com/rizitis/apk/blob/main/LICENSE>
+
+# Check if running as root
+if [[ "$EUID" -ne 0 ]]; then
+    echo "apk is a package manager! A package manager must be run as root. Exiting." >&2
+    exit 1
+fi
 
 # source env
 . /etc/apk/apk.env
@@ -337,9 +343,48 @@ case $command in
         fi
         ;;
     stats)
-        echo "Displaying apk statistics..."
-        echo "Work in progress...not ready yet!"
-        ;;
+        echo -e "\033[1;34mFirst updating apk files...\033[0m"
+        apk update
+        echo ""
+        echo -e "\033[1;32mReady! Displaying apk statistics...\033[0m"
+        echo ""
+
+        echo -e "\033[1;36mRepository URL:\033[0m \033[4m$MAIN_REPO\033[0m"
+        echo ""
+
+        if [[ -f "$_FDATA" ]]; then
+        # Count the number of lines
+        lines=$(wc -l < "$_FDATA")
+        echo -e "\033[1;32mYou have already installed \033[1;33m$lines\033[1;32m apk packages.\033[0m"
+        else
+        echo -e "\033[1;31mFile $_FDATA does not exist. Run: apk update first.\033[0m"
+        fi
+        echo ""
+
+        if [[ -f "$_DSHARE"/"$_FLIST" ]]; then
+        # Count the number of lines
+        lines=$(grep -v '^\s*#' "$_DSHARE/$_FLIST" | grep -v '^\s*$' | wc -l)
+        echo -e "\033[1;32mapk repository currently has \033[1;33m$lines\033[1;32m packages ready for installation.\033[0m"
+        else
+        echo -e "\033[1;31mFile $_FLIST does not exist. Run: apk update first.\033[0m"
+        fi
+        echo ""
+
+        echo -e "\033[1;36mapk package manager last update appstream was:\033[0m"
+        echo -e "\033[1;33m$(curl -s "https://api.github.com/repos/rizitis/apk/commits?path=apk" | jq -r '.[0].commit.committer.date')\033[0m"
+        echo ""
+
+        echo -e "\033[1;36mYour apk script was updated locally:\033[0m"
+        stat /usr/local/sbin/apk | grep "Modify:"
+        echo ""
+
+        echo -e "\033[1;36mTo upgrade apk to a new version (if needed):\033[0m"
+        echo -e "\033[1;33mcommand: apk upgrade-apk\033[0m"
+        echo ""
+
+        echo -e "\033[1;36mTo report a bug:\033[0m \033[4m$MAIN_REPO/issues\033[0m"
+        echo -e "\033[1;36mCurrently open issues number is:\033[0m \033[1;33m$(curl -s "https://api.github.com/repos/rizitis/apk/issues?state=open" | jq length)\033[0m"
+    ;;
     upgrade-apk)
         echo "Taking backup $_FENV"
         if [ -f "$_FENV".back ]; then
