@@ -1,5 +1,5 @@
 #!/bin/bash
-# shellcheck disable=SC1091,SC2013
+# shellcheck disable=SC1091,SC2013,SC2153
 
 # Christmas 2024 somewere in Greece...
 # Merry Christmas
@@ -119,7 +119,7 @@ case $command in
         curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
         FN="$(cat BIN_NAME)"
         echo "$FN"
-        for file in "$FN" "$FN".txt makepkg-"$PKG".log "$PKG".dep; do
+        for file in "$FN".txt makepkg-"$PKG".log "$PKG".dep; do
         echo "Attempting to download $file..."
         if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
         echo "Downloaded $file successfully."
@@ -127,7 +127,7 @@ case $command in
         echo "File $file does not exist or failed to download. Skipping."
         fi
         done
-        for file in "$FN" "$FN".txt makepkg-"$PKG".log; do
+        for file in "$FN".txt makepkg-"$PKG".log; do
         if [ -f "$file" ]; then
         cat "$file"
         else
@@ -201,6 +201,9 @@ case $command in
         rm -rf "$temp_dir"
         ;;
     download)
+        if [ -d /tmp/"$PKG" ]; then
+        mv /tmp/"$PKG" /tmp/"$PKG".bak
+        fi
         mkdir -p /tmp/"$PKG"
         cd /tmp/"$PKG" || exit
         echo "Downloading $PKG files"
@@ -248,48 +251,50 @@ case $command in
     update)
     echo "Updating repository list..."
     # Check if the file list exists
-    if [ -f "$_DSHARE/$_FLIST" ]; then
-        LISTNUM=$(cat "$_DSHARE/$_FLIST")
+    if [ -f "$_DSHARE"/"$_FLIST" ]; then
+        LISTNUM=$(cat "$_DSHARE"/"$_FLIST")
         if [[ "$LISTNUM" == 0 ]]; then
-        echo "This is the second time you run apk update."
+        echo "This is the second time you run apk update ;)."
         # Backup and update the file list
         cd "$_DSHARE" || exit
         mv "$_FLIST" "$_FLIST".bak
-        curl -L -O "$RF/$FLIST.TXT"
-        mv "$FLIST.TXT" "$_FLIST"
+        curl -L -O "$RF"/"$FLIST"
+        mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo "$_FLIST Updated!"
+        echo "$_FLIST Updated! used: plan1"
         else
+        [ "$LISTNUM" != 0 ]
         echo "Updating $_FLIST ..."
         # Backup and update the file list
         cd "$_DSHARE" || exit
         mv "$_FLIST" "$_FLIST".bak
-        curl -L -O "$RF/$FLIST.TXT"
-        mv "$FLIST.TXT" "$_FLIST"
+        curl -L -O "$RF"/"$FLIST"
+        mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo "$_FLIST Updated!"
+        echo "$_FLIST Updated! used: plan2"
         fi
 
     else
-        if [ -f "$_DSHARE/$_FLIST.bak" ]; then
+        if [ -f "$_DSHARE/$_FLIST.bak" ] && [ ! -f "$_DSHARE/$_FLIST.bak" ]; then
         echo "$_DSHARE/$_FLIST does not exist!"
         echo "However, a backup $_FLIST.bak exists..."
         echo "Attempting to fix this issue by using the back-up $_FLIST..."
         cd "$_DSHARE" || exit
         mv "$_FLIST".bak "$_FLIST"
         cd "$saved_dir" || exit
-        echo "You are now using the back up file"
+        echo "You are now using the back up file, used: plan-restore"
         echo "Please run one more time <apk update>"
+        echo "Tips: check your internet connection, check your users permissions are you root?"
         else
-        echo "$_DSHARE/$_FLIST not found. Creating directory and file..."
+        echo "$_DSHARE/$_FLIST or $_DSHARE/$_FLIST.bak not found. Creating directory and files..."
         # Create the file list
         mkdir -p "$_DSHARE"
         cd "$_DSHARE" || exit
-        curl -L -O "$RF/$FLIST0"
+        curl -L -O "$RF"/"$FLIST0"
         mv "$FLIST0" "$_FLIST"
         cd "$saved_dir" || exit
         echo "$_FLIST created successfully!"
-        echo "Please run one more time <apk update> to complete set-up!"
+        echo "Please run one more time <apk update> to complete set-up! used: plan 0"
         fi
 
     fi
@@ -297,6 +302,8 @@ case $command in
     # Check if FDATA exists
     if [ -f "$_FDATA" ]; then
         echo "$_FDATA found..."
+        echo "Updating $_FDATA ..."
+        ls /var/adm/packages/ | grep "_rtz" > "$_FDATA"
     else
         echo "Package data file ($_FDATA) not found."
         echo "Creating $_FDATA with 0 packages in."
