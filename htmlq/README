@@ -1,0 +1,11 @@
+htmlq: htmlq (Like jq, but for HTML)
+htmlq:
+htmlq: Like jq, but for HTML. Uses CSS selectors to extract bits of content
+htmlq: from HTML files
+htmlq:
+htmlq:
+htmlq:
+htmlq:
+htmlq:
+htmlq:
+htmlq: https://github.com/mgdm/htmlq
