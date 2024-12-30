@@ -1,5 +1,5 @@
 #!/bin/bash
-# shellcheck disable=SC1091,SC2013,SC2153,SC2002,SC2126
+# shellcheck disable=SC1091,SC2013,SC2153,SC2002,SC2126,SC2010,SC2206
 
 # Christmas 2024 somewere in Greece...
 # Merry Christmas
@@ -295,7 +295,47 @@ case $command in
         done
         ;;
     del)
-        echo "(apk del) is a work in progress not ready yet! TODO: delete only packages from apk repo"
+        cd /var/adm/packages || exit
+        RPKG=$(ls | grep "$PKG" | grep _rtz)
+        # Check if any packages were found
+        if [[ -z "$RPKG" ]]; then
+        echo -e "${RED}No packages found${RESET}"
+        exit 1
+        fi
+
+
+        echo -e "${BLUE}Packages found, Please confirm to delete:${RESET}"
+
+        RPKG_ARRAY=($RPKG)
+        counter=1
+        for package in "${RPKG_ARRAY[@]}"; do
+        echo -e "${YELLOW}$counter) $package${RESET}"
+        ((counter++))
+        done
+
+        echo -e "${YELLOW}Please select the package by number to delete or press 0 to cancel:${RESET}"
+        read -p "Your choice: " choice
+
+        if [[ "$choice" -eq 0 ]]; then
+        echo -e "${RED}Operation canceled.${RESET}"
+        exit 0
+        elif [[ "$choice" -gt 0 && "$choice" -le "${#RPKG_ARRAY[@]}" ]]; then
+        # If valid choice, confirm and proceed to delete
+        selected_package="${RPKG_ARRAY[$choice-1]}"
+        echo -e "${GREEN}You selected: $selected_package${RESET}"
+        read -p "Are you sure you want to delete $selected_package? (y/n): " confirmation
+
+        if [[ "$confirmation" == "y" || "$confirmation" == "Y" ]]; then
+        echo -e "${BLUE}Deleting $selected_package...${RESET}"
+        removepkg "$selected_package"
+        echo -e "${GREEN}Package $selected_package has been deleted.${RESET}"
+        else
+        echo -e "${RED}Deletion canceled.${RESET}"
+        fi
+        else
+        echo -e "${RED}Invalid selection, please choose a valid number.${RESET}"
+        exit 1
+        fi
         ;;
     update)
     echo "Updating repository list..."
