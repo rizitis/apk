@@ -1,13 +1,11 @@
-![development](./devmode.webp)
+![TESTING](./Test.webp)
 
 
-🚧 Project Status: In Development 🚧
+🚧 Project Status: In TESTING 🚧
 
-This project is currently under active development and **is not ready** for use. Features, functionality, and APIs may change frequently as I work toward a stable release.
+This project is currently under testing  mode  but features, functionality, and APIs may change frequently as I work toward a stable release.
+Packages will be added soon...
 
-Please be aware that this project **not yet meet stability or completeness standards**.
-
-Stay tuned for updates and a future release announcement! 🎉
 
 ---
 
