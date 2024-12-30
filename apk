@@ -338,84 +338,84 @@ case $command in
         fi
         ;;
     update)
-    echo "Updating repository list..."
+    echo -e "\033[1;33mUpdating repository list...\033[0m"
     # Check if the file list exists
     if [ -f "$_DSHARE"/"$_FLIST" ]; then
         LISTNUM=$(cat "$_DSHARE"/"$_FLIST")
         if [[ "$LISTNUM" == 0 ]]; then
-        echo "This is the second time you run apk update ;)."
+        echo -e "\033[1;33mThis is the second time you run apk update ;).\033[0m"
         # Backup and update the file list
         cd "$_DSHARE" || exit
         mv "$_FLIST" "$_FLIST".bak
         curl -L -O "$RF"/"$FLIST"
         mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo "$_FLIST Updated! used: plan1"
+        echo -e "\033[1;33m$_FLIST Updated! used: plan1\033[0m"
         else
         [ "$LISTNUM" != 0 ]
-        echo "Updating $_FLIST ..."
+        echo -e "\033[1;33mUpdating $_FLIST ...\033[0m"
         # Backup and update the file list
         cd "$_DSHARE" || exit
         mv "$_FLIST" "$_FLIST".bak
         curl -L -O "$RF"/"$FLIST"
         mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo "$_FLIST Updated! used: plan2"
+        echo -e "\033[1;33m$_FLIST Updated! used: plan2\033[0m"
         fi
 
     else
         if [ -f "$_DSHARE/$_FLIST.bak" ] && [ ! -f "$_DSHARE/$_FLIST.bak" ]; then
-        echo "$_DSHARE/$_FLIST does not exist!"
-        echo "However, a backup $_FLIST.bak exists..."
-        echo "Attempting to fix this issue by using the back-up $_FLIST..."
+        echo -e "\033[1;33m$_DSHARE/$_FLIST does not exist!\033[0m"
+        echo -e "\033[1;33mHowever, a backup $_FLIST.bak exists...\033[0m"
+        echo -e "\033[1;33mAttempting to fix this issue by using the back-up $_FLIST...\033[0m"
         cd "$_DSHARE" || exit
         mv "$_FLIST".bak "$_FLIST"
         cd "$saved_dir" || exit
-        echo "You are now using the back up file, used: plan-restore"
-        echo "Please run one more time <apk update>"
-        echo "Tips: check your internet connection, check your users permissions are you root?"
+        echo -e "\033[1;33mYou are now using the back up file, used: plan-restore\033[0m"
+        echo -e "\033[1;33mPlease run one more time <apk update>\033[0m"
+        echo -e "\033[1;33mTips: check your internet connection, check your users permissions are you root?\033[0m"
         else
-        echo "$_DSHARE/$_FLIST or $_DSHARE/$_FLIST.bak not found. Creating directory and files..."
+        echo -e "\033[1;33m$_DSHARE/$_FLIST or $_DSHARE/$_FLIST.bak not found. Creating directory and files...\033[0m"
         # Create the file list
         mkdir -p "$_DSHARE"
         cd "$_DSHARE" || exit
         curl -L -O "$RF"/"$FLIST0"
         mv "$FLIST0" "$_FLIST"
         cd "$saved_dir" || exit
-        echo "$_FLIST created successfully!"
-        echo "Please run one more time <apk update> to complete set-up! used: plan 0"
+        echo -e "\033[1;33m$_FLIST created successfully!\033[0m"
+        echo -e "\033[1;33mPlease run one more time <apk update> to complete set-up! used: plan 0\033[0m"
         fi
 
     fi
 
     # Check if FDATA exists
     if [ -f "$_FDATA" ]; then
-        echo "$_FDATA found..."
-        echo "Updating $_FDATA ..."
+        echo -e "\033[1;33m$_FDATA found...\033[0m"
+        echo -e "\033[1;33mUpdating $_FDATA ...\033[0m"
         ls /var/adm/packages/ | grep "_rtz" > "$_FDATA"
     else
-        echo "Package data file ($_FDATA) not found."
-        echo "Creating $_FDATA with 0 packages in."
+        echo -e "\033[1;33mPackage data file ($_FDATA) not found.\033[0m"
+        echo -e "\033[1;33mCreating $_FDATA with 0 packages in.\033[0m"
         mkdir -p "$_DDATA"
         cd "$_DDATA" || exit
         curl -L -O "$RF/$FDATA"
         cd "$saved_dir" || exit
-        echo "$_FDATA created successfully!"
+        echo -e "\033[1;33m$_FDATA created successfully!\033[0m"
     fi
     ;;
     info)
        if [ -f "$_FDATA" ]; then
        FDATA_NUM=$(cat "$_FDATA")
             if [[ "$FDATA_NUM" == 0 ]]; then
-            echo "No apk packages are installed so far!"
+            echo -e "\033[1;33mNo apk packages are installed so far!\033[0m"
             else
-            echo "Listing apk installed packages..."
+            echo -e "\033[1;33mListing apk installed packages...\033[0m"
             cat "$_FDATA"
             fi
         else
-        echo "$_FDATA not found."
-        echo "Try <apk update> to fix this."
-        echo "If you already did, please open an issue in $MAIN_REPO/issues"
+        echo -e "\033[1;33m$_FDATA not found.\033[0m"
+        echo -e "\033[1;33mTry <apk update> to fix this.\033[0m"
+        echo -e "\033[1;33mIf you already did, please open an issue in $MAIN_REPO/issues\033[0m"
         fi
         ;;
     stats)
@@ -462,39 +462,39 @@ case $command in
         echo -e "\033[1;36mCurrently open issues number is:\033[0m \033[1;33m$(curl -s "https://api.github.com/repos/rizitis/apk/issues?state=open" | jq length)\033[0m"
     ;;
     upgrade-apk)
-        echo "Taking backup $_FENV"
-        if [ -f "$_FENV".back ]; then
+    echo -e "\033[1;32mTaking backup $_FENV\033[0m"
+    if [ -f "$_FENV".back ]; then
         cat "$_FENV" > "$_FENV".back
-        else
+    else
         cp "$_FENV" "$_FENV".back
-        fi
-        echo "Taking backup $_APK"
-        if [ -f "$_APK".back ]; then
+    fi
+    echo -e "\033[1;32mTaking backup $_APK\033[0m"
+    if [ -f "$_APK".back ]; then
         cat "$_APK" > "$_APK".back
         chmod -x "$_APK".back
-        else
+    else
         cp "$_APK" "$_APK".back
         chmod -x "$_APK".back
-        fi
-        echo "Upgrading $_APK"
-        pushd "$_DAPK" || exit
-        rm "$_APK" || exit
-        curl -L -O "$RF"/"$APK"
-        chmod +x "$_APK"
-        echo "Upgrading $_FENV"
-        cd "$_DETC" || exit
-        rm "$_FENV" || exit
-        curl -L -O "$RF"/"$FENV"
-        popd || exit
-        echo "apk succesfully upgraded it self"
-        echo "If something is wrong, command <apk restore-apk> to downgrade it to previous version."
-        ;;
-    restore-apk)
-        echo "Restoring apk to previous version"
-        cat "$_APK".back > "$_APK" || exit
-        cat "$_FENV".back > "$_FENV" || exit
-        echo "Success. apk restored to previous version. Please run <apk update> and report a bug if needed: $MAIN_REPO/issues"
-        ;;
+    fi
+    echo -e "\033[1;34mUpgrading $_APK\033[0m"
+    pushd "$_DAPK" || exit
+    rm "$_APK" || exit
+    curl -L -O "$RF"/"$APK"
+    chmod +x "$_APK"
+    echo -e "\033[1;34mUpgrading $_FENV\033[0m"
+    cd "$_DETC" || exit
+    rm "$_FENV" || exit
+    curl -L -O "$RF"/"$FENV"
+    popd || exit
+    echo -e "\033[1;32mapk successfully upgraded itself\033[0m"
+    echo -e "\033[1;33mIf something is wrong, command <apk restore-apk> to downgrade it to previous version.\033[0m"
+    ;;
+restore-apk)
+    echo -e "\033[1;33mRestoring apk to previous version\033[0m"
+    cat "$_APK".back > "$_APK" || exit
+    cat "$_FENV".back > "$_FENV" || exit
+    echo -e "\033[1;32mSuccess. apk restored to previous version. Please run <apk update> and report a bug if needed: $MAIN_REPO/issues\033[0m"
+    ;;
     *)
         echo "Unknown command: $command"
         exit 1
