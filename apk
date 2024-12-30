@@ -35,6 +35,15 @@ if [[ "$1" =~ $invalid_with_second_arg ]]; then
     fi
 fi
 
+must_have_second_arg="add|del|search|fix|download|show"
+
+if [[ "$1" =~ $must_have_second_arg && -z "$2" ]]; then
+    echo "Error: Command '$1' must be followed by a package_name." >&2
+    echo "Please use 'apk help' for assistance." >&2
+    exit 1
+fi
+
+
 if [[ "$1" == "--help" || "$1" == "-h" || "$1" == "help" ]]; then
     echo "
     # === Commands for  Download,Install,Upgrade,Remove,Search <packages> === #
@@ -42,6 +51,7 @@ if [[ "$1" == "--help" || "$1" == "-h" || "$1" == "help" ]]; then
     # apk add pkg       Add/Install a package and its dependencies if exist in apk repository
     # apk del pkg       Delete a package
     # apk search pkg    Search for packages
+    # apk show pkg      Print information about a package
     # apk fix pkg       Repair package or Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
     #
@@ -66,6 +76,7 @@ if [ "$#" -lt 1 ]; then
     # apk add pkg       Add/Install a package
     # apk del pkg       Delete a package
     # apk search pkg    Search for packages
+    # apk show pkg      Print information about a package
     # apk info          List all installed packages
     # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
     # apk stats         Show statistics about repositories and installations
@@ -76,6 +87,12 @@ if [ "$#" -lt 1 ]; then
     '
     exit 1
 fi
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+BLUE='\033[0;34m'
+NC='\033[0m'
 
 shift
 
@@ -114,38 +131,49 @@ case $command in
         rm -rf "$temp_dir"
         ;;
     show)
-        echo "Showing package info..."
+        echo -e "${BLUE}Showing package info...${NC}"
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
-        echo "Failed to create temporary directory"
+        echo -e "${RED}Failed to create temporary directory.${NC}"
         exit 1
         fi
         cd "$temp_dir" || exit
 
-        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        echo -e "${BLUE}Attempting to download package info for '${YELLOW}$PKG${BLUE}'...${NC}"
+        if ! curl -L --fail -O "$RF/$PKG/BIN_NAME"; then
+        echo -e "${RED}Error: Package '${YELLOW}$PKG${RED}' does not exist in the appstream repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or try a different repository.${NC}" >&2
+        rm -rf "$temp_dir"
+        exit 1
+        fi
+
         FN="$(cat BIN_NAME)"
-        echo "$FN"
+        echo -e "${GREEN}Package information successfully retrieved.${NC}"
         for file in "$FN".txt makepkg-"$PKG".log "$PKG".dep; do
-        echo "Attempting to download $file..."
-        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
-        echo "Downloaded $file successfully."
+        echo -e "${BLUE}Attempting to download ${YELLOW}$file${BLUE}...${NC}"
+        if curl -L --fail -O "$RF/$PKG/$file"; then
+        echo -e "${GREEN}Downloaded $file successfully.${NC}"
         else
-        echo "File $file does not exist or failed to download. Skipping."
+        echo -e "${YELLOW}File $file does not exist or failed to download. Skipping.${NC}"
         fi
         done
+
         for file in "$FN".txt makepkg-"$PKG".log; do
         if [ -f "$file" ]; then
+        echo -e "${BLUE}Contents of $file:${NC}"
         cat "$file"
         else
-        echo "File $file does not exist."
+        echo -e "${YELLOW}File $file does not exist.${NC}"
         fi
         done
+
         if [ -f "$PKG".dep ]; then
-        echo "dependencies:"
+        echo -e "${BLUE}Dependencies:${NC}"
         cat "$PKG".dep
         else
-        echo "No dependencies found for $PKG."
+        echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
         fi
+
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
@@ -227,25 +255,33 @@ case $command in
         ls
         ;;
     search)
+        # Create a temporary directory
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
-        echo "Failed to create temporary directory"
+        echo -e "${RED}Failed to create temporary directory.${NC}"
         exit 1
         fi
 
         cd "$temp_dir" || exit
-        surl="$RF"/"$PKG"/BIN_NAME
+        surl="$RF/$PKG/BIN_NAME"
 
         # Use curl to download the file and print its contents
+        echo -e "${BLUE}Checking if file exists in apk repo...${NC}"
         if curl -L --silent --fail "$surl"; then
-        echo "File exists in apk repo:"
+        echo -e "${GREEN}File exists in apk repo:${NC}"
         curl -L --silent "$surl"  # Print the file's contents
         else
-        echo "File does not exist in apk repo"
+        echo -e "${RED}File does not exist in apk repo.${NC}"
         fi
+
         echo ""
-        echo "Search if exist in apk installed pkgs:"
-        cat "$_FDATA" | grep "$PKG"
+        echo -e "${BLUE}Searching if package exists in installed apk packages...${NC}"
+        if cat "$_FDATA" | grep "$PKG"; then
+        echo -e "${GREEN}Package found in installed packages.${NC}"
+        else
+        echo -e "${YELLOW}Package not found in installed packages.${NC}"
+        fi
+
         # Clean up
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
