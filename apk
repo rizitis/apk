@@ -287,12 +287,20 @@ case $command in
         rm -rf "$temp_dir"
         ;;
     upgrade)
-        echo "(apk upgrade) upgrade packages only from apk repo."
+        echo -e "\033[1;33m(apk upgrade) upgrade all packages but only from apk repo.\033[0m"
+        read -p "Do you want to continue with the upgrade? (y/n): " response
+        response=$(echo "$response" | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
+
+        if [[ "$response" == "y" || "$response" == "yes" ]]; then
+        echo -e "\033[1;32mProceeding with the upgrade...\033[0m"
         apk update
         PAK=$(sed 's/-[0-9]\+.*//' $_FDATA)
         for up in $PAK; do
         apk fix "$up" || true
         done
+        else
+        echo -e "\033[1;31mUpgrade aborted.\033[0m"
+        fi
         ;;
     del)
         cd /var/adm/packages || exit
@@ -350,7 +358,7 @@ case $command in
         curl -L -O "$RF"/"$FLIST"
         mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo -e "\033[1;33m$_FLIST Updated! used: plan1\033[0m"
+        echo -e "\033[1;34m$_FLIST Updated! used: plan1\033[0m"
         else
         [ "$LISTNUM" != 0 ]
         echo -e "\033[1;33mUpdating $_FLIST ...\033[0m"
@@ -360,7 +368,7 @@ case $command in
         curl -L -O "$RF"/"$FLIST"
         mv "$FLIST" "$_FLIST"
         cd "$saved_dir" || exit
-        echo -e "\033[1;33m$_FLIST Updated! used: plan2\033[0m"
+        echo -e "\033[1;34m$_FLIST Updated! used: plan2\033[0m"
         fi
 
     else
