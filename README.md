@@ -44,6 +44,8 @@ Every Package has
 4. **I want this tool to work **only** with this repo to not have conflicts with other repos.**
  - But if a dependency is missing from here, its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...
  
+5. All packages here are builded using [athos](https://github.com/rizitis/PLASMA_WORLD/blob/main/AthOS/athos)
+ 
 ---
 
 ### !
