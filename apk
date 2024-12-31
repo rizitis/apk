@@ -99,43 +99,48 @@ shift
 # Handle commands
 case $command in
     fix)
-        echo "Fixing package..."
+        echo -e "${BLUE}Fixing $PKG (Install/Reinstall/Upgrade) but not dependencies.${NC}"
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
         echo "Failed to create temporary directory"
         exit 1
         fi
         cd "$temp_dir" || exit
-        curl -L -O "$RF"/"$PKG".sha256sum
-        curl -L -O "$RF"/"$PKG".tar.lz4
+        if ! curl -L --fail -O "$RF/$PKG.sha256sum"; then
+        echo -e "${RED}Error: Failed to download '${YELLOW}$PKG.sha256sum${RED}' from the repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
+        exit 1
+        fi
+
+        # Download .tar.lz4 file
+        if ! curl -L --fail -O "$RF/$PKG.tar.lz4"; then
+        echo -e "${RED}Error: Failed to download '${YELLOW}$PKG.tar.lz4${RED}' from the repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
+        exit 1
+        fi
         if sha256sum -c "$PKG.sha256sum" --quiet; then
-        echo "$PKG.tar.lz4 is valid."
+        echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
         else
-        echo "$PKG.tar.lz4 is INVALID."
+        echo -e "${RED}Huston? $PKG.tar.lz4 is INVALID.${NC}"
         exit 1
         fi
         tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+
         cd "$PKG" || exit
-#       curl -sL "$RF"/"$PKG".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$PKG"/BIN_NAME)
-#       curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
         FN="$(cat BIN_NAME)"
         echo "$FN"
-#        for file in "$FN" "$FN".md5; do
-#        curl -L -O "$RF"/"$PKG"/"$file"
-#        done
-
         expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
         # Compute the checksum of the downloaded file
         computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
        # Compare the checksums
         if [ "$expected_checksum" = "$computed_checksum" ]; then
-        echo "Validation successful: Checksums match."
+        echo -e "${BLUE}Validation successful: Checksums match.${NC}"
         else
-        echo "Validation failed: Checksums do not match!"
+        echo -e "${RED}Ah Huston! Validation md5 failed: Checksums do not match!${NC}"
         exit 1
         fi
 
-        upgradepkg --install-new --reinstall "$FN"
+        upgradepkg --reinstall --install-new "$FN"
 
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
@@ -149,120 +154,127 @@ case $command in
         fi
         cd "$temp_dir" || exit
 
-        echo -e "${BLUE}Attempting to download package info for '${YELLOW}$PKG${BLUE}'...${NC}"
-        if ! curl -L --fail -O "$RF/$PKG/BIN_NAME"; then
-        echo -e "${RED}Error: Package '${YELLOW}$PKG${RED}' does not exist in the appstream repository.${NC}" >&2
-        echo -e "${YELLOW}Please check the package name or try a different repository.${NC}" >&2
+        echo -e "${BLUE}Attempting to download info for '${YELLOW}$PKG${BLUE}'...${NC}"
+        if ! curl -L --fail -O "$RF"/"$PKG".sha256sum; then
+        echo -e "${RED}Error: Package '${YELLOW}$PKG${RED}' does not exist in the appstream repository or its broken.${NC}" >&2
+        echo -e "${YELLOW}Please check again package name or try (apk search $PKG)${NC}" >&2
         rm -rf "$temp_dir"
         exit 1
         fi
 
-        FN="$(cat BIN_NAME)"
-        echo -e "${GREEN}Package information successfully retrieved.${NC}"
-        for file in "$FN".txt makepkg-"$PKG".log "$PKG".dep; do
-        echo -e "${BLUE}Attempting to download ${YELLOW}$file${BLUE}...${NC}"
-        if curl -L --fail -O "$RF/$PKG/$file"; then
-        echo -e "${GREEN}Downloaded $file successfully.${NC}"
-        else
-        echo -e "${YELLOW}File $file does not exist or failed to download. Skipping.${NC}"
-        fi
-        done
+        echo -e "${BLUE}sha256sum for $PKG.tar.lz4 is:${NC}"
+        cat "$PKG".sha256sum
+        echo ""
 
-        for file in "$FN".txt makepkg-"$PKG".log; do
-        if [ -f "$file" ]; then
-        echo -e "${BLUE}Contents of $file:${NC}"
-        cat "$file"
-        else
-        echo -e "${YELLOW}File $file does not exist.${NC}"
-        fi
-        done
+        echo -e "${BLUE}Name of $PKG binary:${NC}"
+        FN=$(curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/BIN_NAME")
+        echo "$FN"
+        echo ""
 
-        if [ -f "$PKG".dep ]; then
+        echo -e "${BLUE}Contents of $FN.md5:${NC}"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$FN.md5"
+        echo ""
+
+        echo -e "${BLUE}Contents of $FN.txt:${NC}"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$FN.txt"
+        echo ""
+
+        echo -e "${BLUE}Contents of makepkg-$PKG.log:${NC}"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/makepkg-$PKG.log"
+        echo ""
+
+        echo -e "${BLUE}Contents of README:${NC}"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/README"
+        echo ""
+
+        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG.dep" > /dev/null 2>&1; then
+        echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
+        else
         echo -e "${BLUE}Dependencies:${NC}"
-        cat "$PKG".dep
-        else
-        echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
+        # Extract the dependencies file
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG.dep"
         fi
+        echo ""
+        echo -e "${GREEN}All $PKG information successfully retrieved.${NC}"
 
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
     add)
+        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and its dependencies if existed...${NC}"
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
-        echo "Failed to create temporary directory"
+        echo -e "${RED}Failed to create temporary directory${NC}"
+        exit 1
+        fi
+        cd "$temp_dir" || exit
+        curl -L -O "$RF"/"$PKG".sha256sum
+        curl -L -O "$RF"/"$PKG".tar.lz4
+        if sha256sum -c "$PKG.sha256sum" --quiet; then
+        echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
+        else
+        echo -e "${RED}Huston? $PKG.tar.lz4 is INVALID.${NC}"
+        exit 1
+        fi
+        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+
+        cd "$PKG" || exit
+        FN="$(cat BIN_NAME)"
+        echo "$FN"
+        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
+        # Compute the checksum of the downloaded file
+        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
+       # Compare the checksums
+        if [ "$expected_checksum" = "$computed_checksum" ]; then
+        echo -e "${BLUE}Validation successful: Checksums match.${NC}"
+        else
+        echo -e "${RED}Ah Huston! Validation md5 failed: Checksums do not match!${NC}"
         exit 1
         fi
 
-        cd "$temp_dir" || exit
-
-        # Download BIN_NAME and extract the filename
-        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
-        FN="$(cat BIN_NAME)"
-
-        # Download related files: main file, checksum, and dependencies
-        for file in "$FN" "$FN".md5 "$PKG".dep; do
-        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
-        echo "Downloaded $file successfully."
+        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG.dep" > /dev/null 2>&1; then
+        echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
         else
-        echo "File $file does not exist or failed to download. Skipping."
-        fi
-        done
-
-        # Check for dependencies and install them
-        if [ -f "$PKG.dep" ]; then
-        echo "Dependencies found:"
-        cat "$PKG".dep
-        for dep in $(cat "$PKG".dep); do
+        echo -e "${BLUE}Dependencies found:${NC}"
+        # Extract the dependencies file
+        PKGDEP=$(curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG.dep")
+        echo "$PKGDEP"
+        for dep in $PKGDEP; do
         echo "Installing dependency: $dep"
         apk add "$dep" || true  # Continue even if a dependency fails or not exist in repository
         done
-        else
-        echo "No dependencies found for $PKG."
         fi
+        echo ""
 
-        # Validate checksum
-        if [ -f "$FN".md5 ]; then
-        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
-        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
-
-        if [ "$expected_checksum" = "$computed_checksum" ]; then
-        echo "Validation successful: Checksums match."
-        else
-        echo "Validation failed: Checksums do not match!"
-        exit 1
-        fi
-        else
-        echo "Checksum file $FN.md5 not found. Skipping validation."
-        fi
-
-        # Finally Upgrade package
-        echo "Upgrading package using: $FN"
         upgradepkg --install-new --reinstall "$FN"
 
-        # Clean up
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
     download)
-        if [ -d /tmp/"$PKG" ]; then
-        mv /tmp/"$PKG" /tmp/"$PKG".bak
+        if [ -d /tmp/apk-"$PKG" ]; then
+        mv /tmp/apk-"$PKG" /tmp/apk-"$PKG".bak
         fi
-        mkdir -p /tmp/"$PKG"
-        cd /tmp/"$PKG" || exit
-        echo "Downloading $PKG files"
-        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
-        FN="$(cat BIN_NAME)"
-        echo "$FN"
-        for file in "$FN" "$FN".txt makepkg-"$PKG".log "$PKG".dep "$FN".md5; do
-        if curl -L --fail -O "$RF"/"$PKG"/"$file"; then
-        echo "Downloaded $file successfully."
-        else
-        echo "File $file does not exist or failed to download. Skipping."
+        mkdir -p /tmp/apk-"$PKG"
+        cd /tmp/apk-"$PKG" || exit
+        echo -e "${RED}Downloading $PKG files...${NC}"
+        if ! curl -L --fail -O "$RF/$PKG.sha256sum"; then
+        echo -e "${RED}Error: Failed to download '${YELLOW}$PKG.sha256sum${RED}' from the repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
+        exit 1
         fi
-        done
+
+        # Download .tar.lz4 file
+        if ! curl -L --fail -O "$RF/$PKG.tar.lz4"; then
+        echo -e "${RED}Error: Failed to download '${YELLOW}$PKG.tar.lz4${RED}' from the repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
+        exit 1
+        fi
+
+        echo -e "${YELLOW}Files downloaded successfully:${NC}"
+        echo -e " - $PKG.sha256sum"
+        echo -e " - $PKG.tar.lz4"
         pwd
-        ls
         ;;
     search)
         # Create a temporary directory
@@ -273,31 +285,27 @@ case $command in
         fi
 
         cd "$temp_dir" || exit
-        surl="$RF/$PKG/BIN_NAME"
-
-        # Use curl to download the file and print its contents
-        echo -e "${BLUE}Checking if file exists in apk repo...${NC}"
-        if curl -L --silent --fail "$surl"; then
-        echo -e "${GREEN}File exists in apk repo:${NC}"
-        curl -L --silent "$surl"  # Print the file's contents
+        if ! curl -sL --fail "$RF/$PKG.sha256sum" > /dev/null; then
+        echo -e "${RED}Error: Failed to find '${YELLOW}$PKG.sha256sum${RED}' on repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
         else
-        echo -e "${RED}File does not exist in apk repo.${NC}"
+        echo -e "${GREEN}Success: File '${YELLOW}$PKG.sha256sum${GREEN}' exists on the repository.${NC}"
         fi
 
-        echo ""
-        echo -e "${BLUE}Searching if package exists in installed apk packages...${NC}"
-        if cat "$_FDATA" | grep "$PKG"; then
-        echo -e "${GREEN}Package found in installed packages.${NC}"
+        # Check .tar.lz4 file
+        if ! curl -sL --fail "$RF/$PKG.tar.lz4" > /dev/null; then
+        echo -e "${RED}Error: Failed to find '${YELLOW}$PKG.tar.lz4${RED}' on repository.${NC}" >&2
+        echo -e "${YELLOW}Please check the package name or repository URL.${NC}" >&2
+        exit 1
         else
-        echo -e "${YELLOW}Package not found in installed packages.${NC}"
+        echo -e "${GREEN}Success: File '${YELLOW}$PKG.tar.lz4${GREEN}' exists on the repository.${NC}"
         fi
-
         # Clean up
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
     upgrade)
-        echo -e "\033[1;33m(apk upgrade) upgrade all packages but only from apk repo.\033[0m"
+        echo -e "\033[1;33m(apk upgrade) upgrade ONLY all apk packages.\033[0m"
         read -p "Do you want to continue with the upgrade? (y/n): " response
         response=$(echo "$response" | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
 
