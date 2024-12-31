@@ -18,8 +18,33 @@ Packages will be added soon...
 
 ## ?
 Personal and *unofficial* binary repository with its own Package Manager, for Slackware64-current.<br>
-It is tradition almost every *unofficial* Slackware repository to have its own package manager, so here is mine which work only with this repository **of course** :D
+It is tradition almost every *unofficial* Slackware repository to have its own package manager, so here is mine which work only with this repository **of course** :D<br>
 
+It work like this:<br>
+Every Package has
+ - package_name.tar.lz4
+ - package_name.sha256sum
+In `*.lz4` are all metadata and the binary `package_name.t?z`<br>
+
+1. For install-upgrade package:
+apk *before* extract tar.lz4 
+ - compare sha256sum and if its valid continue.<br>
+ - extract tar.lz4 and search if dependencies needed...
+ - install deps if command was `apk add` or skip then if was `apk fix`
+ - check validate `*.t?z` md5sum and if its ok install-upgrade pkg. 
+
+2. When apk need to print only packages informations from repositoryn(apk search,show,etc...):
+ - It **not** download locally packages 
+ - It use curl piped to tar and read all informations on the fly from `*.lz4`. 
+ 
+3. When apk del need to remove a package from system:
+ - Since apk delete **only** packages that was installed from apk (dont touch slack packages or SBo or anything else)
+ - Althought its has its own database for installed packages (apk stats) 
+ - It also read systems packages log, so because we want to be 100% sure it will ask you 2 times to confirm before del pkg.
+ 
+4. I want this tool to work **only** with this repo to not have conflicts with other repos.
+ - But if a dependency is missing from here, its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...
+ 
 ---
 
 ### !
