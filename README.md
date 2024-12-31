@@ -29,7 +29,7 @@ Every Package has
 1. For install-upgrade package apk *before* extract tar.lz4 do: 
  - compare sha256sum and if its valid continue.<br>
  - extract tar.lz4 and search if dependencies needed...
- - install deps if command was `apk add` or skip then if was `apk fix`
+ - install deps if command was `apk add` or skip them if was `apk fix`
  - check validate `*.t?z` md5sum and if its ok install-upgrade pkg. 
 
 2. When apk need to print only packages informations from repositoryn(apk search,show,etc...):
