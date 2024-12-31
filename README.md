@@ -24,7 +24,7 @@ It work like this:<br>
 Every Package has
  - package_name.tar.lz4
  - package_name.sha256sum
-In `*.lz4` are all metadata and the binary `package_name.t?z`<br>
+<br>In `*.lz4` are all metadata and the binary `package_name.t?z`<br>
 
 1. For install-upgrade package:
 apk *before* extract tar.lz4 
