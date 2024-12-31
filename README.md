@@ -26,8 +26,7 @@ Every Package has
  - package_name.sha256sum
 <br>In `*.lz4` are all metadata and the binary `package_name.t?z`<br>
 
-1. For install-upgrade package:
-apk *before* extract tar.lz4 
+1. For install-upgrade package apk *before* extract tar.lz4 do: 
  - compare sha256sum and if its valid continue.<br>
  - extract tar.lz4 and search if dependencies needed...
  - install deps if command was `apk add` or skip then if was `apk fix`
