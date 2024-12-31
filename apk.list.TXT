@@ -1,7 +1,2 @@
-# Tue Dec 31 11:42:47 EET 2024
+# Tue Dec 31 18:48:47 EET 2024
 
-gimp-3.0.0_RC2-x86_64-1.tlz
-htmlq-0.4.0-x86_64-1_rtz.tlz
-tzyfetch-1.0.0-x86_64-1_rtz.tlz
-c-lcrypt-2.0.0-x86_64-1_rtz.tlz
-chromashift-1.5.0-x86_64-1_rtz.tlz
