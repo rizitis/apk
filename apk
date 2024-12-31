@@ -318,14 +318,15 @@ case $command in
         local temp_file=temp_file.txt
         local output_file=output_file.txt
 
+
         if ! grep -q '^[^#[:space:]]' "$temp_file"; then
         echo -e "${GREEN}No package for upgrade found! Exiting.${NC}"
         exit 0
         fi
-
+        echo ""
+        echo -e "${BLUE}New packages for install/upgrade:${NC}"
         # Read all lines from temp_file into an array
-        mapfile -t temp_lines < "$temp_file"
-
+        mapfile -t temp_lines < <(grep -vE '^\s*$|^\s*#' "$temp_file")
         # Initialize an empty array for selected lines
         selected_lines=()
 
@@ -334,7 +335,7 @@ case $command in
         local line_number=$1
         local line_content=$2
         echo "$line_number: $line_content"
-        echo "Do you want to upgrade this package? (y/n/all/quit)"
+        echo -e "${GREEN}Do you want to upgrade this package?${NC} (y/n/all/quit)"
         read -r user_input
         user_input=$(echo "$user_input" | tr '[:upper:]' '[:lower:]')  # Convert to lowercase
 
@@ -386,6 +387,9 @@ case $command in
         for up in $PAK; do
         apk fix "$up" || true
         done
+        # Clean up
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
         ;;
     del)
         cd /var/adm/packages || exit
