@@ -1,2 +1,7 @@
 Almost ready for public testing mode.
 Packages needed :D
+
+maybe change everything to a more modern compress type...(?)
+tar --use-compress-program=lz4 -xOf "$PRGNAM".tar.lz4
+assume `curl -sL "http://example.com/$PRGNAM.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PRGNAM/README"` will work(?)
+

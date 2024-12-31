@@ -106,18 +106,28 @@ case $command in
         exit 1
         fi
         cd "$temp_dir" || exit
-
-        curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
+        curl -L -O "$RF"/"$PKG".sha256sum
+        curl -L -O "$RF"/"$PKG".tar.lz4
+        if sha256sum -c "$PKG.sha256sum" --quiet; then
+        echo "$PKG.tar.lz4 is valid."
+        else
+        echo "$PKG.tar.lz4 is INVALID."
+        exit 1
+        fi
+        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+        cd "$PKG" || exit
+#       curl -sL "$RF"/"$PKG".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$PKG"/BIN_NAME)
+#       curl -L -O "$RF"/"$PKG"/BIN_NAME || { echo "Failed to download BIN_NAME"; exit 1; }
         FN="$(cat BIN_NAME)"
         echo "$FN"
-        for file in "$FN" "$FN".md5; do
-        curl -L -O "$RF"/"$PKG"/"$file"
-        done
+#        for file in "$FN" "$FN".md5; do
+#        curl -L -O "$RF"/"$PKG"/"$file"
+#        done
 
         expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
         # Compute the checksum of the downloaded file
         computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
-        # Compare the checksums
+       # Compare the checksums
         if [ "$expected_checksum" = "$computed_checksum" ]; then
         echo "Validation successful: Checksums match."
         else
