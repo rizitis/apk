@@ -1,0 +1,11 @@
+gimp: gimp (GIMP-3 Development)
+gimp:
+gimp: This is the download page for the development version of GIMP.That
+gimp: means these builds are a work-in-progress. Proceed with caution
+gimp: because they may be unstable. If a crash does occur, please report
+gimp: it!
+gimp:
+gimp:
+gimp:
+gimp:
+gimp: https://www.gimp.org/downloads/devel/
