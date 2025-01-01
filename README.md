@@ -42,7 +42,7 @@ Every Package has
  - It also read systems packages log, so because we want to be 100% sure it will ask you 2 times to confirm before del pkg.
  
 4. **I want this tool to work **only** with this repo to not have conflicts with other repos.**
- - But if a dependency is missing from here, its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...
+ - But if a dependency is missing from here (probably for size limmit git-lfs not enough), its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...or you can build it from [athos](https://github.com/rizitis/PLASMA_WORLD/blob/main/AthOS/athos) if its plasma 6 package.
  
 5. All packages here are builded using [athos](https://github.com/rizitis/PLASMA_WORLD/blob/main/AthOS/athos) in a Slackware64-current system always update...
  
