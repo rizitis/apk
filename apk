@@ -187,12 +187,12 @@ case $command in
         curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/README"
         echo ""
 
-        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG.dep" > /dev/null 2>&1; then
+        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG/$PKG.dep"; then
         echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
         else
         echo -e "${BLUE}Dependencies:${NC}"
         # Extract the dependencies file
-        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG.dep"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep"
         fi
         echo ""
         echo -e "${GREEN}All $PKG information successfully retrieved.${NC}"
@@ -232,12 +232,12 @@ case $command in
         exit 1
         fi
 
-        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG.dep" > /dev/null 2>&1; then
+        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG/$PKG.dep" > /dev/null 2>&1; then
         echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
         else
         echo -e "${BLUE}Dependencies found:${NC}"
         # Extract the dependencies file
-        PKGDEP=$(curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG.dep")
+        PKGDEP=$(curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep")
         echo "$PKGDEP"
         for dep in $PKGDEP; do
         echo "Installing dependency: $dep"
