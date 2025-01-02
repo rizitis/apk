@@ -246,6 +246,7 @@ case $command in
         for dep in $PKGDEP; do
         depcheck=$(curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/BIN_NAME)
         depin=$(cat "$_FDATA" | grep "$depcheck")
+        echo "$depcheck $depin"
         if [[ "$depcheck" == "$depin" ]]; then
         echo -e "${GREEN}$dep is installed...${NC}"
         else
