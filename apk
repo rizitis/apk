@@ -242,7 +242,6 @@ case $command in
         echo -e "${BLUE}Dependencies found:${NC}"
         # Extract the dependencies file
         PKGDEP=$(cat "$PKG.dep")
-        echo "$PKGDEP"
         fi
         for dep in $PKGDEP; do
         depcheck=$(curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/BIN_NAME)
