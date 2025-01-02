@@ -201,15 +201,19 @@ case $command in
         rm -rf "$temp_dir"
         ;;
     add)
-        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and its dependencies if existed...${NC}"
+        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and its dependencies if needed...${NC}"
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
         echo -e "${RED}Failed to create temporary directory${NC}"
         exit 1
         fi
         cd "$temp_dir" || exit
-        curl -L -O "$RF"/"$PKG".sha256sum
-        curl -L -O "$RF"/"$PKG".tar.lz4
+        if ! curl -L -O "$RF"/"$PKG".sha256sum > /dev/null 2>&1; then
+        echo "$PKG.sha256sum not found on $RF"
+        fi
+        if ! curl -L -O "$RF"/"$PKG".tar.lz4 > /dev/null 2>&1; then
+        echo "$PKG.tar.lz4 not found on $RF"
+        fi
         if sha256sum -c "$PKG.sha256sum" --quiet; then
         echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
         else
@@ -232,18 +236,25 @@ case $command in
         exit 1
         fi
 
-        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG/$PKG.dep" > /dev/null 2>&1; then
-        echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
+        if [ ! -f "$PKG.dep" ]; then
+        echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
         else
         echo -e "${BLUE}Dependencies found:${NC}"
         # Extract the dependencies file
-        PKGDEP=$(curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep")
+        PKGDEP=$(cat "$PKG.dep")
         echo "$PKGDEP"
-        for dep in $PKGDEP; do
-        echo "Installing dependency: $dep"
-        apk add "$dep" || true  # Continue even if a dependency fails or not exist in repository
-        done
         fi
+        for dep in $PKGDEP; do
+        depcheck=$(curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/BIN_NAME)
+        depin=$(cat "$_FDATA" | grep "$depcheck")
+        if [[ "$depcheck" == "$depin" ]]; then
+        echo -e "${GREEN}$dep is installed...${NC}"
+        else
+        echo -e "${BLUE}Install or upgrade version for $dep${NC}"
+        apk add "$dep" || true  # Continue even if a dependency fails or not exist in repository
+        fi
+        done
+
         echo ""
 
         upgradepkg --install-new --reinstall "$FN"
