@@ -1,4 +1,4 @@
-# Fri Jan 10 23:41:37 EET 2025
+# Fri Jan 10 23:57:09 EET 2025
 
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
 akonadi-calendar-tools-24.12.1-x86_64-1_rtz.tlz
@@ -347,6 +347,7 @@ skanlite-24.12.1-x86_64-1_rtz.tlz
 solid-6.10.0-x86_64-1_rtz.tlz
 sonnet-6.10.0-x86_64-1_rtz.tlz
 spectacle-24.12.1-x86_64-1_rtz.tlz
+static-web-server-2.35.0-x86_64-1_rtz.tlz
 step-24.12.1-x86_64-1_rtz.tlz
 svgpart-24.12.1-x86_64-1_rtz.tlz
 sweeper-24.12.1-x86_64-1_rtz.tlz
