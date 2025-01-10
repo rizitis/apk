@@ -1,4 +1,4 @@
-# Fri Jan 10 20:42:37 EET 2025
+# Fri Jan 10 21:03:06 EET 2025
 
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
 akonadi-calendar-tools-24.12.1-x86_64-1_rtz.tlz
@@ -125,6 +125,8 @@ kdeplasma-addons-6.2.5-x86_64-1_rtz.tlz
 kdesdk-kio-24.12.1-x86_64-1_rtz.tlz
 kdesdk-thumbnailers-24.12.1-x86_64-1_rtz.tlz
 kdesu-6.10.0-x86_64-1_rtz.tlz
+kdev-python-24.12.1-x86_64-1_rtz.tlz
+kdevelop-24.12.1-x86_64-1_rtz.tlz
 kdf-24.12.1-x86_64-1_rtz.tlz
 kdialog-24.12.1-x86_64-1_rtz.tlz
 kdiamond-24.12.1-x86_64-1_rtz.tlz
@@ -306,6 +308,7 @@ oxygen-sounds-6.2.5-x86_64-1_rtz.tlz
 oxygen-6.2.5-x86_64-1_rtz.tlz
 parley-24.12.1-x86_64-1_rtz.tlz
 partitionmanager-24.12.1-x86_64-1_rtz.tlz
+pim-data-exporter-24.12.1-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.1-x86_64-1_rtz.tlz
 pimcommon-24.12.1-x86_64-1_rtz.tlz
 plasma-activities-stats-6.2.5-x86_64-1_rtz.tlz
