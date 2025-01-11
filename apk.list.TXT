@@ -1,4 +1,4 @@
-# Sat Jan 11 15:34:15 EET 2025
+# Sat Jan 11 15:58:58 EET 2025
 
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
 akonadi-calendar-tools-24.12.1-x86_64-1_rtz.tlz
@@ -28,6 +28,7 @@ bomber-24.12.1-x86_64-1_rtz.tlz
 bovo-24.12.1-x86_64-1_rtz.tlz
 breeze-gtk-6.2.5-x86_64-1_rtz.tlz
 breeze-icons-6.10.0-x86_64-1_rtz.tlz
+breeze-6.2.5-x86_64-1_rtz.tlz
 calendarsupport-24.12.1-x86_64-1_rtz.tlz
 calindori-24.12.1-x86_64-1_rtz.tlz
 calligra-24.12.1-x86_64-1_rtz.tlz
