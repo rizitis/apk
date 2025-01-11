@@ -6,6 +6,10 @@ echo "$CWD"
 
 
 OUTPUT_FILE="$CWD"/apk.list.TXT
+
+
+
+make_update() {
 UPDATE=$(date)
 echo "# $UPDATE" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
@@ -29,10 +33,40 @@ for tar_file in "$CWD"/*.tar.lz4; do
 done
 
 echo "apk.list.TXT Done."
-set -e
-# upload to github
+}
+
+
+
+first_push() {
+echo "upload to github pkgs..."
 git pull
 git add .
 git commit -s -m "update"
 git push
-echo "Git Done"
+echo "1rst git push Done"
+}
+
+echo ""
+create_json() {
+echo "Creating json file..."
+gitv fetch
+wait
+cp $HOME/GitV_WORK/repo_contents.json . || exit
+echo "create json Done"
+}
+
+
+finally_push() {
+git pull
+git add .
+git commit -s -m "update"
+git push
+echo "finally git push Done"
+}
+
+
+make_update
+set -e
+first_push
+create_json
+finally_push
