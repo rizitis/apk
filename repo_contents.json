@@ -734,6 +734,8 @@
 {"name": "threadweaver.tar.lz4", "path": "threadweaver.tar.lz4", "type": "file"},
 {"name": "tokodon.sha256sum", "path": "tokodon.sha256sum", "type": "file"},
 {"name": "tokodon.tar.lz4", "path": "tokodon.tar.lz4", "type": "file"},
+{"name": "tripwire.sha256sum", "path": "tripwire.sha256sum", "type": "file"},
+{"name": "tripwire.tar.lz4", "path": "tripwire.tar.lz4", "type": "file"},
 {"name": "wacomtablet.sha256sum", "path": "wacomtablet.sha256sum", "type": "file"},
 {"name": "wacomtablet.tar.lz4", "path": "wacomtablet.tar.lz4", "type": "file"},
 {"name": "xdg-desktop-portal-kde.sha256sum", "path": "xdg-desktop-portal-kde.sha256sum", "type": "file"},
