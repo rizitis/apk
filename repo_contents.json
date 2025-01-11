@@ -91,6 +91,8 @@
 {"name": "dragon.tar.lz4", "path": "dragon.tar.lz4", "type": "file"},
 {"name": "drkonqi.sha256sum", "path": "drkonqi.sha256sum", "type": "file"},
 {"name": "drkonqi.tar.lz4", "path": "drkonqi.tar.lz4", "type": "file"},
+{"name": "dstp.sha256sum", "path": "dstp.sha256sum", "type": "file"},
+{"name": "dstp.tar.lz4", "path": "dstp.tar.lz4", "type": "file"},
 {"name": "elisa.sha256sum", "path": "elisa.sha256sum", "type": "file"},
 {"name": "elisa.tar.lz4", "path": "elisa.tar.lz4", "type": "file"},
 {"name": "epub2txt2.sha256sum", "path": "epub2txt2.sha256sum", "type": "file"},
