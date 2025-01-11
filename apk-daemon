@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 10
+
 # Set the repository URL and the branch name
 REPO_URL="https://api.github.com/repos/rizitis/apk/commits/main"
 BRANCH="main"
