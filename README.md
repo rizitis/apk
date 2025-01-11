@@ -45,6 +45,10 @@ Every Package has
  - But if a dependency is missing from here (probably for size limmit git-lfs not enough), its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...or you can build it from [athos](https://github.com/rizitis/PLASMA_WORLD/blob/main/AthOS/athos) if its plasma 6 package.
  
 5. All packages here are builded using [athos](https://github.com/rizitis/PLASMA_WORLD/blob/main/AthOS/athos) in a Slackware64-current system always updated...
+
+6. This repository is also compatible with [GitVoyager](https://github.com/rizitis/GitVoyager)
+
+7. This repository is also compatible with [captain-slack](https://github.com/rizitis/captain-slack)
  
 ---
 
@@ -98,11 +102,14 @@ With God`s help maybe we can fix it...
 ---
 
 #### *
-Note: *this is not SBo/ponce or conraid or alienbob repos<br>
+Notes: 
+> this is not SBo/ponce or conraid or alienbob repos<br>
 I m just having fun here and build packages I need and **not exist** there most of times.<br>
 If Slackware-stable was released every year and not when its ready, probably all these packages should be in SBo by me.<br>
 But now most of them do not run or build properly in Slackware-stable so they will not be accepted in SBo<br>
-Thats all, happy slacking...* 
+Thats all, happy slacking... 
+
+> I can not upload large files (>100MB) due to github limits.
 
 ---
 
