@@ -1,10 +1,10 @@
 ![TESTING](./BETA.webp)
 
 
-🚧 Project Status: In TESTING 🚧
+🚧 Project Status: BETA 🚧
 
-This project is currently under testing  mode  but features, functionality, and APIs may change frequently as I work toward a stable release.
-Packages will be added soon...
+This project is currently under BETA  mode  but features, functionality, and APIs may change frequently as I work toward a stable release.
+More packages will be added soon...
 
 
 ---
