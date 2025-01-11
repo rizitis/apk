@@ -698,6 +698,7 @@
 {"name": "qqc2-desktop-style.tar.lz4", "path": "qqc2-desktop-style.tar.lz4", "type": "file"},
 {"name": "qt-sudo.sha256sum", "path": "qt-sudo.sha256sum", "type": "file"},
 {"name": "qt-sudo.tar.lz4", "path": "qt-sudo.tar.lz4", "type": "file"},
+{"name": "repo_contents.json", "path": "repo_contents.json", "type": "file"},
 {"name": "rocs.sha256sum", "path": "rocs.sha256sum", "type": "file"},
 {"name": "rocs.tar.lz4", "path": "rocs.tar.lz4", "type": "file"},
 {"name": "sddm-kcm.sha256sum", "path": "sddm-kcm.sha256sum", "type": "file"},
