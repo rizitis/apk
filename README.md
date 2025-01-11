@@ -102,7 +102,7 @@ With God`s help maybe we can fix it...
 ---
 
 #### *
-Notes: 
+
 > this is not SBo/ponce or conraid or alienbob repos<br>
 I m just having fun here and build packages I need and **not exist** there most of times.<br>
 If Slackware-stable was released every year and not when its ready, probably all these packages should be in SBo by me.<br>
