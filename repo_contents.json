@@ -66,6 +66,7 @@
 {"name": "breeze-icons.sha256sum", "path": "breeze-icons.sha256sum", "type": "file"},
 {"name": "breeze-icons.tar.lz4", "path": "breeze-icons.tar.lz4", "type": "file"},
 {"name": "breeze.sha256sum", "path": "breeze.sha256sum", "type": "file"},
+{"name": "breeze.tar.lz4", "path": "breeze.tar.lz4", "type": "file"},
 {"name": "calendarsupport.sha256sum", "path": "calendarsupport.sha256sum", "type": "file"},
 {"name": "calendarsupport.tar.lz4", "path": "calendarsupport.tar.lz4", "type": "file"},
 {"name": "calindori.sha256sum", "path": "calindori.sha256sum", "type": "file"},
