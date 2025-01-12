@@ -195,6 +195,11 @@ case $command in
         curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep"
         fi
         echo ""
+
+        echo -e "${BLUE}Contents of $FN.so.file:${NC}"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$FN.so.file"
+        echo ""
+
         echo -e "${GREEN}All $PKG information successfully retrieved.${NC}"
 
         cd "$saved_dir" || exit
