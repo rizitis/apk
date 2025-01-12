@@ -78,7 +78,7 @@ This apk is a simple bash script which was written from scratch to work exclusiv
     # apk add pkg       Add/Install a package and its dependencies if exist in apk repository
     # apk del pkg       Delete a package
     # apk search pkg    Search for packages
-    # apk show pkg      Print information about a package
+    # apk show pkg      Print information about a package (so.file, dependencies, README etc...)
     # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
     #
