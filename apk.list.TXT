@@ -1,4 +1,4 @@
-# Sat Jan 11 19:47:41 EET 2025
+# Sun Jan 12 13:38:19 EET 2025
 
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
 akonadi-calendar-tools-24.12.1-x86_64-1_rtz.tlz
@@ -322,6 +322,7 @@ plasma-desktop-6.2.5-x86_64-1_rtz.tlz
 plasma-disks-6.2.5-x86_64-1_rtz.tlz
 plasma-firewall-6.2.5-x86_64-1_rtz.tlz
 plasma-integration-6.2.5-x86_64-1_rtz.tlz
+plasma-mobile-6.2.5-x86_64-1_rtz.tlz
 plasma-nano-6.2.5-x86_64-1_rtz.tlz
 plasma-nm-6.2.5-x86_64-1_rtz.tlz
 plasma-pa-6.2.5-x86_64-1_rtz.tlz
