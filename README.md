@@ -76,20 +76,20 @@ This apk is a simple bash script which was written from scratch to work exclusiv
 # === Commands for  Download,Install,Upgrade,Remove,Search <packages> === #
     #
     # apk add pkg       Add/Install a package and its dependencies if exist in apk repository
-    # apk del pkg       Delete a package
-    # apk search pkg    Search for packages
+    # apk del pkg       Delete a package (only if it was installed from this apk repo)
+    # apk search pkg    Search for packages (if exist in apk repo)
     # apk show pkg      Print information about a package (so.file, dependencies, README etc...)
     # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
     #
     # === Commands which not followed by <package> === #
     #
-    # apk update        Update apk repository {local files and package list}.
+    # apk update        Update apk repository database
     # apk upgrade       Upgrade all installed packages from the apk repository ONLY.
     # apk info          List all installed packages from the apk repository ONLY.
-    # apk stats         Show statistics ONLY about apk repository and installations.
-    # apk upgrade-apk   Upgrade apk script version and apk.env.
-    # apk restore-apk   downgrade apk script and apk.env to previous status before upgrade-apk.
+    # apk stats         Show statistics (ONLY about apk repository and installations).
+    # apk upgrade-apk   Upgrade apk script it self and apk.env.
+    # apk restore-apk   downgrade apk script it self and apk.env to previous status before last upgrade-apk.
     # apk help          Print help message
 ```
 - To uninstall apk, as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
