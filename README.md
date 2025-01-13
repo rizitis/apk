@@ -49,6 +49,9 @@ Every Package has
 6. This repository is also compatible with [GitVoyager](https://github.com/rizitis/GitVoyager)
 
 7. This repository is also compatible with [captain-slack](https://github.com/rizitis/captain-slack)
+
+8. This repository is also compatible with inxi. <br>
+![inxi](./inxi-apk.png)
  
 ---
 
