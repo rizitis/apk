@@ -387,7 +387,7 @@ case $command in
         printf "%s\n" "${selected_lines[@]}" > "$output_file"
         echo "Selected lines have been copied to $output_file."
         else
-        echo "No lines selected. Exiting."
+        echo "No package selected. Exiting."
         exit 0
         fi
 }
