@@ -1,5 +1,6 @@
-# Tue Jan 14 11:44:27 EET 2025
+# Tue Jan 14 20:27:05 EET 2025
 
+Impression-3.3.0-x86_64-1_rtz.tlz
 a68g-3.5.10-x86_64-1_rtz.tlz
 abook-0.6.1-x86_64-1_rtz.tlz
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
@@ -50,6 +51,7 @@ bionic_translation-20240525_git-x86_64-1_rtz.tlz
 black-hole-solver-1.12.0-x86_64-1_rtz.tlz
 blinken-24.12.1-x86_64-1_rtz.tlz
 bluedevil-6.2.5-x86_64-1_rtz.tlz
+blueprint-compiler-0.14.0-x86_64-1_rtz.tlz
 bluez-qt-6.10.0-x86_64-1_rtz.tlz
 bomber-24.12.1-x86_64-1_rtz.tlz
 bovo-24.12.1-x86_64-1_rtz.tlz
@@ -96,10 +98,12 @@ gcab-1.6-x86_64-1_rtz.tlz
 ghostwriter-24.12.1-x86_64-1_rtz.tlz
 gimp-3.0.0_RC2-x86_64-1.tlz
 gitify-5.16.2-x86_64-1_rtz.tlz
+gnome-podcasts-0.7.2-x86_64-1_rtz.tlz
 granatier-24.12.1-x86_64-1_rtz.tlz
 grantlee-editor-24.12.1-x86_64-1_rtz.tlz
 grantleetheme-24.12.1-x86_64-1_rtz.tlz
 graphviz-12.2.1-x86_64-1_rtz.tlz
+gtk-fortran-4.7.0-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.1-x86_64-1_rtz.tlz
 gxr-0.16.0-x86_64-1_rtz.tlz
@@ -107,6 +111,7 @@ haruna-1.2.1-x86_64-1_rtz.tlz
 hashomatic-1.0.1-x86_64-1_rtz.tlz
 htmlq-0.4.0-x86_64-1_rtz.tlz
 hwatch-0.3.18-x86_64-1_rtz.tlz
+hyprutils-0.3.3-x86_64-1_rtz.tlz
 incidenceeditor-24.12.1-x86_64-1_rtz.tlz
 inxifetch-2024.07.191-x86_64-1_rtz.tlz
 isoimagewriter-24.12.1-x86_64-1_rtz.tlz
