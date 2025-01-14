@@ -1,4 +1,4 @@
-# Tue Jan 14 20:27:05 EET 2025
+# Tue Jan 14 21:17:16 EET 2025
 
 Impression-3.3.0-x86_64-1_rtz.tlz
 a68g-3.5.10-x86_64-1_rtz.tlz
@@ -433,6 +433,7 @@ libphonenumber-8.13.49-x86_64-1_rtz.tlz
 libplasma-6.2.5-x86_64-1_rtz.tlz
 libqaccessibilityclient-0.6.0-x86_64-1_rtz.tlz
 libquotient-0.9.1-x86_64-1_rtz.tlz
+libredwg-0.13.3-x86_64-1_rtz.tlz
 libstemmer-2.2.0-x86_64-1_rtz.tlz
 libusbsio-2.1.13-x86_64-1_rtz.tlz
 libxmlb-0.3.21-x86_64-1_rtz.tlz
@@ -569,6 +570,7 @@ tokodon-24.12.1-x86_64-1_rtz.tlz
 tripwire-4c84a88_git-x86_64-1_rtz.tlz
 turbo-attack-0.1.0-x86_64-1_rtz.tlz
 vail-a6fbad92_git-x86_64-1_rtz.tlz
+viddy-1.3.0-x86_64-1_rtz.tlz
 vtracer-0.6.4-x86_64-1_rtz.tlz
 wacomtablet-6.2.5-x86_64-1_rtz.tlz
 washipad-54ee2fba_git-x86_64-1_rtz.tlz
