@@ -879,6 +879,8 @@
 {"name": "libqaccessibilityclient.tar.lz4", "path": "libqaccessibilityclient.tar.lz4", "type": "file"},
 {"name": "libquotient.sha256sum", "path": "libquotient.sha256sum", "type": "file"},
 {"name": "libquotient.tar.lz4", "path": "libquotient.tar.lz4", "type": "file"},
+{"name": "libredwg.sha256sum", "path": "libredwg.sha256sum", "type": "file"},
+{"name": "libredwg.tar.lz4", "path": "libredwg.tar.lz4", "type": "file"},
 {"name": "libstemmer.sha256sum", "path": "libstemmer.sha256sum", "type": "file"},
 {"name": "libstemmer.tar.lz4", "path": "libstemmer.tar.lz4", "type": "file"},
 {"name": "libusbsio.sha256sum", "path": "libusbsio.sha256sum", "type": "file"},
@@ -996,7 +998,5 @@
 {"name": "plasma-nano.tar.lz4", "path": "plasma-nano.tar.lz4", "type": "file"},
 {"name": "plasma-nm.sha256sum", "path": "plasma-nm.sha256sum", "type": "file"},
 {"name": "plasma-nm.tar.lz4", "path": "plasma-nm.tar.lz4", "type": "file"},
-{"name": "plasma-pa.sha256sum", "path": "plasma-pa.sha256sum", "type": "file"},
-{"name": "plasma-pa.tar.lz4", "path": "plasma-pa.tar.lz4", "type": "file"},
-{"name": "plasma-phonebook.sha256sum", "path": "plasma-phonebook.sha256sum", "type": "file"}
+{"name": "plasma-pa.sha256sum", "path": "plasma-pa.sha256sum", "type": "file"}
 ]
