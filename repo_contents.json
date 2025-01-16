@@ -209,6 +209,8 @@
 {"name": "gitify.tar.lz4", "path": "gitify.tar.lz4", "type": "file"},
 {"name": "gnome-podcasts.sha256sum", "path": "gnome-podcasts.sha256sum", "type": "file"},
 {"name": "gnome-podcasts.tar.lz4", "path": "gnome-podcasts.tar.lz4", "type": "file"},
+{"name": "gptscript.sha256sum", "path": "gptscript.sha256sum", "type": "file"},
+{"name": "gptscript.tar.lz4", "path": "gptscript.tar.lz4", "type": "file"},
 {"name": "granatier.sha256sum", "path": "granatier.sha256sum", "type": "file"},
 {"name": "granatier.tar.lz4", "path": "granatier.tar.lz4", "type": "file"},
 {"name": "grantlee-editor.sha256sum", "path": "grantlee-editor.sha256sum", "type": "file"},
@@ -996,7 +998,5 @@
 {"name": "plasma-mobile.tar.lz4", "path": "plasma-mobile.tar.lz4", "type": "file"},
 {"name": "plasma-nano.sha256sum", "path": "plasma-nano.sha256sum", "type": "file"},
 {"name": "plasma-nano.tar.lz4", "path": "plasma-nano.tar.lz4", "type": "file"},
-{"name": "plasma-nm.sha256sum", "path": "plasma-nm.sha256sum", "type": "file"},
-{"name": "plasma-nm.tar.lz4", "path": "plasma-nm.tar.lz4", "type": "file"},
-{"name": "plasma-pa.sha256sum", "path": "plasma-pa.sha256sum", "type": "file"}
+{"name": "plasma-nm.sha256sum", "path": "plasma-nm.sha256sum", "type": "file"}
 ]
