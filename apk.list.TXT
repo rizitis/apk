@@ -1,4 +1,4 @@
-# Tue Jan 14 21:17:16 EET 2025
+# Thu Jan 16 21:44:34 EET 2025
 
 Impression-3.3.0-x86_64-1_rtz.tlz
 a68g-3.5.10-x86_64-1_rtz.tlz
@@ -99,6 +99,7 @@ ghostwriter-24.12.1-x86_64-1_rtz.tlz
 gimp-3.0.0_RC2-x86_64-1.tlz
 gitify-5.16.2-x86_64-1_rtz.tlz
 gnome-podcasts-0.7.2-x86_64-1_rtz.tlz
+gptscript-0.9.5-x86_64-1_rtz.tlz
 granatier-24.12.1-x86_64-1_rtz.tlz
 grantlee-editor-24.12.1-x86_64-1_rtz.tlz
 grantleetheme-24.12.1-x86_64-1_rtz.tlz
@@ -519,6 +520,7 @@ purpose5-5.116.0-x86_64-1_rtz.tlz
 pygdbmi-0.11.0.0-x86_64-1_rtz.tlz
 pyonji-0.1.0-x86_64-1_rtz.tlz
 python-librivox-0.1-x86_64-1_rtz.tlz
+python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
 qca-2.3.9-x86_64-1_rtz.tlz
 qcoro-0.11.0-x86_64-1_rtz.tlz
