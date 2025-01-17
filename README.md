@@ -1,14 +1,3 @@
-![TESTING](./BETA.webp)
-
-
-🚧 Project Status: BETA 🚧
-
-This project is currently under BETA  mode  but features, functionality, and APIs may change frequently as I work toward a stable release.
-More packages will be added soon...
-
-
----
-
 # apk
 **emulation** of apk package manager **commands** on a slackware system for the specific repository **only** and for slackware**64-current**
 
@@ -57,7 +46,8 @@ Every Package has
 
 ### !
 This is not apk-tools (Alpine Package Keeper) or  Chimera`s next-generation version 3.<br>
-This apk is a simple bash script which was written from scratch to work exclusively with this repository. 
+This apk is a simple bash script which was written from scratch to work exclusively with this repository. <br>
+Repo files can be found [here](./repo_contents.json)
 
 ---
 
