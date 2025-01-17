@@ -187,13 +187,14 @@ case $command in
         curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/README"
         echo ""
 
-        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG/$PKG.dep"; then
+        if ! curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -tf - "$PKG/$PKG.dep" 2>/dev/null; then
         echo -e "${YELLOW}No dependencies found for $PKG.${NC}" >&2
         else
         echo -e "${BLUE}Dependencies:${NC}"
         # Extract the dependencies file
-        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep"
+        curl -sL "$RF/$PKG.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$PKG/$PKG.dep" 2>/dev/null
         fi
+
         echo ""
 
         echo -e "${BLUE}Contents of $FN.so.file:${NC}"
