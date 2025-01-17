@@ -244,6 +244,10 @@
 {"name": "incidenceeditor.sha256sum", "path": "incidenceeditor.sha256sum", "type": "file"},
 {"name": "incidenceeditor.tar.lz4", "path": "incidenceeditor.tar.lz4", "type": "file"},
 {"name": "installed.list", "path": "installed.list", "type": "file"},
+{"name": "intel-gmmlib.sha256sum", "path": "intel-gmmlib.sha256sum", "type": "file"},
+{"name": "intel-gmmlib.tar.lz4", "path": "intel-gmmlib.tar.lz4", "type": "file"},
+{"name": "intel-media-driver.sha256sum", "path": "intel-media-driver.sha256sum", "type": "file"},
+{"name": "intel-media-driver.tar.lz4", "path": "intel-media-driver.tar.lz4", "type": "file"},
 {"name": "inxi-apk.png", "path": "inxi-apk.png", "type": "file"},
 {"name": "inxifetch.sha256sum", "path": "inxifetch.sha256sum", "type": "file"},
 {"name": "inxifetch.tar.lz4", "path": "inxifetch.tar.lz4", "type": "file"},
@@ -891,6 +895,8 @@
 {"name": "libstemmer.tar.lz4", "path": "libstemmer.tar.lz4", "type": "file"},
 {"name": "libusbsio.sha256sum", "path": "libusbsio.sha256sum", "type": "file"},
 {"name": "libusbsio.tar.lz4", "path": "libusbsio.tar.lz4", "type": "file"},
+{"name": "libvdpau-va-gl.sha256sum", "path": "libvdpau-va-gl.sha256sum", "type": "file"},
+{"name": "libvdpau-va-gl.tar.lz4", "path": "libvdpau-va-gl.tar.lz4", "type": "file"},
 {"name": "libxmlb.sha256sum", "path": "libxmlb.sha256sum", "type": "file"},
 {"name": "libxmlb.tar.lz4", "path": "libxmlb.tar.lz4", "type": "file"},
 {"name": "lla.sha256sum", "path": "lla.sha256sum", "type": "file"},
@@ -992,11 +998,5 @@
 {"name": "plasma-dialer.tar.lz4", "path": "plasma-dialer.tar.lz4", "type": "file"},
 {"name": "plasma-disks.sha256sum", "path": "plasma-disks.sha256sum", "type": "file"},
 {"name": "plasma-disks.tar.lz4", "path": "plasma-disks.tar.lz4", "type": "file"},
-{"name": "plasma-firewall.sha256sum", "path": "plasma-firewall.sha256sum", "type": "file"},
-{"name": "plasma-firewall.tar.lz4", "path": "plasma-firewall.tar.lz4", "type": "file"},
-{"name": "plasma-framework5.sha256sum", "path": "plasma-framework5.sha256sum", "type": "file"},
-{"name": "plasma-framework5.tar.lz4", "path": "plasma-framework5.tar.lz4", "type": "file"},
-{"name": "plasma-integration.sha256sum", "path": "plasma-integration.sha256sum", "type": "file"},
-{"name": "plasma-integration.tar.lz4", "path": "plasma-integration.tar.lz4", "type": "file"},
-{"name": "plasma-mobile.sha256sum", "path": "plasma-mobile.sha256sum", "type": "file"}
+{"name": "plasma-firewall.sha256sum", "path": "plasma-firewall.sha256sum", "type": "file"}
 ]
