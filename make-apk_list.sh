@@ -37,21 +37,12 @@ echo "apk.list.TXT Done."
 
 
 
-first_push() {
-echo "upload to github pkgs..."
-git pull
-git add .
-git commit -s -m "update"
-git push
-echo "1rst git push Done"
-}
 
-echo ""
 create_json() {
 echo "Creating json file..."
-gitv fetch
+python fetch-local.py
 wait
-cp $HOME/GitV_WORK/repo_contents.json . || exit
+sed -i 's|/home/omen/GITHUB|https://github.com/rizitis|g' ./repo_contents.json
 echo "create json Done"
 }
 
@@ -66,7 +57,5 @@ echo "finally git push Done"
 
 
 make_update
-set -e
-first_push
 create_json
 finally_push
