@@ -524,10 +524,12 @@ case $command in
     fi
 
     if [ -f "$_APKG" ]; then
-    echo "$_APKG found"
+    rm "$_APKG"
+    cd "$_DAPK" || exit
+    curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apkg.py
     else
     cd "$_DAPK" || exit
-    curl -L -O "$RF/$_APKG"
+    curl -L -O https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apkg.py
     fi
     echo ""
     # Calculate and print elapsed time
