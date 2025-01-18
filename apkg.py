@@ -6,43 +6,23 @@ import requests
 def load_json():
     url = "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/repo_contents.json"
     response = requests.get(url)
-    return response.json()
+    files_data = response.json()
 
-# Function to update the listbox based on search query
-def update_listbox(search_query, listbox, tar_lz4_names, start_index, end_index):
+    # Extract names of the .tar.lz4 files
+    tar_lz4_names = [item['name'].replace('.tar.lz4', '') for item in files_data if item['name'].endswith('.tar.lz4')]
+    return tar_lz4_names
+
+# Function to update listbox based on search query
+def update_listbox(search_query, listbox, tar_lz4_names):
     listbox.delete(0, tk.END)  # Clear the listbox
-    for name in tar_lz4_names[start_index:end_index]:
+    for name in tar_lz4_names:
         if search_query.lower() in name.lower():
             listbox.insert(tk.END, name)
 
-# Function to create the GUI with pagination
+# Function to create the GUI
 def create_gui():
-    # Load data and filter .tar.lz4 names
-    files_data = load_json()
-    tar_lz4_names = [item['name'].replace('.tar.lz4', '') for item in files_data if item['name'].endswith('.tar.lz4')]
-
-    items_per_page = 50
-    page_number = 0
-
-    # Function to display the current page
-    def display_page():
-        start_index = page_number * items_per_page
-        end_index = start_index + items_per_page
-        update_listbox(search_entry.get(), listbox, tar_lz4_names, start_index, end_index)
-
-    # Function for next page
-    def next_page():
-        nonlocal page_number
-        if (page_number + 1) * items_per_page < len(tar_lz4_names):
-            page_number += 1
-            display_page()
-
-    # Function for previous page
-    def prev_page():
-        nonlocal page_number
-        if page_number > 0:
-            page_number -= 1
-            display_page()
+    # Load the data
+    tar_lz4_names = load_json()
 
     # Create the main window
     root = tk.Tk()
@@ -63,21 +43,16 @@ def create_gui():
     listbox = tk.Listbox(root, height=15, width=50, font=("Arial", 12))
     listbox.pack(pady=10)
 
-    # Add buttons for pagination
-    prev_button = tk.Button(root, text="Previous", command=prev_page, font=("Arial", 12))
-    prev_button.pack(side=tk.LEFT, padx=5, pady=5)
+    # Insert the extracted names into the listbox
+    for name in tar_lz4_names:
+        listbox.insert(tk.END, name)
 
-    next_button = tk.Button(root, text="Next", command=next_page, font=("Arial", 12))
-    next_button.pack(side=tk.LEFT, padx=5, pady=5)
-
-    # Add search event handler to filter the list
+    # Add a search event handler to update listbox based on the search
     def on_search_change(*args):
-        display_page()
+        search_query = search_entry.get()
+        update_listbox(search_query, listbox, tar_lz4_names)
 
     search_entry.bind("<KeyRelease>", on_search_change)
-
-    # Display the initial page
-    display_page()
 
     # Run the application
     root.mainloop()
