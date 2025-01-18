@@ -1,4 +1,4 @@
-# Fri Jan 17 22:28:55 EET 2025
+# Sat Jan 18 21:40:37 EET 2025
 
 Impression-3.3.0-x86_64-1_rtz.tlz
 a68g-3.5.10-x86_64-1_rtz.tlz
@@ -465,6 +465,7 @@ modemmanager-qt-6.10.0-x86_64-1_rtz.tlz
 mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.1-x86_64-1_rtz.tlz
 networkmanager-qt-6.10.0-x86_64-1_rtz.tlz
+noisetorch-6d895f3_git-x86_64-1_rtz.tlz
 ocean-sound-theme-6.2.5-x86_64-1_rtz.tlz
 okteta-0.26.18-x86_64-1_rtz.tlz
 okular-24.12.1-x86_64-1_rtz.tlz
