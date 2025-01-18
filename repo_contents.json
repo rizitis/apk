@@ -944,6 +944,8 @@
 {"name": "neochat.tar.lz4", "path": "neochat.tar.lz4", "type": "file"},
 {"name": "networkmanager-qt.sha256sum", "path": "networkmanager-qt.sha256sum", "type": "file"},
 {"name": "networkmanager-qt.tar.lz4", "path": "networkmanager-qt.tar.lz4", "type": "file"},
+{"name": "noisetorch.sha256sum", "path": "noisetorch.sha256sum", "type": "file"},
+{"name": "noisetorch.tar.lz4", "path": "noisetorch.tar.lz4", "type": "file"},
 {"name": "ocean-sound-theme.sha256sum", "path": "ocean-sound-theme.sha256sum", "type": "file"},
 {"name": "ocean-sound-theme.tar.lz4", "path": "ocean-sound-theme.tar.lz4", "type": "file"},
 {"name": "okteta.sha256sum", "path": "okteta.sha256sum", "type": "file"},
@@ -996,7 +998,5 @@
 {"name": "plasma-desktop.tar.lz4", "path": "plasma-desktop.tar.lz4", "type": "file"},
 {"name": "plasma-dialer.sha256sum", "path": "plasma-dialer.sha256sum", "type": "file"},
 {"name": "plasma-dialer.tar.lz4", "path": "plasma-dialer.tar.lz4", "type": "file"},
-{"name": "plasma-disks.sha256sum", "path": "plasma-disks.sha256sum", "type": "file"},
-{"name": "plasma-disks.tar.lz4", "path": "plasma-disks.tar.lz4", "type": "file"},
-{"name": "plasma-firewall.sha256sum", "path": "plasma-firewall.sha256sum", "type": "file"}
+{"name": "plasma-disks.sha256sum", "path": "plasma-disks.sha256sum", "type": "file"}
 ]
