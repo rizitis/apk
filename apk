@@ -24,7 +24,7 @@ command=$1
 PKG=$2
 
 # List of commands that do not accept $2
-invalid_with_second_arg="update|upgrade|restore-apk|upgrade-apk|info|stats|help|--help|-h"
+invalid_with_second_arg="update|upgrade|restore-apk|upgrade-apk|info|list|stats|help|--help|-h"
 
 # Check if $1 matches any command in the list
 if [[ "$1" =~ $invalid_with_second_arg ]]; then
@@ -60,6 +60,7 @@ if [[ "$1" == "--help" || "$1" == "-h" || "$1" == "help" ]]; then
     # apk update        Update apk repository {local files and package list}.
     # apk upgrade       Upgrade all installed packages from the apk repository ONLY.
     # apk info          List all installed packages from the apk repository ONLY.
+    # apk list          List all apk repo available packages.
     # apk stats         Show statistics ONLY about apk repository and installations.
     # apk upgrade-apk   Upgrade apk script version and apk.env.
     # apk restore-apk   downgrade apk script and apk.env to previous status before upgrade-apk.
@@ -78,6 +79,7 @@ if [ "$#" -lt 1 ]; then
     # apk search pkg    Search for packages
     # apk show pkg      Print information about a package
     # apk info          List all installed packages
+    # apk list          List all apk repo available packages
     # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
     # apk stats         Show statistics about repositories and installations
     # apk download pkg  Download package files but not install
@@ -98,6 +100,9 @@ shift
 
 # Handle commands
 case $command in
+    list)
+        python "$_APKG"
+        ;;
     fix)
         echo -e "${BLUE}Fixing $PKG (Install/Reinstall/Upgrade) but not dependencies.${NC}"
         temp_dir=$(mktemp -d)
@@ -516,6 +521,13 @@ case $command in
         curl -L -O "$RF/$FDATA"
         cd "$saved_dir" || exit
         echo -e "\033[1;33m$_FDATA created successfully!\033[0m"
+    fi
+
+    if [ -f "$_APKG" ]; then
+    echo "$_APKG found"
+    else
+    cd "$_DAPK" || exit
+    curl -L -O "$RF/$_APKG"
     fi
     echo ""
     # Calculate and print elapsed time
