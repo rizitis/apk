@@ -51,6 +51,7 @@
 {"name": "apk.list", "path": "apk.list", "type": "file"},
 {"name": "apk.list.TXT", "path": "apk.list.TXT", "type": "file"},
 {"name": "apk.svg", "path": "apk.svg", "type": "file"},
+{"name": "apkg.py", "path": "apkg.py", "type": "file"},
 {"name": "apngasm.sha256sum", "path": "apngasm.sha256sum", "type": "file"},
 {"name": "apngasm.tar.lz4", "path": "apngasm.tar.lz4", "type": "file"},
 {"name": "appmenu-gtk-module.sha256sum", "path": "appmenu-gtk-module.sha256sum", "type": "file"},
@@ -997,6 +998,5 @@
 {"name": "plasma-desktop.sha256sum", "path": "plasma-desktop.sha256sum", "type": "file"},
 {"name": "plasma-desktop.tar.lz4", "path": "plasma-desktop.tar.lz4", "type": "file"},
 {"name": "plasma-dialer.sha256sum", "path": "plasma-dialer.sha256sum", "type": "file"},
-{"name": "plasma-dialer.tar.lz4", "path": "plasma-dialer.tar.lz4", "type": "file"},
-{"name": "plasma-disks.sha256sum", "path": "plasma-disks.sha256sum", "type": "file"}
+{"name": "plasma-dialer.tar.lz4", "path": "plasma-dialer.tar.lz4", "type": "file"}
 ]
