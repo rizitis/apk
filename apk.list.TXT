@@ -1,4 +1,4 @@
-# Sun Jan 19 13:40:35 EET 2025
+# Sun Jan 19 13:52:00 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -33,6 +33,7 @@ ark-24.12.1-x86_64-1_rtz.tlz
 arp-scan-1.10.0-x86_64-1_rtz.tlz
 art_standalone-20241102_git-x86_64-1_rtz.tlz
 artikulate-24.12.1-x86_64-1_rtz.tlz
+asciigen-1.0.6-x86_64-1_rtz.tlz
 asio-1.30.2-x86_64-1_rtz.tlz
 asn1crypto-1.5.1-x86_64-1_rtz.tlz
 asterisk-20.11.0-x86_64-1_rtz.tlz
