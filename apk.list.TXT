@@ -1,4 +1,4 @@
-# Sun Jan 19 14:02:21 EET 2025
+# Sun Jan 19 14:42:23 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -67,7 +67,7 @@ callaudiod-0.1.7-x86_64-1_rtz.tlz
 calligra-24.12.1-x86_64-1_rtz.tlz
 cantor-24.12.1-x86_64-1_rtz.tlz
 cervisia-24.12.1-x86_64-1_rtz.tlz
-chatgpt.sh-a39fce77_git-x86_64-1_rtz.tlz
+chatgpt.sh-d3fd328f_git-x86_64-1_rtz.tlz
 colord-kde-24.12.1-x86_64-1_rtz.tlz
 coppwr-1.6.1-x86_64-1_rtz.tlz
 ddcutil-2.1.4-x86_64-1_rtz.tlz
