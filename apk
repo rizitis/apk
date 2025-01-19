@@ -538,7 +538,7 @@ case $command in
     SECONDS_REMAINING=$((ELAPSED_TIME % 60))
 
     # Print elapsed time with different colors
-    echo -e "\033[1;32mUpdate completed in \033[1;34m${MINUTES} minutes \033[1;33mand \033[1;35m${SECONDS_REMAINING} seconds\033[0m. Is that fast? :)"
+    echo -e "\033[1;32mUpdate completed in \033[1;34m${MINUTES} minutes \033[1;33mand \033[1;35m${SECONDS_REMAINING} seconds\033[0m. Was that fast enough? ;)"
     ;;
     info)
        if [ -f "$_FDATA" ]; then
