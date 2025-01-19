@@ -85,7 +85,7 @@ Repo files can be found [here](./repo_contents.json)
     # apk restore-apk   downgrade apk script it self and apk.env to previous status before last upgrade-apk.
     # apk help          Print help message
 ```
-- To uninstall apk, as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /usr/lib/apk` 
+- To uninstall apk, as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /var/lib/apk` 
 
 ---
 
