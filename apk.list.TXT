@@ -1,4 +1,4 @@
-# Mon Jan 20 17:36:52 EET 2025
+# Mon Jan 20 21:11:41 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -572,6 +572,7 @@ syntax-highlighting-6.10.0-x86_64-1_rtz.tlz
 syntax-highlighting5-5.116.0-x86_64-1_rtz.tlz
 systemsettings-6.2.5-x86_64-1_rtz.tlz
 tags-1.2-x86_64-1_rtz.tlz
+tar-split-0.11.7-x86_64-1_rtz.tlz
 telepathy-qt-0.9.8-x86_64-1_rtz.tlz
 tellico-4.0.1-x86_64-1_rtz.tlz
 telly-skout-24.12.1-x86_64-1_rtz.tlz
