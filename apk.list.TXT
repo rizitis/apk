@@ -1,4 +1,4 @@
-# Sun Jan 19 14:42:23 EET 2025
+# Mon Jan 20 14:07:27 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -556,6 +556,7 @@ solid-6.10.0-x86_64-1_rtz.tlz
 solid5-5.116.0-x86_64-1_rtz.tlz
 sonnet-6.10.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
+sourcegit-2025.03-x86_64-1_rtz.tlz
 spacebar-6.2.5-x86_64-1_rtz.tlz
 spectacle-24.12.1-x86_64-1_rtz.tlz
 static-web-server-2.35.0-x86_64-1_rtz.tlz
