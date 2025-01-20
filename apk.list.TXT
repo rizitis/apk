@@ -1,4 +1,4 @@
-# Mon Jan 20 14:11:18 EET 2025
+# Mon Jan 20 17:36:52 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -80,6 +80,7 @@ dragon-24.12.1-x86_64-1_rtz.tlz
 drkonqi-6.2.5-x86_64-1_rtz.tlz
 dstp-0.4.23-x86_64-1_rtz.tlz
 elisa-24.12.1-x86_64-1_rtz.tlz
+envman-2.5.1-x86_64-1_rtz.tlz
 epub2txt2-2.08-x86_64-1_rtz.tlz
 eventviews-24.12.1-x86_64-1_rtz.tlz
 extra-cmake-modules-6.10.0-x86_64-1_rtz.tlz
