@@ -1,4 +1,4 @@
-# Tue Jan 21 18:21:53 EET 2025
+# Tue Jan 21 19:01:21 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -49,6 +49,7 @@ babel-loader-9.1.3-x86_64-1_rtz.tlz
 baloo-widgets-24.12.1-x86_64-1_rtz.tlz
 baloo-6.10.0-x86_64-1_rtz.tlz
 bash-language-server-5.4.0-x86_64-1_rtz.tlz
+binocle-41159f6_git-x86_64-1_rtz.tlz
 bionic_translation-20240525_git-x86_64-1_rtz.tlz
 black-hole-solver-1.12.0-x86_64-1_rtz.tlz
 blinken-24.12.1-x86_64-1_rtz.tlz
