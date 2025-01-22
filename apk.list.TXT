@@ -1,4 +1,4 @@
-# Wed Jan 22 16:59:09 EET 2025
+# Wed Jan 22 17:43:21 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -103,6 +103,7 @@ frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.1-x86_64-1_rtz.tlz
 futuresql-0.1.1-x86_64-1_rtz.tlz
 gcab-1.6-x86_64-1_rtz.tlz
+geteltorito-46474a4_git-x86_64-1_rtz.tlz
 ghostwriter-24.12.1-x86_64-1_rtz.tlz
 gimp-3.0.0_RC2-x86_64-1.tlz
 gitify-5.16.2-x86_64-1_rtz.tlz
