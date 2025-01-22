@@ -1,4 +1,4 @@
-# Tue Jan 21 21:11:13 EET 2025
+# Wed Jan 22 16:59:09 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -554,6 +554,7 @@ sddm-kcm-6.2.5-x86_64-1_rtz.tlz
 sddm-0.21.0-x86_64-1_rtz.tlz
 sierrabreezeenhanced-2.0.1-x86_64-1_rtz.tlz
 signond-8.62_git20231124-x86_64-1_rtz.tlz
+sirikali-1.8.1-x86_64-1_rtz.tlz
 skanlite-24.12.1-x86_64-1_rtz.tlz
 skia-sharp-0.0.0-x86_64-1_rtz.tlz
 skladnik-0.5.2-x86_64-1_rtz.tlz
