@@ -1,4 +1,4 @@
-# Wed Jan 22 17:43:21 EET 2025
+# Thu Jan 23 11:45:30 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -480,6 +480,7 @@ ocean-sound-theme-6.2.5-x86_64-1_rtz.tlz
 okteta-0.26.18-x86_64-1_rtz.tlz
 okular-24.12.1-x86_64-1_rtz.tlz
 olm-3.2.16-x86_64-1_rtz.tlz
+open-tv-1.4.1-x86_64-1_rtz.tlz
 openrc-settingsd-1.5.0-x86_64-1_rtz.tlz
 openseachest-24.08.1-x86_64-1_rtz.tlz
 openxr-1.1.43-x86_64-1_rtz.tlz
