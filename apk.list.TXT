@@ -1,4 +1,4 @@
-# Thu Jan 23 15:43:42 EET 2025
+# Fri Jan 24 17:40:26 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -547,6 +547,7 @@ qqc2-breeze-style-6.2.5-x86_64-1_rtz.tlz
 qqc2-desktop-style-6.10.0-x86_64-1_rtz.tlz
 qrca-3aa66ae91d8f0624d88d6de0e32ac46927023c8d-x86_64-1_rtz.tlz
 qt-sudo-2.0.1-x86_64-1_rtz.tlz
+qtcreator-15.0.1-x86_64-1_rtz.tlz
 quazip-qt6-1.4-x86_64-1_rtz.tlz
 rewise-0.3.0-x86_64-1_rtz.tlz
 rkward-0.8.0-x86_64-1_rtz.tlz
@@ -607,5 +608,6 @@ xdg-desktop-portal-gtk-1.15.1-x86_64-1_rtz.tlz
 xdg-desktop-portal-kde-6.2.5-x86_64-1_rtz.tlz
 xwaylandvideobridge-0.4.0-x86_64-1_rtz.tlz
 yakuake-24.12.1-x86_64-1_rtz.tlz
+yaml-cpp-0.8.0-x86_64-1_rtz.tlz
 zanshin-24.12.1-x86_64-1_rtz.tlz
 zig-0.13.0-x86_64-1_rtz.tlz
