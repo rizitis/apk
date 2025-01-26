@@ -146,7 +146,9 @@ case $command in
         fi
 
         upgradepkg --reinstall --install-new "$FN"
-
+        if ls *.so.file 1> /dev/null 2>&1; then
+        cp *.so.file /usr/doc/$PRGNAM-$VERSION/
+        fi
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
@@ -269,6 +271,9 @@ case $command in
         echo ""
 
         upgradepkg --install-new --reinstall "$FN"
+        if ls *.so.file 1> /dev/null 2>&1; then
+        cp *.so.file /usr/doc/$PRGNAM-$VERSION/
+        fi
 
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
