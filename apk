@@ -148,7 +148,7 @@ case $command in
         upgradepkg --reinstall --install-new "$FN"
         for file in *.so.file; do
         [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/${FN%-*}/
+        cp "$file" /usr/doc/"${FN%-x86_64*}"/
         done
 
         cd "$saved_dir" || exit
@@ -275,7 +275,7 @@ case $command in
         upgradepkg --install-new --reinstall "$FN"
         for file in *.so.file; do
         [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/${FN%-*}/
+        cp "$file" /usr/doc/"${FN%-x86_64*}"/
         done
 
         cd "$saved_dir" || exit
