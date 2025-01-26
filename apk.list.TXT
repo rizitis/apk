@@ -1,4 +1,4 @@
-# Sat Jan 25 10:17:30 EET 2025
+# Sun Jan 26 10:56:32 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -90,7 +90,7 @@ epub2txt2-2.08-x86_64-1_rtz.tlz
 eventviews-24.12.1-x86_64-1_rtz.tlz
 extra-cmake-modules-6.10.0-x86_64-1_rtz.tlz
 falkon-24.12.1-x86_64-1_rtz.tlz
-fcitx5-configtool-5.1.7-x86_64-1_rtz.tlz
+fcitx5-configtool-5.1.8-x86_64-1_rtz.tlz
 fcitx5-qt-5.1.8-x86_64-1_rtz.tlz
 fcitx5-5.1.11-x86_64-1_rtz.tlz
 ffmpegthumbs-24.12.1-x86_64-1_rtz.tlz
@@ -119,7 +119,7 @@ gtk-fortran-4.7.0-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.1-x86_64-1_rtz.tlz
 gxr-0.16.0-x86_64-1_rtz.tlz
-haruna-1.3.0-x86_64-1_rtz.tlz
+haruna-1.3.2-x86_64-1_rtz.tlz
 hashomatic-1.0.1-x86_64-1_rtz.tlz
 htmlq-0.4.0-x86_64-1_rtz.tlz
 hwatch-0.3.18-x86_64-1_rtz.tlz
@@ -554,7 +554,7 @@ rewise-0.3.0-x86_64-1_rtz.tlz
 rkward-0.8.0-x86_64-1_rtz.tlz
 rocs-24.12.1-x86_64-1_rtz.tlz
 run-virt-x-0.0.2_RC-x86_64-1_rtz.tlz
-ruqola-2.4.0-x86_64-1_rtz.tlz
+ruqola-2.4.1-x86_64-1_rtz.tlz
 sddm-kcm-6.2.5-x86_64-1_rtz.tlz
 sddm-0.21.0-x86_64-1_rtz.tlz
 sierrabreezeenhanced-2.0.1-x86_64-1_rtz.tlz
