@@ -1,5 +1,5 @@
 #!/bin/bash
-# shellcheck disable=SC1091,SC2013,SC2153,SC2002,SC2126,SC2010,SC2206,SC2162
+# shellcheck disable=SC1091,SC2013,SC2153,SC2002,SC2126,SC2010,SC2206,SC2162,SC2188
 
 # Christmas 2024 somewere in Greece...
 # Merry Christmas
@@ -216,71 +216,109 @@ case $command in
         rm -rf "$temp_dir"
         ;;
     add)
-        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and its dependencies if needed...${NC}"
-        temp_dir=$(mktemp -d)
-        if [ ! -d "$temp_dir" ]; then
-        echo -e "${RED}Failed to create temporary directory${NC}"
-        exit 1
-        fi
-        cd "$temp_dir" || exit
-        if ! curl -L -O "$RF"/"$PKG".sha256sum > /dev/null 2>&1; then
-        echo "$PKG.sha256sum not found on $RF"
-        fi
-        if ! curl -L -O "$RF"/"$PKG".tar.lz4 > /dev/null 2>&1; then
-        echo "$PKG.tar.lz4 not found on $RF"
-        fi
-        if sha256sum -c "$PKG.sha256sum" --quiet; then
-        echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
-        else
-        echo -e "${RED}Huston? $PKG.tar.lz4 is INVALID.${NC}"
-        exit 1
-        fi
-        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+temp_dir=$(mktemp -d)
+BLACKLIST="BLACKLIST"
+DEPS_LIST="deps_list.txt"
+INSTALLED_LIST="installed_list.txt"
 
-        cd "$PKG" || exit
-        FN="$(cat BIN_NAME)"
-        echo "$FN"
-        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
-        # Compute the checksum of the downloaded file
-        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
-       # Compare the checksums
-        if [ "$expected_checksum" = "$computed_checksum" ]; then
-        echo -e "${BLUE}Validation successful: Checksums match.${NC}"
-        else
-        echo -e "${RED}Ah Huston! Validation md5 failed: Checksums do not match!${NC}"
-        exit 1
-        fi
+# Cleanup and Setup
+> "$BLACKLIST"
+> "$DEPS_LIST"
+> "$INSTALLED_LIST"
 
-        if [ ! -f "$PKG.dep" ]; then
-        echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
-        else
-        echo -e "${BLUE}Dependencies found:${NC}"
-        # Extract the dependencies file
-        PKGDEP=$(cat "$PKG".dep)
-        fi
-        for dep in $PKGDEP; do
-        depcheck=$(curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/BIN_NAME)
-        depin=$(cat "$_FDATA" | grep "$depcheck")
-        echo "$depcheck $depin"
-        if [[ "$depcheck" == "$depin" ]]; then
-        echo -e "${GREEN}$dep is installed...${NC}"
-        else
-        echo -e "${BLUE}Install or upgrade version for $dep${NC}"
-        apk add "$dep" || true  # Continue even if a dependency fails or not exist in repository
-        fi
+echo -e "${GREEN}Installing/Upgrading/Reinstalling $PKG...${NC}"
+
+# Ensure temp directory exists
+if [ ! -d "$temp_dir" ]; then
+    echo -e "${RED}Failed to create temporary directory${NC}"
+    exit 1
+fi
+
+cd "$temp_dir" || exit
+
+# Download package and validate checksum
+if ! curl -L -O "$RF/$PKG.sha256sum" > /dev/null 2>&1; then
+    echo "$PKG.sha256sum not found on $RF"
+fi
+
+if ! curl -L -O "$RF/$PKG.tar.lz4" > /dev/null 2>&1; then
+    echo "$PKG.tar.lz4 not found on $RF"
+    exit 1
+fi
+
+if sha256sum -c "$PKG.sha256sum" --quiet; then
+    echo -e "${BLUE}Checksum verified: $PKG.tar.lz4 is valid.${NC}"
+else
+    echo -e "${RED}Checksum FAILED: $PKG.tar.lz4 is INVALID.${NC}"
+    exit 1
+fi
+
+# Extract package
+tar --use-compress-program=lz4 -xvf "$PKG.tar.lz4"
+cd "$PKG" || exit
+
+# Validate MD5 checksum
+FN=$(cat BIN_NAME)
+expected_checksum=$(cut -d ' ' -f 1 "$FN.md5")
+computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
+
+if [ "$expected_checksum" = "$computed_checksum" ]; then
+    echo -e "${BLUE}MD5 Checksum valid.${NC}"
+    > BLACKLIST
+else
+    echo -e "${RED}MD5 Checksum FAILED!${NC}"
+    exit 1
+fi
+
+# Handle dependencies
+if [ -f "$PKG.dep" ]; then
+    echo -e "${BLUE}Dependencies found, processing...${NC}"
+    cat "$PKG.dep" > "$DEPS_LIST"
+
+    declare -A INSTALLED_DEPS
+
+    while [ -s "$DEPS_LIST" ]; do
+        NEW_DEPS=()
+
+        for dep in $(cat "$DEPS_LIST"); do
+            if [[ -n "${INSTALLED_DEPS[$dep]}" ]]; then
+                continue  # Skip already installed dependencies
+            fi
+
+            if curl -sL "$RF/$dep.tar.lz4" | tar --use-compress-program=lz4 -xOf - "$dep/$dep.dep" > /dev/null 2>&1; then
+                INSTALLED_DEPS["$dep"]=1
+                echo "$dep" >> "$INSTALLED_LIST"
+            else
+                echo "$dep" >> "$BLACKLIST"
+                apk fix "$dep"  # Attempt to fix missing dependencies
+            fi
         done
 
-        echo ""
+        grep -F -v -f "$BLACKLIST" "$DEPS_LIST" > temp_file && mv temp_file "$DEPS_LIST"
 
-        upgradepkg --install-new --reinstall "$FN"
-        for file in *.so.file; do
-        [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
+        if [ ! -s "$DEPS_LIST" ]; then
+            break  # Exit loop when all dependencies are resolved
+        fi
+    done
+else
+    echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
+fi
 
-        cd "$saved_dir" || exit
-        rm -rf "$temp_dir"
-        ;;
+# Final package installation
+upgradepkg --install-new --reinstall "$FN"
+
+# Copy documentation if shared libraries exist
+for file in *.so.file; do
+    [ -e "$file" ] || continue
+    cp "$file" /usr/doc/"${FN%-x86_64*}"/
+done
+
+# Cleanup
+cd "$saved_dir" || exit
+rm -rf "$temp_dir"
+
+echo -e "${GREEN}Installation of $PKG completed successfully.${NC}"
+         ;;
     download)
         if [ -d /tmp/apk-"$PKG" ]; then
         mv /tmp/apk-"$PKG" /tmp/apk-"$PKG".bak
