@@ -1,10 +1,11 @@
-# Mon Jan 27 19:46:06 EET 2025
+# Mon Jan 27 20:40:49 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
 a68g-3.5.10-x86_64-1_rtz.tlz
 abook-0.6.1-x86_64-1_rtz.tlz
 accessibility-inspector-24.12.1-x86_64-1_rtz.tlz
+accounts-qml-module-0.7_git-x86_64-1_rtz.tlz
 acme_sh-3.0.9-x86_64-1_rtz.tlz
 acpiclient-1.7-x86_64-1_rtz.tlz
 adns-1.6.1-x86_64-1_rtz.tlz
@@ -560,6 +561,8 @@ ruqola-2.4.1-x86_64-1_rtz.tlz
 sddm-kcm-6.2.5-x86_64-1_rtz.tlz
 sddm-0.21.0-x86_64-1_rtz.tlz
 sierrabreezeenhanced-2.0.1-x86_64-1_rtz.tlz
+signon-plugin-oauth2-0.25_git-x86_64-1_rtz.tlz
+signon-ui-0.18_git-x86_64-1_rtz.tlz
 signond-8.62_git20231124-x86_64-1_rtz.tlz
 sirikali-1.8.1-x86_64-1_rtz.tlz
 skanlite-24.12.1-x86_64-1_rtz.tlz
