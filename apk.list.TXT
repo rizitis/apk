@@ -1,4 +1,4 @@
-# Mon Jan 27 12:07:08 EET 2025
+# Mon Jan 27 19:46:06 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -133,6 +133,7 @@ itinerary-24.12.1-x86_64-1_rtz.tlz
 juk-24.12.1-x86_64-1_rtz.tlz
 k3b-24.12.1-x86_64-1_rtz.tlz
 kaccounts-integration-24.12.1-x86_64-1_rtz.tlz
+kaccounts-providers-24.12.1-x86_64-1_rtz.tlz
 kactivities5-5.116.0-x86_64-1_rtz.tlz
 kactivitymanagerd-6.2.5-x86_64-1_rtz.tlz
 kaddressbook-24.12.1-x86_64-1_rtz.tlz
