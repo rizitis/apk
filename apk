@@ -215,8 +215,9 @@ case $command in
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         ;;
-    add)
-        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and its dependencies if needed...${NC}"
+
+     add)
+        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and all dependencies${NC}"
         temp_dir=$(mktemp -d)
         if [ ! -d "$temp_dir" ]; then
         echo -e "${RED}Failed to create temporary directory${NC}"
@@ -246,12 +247,11 @@ case $command in
        # Compare the checksums
         if [ "$expected_checksum" = "$computed_checksum" ]; then
         echo -e "${BLUE}Validation successful: Checksums match.${NC}"
-        > BLACKLIST.txt
         else
         echo -e "${RED}Ah Huston! Validation md5 failed: Checksums do not match!${NC}"
         exit 1
         fi
-
+# If no $PKG.dep install pkg and game over
         if [ ! -f "$PKG.dep" ]; then
         echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
         upgradepkg --install-new --reinstall "$FN"
@@ -264,21 +264,85 @@ case $command in
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
         exit 0
+# Else if deps found create an all_deps1.txt and write $pkg.dep {a,b,c,d}
         else
         echo -e "${BLUE}Dependencies found:${NC}"
-
         PKGDEP1=all_deps1.txt
-        touch "$PKGDEP1"
-        cat "$PKG.dep" >> "$PKGDEP1"
+         > "$PKGDEP1" # create all_deps1.txt
+        cat "$PKG.dep" >> "$PKGDEP1" # write $pkg.dep {a,b,c,d}
+# Now i must read {a.dep,b.dep,c.dep,d.dep} and write them in other txt, assume all_deps2.txt
+        echo -e "${BLUE}Dependencies calculation in progress...:${NC}"
         for dep in $(cat $PKGDEP1); do
         if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-            apk fix "$dep"
-            sed -i "s/$dep//g" "$PKGDEP1"
-           sed -i '/^\s*$/d' "$PKGDEP1"
-           echo "$dep" > BLACKLIST.txt
+         PKGDEP2=all_deps2.txt
+         > "$PKGDEP2" # create all_deps2.txt
+            echo "$dep" >> "$PKGDEP2"
         fi
 
-        if [ ! -s "$PKGDEP1" ]; then
+# Now i must read "$PKGDEP2" and do the same.
+        for dep in $(cat $PKGDEP2); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+         PKGDEP3=all_deps3.txt
+         > "$PKGDEP3"
+            echo "$dep" >> "$PKGDEP3"
+        fi
+
+# Again...
+        for dep in $(cat $PKGDEP3); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+         PKGDEP4=all_deps4.txt
+         > "$PKGDEP4"
+            echo "$dep" >> "$PKGDEP4"
+        fi
+
+# And again...
+        for dep in $(cat $PKGDEP4); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+         PKGDEP5=all_deps5.txt
+         > "$PKGDEP5"
+            echo "$dep" >> "$PKGDEP5"
+        fi
+
+# Enough...
+        for dep in $(cat $PKGDEP5); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+         PKGDEP6=all_deps6.txt
+         > "$PKGDEP6"
+            echo "$dep" >> "$PKGDEP6"
+        fi
+
+# Merge all dep list
+        cat all_deps?.txt > all_deps.txt
+        sort all_deps.txt | uniq > finall-deps.txt
+# Remove $PKG if its dep of dep of dep...
+        sed -i "/^$PKG$/d" finall-deps.txt
+# If $PKG exist we will have an empty line lets delete it
+        sed -i '/^$/d' finall-deps.txt
+
+# Read the contents of final-deps.txt
+        echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}"
+        cat final-deps.txt
+
+# Ask the user if they want to proceed with the installation
+        echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
+        read -p "> " choice
+
+# Check the user's input
+        if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
+    # If yes, proceed with installation (you can add your installation commands here)
+        echo -e "${GREEN}Proceeding with installation...${NC}"
+        for i $(cat final-deps.txt); do
+        apk fix "$i"
+        else
+        echo -e "${RED}Installation for $PKG aborted.${NC}"
+        echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
+        echo -e "${RED}CMD: apk fix $PKG${NC}"
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
+        exit
+        fi
+
+# Install the main PKG
         upgradepkg --install-new --reinstall "$FN"
         for file in *.so.file; do
         [ -e "$file" ] || continue  # Skip if no matching files
@@ -287,118 +351,6 @@ case $command in
 
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
-        exit 0
-        else
-        echo "There are more deps to build...using plan 2"
-        fi
-
-        PKGDEP2=all_deps2.txt
-        touch "$PKGDEP2"
-#        echo "$dep" >> "$PKGDEP2"
-        done
-        fi
-        cat "$PKGDEP1" >> "$PKGDEP2"
-#        rm "$PKGDEP1"
-        sed -i '$!N; /^\(.*\)\n\1$/d; P; D' "$PKGDEP2"
-        wait
-        sed -i '/^$/d' "$PKGDEP2"
-        wait
-        grep -F -v -f BLACKLIST.txt "$PKGDEP2" > temp_file && mv temp_file "$PKGDEP2"
-        sed -i '/^$/d' "$PKGDEP2"
-
-        for depa in $(cat "$PKGDEP2"); do
-        if ! curl -sL "$RF"/"$depa".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$depa"/"$depa".dep > /dev/null 2>&1; then
-            apk fix "$depa"
-            sed -i "s|$depa||g" "$PKGDEP2"
-            wait
-            sed -i '/^\s*$/d' "$PKGDEP2"
-            wait
-            echo "$depa" >> BLACKLIST.txt
-        fi
-
-        PKGDEP3=all_deps3.txt
-        touch "$PKGDEP3"
-#        echo "$depa" >> "$PKGDEP3"
-#        sort BLACKLIST.txt | uniq -u > "$PKGDEPO"
-        sed -i '$!N; /^\(.*\)\n\1$/d; P; D' "$PKGDEP3"
-        wait
-        sed -i '/^$/d' "$PKGDEP3"
-        done
-
-        if [ ! -s "$PKGDEP2" ]; then
-        upgradepkg --install-new --reinstall "$FN"
-        for file in *.so.file; do
-        [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
-
-        cd "$saved_dir" || exit
-        rm -rf "$temp_dir"
-        exit 0
-        else
-        echo "More deps found... using plan 3"
-        fi
-        grep -F -v -f BLACKLIST.txt "$PKGDEP3" > temp_file && mv temp_file "$PKGDEP3"
-        sed -i '/^$/d' "$PKGDEP3"
-        for depo in $(cat "$PKGDEP3"); do
-        if ! curl -sL "$RF"/"$depo".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$depo"/"$depo".dep > /dev/null 2>&1; then
-            apk fix "$depo"
-            sed -i "s|$depo||g" "$PKGDEP3"
-            wait
-            sed -i '/^\s*$/d' "$PKGDEP3"
-            wait
-            echo "$depo" >> BLACKLIST.txt
-        fi
-        done
-        cat "$PKGDEP2" >> "$PKGDEP3"
- #       rm "$PKGDEP2"
-        sed -i '$!N; /^\(.*\)\n\1$/d; P; D' "$PKGDEP3"
-        wait
-        sed -i '/^$/d' "$PKGDEP3"
-        grep -F -v -f BLACKLIST.txt "$PKGDEP3" > temp_file && mv temp_file "$PKGDEP3"
-        sed -i '/^$/d' "$PKGDEP3"
-        sed -i '$!N; /^\(.*\)\n\1$/d; P; D' "$PKGDEP3"
-        for line in $(cat "$PKGDEP3"); do
-        if ! curl -sL "$RF"/"$line".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$line"/"$line".dep > /dev/null 2>&1; then
-        apk fix "$line"
-        sed -i "s|$line||g" "$PKGDEP3"
-        wait
-        sed -i '/^\s*$/d' "$PKGDEP3"
-        wait
-        echo "$line" >> BLACKLIST.txt
-        fi
-        done
-        grep -F -v -f BLACKLIST.txt "$PKGDEP3" > temp_file && mv temp_file "$PKGDEP3"
-        sed -i '/^$/d' "$PKGDEP3"
-        if [ ! -s "$PKGDEP3" ]; then
-        upgradepkg --install-new --reinstall "$FN"
-        for file in *.so.file; do
-        [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
-
-        cd "$saved_dir" || exit
-        rm -rf "$temp_dir"
-        exit 0
-        else
-        echo "wtf? more deps found. Last plan and game over"
-        fi
-        grep -F -v -f BLACKLIST.txt "$PKGDEP3" > temp_file && mv temp_file "$PKGDEP3"
-        sed -i '/^$/d' "$PKGDEP3"
-        LAST_STEP=$(cat "$PKGDEP3")
-        echo "$PKGDEP3"
-        for io in $LAST_STEP; do
-        apk fix "$io"
-        done
-
-        upgradepkg --install-new --reinstall "$FN"
-        for file in *.so.file; do
-        [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
-
-        cd "$saved_dir" || exit
-#        rm -rf "$temp_dir"
         ;;
     download)
         if [ -d /tmp/apk-"$PKG" ]; then
