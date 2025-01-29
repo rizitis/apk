@@ -217,147 +217,163 @@ case $command in
         ;;
 
      add)
-        echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and all dependencies${NC}"
-        temp_dir=$(mktemp -d)
-        if [ ! -d "$temp_dir" ]; then
-        echo -e "${RED}Failed to create temporary directory${NC}"
-        exit 1
-        fi
-        cd "$temp_dir" || exit
-        if ! curl -L -O "$RF"/"$PKG".sha256sum > /dev/null 2>&1; then
-        echo "$PKG.sha256sum not found on $RF"
-        fi
-        if ! curl -L -O "$RF"/"$PKG".tar.lz4 > /dev/null 2>&1; then
-        echo "$PKG.tar.lz4 not found on $RF"
-        fi
-        if sha256sum -c "$PKG.sha256sum" --quiet; then
-        echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
-        else
-        echo -e "${RED}Huston? $PKG.tar.lz4 is INVALID.${NC}"
-        exit 1
-        fi
-        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+       # Ask if the user wants to install/upgrade/reinstall
+echo -e "${GREEN}Install/Upgrade/Reinstall $PKG and all dependencies${NC}"
+temp_dir=$(mktemp -d)
 
-        cd "$PKG" || exit
-        FN="$(cat BIN_NAME)"
-        echo "$FN"
-        expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
-        # Compute the checksum of the downloaded file
-        computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
-       # Compare the checksums
-        if [ "$expected_checksum" = "$computed_checksum" ]; then
-        echo -e "${BLUE}Validation successful: Checksums match.${NC}"
-        else
-        echo -e "${RED}Ah Huston! Validation md5 failed: Checksums do not match!${NC}"
-        exit 1
-        fi
-# If no $PKG.dep install pkg and game over
-        if [ ! -f "$PKG.dep" ]; then
-        echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
-        upgradepkg --install-new --reinstall "$FN"
-
-        for file in *.so.file; do
-        [ -e "$file" ] || continue  # Skip if no matching files
-        cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
-
-        cd "$saved_dir" || exit
-        rm -rf "$temp_dir"
-        exit 0
-# Else if deps found create an all_deps1.txt and write $pkg.dep {a,b,c,d}
-        else
-        echo -e "${BLUE}Dependencies found:${NC}"
-        PKGDEP1=all_deps1.txt
-         > "$PKGDEP1" # create all_deps1.txt
-        cat "$PKG.dep" >> "$PKGDEP1" # write $pkg.dep {a,b,c,d}
-# Now i must read {a.dep,b.dep,c.dep,d.dep} and write them in other txt, assume all_deps2.txt
-        echo -e "${BLUE}Dependencies calculation in progress...:${NC}"
-        for dep in $(cat $PKGDEP1); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-         PKGDEP2=all_deps2.txt
-         > "$PKGDEP2" # create all_deps2.txt
-            echo "$dep" >> "$PKGDEP2"
-        fi
-
-# Now i must read "$PKGDEP2" and do the same.
-        for dep in $(cat $PKGDEP2); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-         PKGDEP3=all_deps3.txt
-         > "$PKGDEP3"
-            echo "$dep" >> "$PKGDEP3"
-        fi
-
-# Again...
-        for dep in $(cat $PKGDEP3); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-         PKGDEP4=all_deps4.txt
-         > "$PKGDEP4"
-            echo "$dep" >> "$PKGDEP4"
-        fi
-
-# And again...
-        for dep in $(cat $PKGDEP4); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-         PKGDEP5=all_deps5.txt
-         > "$PKGDEP5"
-            echo "$dep" >> "$PKGDEP5"
-        fi
-
-# Enough...
-        for dep in $(cat $PKGDEP5); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
-         PKGDEP6=all_deps6.txt
-         > "$PKGDEP6"
-            echo "$dep" >> "$PKGDEP6"
-        fi
-
-# Merge all dep list
-        cat all_deps?.txt > all_deps.txt
-        sort all_deps.txt | uniq > finall-deps.txt
-# Remove $PKG if its dep of dep of dep...
-        sed -i "/^$PKG$/d" finall-deps.txt
-# If $PKG exist we will have an empty line lets delete it
-        sed -i '/^$/d' finall-deps.txt
-
-# Read the contents of final-deps.txt
-        echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}"
-        cat final-deps.txt
-
-# Check the user's input
-        # Ask the user if they want to proceed with installation
-echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
-read -p "> " choice
-
-if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
-    # If yes, proceed with installation
-    echo -e "${GREEN}Proceeding with installation...${NC}"
-
-    # Loop through each line in final-deps.txt and run apk fix
-    while IFS= read -r pkg; do
-        apk fix "$pkg"
-    done < final-deps.txt
-
-else
-    # If the user does not want to proceed
-    echo -e "${RED}Installation aborted.${NC}"
-    echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
-    echo -e "${RED}CMD: apk fix $PKG${NC}"
-
-    # Clean up
-    cd "$saved_dir" || exit
-    rm -rf "$temp_dir"
-    exit
+if [ ! -d "$temp_dir" ]; then
+    echo -e "${RED}Failed to create temporary directory${NC}"
+    exit 1
 fi
 
-# Install the main PKG
-        upgradepkg --install-new --reinstall "$FN"
-        for file in *.so.file; do
+cd "$temp_dir" || exit
+
+if ! curl -L -O "$RF"/"$PKG".sha256sum > /dev/null 2>&1; then
+    echo "$PKG.sha256sum not found on $RF"
+fi
+
+if ! curl -L -O "$RF"/"$PKG".tar.lz4 > /dev/null 2>&1; then
+    echo "$PKG.tar.lz4 not found on $RF"
+fi
+
+if sha256sum -c "$PKG.sha256sum" --quiet; then
+    echo -e "${BLUE}Success $PKG.tar.lz4 is valid.${NC}"
+else
+    echo -e "${RED}Houston? $PKG.tar.lz4 is INVALID.${NC}"
+    exit 1
+fi
+
+tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4
+cd "$PKG" || exit
+FN="$(cat BIN_NAME)"
+echo "$FN"
+expected_checksum=$(cut -d ' ' -f 1 "$FN".md5)
+
+# Compute the checksum of the downloaded file
+computed_checksum=$(md5sum "$FN" | cut -d ' ' -f 1)
+
+# Compare the checksums
+if [ "$expected_checksum" = "$computed_checksum" ]; then
+    echo -e "${BLUE}Validation successful: Checksums match.${NC}"
+else
+    echo -e "${RED}Ah Houston! Validation md5 failed: Checksums do not match!${NC}"
+    exit 1
+fi
+
+# If no $PKG.dep, install pkg and exit
+if [ ! -f "$PKG.dep" ]; then
+    echo -e "${YELLOW}No dependencies found for $PKG.${NC}"
+    upgradepkg --install-new --reinstall "$FN"
+
+    for file in *.so.file; do
         [ -e "$file" ] || continue  # Skip if no matching files
         cp "$file" /usr/doc/"${FN%-x86_64*}"/
-        done
+    done
 
+    cd "$saved_dir" || exit
+    rm -rf "$temp_dir"
+    exit 0
+else
+    echo -e "${BLUE}Dependencies found:${NC}"
+    PKGDEP1=all_deps1.txt
+    > "$PKGDEP1"  # create all_deps1.txt
+    cat "$PKG.dep" >> "$PKGDEP1"  # write $pkg.dep {a,b,c,d}
+
+    # Now read {a.dep,b.dep,c.dep,d.dep} and write them in another txt (all_deps2.txt)
+    echo -e "${BLUE}Dependencies calculation in progress...${NC}"
+    for dep in $(cat "$PKGDEP1"); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+            PKGDEP2=all_deps2.txt
+            > "$PKGDEP2"  # create all_deps2.txt
+            echo "$dep" >> "$PKGDEP2"
+        fi
+    done
+
+    # Now read "$PKGDEP2" and do the same
+    for dep in $(cat "$PKGDEP2"); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+            PKGDEP3=all_deps3.txt
+            > "$PKGDEP3"
+            echo "$dep" >> "$PKGDEP3"
+        fi
+    done
+
+    # Again...
+    for dep in $(cat "$PKGDEP3"); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+            PKGDEP4=all_deps4.txt
+            > "$PKGDEP4"
+            echo "$dep" >> "$PKGDEP4"
+        fi
+    done
+
+    # And again...
+    for dep in $(cat "$PKGDEP4"); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep1"/"$dep1".dep > /dev/null 2>&1; then
+            PKGDEP5=all_deps5.txt
+            > "$PKGDEP5"
+            echo "$dep1" >> "$PKGDEP5"
+        fi
+    done
+
+    # Enough...
+    for dep in $(cat "$PKGDEP5"); do
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
+            PKGDEP6=all_deps6.txt
+            > "$PKGDEP6"
+            echo "$dep" >> "$PKGDEP6"
+        fi
+    done
+
+    # Merge all dep lists
+    cat all_deps?.txt > all_deps.txt
+    sort all_deps.txt | uniq > finall-deps.txt
+
+    # Remove $PKG if it's a dep of dep of dep...
+    sed -i "/^$PKG$/d" finall-deps.txt
+
+    # If $PKG exists, we will have an empty line, so delete it
+    sed -i '/^$/d' finall-deps.txt
+
+    # Read the contents of final-deps.txt
+    echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}"
+    cat final-deps.txt
+
+    # Ask the user if they want to proceed with installation
+    echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
+    read -p "> " choice
+
+    if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
+        # If yes, proceed with installation
+        echo -e "${GREEN}Proceeding with installation...${NC}"
+
+        # Loop through each line in final-deps.txt and run apk fix
+        while IFS= read -r pkg; do
+            apk fix "$pkg"
+        done < final-deps.txt
+
+    else
+        # If the user does not want to proceed
+        echo -e "${RED}Installation aborted.${NC}"
+        echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
+        echo -e "${RED}CMD: apk fix $PKG${NC}"
+
+        # Clean up
         cd "$saved_dir" || exit
         rm -rf "$temp_dir"
+        exit
+    fi
+
+    # Install the main PKG
+    upgradepkg --install-new --reinstall "$FN"
+    for file in *.so.file; do
+        [ -e "$file" ] || continue  # Skip if no matching files
+        cp "$file" /usr/doc/"${FN%-x86_64*}"/
+    done
+
+    cd "$saved_dir" || exit
+    rm -rf "$temp_dir"
+fi
         ;;
     download)
         if [ -d /tmp/apk-"$PKG" ]; then
