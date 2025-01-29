@@ -326,19 +326,15 @@ else
     done
 
     # Merge all dep lists
-    cat all_deps?.txt > all_deps.txt
-    sort all_deps.txt | uniq > finall-deps.txt
-
+    PKGDEP=all-deps.txt
+    cat "$PKGDEP6" "$PKGDEP5" "$PKGDEP4" "$PKGDEP3" "$PKGDEP2" "$PKGDEP1" > "$PKGDEP"
+    sort "$PKGDEP" | uniq > finall-deps.txt
     # Remove $PKG if it's a dep of dep of dep...
     sed -i "/^$PKG$/d" finall-deps.txt
-
     # If $PKG exists, we will have an empty line, so delete it
     sed -i '/^$/d' finall-deps.txt
-
     # Read the contents of final-deps.txt
-    echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}"
-    cat final-deps.txt
-
+    echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}" && cat ./finall-deps.txt
     # Ask the user if they want to proceed with installation
     echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
     read -p "> " choice
@@ -350,13 +346,13 @@ else
         # Loop through each line in final-deps.txt and run apk fix
         while IFS= read -r pkg; do
             apk fix "$pkg"
-        done < final-deps.txt
+        done < finall-deps.txt
 
     else
         # If the user does not want to proceed
         echo -e "${RED}Installation aborted.${NC}"
         echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
-        echo -e "${RED}CMD: apk fix $PKG${NC}"
+        echo -e "${RED}CMD:${NC} apk fix $PKG"
 
         # Clean up
         cd "$saved_dir" || exit
