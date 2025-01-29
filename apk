@@ -323,24 +323,31 @@ case $command in
         echo -e "${YELLOW}The following dependencies will be installed/upgrade:${NC}"
         cat final-deps.txt
 
-# Ask the user if they want to proceed with the installation
-        echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
-        read -p "> " choice
-
 # Check the user's input
-        if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
-    # If yes, proceed with installation (you can add your installation commands here)
-        echo -e "${GREEN}Proceeding with installation...${NC}"
-        for i $(cat final-deps.txt); do
-        apk fix "$i"
-        else
-        echo -e "${RED}Installation for $PKG aborted.${NC}"
-        echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
-        echo -e "${RED}CMD: apk fix $PKG${NC}"
-        cd "$saved_dir" || exit
-        rm -rf "$temp_dir"
-        exit
-        fi
+        # Ask the user if they want to proceed with installation
+echo -e "${GREEN}Do you want to proceed with the installation? (y/n):${NC}"
+read -p "> " choice
+
+if [[ "$choice" == "y" || "$choice" == "Y" ]]; then
+    # If yes, proceed with installation
+    echo -e "${GREEN}Proceeding with installation...${NC}"
+
+    # Loop through each line in final-deps.txt and run apk fix
+    while IFS= read -r pkg; do
+        apk fix "$pkg"
+    done < final-deps.txt
+
+else
+    # If the user does not want to proceed
+    echo -e "${RED}Installation aborted.${NC}"
+    echo -e "${RED}If you only want to install $PKG but no dependencies${NC}"
+    echo -e "${RED}CMD: apk fix $PKG${NC}"
+
+    # Clean up
+    cd "$saved_dir" || exit
+    rm -rf "$temp_dir"
+    exit
+fi
 
 # Install the main PKG
         upgradepkg --install-new --reinstall "$FN"
