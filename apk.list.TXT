@@ -1,4 +1,4 @@
-# Wed Jan 29 12:13:34 EET 2025
+# Fri Jan 31 00:00:54 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -116,6 +116,7 @@ granatier-24.12.1-x86_64-1_rtz.tlz
 grantlee-editor-24.12.1-x86_64-1_rtz.tlz
 grantleetheme-24.12.1-x86_64-1_rtz.tlz
 graphviz-12.2.1-x86_64-1_rtz.tlz
+gsa-24.2.0-x86_64-1_rtz.tlz
 gtk-fortran-4.7.0-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.1-x86_64-1_rtz.tlz
