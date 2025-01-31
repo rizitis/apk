@@ -1,4 +1,4 @@
-# Fri Jan 31 00:00:54 EET 2025
+# Fri Jan 31 23:33:40 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -77,6 +77,7 @@ csbooks-8.5.0-x86_64-1_rtz.tlz
 ddcutil-2.1.4-x86_64-1_rtz.tlz
 debian-archive-keyring-2023.4-x86_64-1_rtz.tlz
 digikam-8.5.0-x86_64-1_rtz.tlz
+directfb2-4d6b7dd_git-x86_64-1_rtz.tlz
 discount-3.0.0d-x86_64-1_rtz.tlz
 discover-6.2.5-x86_64-1_rtz.tlz
 dolphin-plugins-24.12.1-x86_64-1_rtz.tlz
