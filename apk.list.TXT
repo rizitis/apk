@@ -1,4 +1,4 @@
-# Sat Feb  1 00:01:34 EET 2025
+# Sat Feb  1 17:15:45 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -502,6 +502,7 @@ picocrypt-gui-1.45-x86_64-1_rtz.tlz
 pim-data-exporter-24.12.1-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.1-x86_64-1_rtz.tlz
 pimcommon-24.12.1-x86_64-1_rtz.tlz
+pinepods-0.7.3-x86_64-1_rtz.tlz
 plasma-activities-stats-6.2.5-x86_64-1_rtz.tlz
 plasma-activities-6.2.5-x86_64-1_rtz.tlz
 plasma-browser-integration-6.2.5-x86_64-1_rtz.tlz
