@@ -1,4 +1,4 @@
-# Mon Feb  3 21:24:55 EET 2025
+# Mon Feb  3 21:50:17 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -121,6 +121,7 @@ gtk-fortran-4.7.0-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.1-x86_64-1_rtz.tlz
 gxr-0.16.0-x86_64-1_rtz.tlz
+halloy-2025.1-x86_64-1_rtz.tlz
 haruna-1.3.2-x86_64-1_rtz.tlz
 hashomatic-1.0.1-x86_64-1_rtz.tlz
 htmlq-0.4.0-x86_64-1_rtz.tlz
