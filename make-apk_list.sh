@@ -74,7 +74,7 @@ create_changelog() {
     echo "Generated on: $(date)" >> "$CHANGELOG_FILE"
     echo "" >> "$CHANGELOG_FILE"
 
-    # Retrieve the Git log with commit date and other details
+    # Retrieve the Git log with commit date and other details, including unpushed commits
     git log --pretty=format:"* %h - %s (%an) [%ad]" --date=short >> "$CHANGELOG_FILE"
 
     echo "" >> "$CHANGELOG_FILE"
@@ -88,6 +88,26 @@ create_changelog() {
 
     # Print confirmation message
     echo "Changelog created at $CHANGELOG_FILE"
+}
+
+finally_push() {
+    # Pull latest changes first to get any new changes from the remote
+    git pull
+
+    # Add all changes to staging
+    git add .
+
+    # Ask the user for a commit message
+    read -p "Enter commit message: " commit_message
+
+    # Commit with the user's message
+    git commit -s -m "$commit_message"
+
+    # Push the changes to the remote repository
+    git push
+
+    # Print success message
+    echo "finally git push Done"
 }
 
 make_update
