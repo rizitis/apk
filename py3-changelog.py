@@ -1,5 +1,23 @@
 import os
-from distutils.version import LooseVersion
+
+def compare_version_parts(old_version, new_version):
+    # Compare each part (major, minor, patch) one by one
+    old_parts = old_version.split('.')
+    new_parts = new_version.split('.')
+
+    # Normalize the length of parts, adding zeroes for missing parts
+    max_len = max(len(old_parts), len(new_parts))
+    old_parts.extend(['0'] * (max_len - len(old_parts)))
+    new_parts.extend(['0'] * (max_len - len(new_parts)))
+
+    for old_part, new_part in zip(old_parts, new_parts):
+        # Compare parts as integers to handle version numbers correctly
+        if int(old_part) < int(new_part):
+            return True  # old version is less than new version
+        elif int(old_part) > int(new_part):
+            return False  # old version is greater than new version
+
+    return False  # Versions are equal
 
 def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt'):
     # Read in the old and new files
@@ -16,21 +34,13 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
     # Prepare the output for the changelog
     changelog_entries = []
 
-    print("Old packages:")
-    print(old_packages)  # print old package list
-
-    print("New packages:")
-    print(new_packages)  # print new package list
-
     # Loop through each new package to classify it
     for new_package in new_packages:
         # Skip lines with timestamps or any other unwanted entries
         if new_package.startswith("#"):
             continue
 
-        print(f"Processing package: {new_package}")
         parts = new_package.split('-')
-        print(f"Parts: {parts}")  # Check how the package is being split
 
         if new_package not in old_set:
             # If the package is in the new file but not in the old file, it was added
@@ -43,30 +53,24 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
 
             # Ensure there are at least 2 parts (package name and version) for comparison
             if len(old_version) >= 2 and len(new_version) >= 2:
-                old_version_num = str(old_version[1])  # Convert version to string explicitly
-                new_version_num = str(new_version[1])  # Convert version to string explicitly
+                old_version_num = old_version[1]  # Extract version
+                new_version_num = new_version[1]  # Extract version
 
-                # Compare using LooseVersion to handle version numbers properly
-                if LooseVersion(old_version_num) != LooseVersion(new_version_num):
-                    print(f"Version change detected for {new_package}: {old_version_num} -> {new_version_num}")
+                # Compare the versions using the helper function
+                if compare_version_parts(old_version_num, new_version_num):
                     changelog_entries.append(f"Upgraded>{new_package} :")
 
             if len(old_version) >= 3 and len(new_version) >= 3:
-                old_release_num = str(old_version[2])  # Convert release number to string explicitly
-                new_release_num = str(new_version[2])  # Convert release number to string explicitly
+                old_release_num = old_version[2]  # Extract release number
+                new_release_num = new_version[2]  # Extract release number
 
                 if old_release_num != new_release_num:
-                    print(f"Release change detected for {new_package}: {old_release_num} -> {new_release_num}")
                     changelog_entries.append(f"Rebuilt>{new_package} :")
 
     # Check for removed packages (those in the old file but not in the new file)
     for old_package in old_packages:
         if old_package not in new_set:
             changelog_entries.append(f"Removed>{old_package} :")
-
-    # Print the changelog entries to be written
-    print("Changelog entries to be written:")
-    print("\n".join(changelog_entries))
 
     # Prepare to write to ChangeLog.txt
     if os.path.exists(changelog_file):
