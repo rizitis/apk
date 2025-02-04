@@ -47,12 +47,23 @@ echo "create json Done"
 }
 
 finally_push() {
-git pull
-git add .
-git commit -s -m "update"
-git push
-echo "finally git push Done"
+    git pull
+
+    # Add changes to staging
+    git add .
+
+    # Ask the user for a custom commit message
+    read -p "Enter commit message: " commit_message
+
+    # Commit with the user's message
+    git commit -s -m "$commit_message"
+
+    # Push the changes
+    git push
+
+    echo "finally git push Done"
 }
+
 
 create_changelog() {
     # Set the output changelog file path
