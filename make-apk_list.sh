@@ -10,7 +10,6 @@ OUTPUT_FILE="$CWD"/apk.list.TXT
 
 
 make_update() {
-mv "$OUTPUT_FILE" /tmp
 UPDATE=$(date)
 echo "# $UPDATE" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
@@ -47,18 +46,37 @@ sed -i 's|/home/omen/GITHUB|https://github.com/rizitis|g' ./repo_contents.json
 echo "create json Done"
 }
 
-create_changelog() {
-echo "Creating ChangeLog.txt"
-python py3-changelog.py
-}
-
-
 finally_push() {
 git pull
 git add .
 git commit -s -m "update"
 git push
 echo "finally git push Done"
+}
+
+create_changelog() {
+    # Set the output changelog file path
+    CHANGELOG_FILE="$CWD"/CHANGELOG.md
+
+    # Write the Changelog header and commit history to the file
+    echo "# Changelog" > "$CHANGELOG_FILE"
+    echo "Generated on: $(date)" >> "$CHANGELOG_FILE"
+    echo "" >> "$CHANGELOG_FILE"
+
+    # Retrieve the Git log (last 10 commits in this case)
+    git log --oneline --pretty=format:"* %h - %s (%an)" --abbrev-commit --since="1 month ago" >> "$CHANGELOG_FILE"
+
+    echo "" >> "$CHANGELOG_FILE"
+    echo "## Tags" >> "$CHANGELOG_FILE"
+    git tag --list | while read -r tag; do
+        echo "* Tag: $tag" >> "$CHANGELOG_FILE"
+    done
+
+    # Display the changelog in the terminal (optional)
+    cat "$CHANGELOG_FILE"
+
+    # Print confirmation message
+    echo "Changelog created at $CHANGELOG_FILE"
 }
 
 
