@@ -1,4 +1,5 @@
 import os
+from distutils.version import LooseVersion
 
 def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt'):
     # Read in the old and new files
@@ -15,11 +16,21 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
     # Prepare the output for the changelog
     changelog_entries = []
 
+    print("Old packages:")
+    print(old_packages)  # print old package list
+
+    print("New packages:")
+    print(new_packages)  # print new package list
+
     # Loop through each new package to classify it
     for new_package in new_packages:
         # Skip lines with timestamps or any other unwanted entries
         if new_package.startswith("#"):
             continue
+
+        print(f"Processing package: {new_package}")
+        parts = new_package.split('-')
+        print(f"Parts: {parts}")  # Check how the package is being split
 
         if new_package not in old_set:
             # If the package is in the new file but not in the old file, it was added
@@ -35,28 +46,27 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
                 old_version_num = old_version[1]  # Assuming version is at index 1
                 new_version_num = new_version[1]  # Assuming version is at index 1
 
-                # Print debug information to check if versions are really different
-                print(f"Comparing: {old_version_num} vs {new_version_num} for {new_package}")
-
-                if old_version_num != new_version_num:
-                    # If the version numbers are different, it has been upgraded
+                # Compare using LooseVersion to handle version numbers properly
+                if LooseVersion(old_version_num) != LooseVersion(new_version_num):
+                    print(f"Version change detected for {new_package}: {old_version_num} -> {new_version_num}")
                     changelog_entries.append(f"Upgraded>{new_package} :")
 
             if len(old_version) >= 3 and len(new_version) >= 3:
                 old_release_num = old_version[2]  # Assuming release is at index 2
                 new_release_num = new_version[2]  # Assuming release is at index 2
 
-                # Print debug information for release comparison
-                print(f"Comparing release: {old_release_num} vs {new_release_num} for {new_package}")
-
                 if old_release_num != new_release_num:
-                    # If the release numbers are different, it has been rebuilt
+                    print(f"Release change detected for {new_package}: {old_release_num} -> {new_release_num}")
                     changelog_entries.append(f"Rebuilt>{new_package} :")
 
     # Check for removed packages (those in the old file but not in the new file)
     for old_package in old_packages:
         if old_package not in new_set:
             changelog_entries.append(f"Removed>{old_package} :")
+
+    # Print the changelog entries to be written
+    print("Changelog entries to be written:")
+    print("\n".join(changelog_entries))
 
     # Prepare to write to ChangeLog.txt
     if os.path.exists(changelog_file):
