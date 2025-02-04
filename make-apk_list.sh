@@ -10,6 +10,7 @@ OUTPUT_FILE="$CWD"/apk.list.TXT
 
 
 make_update() {
+mv "$OUTPUT_FILE" /tmp
 UPDATE=$(date)
 echo "# $UPDATE" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE"
@@ -46,6 +47,11 @@ sed -i 's|/home/omen/GITHUB|https://github.com/rizitis|g' ./repo_contents.json
 echo "create json Done"
 }
 
+create_changelog() {
+echo "Creating ChangeLog.txt"
+python py3-changelog.py
+}
+
 
 finally_push() {
 git pull
@@ -58,4 +64,5 @@ echo "finally git push Done"
 
 make_update
 create_json
+create_changelog
 finally_push
