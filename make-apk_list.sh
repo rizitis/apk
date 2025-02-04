@@ -112,8 +112,6 @@ finally_push() {
 
 make_update
 create_json
-finally_push
 create_changelog
-git pull
-git add .
-git push
+finally_push
+git push --force
