@@ -114,5 +114,6 @@ make_update
 create_json
 finally_push
 create_changelog
+git pull
 git add .
 git push
