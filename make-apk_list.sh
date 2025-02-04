@@ -74,8 +74,8 @@ create_changelog() {
     echo "Generated on: $(date)" >> "$CHANGELOG_FILE"
     echo "" >> "$CHANGELOG_FILE"
 
-    # Retrieve the Git log (last 10 commits in this case)
-    git log --oneline --pretty=format:"* %h - %s (%an)" --abbrev-commit --since="1 month ago" >> "$CHANGELOG_FILE"
+    # Retrieve the Git log with commit date and other details
+    git log --pretty=format:"* %h - %s (%an) [%ad]" --date=short >> "$CHANGELOG_FILE"
 
     echo "" >> "$CHANGELOG_FILE"
     echo "## Tags" >> "$CHANGELOG_FILE"
@@ -89,7 +89,6 @@ create_changelog() {
     # Print confirmation message
     echo "Changelog created at $CHANGELOG_FILE"
 }
-
 
 make_update
 create_json

@@ -1,155 +1,241 @@
 # Changelog
-Generated on: Tue Feb  4 23:09:34 EET 2025
+Generated on: Tue Feb  4 23:12:05 EET 2025
 
-* 3212ce7 - update (Anagnostakis Ioannis)
-* b13ed50 - update (Anagnostakis Ioannis)
-* 6fef509 - update (Anagnostakis Ioannis)
-* 55af312 - update (Anagnostakis Ioannis)
-* 7bdde83 - update (Anagnostakis Ioannis)
-* 7855f4f - update (Anagnostakis Ioannis)
-* 01dcca3 - update (Anagnostakis Ioannis)
-* 93c7383 - update (Anagnostakis Ioannis)
-* 419fdf1 - update (Anagnostakis Ioannis)
-* e682998 - update (Anagnostakis Ioannis)
-* 364b03f - update (Anagnostakis Ioannis)
-* 95158f4 - update (Anagnostakis Ioannis)
-* dc9b30e - update (Anagnostakis Ioannis)
-* ae5c00b - update (Anagnostakis Ioannis)
-* 4cef943 - update (Anagnostakis Ioannis)
-* e3bbbab - update (Anagnostakis Ioannis)
-* 2622ccd - update (Anagnostakis Ioannis)
-* d2700b2 - update (Anagnostakis Ioannis)
-* d6aeec8 - update (Anagnostakis Ioannis)
-* 4155ba9 - update (Anagnostakis Ioannis)
-* 01960e8 - update (Anagnostakis Ioannis)
-* c50500a - update (Anagnostakis Ioannis)
-* e4d3e96 - update (Anagnostakis Ioannis)
-* 73260c3 - update (Anagnostakis Ioannis)
-* 20e0dbe - update (Anagnostakis Ioannis)
-* 16c9053 - update (Anagnostakis Ioannis)
-* b339af4 - update (Anagnostakis Ioannis)
-* a632e1f - update (Anagnostakis Ioannis)
-* 083c574 - update (Anagnostakis Ioannis)
-* 7f95870 - update (Anagnostakis Ioannis)
-* e59d172 - update (Anagnostakis Ioannis)
-* 03d55ed - update (Anagnostakis Ioannis)
-* b859861 - update (Anagnostakis Ioannis)
-* 0a61d32 - update (Anagnostakis Ioannis)
-* 3c1171e - update (Anagnostakis Ioannis)
-* dcf56cc - update (Anagnostakis Ioannis)
-* 0364ab8 - update (Anagnostakis Ioannis)
-* e941258 - update (Anagnostakis Ioannis)
-* be75065 - update (Anagnostakis Ioannis)
-* 6c3f1b1 - update (Anagnostakis Ioannis)
-* 510fb7e - update (Anagnostakis Ioannis)
-* 7bb6fb7 - update (Anagnostakis Ioannis)
-* d135b9b - update (Anagnostakis Ioannis)
-* b8c3c8a - update (Anagnostakis Ioannis)
-* a4c2246 - update (Anagnostakis Ioannis)
-* cd61c22 - update (Anagnostakis Ioannis)
-* 8341c7f - update (Anagnostakis Ioannis)
-* b14518b - update (Anagnostakis Ioannis)
-* 4c3f3c7 - update (Anagnostakis Ioannis)
-* 1f95fb3 - update (Anagnostakis Ioannis)
-* e241f7c - update (Anagnostakis Ioannis)
-* a056068 - update (Anagnostakis Ioannis)
-* 11a1879 - update (Anagnostakis Ioannis)
-* e8eb4c6 - update (Anagnostakis Ioannis)
-* 0ae8be5 - update (Anagnostakis Ioannis)
-* 8eafd35 - update (Anagnostakis Ioannis)
-* 6debd0d - fix typo (Anagnostakis Ioannis)
-* 021aeff - update (Anagnostakis Ioannis)
-* bce8920 - update (Anagnostakis Ioannis)
-* 8d9e0ba - update (Anagnostakis Ioannis)
-* 52a29af - update (Anagnostakis Ioannis)
-* c97db39 - update (Anagnostakis Ioannis)
-* c994dd9 - revert apkg version (Anagnostakis Ioannis)
-* 379475a - test new json (Anagnostakis Ioannis)
-* 5fd94cd - update (Anagnostakis Ioannis)
-* dc7df7e - update (Anagnostakis Ioannis)
-* 8507755 - update (Anagnostakis Ioannis)
-* 8af3920 - fix apkg error (Anagnostakis Ioannis)
-* 7158832 - add apk list cmd (Anagnostakis Ioannis)
-* 22e8657 - update (Anagnostakis Ioannis)
-* 09464be - update (Anagnostakis Ioannis)
-* 1d4beb0 - move _DDATA to /var/lib (Anagnostakis Ioannis)
-* d27c50b - update (Anagnostakis Ioannis)
-* d926a90 - update (Anagnostakis Ioannis)
-* 43c51a4 - update (Anagnostakis Ioannis)
-* 11f0c4f - update (Anagnostakis Ioannis)
-* 864a376 - update (Anagnostakis Ioannis)
-* 0851ea2 - update (Anagnostakis Ioannis)
-* daa34db - update (Anagnostakis Ioannis)
-* 64b63b5 - update apk show (Anagnostakis Ioannis)
-* 4e36296 - update (Anagnostakis Ioannis)
-* a642a78 - update (Anagnostakis Ioannis)
-* b4ba72f - update (Anagnostakis Ioannis)
-* decfe8b - update (Anagnostakis Ioannis)
-* 1e17872 - update (Anagnostakis Ioannis)
-* 301848f - update (Anagnostakis Ioannis)
-* 8c9a1ea - Update README.md (Anagnostakis Ioannis)
-* d2cfece - update (Anagnostakis Ioannis)
-* 84b2b85 - update (Anagnostakis Ioannis)
-* 234aff6 - explain better why this file is here ;) (Anagnostakis Ioannis)
-* 50b080a - explain better why this file is here ;) (Anagnostakis Ioannis)
-* 5f3108a - add chronometre (Anagnostakis Ioannis)
-* 8ae48c1 - remove TODO (Anagnostakis Ioannis)
-* 4bd9334 - update for inxi (Anagnostakis Ioannis)
-* 598ab4e - update for inxi (Anagnostakis Ioannis)
-* 07c8ee0 - update for inxi (Anagnostakis Ioannis)
-* 57cb1d5 - fix typo (Anagnostakis Ioannis)
-* ca06ebc - update (Anagnostakis Ioannis)
-* 3dbcebe - update (Anagnostakis Ioannis)
-* 7e45b71 - rebuild to add so.file (Anagnostakis Ioannis)
-* dfff937 - rebuild to add so.file (Anagnostakis Ioannis)
-* c4db080 - rebuild to add so.file (Anagnostakis Ioannis)
-* 47ca430 - rebuild to add so.file (Anagnostakis Ioannis)
-* 6b6f859 - rebuild to add so.file (Anagnostakis Ioannis)
-* 3977e56 - rebuild to add so.file (Anagnostakis Ioannis)
-* 5bdc01c - rebuild to add so.file (Anagnostakis Ioannis)
-* 9399127 - rebuild to add so.file (Anagnostakis Ioannis)
-* 11a0047 - rebuild to add so.file (Anagnostakis Ioannis)
-* 5e55eef - rebuild to add so.file (Anagnostakis Ioannis)
-* bfbe52f - rebuild to add so.file (Anagnostakis Ioannis)
-* 7313708 - rebuild to add so.file (Anagnostakis Ioannis)
-* 2077102 - rebuild to add so.file (Anagnostakis Ioannis)
-* 021f2b4 - Update README.md (Anagnostakis Ioannis)
-* ae2454c - update (Anagnostakis Ioannis)
-* 82c23b2 - update (Anagnostakis Ioannis)
-* 3506dc5 - Update README.md (Anagnostakis Ioannis)
-* 22829d0 - update (Anagnostakis Ioannis)
-* bb9b511 - update (Anagnostakis Ioannis)
-* 17dee44 - add plasma-mobile and update apk for print so.file infos (Anagnostakis Ioannis)
-* 9827168 - update (Anagnostakis Ioannis)
-* 759c421 - update (Anagnostakis Ioannis)
-* 56702cd - update (Anagnostakis Ioannis)
-* 8748131 - update (Anagnostakis Ioannis)
-* 2678f4a - Update README.md (Anagnostakis Ioannis)
-* 2a467d5 - update (Anagnostakis Ioannis)
-* c11d2ca - update (Anagnostakis Ioannis)
-* fc64d1c - add (Anagnostakis Ioannis)
-* 2e6eb8d - update (Anagnostakis Ioannis)
-* 8ba9ba4 - update (Anagnostakis Ioannis)
-* ff50de2 - update (Anagnostakis Ioannis)
-* c35fc5a - update (Anagnostakis Ioannis)
-* ea87e33 - add json file (Anagnostakis Ioannis)
-* 300a3e6 - update (Anagnostakis Ioannis)
-* d9579fd - Update README.md (Anagnostakis Ioannis)
-* fad4ae1 - BETA mode (Anagnostakis Ioannis)
-* f7acbe9 - update (Anagnostakis Ioannis)
-* fca917d - update (Anagnostakis Ioannis)
-* b1ea999 - update (Anagnostakis Ioannis)
-* ce3ee49 - update (Anagnostakis Ioannis)
-* 21fabf2 - update (Anagnostakis Ioannis)
-* c0aa75a - update (Anagnostakis Ioannis)
-* 5e7e51e - update (Anagnostakis Ioannis)
-* 94c441e - update (Anagnostakis Ioannis)
-* 71ab0b6 - update (Anagnostakis Ioannis)
-* 448ff78 - update (Anagnostakis Ioannis)
-* ac414b3 - update (Anagnostakis Ioannis)
-* e95b651 - update (Anagnostakis Ioannis)
-* 4b691c2 - update (Anagnostakis Ioannis)
-* e209ec6 - update (Anagnostakis Ioannis)
-* 2a9ec9e - update (Anagnostakis Ioannis)
-* e54e9eb - update (Anagnostakis Ioannis)
+* 3ddbd42 - testing changelog (Anagnostakis Ioannis) [2025-02-04]
+* 3212ce7 - update (Anagnostakis Ioannis) [2025-02-04]
+* b13ed50 - update (Anagnostakis Ioannis) [2025-02-04]
+* 6fef509 - update (Anagnostakis Ioannis) [2025-02-04]
+* 55af312 - update (Anagnostakis Ioannis) [2025-02-04]
+* 7bdde83 - update (Anagnostakis Ioannis) [2025-02-04]
+* 7855f4f - update (Anagnostakis Ioannis) [2025-02-04]
+* 01dcca3 - update (Anagnostakis Ioannis) [2025-02-04]
+* 93c7383 - update (Anagnostakis Ioannis) [2025-02-04]
+* 419fdf1 - update (Anagnostakis Ioannis) [2025-02-04]
+* e682998 - update (Anagnostakis Ioannis) [2025-02-04]
+* 364b03f - update (Anagnostakis Ioannis) [2025-02-04]
+* 95158f4 - update (Anagnostakis Ioannis) [2025-02-04]
+* dc9b30e - update (Anagnostakis Ioannis) [2025-02-04]
+* ae5c00b - update (Anagnostakis Ioannis) [2025-02-04]
+* 4cef943 - update (Anagnostakis Ioannis) [2025-02-03]
+* e3bbbab - update (Anagnostakis Ioannis) [2025-02-03]
+* 2622ccd - update (Anagnostakis Ioannis) [2025-02-02]
+* d2700b2 - update (Anagnostakis Ioannis) [2025-02-02]
+* d6aeec8 - update (Anagnostakis Ioannis) [2025-02-01]
+* 4155ba9 - update (Anagnostakis Ioannis) [2025-02-01]
+* 01960e8 - update (Anagnostakis Ioannis) [2025-01-31]
+* c50500a - update (Anagnostakis Ioannis) [2025-01-31]
+* e4d3e96 - update (Anagnostakis Ioannis) [2025-01-29]
+* 73260c3 - update (Anagnostakis Ioannis) [2025-01-29]
+* 20e0dbe - update (Anagnostakis Ioannis) [2025-01-29]
+* 16c9053 - update (Anagnostakis Ioannis) [2025-01-29]
+* b339af4 - update (Anagnostakis Ioannis) [2025-01-27]
+* a632e1f - update (Anagnostakis Ioannis) [2025-01-27]
+* 083c574 - update (Anagnostakis Ioannis) [2025-01-27]
+* 7f95870 - update (Anagnostakis Ioannis) [2025-01-27]
+* e59d172 - update (Anagnostakis Ioannis) [2025-01-27]
+* 03d55ed - update (Anagnostakis Ioannis) [2025-01-27]
+* b859861 - update (Anagnostakis Ioannis) [2025-01-26]
+* 0a61d32 - update (Anagnostakis Ioannis) [2025-01-26]
+* 3c1171e - update (Anagnostakis Ioannis) [2025-01-26]
+* dcf56cc - update (Anagnostakis Ioannis) [2025-01-26]
+* 0364ab8 - update (Anagnostakis Ioannis) [2025-01-26]
+* e941258 - update (Anagnostakis Ioannis) [2025-01-26]
+* be75065 - update (Anagnostakis Ioannis) [2025-01-26]
+* 6c3f1b1 - update (Anagnostakis Ioannis) [2025-01-26]
+* 510fb7e - update (Anagnostakis Ioannis) [2025-01-26]
+* 7bb6fb7 - update (Anagnostakis Ioannis) [2025-01-25]
+* d135b9b - update (Anagnostakis Ioannis) [2025-01-24]
+* b8c3c8a - update (Anagnostakis Ioannis) [2025-01-23]
+* a4c2246 - update (Anagnostakis Ioannis) [2025-01-23]
+* cd61c22 - update (Anagnostakis Ioannis) [2025-01-22]
+* 8341c7f - update (Anagnostakis Ioannis) [2025-01-22]
+* b14518b - update (Anagnostakis Ioannis) [2025-01-21]
+* 4c3f3c7 - update (Anagnostakis Ioannis) [2025-01-21]
+* 1f95fb3 - update (Anagnostakis Ioannis) [2025-01-21]
+* e241f7c - update (Anagnostakis Ioannis) [2025-01-20]
+* a056068 - update (Anagnostakis Ioannis) [2025-01-20]
+* 11a1879 - update (Anagnostakis Ioannis) [2025-01-20]
+* e8eb4c6 - update (Anagnostakis Ioannis) [2025-01-20]
+* 0ae8be5 - update (Anagnostakis Ioannis) [2025-01-20]
+* 8eafd35 - update (Anagnostakis Ioannis) [2025-01-19]
+* 6debd0d - fix typo (Anagnostakis Ioannis) [2025-01-19]
+* 021aeff - update (Anagnostakis Ioannis) [2025-01-19]
+* bce8920 - update (Anagnostakis Ioannis) [2025-01-19]
+* 8d9e0ba - update (Anagnostakis Ioannis) [2025-01-19]
+* 52a29af - update (Anagnostakis Ioannis) [2025-01-19]
+* c97db39 - update (Anagnostakis Ioannis) [2025-01-18]
+* c994dd9 - revert apkg version (Anagnostakis Ioannis) [2025-01-18]
+* 379475a - test new json (Anagnostakis Ioannis) [2025-01-18]
+* 5fd94cd - update (Anagnostakis Ioannis) [2025-01-18]
+* dc7df7e - update (Anagnostakis Ioannis) [2025-01-18]
+* 8507755 - update (Anagnostakis Ioannis) [2025-01-18]
+* 8af3920 - fix apkg error (Anagnostakis Ioannis) [2025-01-18]
+* 7158832 - add apk list cmd (Anagnostakis Ioannis) [2025-01-18]
+* 22e8657 - update (Anagnostakis Ioannis) [2025-01-18]
+* 09464be - update (Anagnostakis Ioannis) [2025-01-18]
+* 1d4beb0 - move _DDATA to /var/lib (Anagnostakis Ioannis) [2025-01-18]
+* d27c50b - update (Anagnostakis Ioannis) [2025-01-17]
+* d926a90 - update (Anagnostakis Ioannis) [2025-01-17]
+* 43c51a4 - update (Anagnostakis Ioannis) [2025-01-17]
+* 11f0c4f - update (Anagnostakis Ioannis) [2025-01-17]
+* 864a376 - update (Anagnostakis Ioannis) [2025-01-17]
+* 0851ea2 - update (Anagnostakis Ioannis) [2025-01-17]
+* daa34db - update (Anagnostakis Ioannis) [2025-01-17]
+* 64b63b5 - update apk show (Anagnostakis Ioannis) [2025-01-17]
+* 4e36296 - update (Anagnostakis Ioannis) [2025-01-16]
+* a642a78 - update (Anagnostakis Ioannis) [2025-01-16]
+* b4ba72f - update (Anagnostakis Ioannis) [2025-01-14]
+* decfe8b - update (Anagnostakis Ioannis) [2025-01-14]
+* 1e17872 - update (Anagnostakis Ioannis) [2025-01-14]
+* 301848f - update (Anagnostakis Ioannis) [2025-01-14]
+* 8c9a1ea - Update README.md (Anagnostakis Ioannis) [2025-01-14]
+* d2cfece - update (Anagnostakis Ioannis) [2025-01-14]
+* 84b2b85 - update (Anagnostakis Ioannis) [2025-01-14]
+* 234aff6 - explain better why this file is here ;) (Anagnostakis Ioannis) [2025-01-13]
+* 50b080a - explain better why this file is here ;) (Anagnostakis Ioannis) [2025-01-13]
+* 5f3108a - add chronometre (Anagnostakis Ioannis) [2025-01-13]
+* 8ae48c1 - remove TODO (Anagnostakis Ioannis) [2025-01-13]
+* 4bd9334 - update for inxi (Anagnostakis Ioannis) [2025-01-13]
+* 598ab4e - update for inxi (Anagnostakis Ioannis) [2025-01-13]
+* 07c8ee0 - update for inxi (Anagnostakis Ioannis) [2025-01-13]
+* 57cb1d5 - fix typo (Anagnostakis Ioannis) [2025-01-13]
+* ca06ebc - update (Anagnostakis Ioannis) [2025-01-13]
+* 3dbcebe - update (Anagnostakis Ioannis) [2025-01-13]
+* 7e45b71 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* dfff937 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* c4db080 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 47ca430 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 6b6f859 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 3977e56 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 5bdc01c - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 9399127 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 11a0047 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 5e55eef - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* bfbe52f - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 7313708 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 2077102 - rebuild to add so.file (Anagnostakis Ioannis) [2025-01-13]
+* 021f2b4 - Update README.md (Anagnostakis Ioannis) [2025-01-12]
+* ae2454c - update (Anagnostakis Ioannis) [2025-01-12]
+* 82c23b2 - update (Anagnostakis Ioannis) [2025-01-12]
+* 3506dc5 - Update README.md (Anagnostakis Ioannis) [2025-01-12]
+* 22829d0 - update (Anagnostakis Ioannis) [2025-01-12]
+* bb9b511 - update (Anagnostakis Ioannis) [2025-01-12]
+* 17dee44 - add plasma-mobile and update apk for print so.file infos (Anagnostakis Ioannis) [2025-01-12]
+* 9827168 - update (Anagnostakis Ioannis) [2025-01-11]
+* 759c421 - update (Anagnostakis Ioannis) [2025-01-11]
+* 56702cd - update (Anagnostakis Ioannis) [2025-01-11]
+* 8748131 - update (Anagnostakis Ioannis) [2025-01-11]
+* 2678f4a - Update README.md (Anagnostakis Ioannis) [2025-01-11]
+* 2a467d5 - update (Anagnostakis Ioannis) [2025-01-11]
+* c11d2ca - update (Anagnostakis Ioannis) [2025-01-11]
+* fc64d1c - add (Anagnostakis Ioannis) [2025-01-11]
+* 2e6eb8d - update (Anagnostakis Ioannis) [2025-01-11]
+* 8ba9ba4 - update (Anagnostakis Ioannis) [2025-01-11]
+* ff50de2 - update (Anagnostakis Ioannis) [2025-01-11]
+* c35fc5a - update (Anagnostakis Ioannis) [2025-01-11]
+* ea87e33 - add json file (Anagnostakis Ioannis) [2025-01-11]
+* 300a3e6 - update (Anagnostakis Ioannis) [2025-01-11]
+* d9579fd - Update README.md (Anagnostakis Ioannis) [2025-01-11]
+* fad4ae1 - BETA mode (Anagnostakis Ioannis) [2025-01-11]
+* f7acbe9 - update (Anagnostakis Ioannis) [2025-01-10]
+* fca917d - update (Anagnostakis Ioannis) [2025-01-10]
+* b1ea999 - update (Anagnostakis Ioannis) [2025-01-10]
+* ce3ee49 - update (Anagnostakis Ioannis) [2025-01-10]
+* 21fabf2 - update (Anagnostakis Ioannis) [2025-01-10]
+* c0aa75a - update (Anagnostakis Ioannis) [2025-01-10]
+* 5e7e51e - update (Anagnostakis Ioannis) [2025-01-10]
+* 94c441e - update (Anagnostakis Ioannis) [2025-01-10]
+* 71ab0b6 - update (Anagnostakis Ioannis) [2025-01-10]
+* 448ff78 - update (Anagnostakis Ioannis) [2025-01-10]
+* ac414b3 - update (Anagnostakis Ioannis) [2025-01-10]
+* e95b651 - update (Anagnostakis Ioannis) [2025-01-10]
+* 4b691c2 - update (Anagnostakis Ioannis) [2025-01-10]
+* e209ec6 - update (Anagnostakis Ioannis) [2025-01-10]
+* 2a9ec9e - update (Anagnostakis Ioannis) [2025-01-10]
+* e54e9eb - update (Anagnostakis Ioannis) [2025-01-10]
+* b164e01 - update (Anagnostakis Ioannis) [2025-01-02]
+* cf5b05c - update (Anagnostakis Ioannis) [2025-01-02]
+* 8bbb617 - update (Anagnostakis Ioannis) [2025-01-02]
+* 34c34b1 - update (Anagnostakis Ioannis) [2025-01-01]
+* d695de5 - add sums (Anagnostakis Ioannis) [2025-01-01]
+* 20de809 - add sums (Anagnostakis Ioannis) [2025-01-01]
+* 19d5ac7 - add sums (Anagnostakis Ioannis) [2025-01-01]
+* 329c894 - add sums (Anagnostakis Ioannis) [2025-01-01]
+* 3a8d6fd - add pkgs (Anagnostakis Ioannis) [2025-01-01]
+* 317999a - add pkgs (Anagnostakis Ioannis) [2025-01-01]
+* 11f3d10 - add pkgs (Anagnostakis Ioannis) [2025-01-01]
+* 722160e - add pkgs (Anagnostakis Ioannis) [2025-01-01]
+* b1c82be - fix apk show for dep file (Anagnostakis Ioannis) [2025-01-01]
+* ac1d692 - update (Anagnostakis Ioannis) [2025-01-01]
+* 5b98ccc - add pkg (Anagnostakis Ioannis) [2025-01-01]
+* c5b9f82 - add sums (Anagnostakis Ioannis) [2025-01-01]
+* c413ce4 - update (Anagnostakis Ioannis) [2025-01-01]
+* b09a66f - update (Anagnostakis Ioannis) [2025-01-01]
+* 468409f - add sums (Anagnostakis Ioannis) [2025-01-01]
+* 4516687 - add package (Anagnostakis Ioannis) [2025-01-01]
+* 80c6259 - update (Anagnostakis Ioannis) [2024-12-31]
+* d0f62af - update (Anagnostakis Ioannis) [2024-12-31]
+* 5b9dd15 - update apk upgrade (Anagnostakis Ioannis) [2024-12-31]
+* f1c44a1 - Update README.md (Anagnostakis Ioannis) [2024-12-31]
+* 386dbd2 - Update README.md (Anagnostakis Ioannis) [2024-12-31]
+* f9148a4 - update (Anagnostakis Ioannis) [2024-12-31]
+* 88e1349 - update (Anagnostakis Ioannis) [2024-12-31]
+* e80bc04 - Update README.md (Anagnostakis Ioannis) [2024-12-31]
+* 517a975 - Update README.md (Anagnostakis Ioannis) [2024-12-31]
+* 86c7ffc - Update README.md (Anagnostakis Ioannis) [2024-12-31]
+* dc93752 - update (Anagnostakis Ioannis) [2024-12-31]
+* 99ac8b8 - update (Anagnostakis Ioannis) [2024-12-31]
+* 85c220d - update (Anagnostakis Ioannis) [2024-12-31]
+* 0e6e2e8 - addopt new package format. tar.lz4 :) (Anagnostakis Ioannis) [2024-12-31]
+* de9093c - testing htmlq for new fix edits with tar.lz4 (Anagnostakis Ioannis) [2024-12-31]
+* 8d36897 - update (Anagnostakis Ioannis) [2024-12-31]
+* 66caa00 - add custom gimp-3.0.0 build pkg (Anagnostakis Ioannis) [2024-12-31]
+* 3d833ad - add questions for upgrade (Anagnostakis Ioannis) [2024-12-30]
+* f31dd55 - add some colors (Anagnostakis Ioannis) [2024-12-30]
+* 2ef2f76 - public for testing but packages needed (Anagnostakis Ioannis) [2024-12-30]
+* eb7bf09 - almost ready for public testing (Anagnostakis Ioannis) [2024-12-30]
+* cf4d99a - almost ready for public testing (Anagnostakis Ioannis) [2024-12-30]
+* 6c7159c - udate (Anagnostakis Ioannis) [2024-12-30]
+* 5fd7374 - update (Anagnostakis Ioannis) [2024-12-29]
+* c5fb93c - add one more package (Anagnostakis Ioannis) [2024-12-29]
+* 865a18b - Update make-apk_list.sh (Anagnostakis Ioannis) [2024-12-29]
+* 30430fe - add TODO (Anagnostakis Ioannis) [2024-12-29]
+* 15ad0b9 - fix apk stats and more (Anagnostakis Ioannis) [2024-12-29]
+* c620978 - update apk upgrade cmd (Anagnostakis Ioannis) [2024-12-29]
+* add74af - fix apk update. Ready for holidays (Anagnostakis Ioannis) [2024-12-29]
+* 90de801 - update (Anagnostakis Ioannis) [2024-12-27]
+* cfadc60 - prepare for public but dev mode (Anagnostakis Ioannis) [2024-12-27]
+* 1602671 - Update README.md (Anagnostakis Ioannis) [2024-12-27]
+* 8e4a479 - Update README.md (Anagnostakis Ioannis) [2024-12-27]
+* 0020380 - Update README.md (Anagnostakis Ioannis) [2024-12-27]
+* e9caff8 - Update README.md (Anagnostakis Ioannis) [2024-12-27]
+* 6a7bbf3 - Update README.md (Anagnostakis Ioannis) [2024-12-27]
+* b18e5ff - update (Anagnostakis Ioannis) [2024-12-27]
+* 98d0727 - update (Anagnostakis Ioannis) [2024-12-27]
+* be09b67 - update (Anagnostakis Ioannis) [2024-12-26]
+* 8a6dce0 - update (Anagnostakis Ioannis) [2024-12-26]
+* 4e821e8 - update (Anagnostakis Ioannis) [2024-12-26]
+* 4541e0d - update (Anagnostakis Ioannis) [2024-12-26]
+* 4e73b03 - add make-apk_list script (Anagnostakis Ioannis) [2024-12-26]
+* 962da82 - add second testing pkg. chromashift (Anagnostakis Ioannis) [2024-12-26]
+* 0207b84 - add first package for testing. c-lcrypt (Anagnostakis Ioannis) [2024-12-26]
+* 4644dd6 - Update apk (Anagnostakis Ioannis) [2024-12-26]
+* 0a6d0b5 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 5ee1de6 - Update apk (Anagnostakis Ioannis) [2024-12-26]
+* ab7f750 - Update apk (Anagnostakis Ioannis) [2024-12-26]
+* 942ded8 - Update apk (Anagnostakis Ioannis) [2024-12-26]
+* d357db1 - Update apk.env (Anagnostakis Ioannis) [2024-12-26]
+* ada8b97 - Update apk (Anagnostakis Ioannis) [2024-12-26]
+* 9f2d272 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 4a92e0e - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* fe45391 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* b94dd64 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 48c6742 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* b157406 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 9a9d82a - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 2609567 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 1892d34 - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 9b2642e - Update README.md (Anagnostakis Ioannis) [2024-12-26]
+* 337909e - Add files via upload (Anagnostakis Ioannis) [2024-12-26]
+* ce863c6 - Initial commit (Anagnostakis Ioannis) [2024-12-26]
 ## Tags
