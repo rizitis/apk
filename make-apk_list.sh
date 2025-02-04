@@ -112,5 +112,7 @@ finally_push() {
 
 make_update
 create_json
-create_changelog
 finally_push
+create_changelog
+git add .
+git push
