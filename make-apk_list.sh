@@ -114,4 +114,10 @@ make_update
 create_json
 create_changelog
 finally_push
+random_file="./$(date +%s)_$(shuf -i 1000-9999 -n 1).nfo"
+
+# Generate random content and write it to the file
+head -c 1000 </dev/urandom > "$random_file"
+
+echo "Random file created: $random_file"
 git push --force
