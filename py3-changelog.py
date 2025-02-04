@@ -11,10 +11,17 @@ def compare_version_parts(old_version, new_version):
     new_parts.extend(['0'] * (max_len - len(new_parts)))
 
     for old_part, new_part in zip(old_parts, new_parts):
-        # Compare parts as integers to handle version numbers correctly
-        if int(old_part) < int(new_part):
+        # Safely handle non-numeric values by checking if they are digits
+        try:
+            old_part_int = int(old_part)
+            new_part_int = int(new_part)
+        except ValueError:
+            # If parts are non-numeric, consider them equal (or skip as per your needs)
+            old_part_int = new_part_int = 0  # You can set this to a default or handle differently
+
+        if old_part_int < new_part_int:
             return True  # old version is less than new version
-        elif int(old_part) > int(new_part):
+        elif old_part_int > new_part_int:
             return False  # old version is greater than new version
 
     return False  # Versions are equal
