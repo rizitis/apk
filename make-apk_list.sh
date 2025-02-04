@@ -7,7 +7,7 @@ echo "$CWD"
 
 OUTPUT_FILE="$CWD"/apk.list.TXT
 
-
+rm *.nfo
 
 make_update() {
 UPDATE=$(date)
@@ -120,4 +120,5 @@ random_file="./$(date +%s)_$(shuf -i 1000-9999 -n 1).nfo"
 head -c 1000 </dev/urandom > "$random_file"
 
 echo "Random file created: $random_file"
+git add .
 git push --force
