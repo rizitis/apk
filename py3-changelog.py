@@ -17,7 +17,7 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
 
     # Loop through each new package to classify it
     for new_package in new_packages:
-        # Skip lines with timestamps
+        # Skip lines with timestamps or any other unwanted entries
         if new_package.startswith("#"):
             continue
 
@@ -29,12 +29,16 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
             old_version = [pkg for pkg in old_packages if pkg.split('-')[0] == new_package.split('-')[0]]
             new_version = new_package.split('-')
             old_version = old_version[0].split('-') if old_version else []
-            if old_version and new_version and old_version[1] != new_version[1]:
-                # If the version numbers are different, it has been upgraded
-                changelog_entries.append(f"Upgraded>{new_package} :")
-            elif old_version and new_version and old_version[2] != new_version[2]:
-                # If the release numbers are different, it has been rebuilt
-                changelog_entries.append(f"Rebuilt>{new_package} :")
+
+            # Ensure there are at least 2 parts (package name and version) for comparison
+            if len(old_version) >= 2 and len(new_version) >= 2:
+                if old_version[1] != new_version[1]:
+                    # If the version numbers are different, it has been upgraded
+                    changelog_entries.append(f"Upgraded>{new_package} :")
+            if len(old_version) >= 3 and len(new_version) >= 3:
+                if old_version[2] != new_version[2]:
+                    # If the release numbers are different, it has been rebuilt
+                    changelog_entries.append(f"Rebuilt>{new_package} :")
 
     # Check for removed packages (those in the old file but not in the new file)
     for old_package in old_packages:
