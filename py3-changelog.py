@@ -32,11 +32,24 @@ def compare_package_versions(old_file, new_file, changelog_file='ChangeLog.txt')
 
             # Ensure there are at least 2 parts (package name and version) for comparison
             if len(old_version) >= 2 and len(new_version) >= 2:
-                if old_version[1] != new_version[1]:
+                old_version_num = old_version[1]  # Assuming version is at index 1
+                new_version_num = new_version[1]  # Assuming version is at index 1
+
+                # Print debug information to check if versions are really different
+                print(f"Comparing: {old_version_num} vs {new_version_num} for {new_package}")
+
+                if old_version_num != new_version_num:
                     # If the version numbers are different, it has been upgraded
                     changelog_entries.append(f"Upgraded>{new_package} :")
+
             if len(old_version) >= 3 and len(new_version) >= 3:
-                if old_version[2] != new_version[2]:
+                old_release_num = old_version[2]  # Assuming release is at index 2
+                new_release_num = new_version[2]  # Assuming release is at index 2
+
+                # Print debug information for release comparison
+                print(f"Comparing release: {old_release_num} vs {new_release_num} for {new_package}")
+
+                if old_release_num != new_release_num:
                     # If the release numbers are different, it has been rebuilt
                     changelog_entries.append(f"Rebuilt>{new_package} :")
 
