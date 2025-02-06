@@ -7,7 +7,7 @@ echo "$CWD"
 
 OUTPUT_FILE="$CWD"/apk.list.TXT
 
-rm *.tex
+
 
 make_update() {
 UPDATE=$(date)
@@ -101,7 +101,7 @@ finally_push() {
     read -p "Enter commit message: " commit_message
 
     # Commit with the user's message
-    git commit -s -m "$commit_message"
+    git commit -s -m "$commit_message https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md"
 
     # Push the changes to the remote repository
     git push
