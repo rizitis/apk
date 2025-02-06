@@ -114,12 +114,3 @@ make_update
 create_json
 create_changelog
 finally_push
-# Generate a random file name (using openssl for a random string)
-random_file="./$(openssl rand -hex 8).tex"
-
-# Generate random content and write it to the file
-head -c 1000 </dev/urandom > "$random_file"
-
-echo "Random file created: $random_file"
-git add .
-git push --force
