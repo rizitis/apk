@@ -1,4 +1,4 @@
-# Thu Feb  6 22:58:47 EET 2025
+# Thu Feb  6 22:59:57 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -85,7 +85,7 @@ dpkg-1.22.14-x86_64-1_rtz.tlz
 dragon-24.12.1-x86_64-1_rtz.tlz
 drkonqi-6.2.5-x86_64-1_rtz.tlz
 dstp-0.4.23-x86_64-1_rtz.tlz
-elisa-24.12.1-x86_64-1_rtz.tlz
+elisa-24.12.2-x86_64-1_rtz.tlz
 envman-2.5.1-x86_64-1_rtz.tlz
 epub2txt2-2.08-x86_64-1_rtz.tlz
 eventviews-24.12.1-x86_64-1_rtz.tlz
@@ -94,7 +94,7 @@ falkon-24.12.1-x86_64-1_rtz.tlz
 fcitx5-configtool-5.1.8-x86_64-1_rtz.tlz
 fcitx5-qt-5.1.8-x86_64-1_rtz.tlz
 fcitx5-5.1.11-x86_64-1_rtz.tlz
-ffmpegthumbs-24.12.1-x86_64-1_rtz.tlz
+ffmpegthumbs-24.12.2-x86_64-1_rtz.tlz
 fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz
 filelight-24.12.1-x86_64-1_rtz.tlz
@@ -177,7 +177,7 @@ kcmutils-6.10.0-x86_64-1_rtz.tlz
 kcmutils5-5.116.0-x86_64-1_rtz.tlz
 kcodecs-6.10.0-x86_64-1_rtz.tlz
 kcodecs5-5.116.0-x86_64-1_rtz.tlz
-kcolorchooser-24.12.1-x86_64-1_rtz.tlz
+kcolorchooser-24.12.2-x86_64-1_rtz.tlz
 kcolorpicker-0.3.1-x86_64-1_rtz.tlz
 kcolorscheme-6.10.0-x86_64-1_rtz.tlz
 kcompletion-6.10.0-x86_64-1_rtz.tlz
@@ -200,7 +200,7 @@ kde-cli-tools-6.2.5-x86_64-1_rtz.tlz
 kde-dev-scripts-24.12.1-x86_64-1_rtz.tlz
 kde-dev-utils-24.12.1-x86_64-1_rtz.tlz
 kde-gtk-config-6.2.5-x86_64-1_rtz.tlz
-kde-inotify-survey-24.12.1-x86_64-1_rtz.tlz
+kde-inotify-survey-24.12.2-x86_64-1_rtz.tlz
 kdebugsettings-24.12.1-x86_64-1_rtz.tlz
 kdeclarative-6.10.0-x86_64-1_rtz.tlz
 kdeclarative5-5.116.0-x86_64-1_rtz.tlz
@@ -208,15 +208,15 @@ kdeconnect-24.12.1-x86_64-1_rtz.tlz
 kdecoration-6.2.5-x86_64-1_rtz.tlz
 kded-6.10.0-x86_64-1_rtz.tlz
 kdeedu-data-24.12.1-x86_64-1_rtz.tlz
-kdegraphics-mobipocket-24.12.1-x86_64-1_rtz.tlz
+kdegraphics-mobipocket-24.12.2-x86_64-1_rtz.tlz
 kdegraphics-thumbnailers-24.12.1-x86_64-1_rtz.tlz
 kdenetwork-filesharing-24.12.1-x86_64-1_rtz.tlz
 kdenlive-24.12.1-x86_64-1_rtz.tlz
 kdepim-addons-24.12.1-x86_64-1_rtz.tlz
 kdepim-runtime-24.12.1-x86_64-1_rtz.tlz
 kdeplasma-addons-6.2.5-x86_64-1_rtz.tlz
-kdesdk-kio-24.12.1-x86_64-1_rtz.tlz
-kdesdk-thumbnailers-24.12.1-x86_64-1_rtz.tlz
+kdesdk-kio-24.12.2-x86_64-1_rtz.tlz
+kdesdk-thumbnailers-24.12.2-x86_64-1_rtz.tlz
 kdesu-6.10.0-x86_64-1_rtz.tlz
 kdesu5-5.116.0-x86_64-1_rtz.tlz
 kdev-python-24.12.1-x86_64-1_rtz.tlz
@@ -307,7 +307,7 @@ kmahjongg-24.12.1-x86_64-1_rtz.tlz
 kmail-account-wizard-24.12.1-x86_64-1_rtz.tlz
 kmail-24.12.1-x86_64-1_rtz.tlz
 kmailtransport-24.12.1-x86_64-1_rtz.tlz
-kmbox-24.12.1-x86_64-1_rtz.tlz
+kmbox-24.12.2-x86_64-1_rtz.tlz
 kmenuedit-6.2.5-x86_64-1_rtz.tlz
 kmime-24.12.1-x86_64-1_rtz.tlz
 kmines-24.12.1-x86_64-1_rtz.tlz
@@ -354,7 +354,7 @@ kpeoplevcard-0.1-x86_64-1_rtz.tlz
 kphotoalbum-6.0.1-x86_64-1_rtz.tlz
 kpimtextedit-24.12.1-x86_64-1_rtz.tlz
 kpipewire-6.2.5-x86_64-1_rtz.tlz
-kpkpass-24.12.1-x86_64-1_rtz.tlz
+kpkpass-24.12.2-x86_64-1_rtz.tlz
 kplotting-6.10.0-x86_64-1_rtz.tlz
 kplotting5-5.116.0-x86_64-1_rtz.tlz
 kpmcore-24.12.1-x86_64-1_rtz.tlz
@@ -428,11 +428,11 @@ libadwaita-1.6.4-x86_64-1_rtz.tlz
 libbacktrace-3d0be_git-x86_64-1_rtz.tlz
 libdisplay-info-0.2.0-x86_64-1_rtz.tlz
 libfprint-1.94.8-x86_64-1_rtz.tlz
-libgravatar-24.12.1-x86_64-1_rtz.tlz
+libgravatar-24.12.2-x86_64-1_rtz.tlz
 libindi-2.1.1-x86_64-1_rtz.tlz
 libkcddb-24.12.1-x86_64-1_rtz.tlz
 libkcompactdisc-24.12.1-x86_64-1_rtz.tlz
-libkdcraw-24.12.1-x86_64-1_rtz.tlz
+libkdcraw-24.12.2-x86_64-1_rtz.tlz
 libkdegames-24.12.1-x86_64-1_rtz.tlz
 libkdepim-24.12.1-x86_64-1_rtz.tlz
 libkeduvocdocument-24.12.1-x86_64-1_rtz.tlz
@@ -584,7 +584,7 @@ spectacle-24.12.1-x86_64-1_rtz.tlz
 static-web-server-2.35.0-x86_64-1_rtz.tlz
 step-24.12.1-x86_64-1_rtz.tlz
 superhtml-0.5.3-x86_64-1_rtz.tlz
-svgpart-24.12.1-x86_64-1_rtz.tlz
+svgpart-24.12.2-x86_64-1_rtz.tlz
 sweeper-24.12.1-x86_64-1_rtz.tlz
 symboleditor-2.1.0-x86_64-1_rtz.tlz
 syndication-6.10.0-x86_64-1_rtz.tlz
