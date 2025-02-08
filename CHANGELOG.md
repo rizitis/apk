@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Sat Feb  8 17:12:57 EET 2025
+Generated on: Sat Feb  8 20:24:05 EET 2025
 
+* c26d7c7 - added https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-08]
 * cc6d099 - rebuild marble https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-07]
 * 34bb0c8 - add kookbook https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-07]
 * ca9c4f9 - nfo https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-06]
