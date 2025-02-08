@@ -4525,6 +4525,11 @@
         "type": "file"
     },
     {
+        "name": "plasma-smart-video-wallpaper-reborn.tar.lz4",
+        "path": "https://github.com/rizitis/apk/plasma-smart-video-wallpaper-reborn.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "libplasma.tar.lz4",
         "path": "https://github.com/rizitis/apk/libplasma.tar.lz4",
         "type": "file"
@@ -5647,6 +5652,11 @@
     {
         "name": "kio-fuse.tar.lz4",
         "path": "https://github.com/rizitis/apk/kio-fuse.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "plasma-smart-video-wallpaper-reborn.sha256sum",
+        "path": "https://github.com/rizitis/apk/plasma-smart-video-wallpaper-reborn.sha256sum",
         "type": "file"
     },
     {
@@ -10570,6 +10580,11 @@
         "type": "file"
     },
     {
+        "name": "6d0994d8fa4021945c121c48dd4bf59a9a1d03",
+        "path": "https://github.com/rizitis/apk/.git/objects/cc/6d0994d8fa4021945c121c48dd4bf59a9a1d03",
+        "type": "file"
+    },
+    {
         "name": "3dbbf3e15c7c2db582a3eff2c1b0d26ba57cfb",
         "path": "https://github.com/rizitis/apk/.git/objects/cc/3dbbf3e15c7c2db582a3eff2c1b0d26ba57cfb",
         "type": "file"
@@ -10822,6 +10837,11 @@
     {
         "name": "b2b9689a1df97aef8b7b06c968351e4076c1ab",
         "path": "https://github.com/rizitis/apk/.git/objects/12/b2b9689a1df97aef8b7b06c968351e4076c1ab",
+        "type": "file"
+    },
+    {
+        "name": "9f82f0671c0ecf5e5a9583ecae811f4c11ab94",
+        "path": "https://github.com/rizitis/apk/.git/objects/12/9f82f0671c0ecf5e5a9583ecae811f4c11ab94",
         "type": "file"
     },
     {
@@ -13780,6 +13800,11 @@
         "type": "file"
     },
     {
+        "name": "1d9f950ea682f668c92f0e7892884f73d7720a",
+        "path": "https://github.com/rizitis/apk/.git/objects/1e/1d9f950ea682f668c92f0e7892884f73d7720a",
+        "type": "file"
+    },
+    {
         "name": "17872e67d5cd97516023c277029317bcf5534e",
         "path": "https://github.com/rizitis/apk/.git/objects/1e/17872e67d5cd97516023c277029317bcf5534e",
         "type": "file"
@@ -13942,6 +13967,11 @@
     {
         "name": "654cb77b6568167c713f19aeed07c95ba72b13",
         "path": "https://github.com/rizitis/apk/.git/objects/00/654cb77b6568167c713f19aeed07c95ba72b13",
+        "type": "file"
+    },
+    {
+        "name": "e89a09fafc92f83282bc6ae5a78a2bd2a5dbfb",
+        "path": "https://github.com/rizitis/apk/.git/objects/00/e89a09fafc92f83282bc6ae5a78a2bd2a5dbfb",
         "type": "file"
     },
     {
@@ -14552,6 +14582,11 @@
     {
         "name": "092bef6982f4bba39717d8941a5325c0209a49",
         "path": "https://github.com/rizitis/apk/.git/objects/d0/092bef6982f4bba39717d8941a5325c0209a49",
+        "type": "file"
+    },
+    {
+        "name": "09c36133066b276260834049f566fffbb16f00",
+        "path": "https://github.com/rizitis/apk/.git/objects/d0/09c36133066b276260834049f566fffbb16f00",
         "type": "file"
     },
     {
@@ -15777,6 +15812,11 @@
     {
         "name": "25fcb450f5477ed198074f34d75f0d69dbfc60",
         "path": "https://github.com/rizitis/apk/.git/objects/ac/25fcb450f5477ed198074f34d75f0d69dbfc60",
+        "type": "file"
+    },
+    {
+        "name": "fd8c28285cd2202a44d81ba25b55de1264920e",
+        "path": "https://github.com/rizitis/apk/.git/objects/e6/fd8c28285cd2202a44d81ba25b55de1264920e",
         "type": "file"
     },
     {
@@ -24182,6 +24222,11 @@
     {
         "name": "5c6a2c30c5d8f5fa4740366337a8a940238ec6",
         "path": "https://github.com/rizitis/apk/.git/objects/e4/5c6a2c30c5d8f5fa4740366337a8a940238ec6",
+        "type": "file"
+    },
+    {
+        "name": "64e21594c42f606d4ab35828b16b7d9a3e1ca1",
+        "path": "https://github.com/rizitis/apk/.git/objects/e4/64e21594c42f606d4ab35828b16b7d9a3e1ca1",
         "type": "file"
     },
     {
