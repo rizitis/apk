@@ -1,4 +1,4 @@
-# Sat Feb  8 20:23:56 EET 2025
+# Sun Feb  9 20:30:54 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -104,6 +104,7 @@ frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.2-x86_64-1_rtz.tlz
 futuresql-0.1.1-x86_64-1_rtz.tlz
 gcab-1.6-x86_64-1_rtz.tlz
+gerbera-3ea9c20_git-x86_64-1_rtz.tlz
 geteltorito-46474a4_git-x86_64-1_rtz.tlz
 ghostwriter-24.12.2-x86_64-1_rtz.tlz
 gimp-3.0.0_RC2-x86_64-1.tlz
@@ -428,6 +429,7 @@ libaccounts-qt-1.17-x86_64-1_rtz.tlz
 libadwaita-1.6.4-x86_64-1_rtz.tlz
 libbacktrace-3d0be_git-x86_64-1_rtz.tlz
 libdisplay-info-0.2.0-x86_64-1_rtz.tlz
+libebml-1.4.5-x86_64-1_rtz.tlz
 libfprint-1.94.8-x86_64-1_rtz.tlz
 libgravatar-24.12.2-x86_64-1_rtz.tlz
 libindi-2.1.1-x86_64-1_rtz.tlz
@@ -447,7 +449,10 @@ libkscreen-6.2.5-x86_64-1_rtz.tlz
 libksieve-24.12.2-x86_64-1_rtz.tlz
 libksysguard-6.2.5-x86_64-1_rtz.tlz
 libktorrent-24.12.2-x86_64-1_rtz.tlz
+libmatroska-1.7.1-x86_64-1_rtz.tlz
+libmicrohttpd-1.0.1-x86_64-1_rtz.tlz
 libnova-0.15.0-x86_64-1_rtz.tlz
+libnpupnp-6.2.0-x86_64-1_rtz.tlz
 libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
 libphonenumber-8.13.54-x86_64-1_rtz.tlz
 libplasma-6.2.5-x86_64-1_rtz.tlz
@@ -541,6 +546,7 @@ poxml-24.12.2-x86_64-1_rtz.tlz
 print-manager-6.2.5-x86_64-1_rtz.tlz
 prison-6.10.0-x86_64-1_rtz.tlz
 prison5-5.116.0-x86_64-1_rtz.tlz
+pugixml-1.15-x86_64-1_rtz.tlz
 pulseaudio-qt-1.6.1-x86_64-1_rtz.tlz
 purpose-6.10.0-x86_64-1_rtz.tlz
 purpose5-5.116.0-x86_64-1_rtz.tlz
@@ -583,6 +589,7 @@ sonnet-6.10.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
 sourcegit-2025.03-x86_64-2_rtz.tlz
 spacebar-6.2.5-x86_64-1_rtz.tlz
+spdlog-1.15.1-x86_64-1_rtz.tlz
 spectacle-24.12.2-x86_64-1_rtz.tlz
 static-web-server-2.35.0-x86_64-1_rtz.tlz
 step-24.12.2-x86_64-1_rtz.tlz

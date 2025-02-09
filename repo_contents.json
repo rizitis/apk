@@ -5,6 +5,11 @@
         "type": "file"
     },
     {
+        "name": "libebml.sha256sum",
+        "path": "https://github.com/rizitis/apk/libebml.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "phonon-mpv-qt6.sha256sum",
         "path": "https://github.com/rizitis/apk/phonon-mpv-qt6.sha256sum",
         "type": "file"
@@ -132,6 +137,11 @@
     {
         "name": "sonnet.sha256sum",
         "path": "https://github.com/rizitis/apk/sonnet.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "libmicrohttpd.sha256sum",
+        "path": "https://github.com/rizitis/apk/libmicrohttpd.sha256sum",
         "type": "file"
     },
     {
@@ -1865,8 +1875,23 @@
         "type": "file"
     },
     {
+        "name": "gerbera.tar.lz4",
+        "path": "https://github.com/rizitis/apk/gerbera.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "ghostwriter.tar.lz4",
         "path": "https://github.com/rizitis/apk/ghostwriter.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "libnpupnp.tar.lz4",
+        "path": "https://github.com/rizitis/apk/libnpupnp.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "spdlog.tar.lz4",
+        "path": "https://github.com/rizitis/apk/spdlog.tar.lz4",
         "type": "file"
     },
     {
@@ -1947,6 +1972,11 @@
     {
         "name": "kdesdk-thumbnailers.tar.lz4",
         "path": "https://github.com/rizitis/apk/kdesdk-thumbnailers.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "libmicrohttpd.tar.lz4",
+        "path": "https://github.com/rizitis/apk/libmicrohttpd.tar.lz4",
         "type": "file"
     },
     {
@@ -2712,6 +2742,11 @@
     {
         "name": "kdegraphics-thumbnailers.tar.lz4",
         "path": "https://github.com/rizitis/apk/kdegraphics-thumbnailers.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "libmatroska.sha256sum",
+        "path": "https://github.com/rizitis/apk/libmatroska.sha256sum",
         "type": "file"
     },
     {
@@ -3505,6 +3540,11 @@
         "type": "file"
     },
     {
+        "name": "pugixml.sha256sum",
+        "path": "https://github.com/rizitis/apk/pugixml.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "marknote.sha256sum",
         "path": "https://github.com/rizitis/apk/marknote.sha256sum",
         "type": "file"
@@ -3595,6 +3635,11 @@
         "type": "file"
     },
     {
+        "name": "pugixml.tar.lz4",
+        "path": "https://github.com/rizitis/apk/pugixml.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "kholidays5.tar.lz4",
         "path": "https://github.com/rizitis/apk/kholidays5.tar.lz4",
         "type": "file"
@@ -3617,6 +3662,11 @@
     {
         "name": "kpty.sha256sum",
         "path": "https://github.com/rizitis/apk/kpty.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "spdlog.sha256sum",
+        "path": "https://github.com/rizitis/apk/spdlog.sha256sum",
         "type": "file"
     },
     {
@@ -4735,6 +4785,11 @@
         "type": "file"
     },
     {
+        "name": "gerbera.sha256sum",
+        "path": "https://github.com/rizitis/apk/gerbera.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "washipad.tar.lz4",
         "path": "https://github.com/rizitis/apk/washipad.tar.lz4",
         "type": "file"
@@ -4762,6 +4817,11 @@
     {
         "name": "kguiaddons5.sha256sum",
         "path": "https://github.com/rizitis/apk/kguiaddons5.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "libebml.tar.lz4",
+        "path": "https://github.com/rizitis/apk/libebml.tar.lz4",
         "type": "file"
     },
     {
@@ -6115,6 +6175,11 @@
         "type": "file"
     },
     {
+        "name": "libnpupnp.sha256sum",
+        "path": "https://github.com/rizitis/apk/libnpupnp.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "kaccounts-providers.sha256sum",
         "path": "https://github.com/rizitis/apk/kaccounts-providers.sha256sum",
         "type": "file"
@@ -6287,6 +6352,11 @@
     {
         "name": "skanlite.sha256sum",
         "path": "https://github.com/rizitis/apk/skanlite.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "libmatroska.tar.lz4",
+        "path": "https://github.com/rizitis/apk/libmatroska.tar.lz4",
         "type": "file"
     },
     {
@@ -8990,6 +9060,11 @@
         "type": "file"
     },
     {
+        "name": "3f0c8a122b5e5bbb33902b4d6b22d11ccf582d",
+        "path": "https://github.com/rizitis/apk/.git/objects/52/3f0c8a122b5e5bbb33902b4d6b22d11ccf582d",
+        "type": "file"
+    },
+    {
         "name": "39e68b50f5641d8dc3f73a03b42b486a6eaa76",
         "path": "https://github.com/rizitis/apk/.git/objects/52/39e68b50f5641d8dc3f73a03b42b486a6eaa76",
         "type": "file"
@@ -9732,6 +9807,11 @@
     {
         "name": "5f77199d34035863bef88d5af1150eb656d83a",
         "path": "https://github.com/rizitis/apk/.git/objects/42/5f77199d34035863bef88d5af1150eb656d83a",
+        "type": "file"
+    },
+    {
+        "name": "105be4668e6ceb92444a3ebd37aacd439a140c",
+        "path": "https://github.com/rizitis/apk/.git/objects/42/105be4668e6ceb92444a3ebd37aacd439a140c",
         "type": "file"
     },
     {
@@ -14430,6 +14510,11 @@
         "type": "file"
     },
     {
+        "name": "405e536b2d83b2fed54c8112bc9b1379163029",
+        "path": "https://github.com/rizitis/apk/.git/objects/23/405e536b2d83b2fed54c8112bc9b1379163029",
+        "type": "file"
+    },
+    {
         "name": "6b78771ed9ba3d32755d8b8ed72fba0aa6a9c5",
         "path": "https://github.com/rizitis/apk/.git/objects/3e/6b78771ed9ba3d32755d8b8ed72fba0aa6a9c5",
         "type": "file"
@@ -14902,6 +14987,11 @@
     {
         "name": "b16fb9aa86af6ebb090d1b0b90dbfe6886341a",
         "path": "https://github.com/rizitis/apk/.git/objects/ab/b16fb9aa86af6ebb090d1b0b90dbfe6886341a",
+        "type": "file"
+    },
+    {
+        "name": "f37110c3414a6aa13012e9fad90f7236399e0d",
+        "path": "https://github.com/rizitis/apk/.git/objects/ab/f37110c3414a6aa13012e9fad90f7236399e0d",
         "type": "file"
     },
     {
@@ -19262,6 +19352,11 @@
     {
         "name": "cd1ada68cd7a6bc493eb3c3498dd554866aee6",
         "path": "https://github.com/rizitis/apk/.git/objects/5d/cd1ada68cd7a6bc493eb3c3498dd554866aee6",
+        "type": "file"
+    },
+    {
+        "name": "8ed176a02cfac90b629a26ba003704afc601cf",
+        "path": "https://github.com/rizitis/apk/.git/objects/5d/8ed176a02cfac90b629a26ba003704afc601cf",
         "type": "file"
     },
     {
@@ -24485,6 +24580,11 @@
         "type": "file"
     },
     {
+        "name": "f0c691fed04280125d1058d0e8db3d98d46f3e",
+        "path": "https://github.com/rizitis/apk/.git/objects/80/f0c691fed04280125d1058d0e8db3d98d46f3e",
+        "type": "file"
+    },
+    {
         "name": "1e43977e7fd7a8b55da0858a6fd8550522faef",
         "path": "https://github.com/rizitis/apk/.git/objects/80/1e43977e7fd7a8b55da0858a6fd8550522faef",
         "type": "file"
@@ -25577,6 +25677,11 @@
     {
         "name": "a8a675cf943b8f3d8cf5066dc5c4b836ee0fb0",
         "path": "https://github.com/rizitis/apk/.git/objects/97/a8a675cf943b8f3d8cf5066dc5c4b836ee0fb0",
+        "type": "file"
+    },
+    {
+        "name": "51825f2801d2eb5b47f5eb3d0f6a48cc2b5a75",
+        "path": "https://github.com/rizitis/apk/.git/objects/97/51825f2801d2eb5b47f5eb3d0f6a48cc2b5a75",
         "type": "file"
     },
     {
