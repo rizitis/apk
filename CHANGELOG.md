@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Mon Feb 10 15:00:54 EET 2025
+Generated on: Mon Feb 10 15:37:49 EET 2025
 
+* 8efea7e - add mergiraf and cargo-auditable https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * 4471aa0 - upgrade gimp RC3 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * e1cf6ce - add https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * 19cc6b5 - add gerbera and deps https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-09]
