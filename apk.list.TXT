@@ -1,4 +1,4 @@
-# Mon Feb 10 13:50:49 EET 2025
+# Mon Feb 10 15:00:44 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -69,6 +69,7 @@ calindori-24.12.2-x86_64-1_rtz.tlz
 callaudiod-0.1.7-x86_64-1_rtz.tlz
 calligra-24.12.1-x86_64-1_rtz.tlz
 cantor-24.12.2-x86_64-1_rtz.tlz
+cargo-auditable-0.6.6-x86_64-1_rtz.tlz
 cervisia-24.12.2-x86_64-1_rtz.tlz
 chatgpt.sh-d3fd328f_git-x86_64-1_rtz.tlz
 colord-kde-24.12.2-x86_64-1_rtz.tlz
@@ -477,6 +478,7 @@ mauiman-4.0.0-x86_64-1_rtz.tlz
 mdbook-mermaid-0.14.1-x86_64-1_rtz.tlz
 mdbook-0.4.43-x86_64-1_rtz.tlz
 media-downloader-5.2.0-x86_64-1_rtz.tlz
+mergiraf-0.5.1-x86_64-1_rtz.tlz
 merkuro-24.12.2-x86_64-1_rtz.tlz
 messagelib-24.12.2-x86_64-1_rtz.tlz
 mikumikubeam-289eff9-x86_64-1_rtz.tlz
