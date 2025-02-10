@@ -1,4 +1,4 @@
-# Mon Feb 10 11:44:25 EET 2025
+# Mon Feb 10 13:50:49 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -107,7 +107,7 @@ gcab-1.6-x86_64-1_rtz.tlz
 gerbera-3ea9c20_git-x86_64-1_rtz.tlz
 geteltorito-46474a4_git-x86_64-1_rtz.tlz
 ghostwriter-24.12.2-x86_64-1_rtz.tlz
-gimp-3.0.0_RC2-x86_64-1.tlz
+gimp-3.0.0_RC3-x86_64-1.tlz
 gitify-5.16.2-x86_64-1_rtz.tlz
 gnome-podcasts-0.7.2-x86_64-1_rtz.tlz
 gptscript-0.9.5-x86_64-1_rtz.tlz
