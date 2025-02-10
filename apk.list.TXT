@@ -1,4 +1,4 @@
-# Sun Feb  9 20:30:54 EET 2025
+# Mon Feb 10 11:44:25 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -500,6 +500,7 @@ optiimage-a9eaa64c_git-x86_64-1_rtz.tlz
 oxygen-icons-6.1.0-x86_64-1_rtz.tlz
 oxygen-sounds-6.2.5-x86_64-1_rtz.tlz
 oxygen-6.2.5-x86_64-1_rtz.tlz
+panwriter-0.8.8-x86_64-1_rtz.tlz
 parley-24.12.2-x86_64-1_rtz.tlz
 partitionmanager-24.12.2-x86_64-1_rtz.tlz
 passc-v0.1.1-x86_64-1_rtz.tlz

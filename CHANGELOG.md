@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Sun Feb  9 20:31:04 EET 2025
+Generated on: Mon Feb 10 11:44:35 EET 2025
 
+* 19cc6b5 - add gerbera and deps https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-09]
 * 42105be - add s https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-08]
 * c26d7c7 - added https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-08]
 * cc6d099 - rebuild marble https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-07]
