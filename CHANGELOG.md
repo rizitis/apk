@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Mon Feb 10 21:45:51 EET 2025
+Generated on: Tue Feb 11 09:24:03 EET 2025
 
+* ffaa499 - add https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * bb4429b - add mepo BUT not deps https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * 8efea7e - add mergiraf and cargo-auditable https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
 * 4471aa0 - upgrade gimp RC3 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-10]
