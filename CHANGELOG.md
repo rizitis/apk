@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Tue Feb 11 18:16:05 EET 2025
+Generated on: Tue Feb 11 19:59:22 EET 2025
 
+* d07be0e - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * a3d7b6b - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * 5ef9733 - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * ed226a1 - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
