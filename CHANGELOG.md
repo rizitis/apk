@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Tue Feb 11 18:14:38 EET 2025
+Generated on: Tue Feb 11 18:16:05 EET 2025
 
+* a3d7b6b - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * 5ef9733 - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * ed226a1 - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * cc2b62a - rebuild gimp for stock cargo-c https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
