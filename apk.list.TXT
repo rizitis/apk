@@ -1,4 +1,4 @@
-# Thu Feb 13 15:16:12 EET 2025
+# Thu Feb 13 15:17:00 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -316,7 +316,7 @@ kmime-24.12.2-x86_64-1_rtz.tlz
 kmines-24.12.2-x86_64-1_rtz.tlz
 kmix-24.12.2-x86_64-1_rtz.tlz
 kmoretools-bf1800a3_git-x86_64-1_rtz.tlz
-kmousetool-24.12.1-x86_64-1_rtz.tlz
+kmousetool-24.12.2-x86_64-1_rtz.tlz
 kmouth-24.12.2-x86_64-1_rtz.tlz
 kmplot-24.12.2-x86_64-1_rtz.tlz
 kmymoney-5.1.3-x86_64-1_rtz.tlz
