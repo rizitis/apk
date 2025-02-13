@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Wed Feb 12 10:24:57 EET 2025
+Generated on: Thu Feb 13 15:09:39 EET 2025
 
+* ec5d8d9 - upgrade https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-12]
 * 265b693 - remove SBo packages https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * d07be0e - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
 * a3d7b6b - upgrade 6.3.0 https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-11]
