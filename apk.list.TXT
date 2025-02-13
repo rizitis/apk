@@ -1,4 +1,4 @@
-# Thu Feb 13 15:14:41 EET 2025
+# Thu Feb 13 15:16:12 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -42,8 +42,9 @@ asterisk-20.11.0-x86_64-1_rtz.tlz
 atlantik-3.5.10_git20240323-x86_64-1_rtz.tlz
 attica-6.10.0-x86_64-1_rtz.tlz
 attica5-5.116.0-x86_64-1_rtz.tlz
-audex-24.12.1-x86_64-1_rtz.tlz
+audex-24.12.2-x86_64-1_rtz.tlz
 audiocd-kio-24.12.2-x86_64-1_rtz.tlz
+audit-4.0.2-x86_64-1_rtz.tlz
 autossh-1.4g-x86_64-1_rtz.tlz
 awscrt-0.23.0-x86_64-1_rtz.tlz
 ayatana-ido-0.10.4-x86_64-1_rtz.tlz
