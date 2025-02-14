@@ -43,7 +43,8 @@ Every Package has
 ![inxi](./inxi-apk.png)
 
 <br>
-**INFO**: I released a new [Slackware-Commander](https://github.com/rizitis/Slackware-Commander) so all helpers scripts etc... to be in one place.  
+
+**INFO** : I released a new [Slackware-Commander](https://github.com/rizitis/Slackware-Commander) so all helpers scripts etc... to be in one place.  
 
 ---
 
