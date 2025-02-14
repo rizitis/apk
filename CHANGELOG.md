@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Fri Feb 14 12:11:32 EET 2025
+Generated on: Fri Feb 14 21:13:33 EET 2025
 
+* 6659c73 - add xsettingsd https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-14]
 * b497d9d - Update README.md (Anagnostakis Ioannis) [2025-02-14]
 * bec5938 - Update README.md (Anagnostakis Ioannis) [2025-02-14]
 * fb395f9 - remove garbage (Anagnostakis Ioannis) [2025-02-14]

@@ -1,4 +1,4 @@
-# Fri Feb 14 12:11:24 EET 2025
+# Fri Feb 14 21:13:26 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -62,7 +62,7 @@ bluez-qt-6.10.0-x86_64-1_rtz.tlz
 bomber-24.12.2-x86_64-1_rtz.tlz
 bovo-24.12.2-x86_64-1_rtz.tlz
 breeze-gtk-6.3.0-x86_64-1_rtz.tlz
-breeze-icons-6.10.0-x86_64-1_rtz.tlz
+breeze-icons-6.11.0-x86_64-1_rtz.tlz
 breeze-6.3.0-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.2-x86_64-1_rtz.tlz
@@ -171,7 +171,7 @@ kbreakout-24.12.2-x86_64-1_rtz.tlz
 kbruch-24.12.2-x86_64-1_rtz.tlz
 kcachegrind-24.12.2-x86_64-1_rtz.tlz
 kcalc-24.12.2-x86_64-1_rtz.tlz
-kcalendarcore-6.10.0-x86_64-1_rtz.tlz
+kcalendarcore-6.11.0-x86_64-1_rtz.tlz
 kcalendarcore5-5.116.0-x86_64-1_rtz.tlz
 kcalutils-24.12.2-x86_64-1_rtz.tlz
 kcharselect-24.12.2-x86_64-1_rtz.tlz
@@ -259,7 +259,7 @@ khealthcertificate-24.12.2-x86_64-1_rtz.tlz
 khelpcenter-24.12.2-x86_64-1_rtz.tlz
 kholidays-6.10.0-x86_64-1_rtz.tlz
 kholidays5-5.116.0-x86_64-1_rtz.tlz
-ki18n-6.10.0-x86_64-1_rtz.tlz
+ki18n-6.11.0-x86_64-1_rtz.tlz
 ki18n5-5.116.0-x86_64-1_rtz.tlz
 kiconthemes-6.10.0-x86_64-1_rtz.tlz
 kiconthemes5-5.116.0-x86_64-1_rtz.tlz
@@ -281,7 +281,7 @@ kio-extras-24.12.2-x86_64-1_rtz.tlz
 kio-fuse-5.1.0-x86_64-1_rtz.tlz
 kio-gdrive-24.12.2-x86_64-1_rtz.tlz
 kio-zeroconf-24.12.2-x86_64-1_rtz.tlz
-kio-6.10.0-x86_64-1_rtz.tlz
+kio-6.11.0-x86_64-1_rtz.tlz
 kio5-5.116.0-x86_64-1_rtz.tlz
 kirigami-addons-1.7.0-x86_64-1_rtz.tlz
 kirigami-addons5-0.11.0-x86_64-1_rtz.tlz
@@ -322,7 +322,7 @@ kmplot-24.12.2-x86_64-1_rtz.tlz
 kmymoney-5.1.3-x86_64-1_rtz.tlz
 knavalbattle-24.12.2-x86_64-1_rtz.tlz
 knetwalk-24.12.2-x86_64-1_rtz.tlz
-knewstuff-6.10.0-x86_64-1_rtz.tlz
+knewstuff-6.11.0-x86_64-1_rtz.tlz
 knewstuff5-5.116.0-x86_64-1_rtz.tlz
 knights-24.12.2-x86_64-1_rtz.tlz
 knotifications-6.10.0-x86_64-1_rtz.tlz
@@ -390,9 +390,9 @@ ksystemlog-24.12.2-x86_64-1_rtz.tlz
 ksystemstats-6.3.0-x86_64-1_rtz.tlz
 kteatime-24.12.2-x86_64-1_rtz.tlz
 ktextaddons-1.5.4-x86_64-1_rtz.tlz
-ktexteditor-6.10.0-x86_64-1_rtz.tlz
+ktexteditor-6.11.0-x86_64-1_rtz.tlz
 ktexteditor5-5.116.0-x86_64-1_rtz.tlz
-ktexttemplate-6.10.0-x86_64-1_rtz.tlz
+ktexttemplate-6.11.0-x86_64-1_rtz.tlz
 ktextwidgets-6.10.0-x86_64-1_rtz.tlz
 ktextwidgets5-5.116.0-x86_64-1_rtz.tlz
 ktimer-24.12.2-x86_64-1_rtz.tlz
@@ -415,7 +415,7 @@ kwayland-6.3.0-x86_64-1_rtz.tlz
 kwayland5-5.116.0-x86_64-1_rtz.tlz
 kweather-24.12.2-x86_64-1_rtz.tlz
 kweathercore-0.8.0-x86_64-1_rtz.tlz
-kwidgetsaddons-6.10.0-x86_64-1_rtz.tlz
+kwidgetsaddons-6.11.0-x86_64-1_rtz.tlz
 kwidgetsaddons5-5.116.0-x86_64-1_rtz.tlz
 kwin-6.3.0-x86_64-1_rtz.tlz
 kwindowsystem-6.10.0-x86_64-1_rtz.tlz
@@ -490,7 +490,7 @@ minuet-24.12.2-x86_64-1_rtz.tlz
 modemmanager-qt-6.10.0-x86_64-1_rtz.tlz
 mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.2-x86_64-1_rtz.tlz
-networkmanager-qt-6.10.0-x86_64-1_rtz.tlz
+networkmanager-qt-6.11.0-x86_64-1_rtz.tlz
 noisetorch-6d895f3_git-x86_64-1_rtz.tlz
 ocean-sound-theme-6.3.0-x86_64-1_rtz.tlz
 okteta-0.26.19-x86_64-1_rtz.tlz
@@ -605,7 +605,7 @@ sweeper-24.12.2-x86_64-1_rtz.tlz
 symboleditor-2.1.0-x86_64-1_rtz.tlz
 syndication-6.10.0-x86_64-1_rtz.tlz
 syndication5-5.116.0-x86_64-1_rtz.tlz
-syntax-highlighting-6.10.0-x86_64-1_rtz.tlz
+syntax-highlighting-6.11.0-x86_64-1_rtz.tlz
 syntax-highlighting5-5.116.0-x86_64-1_rtz.tlz
 systemsettings-6.3.0-x86_64-1_rtz.tlz
 tags-1.2-x86_64-1_rtz.tlz
