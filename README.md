@@ -41,7 +41,10 @@ Every Package has
 
 8. This repository is also compatible with inxi. <br>
 ![inxi](./inxi-apk.png)
- 
+
+<br>
+**INFO**: I released a new [Slackware-Commander](https://github.com/rizitis/Slackware-Commander) so all helpers scripts etc... to be in one place.  
+
 ---
 
 ### !
