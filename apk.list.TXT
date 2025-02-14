@@ -1,4 +1,4 @@
-# Thu Feb 13 15:23:59 EET 2025
+# Fri Feb 14 12:11:24 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -633,6 +633,7 @@ wolfssl-5.7.4-x86_64-1_rtz.tlz
 xdg-dbus-proxy-0.1.6-x86_64-1_rtz.tlz
 xdg-desktop-portal-gtk-1.15.1-x86_64-1_rtz.tlz
 xdg-desktop-portal-kde-6.3.0-x86_64-1_rtz.tlz
+xsettingsd-1.0.2-x86_64-1_rtz.tlz
 xwaylandvideobridge-0.4.0-x86_64-1_rtz.tlz
 yakuake-24.12.2-x86_64-1_rtz.tlz
 yaml-cpp-0.8.0-x86_64-1_rtz.tlz
