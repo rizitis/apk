@@ -1,6 +1,7 @@
 # Changelog
-Generated on: Fri Feb 14 21:14:44 EET 2025
+Generated on: Fri Feb 14 21:15:51 EET 2025
 
+* 61f6e25 - upgrade 6.11.0 (Anagnostakis Ioannis) [2025-02-14]
 * 4403eb5 - upgade 6.11.0 (Anagnostakis Ioannis) [2025-02-14]
 * 6659c73 - add xsettingsd https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/CHANGELOG.md (Anagnostakis Ioannis) [2025-02-14]
 * b497d9d - Update README.md (Anagnostakis Ioannis) [2025-02-14]

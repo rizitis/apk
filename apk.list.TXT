@@ -1,4 +1,4 @@
-# Fri Feb 14 21:14:38 EET 2025
+# Fri Feb 14 21:15:44 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -101,7 +101,7 @@ fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz
 filelight-24.12.2-x86_64-1_rtz.tlz
 flatpak-kcm-6.3.0-x86_64-1_rtz.tlz
-frameworkintegration-6.10.0-x86_64-1_rtz.tlz
+frameworkintegration-6.11.0-x86_64-1_rtz.tlz
 frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.2-x86_64-1_rtz.tlz
 futuresql-0.1.1-x86_64-1_rtz.tlz
@@ -209,7 +209,7 @@ kdeclarative-6.11.0-x86_64-1_rtz.tlz
 kdeclarative5-5.116.0-x86_64-1_rtz.tlz
 kdeconnect-24.12.2-x86_64-1_rtz.tlz
 kdecoration-6.3.0-x86_64-1_rtz.tlz
-kded-6.10.0-x86_64-1_rtz.tlz
+kded-6.11.0-x86_64-1_rtz.tlz
 kdeedu-data-24.12.2-x86_64-1_rtz.tlz
 kdegraphics-mobipocket-24.12.2-x86_64-1_rtz.tlz
 kdegraphics-thumbnailers-24.12.2-x86_64-1_rtz.tlz
