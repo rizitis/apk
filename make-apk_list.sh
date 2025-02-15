@@ -106,6 +106,8 @@ finally_push() {
 
     # Push the changes to the remote repository
     git push
+    git add .
+    git push
 
     # Print success message
     echo "finally git push Done"
