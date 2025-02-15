@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Feb 15 08:27:38 EET 2025
+Generated on: Sat Feb 15 12:20:48 EET 2025
 
+* 21b7191 - graphviz added to stock slackware (Anagnostakis Ioannis) [2025-02-15]
+* ae64e9b - remove graphviz (Anagnostakis Ioannis) [2025-02-15]
 * 6443307 - missed? (Anagnostakis Ioannis) [2025-02-14]
 * 0b6ef07 - upgrade 6.11.0 (Anagnostakis Ioannis) [2025-02-14]
 * 02bddc2 - upgrade 6.11.0 (Anagnostakis Ioannis) [2025-02-14]
