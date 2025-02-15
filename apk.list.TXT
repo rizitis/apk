@@ -1,4 +1,4 @@
-# Fri Feb 14 21:17:28 EET 2025
+# Sat Feb 15 08:27:33 EET 2025
 
 EmojiRunner-3.0.4-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -118,7 +118,6 @@ gpu-screen-recorder-r942.b68400c-x86_64-1_rtz.tlz
 granatier-24.12.2-x86_64-1_rtz.tlz
 grantlee-editor-24.12.2-x86_64-1_rtz.tlz
 grantleetheme-24.12.2-x86_64-1_rtz.tlz
-graphviz-12.2.1-x86_64-1_rtz.tlz
 gsa-24.2.0-x86_64-1_rtz.tlz
 gtk-fortran-4.7.0-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
