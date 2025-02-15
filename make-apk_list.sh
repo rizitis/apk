@@ -90,7 +90,7 @@ create_changelog() {
     echo "Changelog created at $CHANGELOG_FILE"
 }
 
-finally_push() {
+first_push() {
     # Pull latest changes first to get any new changes from the remote
     git pull
 
@@ -106,14 +106,18 @@ finally_push() {
 
     # Push the changes to the remote repository
     git push
-    git add .
-    git push
+}
 
+finally_push(){
+    git add .
+    git commit -s -m "$commit_message"
     # Print success message
     echo "finally git push Done"
+    git push
 }
 
 make_update
 create_json
 create_changelog
+first_push
 finally_push
