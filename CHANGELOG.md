@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Feb 17 10:44:46 EET 2025
+Generated on: Mon Feb 17 13:00:59 EET 2025
 
+* 02f1ec0 - removed phonon-qt6*.tar.lz4 kdsoap-qt6*.tar.lz4 polkit-qt-1-qt6*.tar.lz4 qca*.tar.lz4 qcoro* (Anagnostakis Ioannis) [2025-02-17]
+* 780ba86 - removed phonon-qt6*.tar.lz4 kdsoap-qt6*.tar.lz4 polkit-qt-1-qt6*.tar.lz4 qca*.tar.lz4 qcoro* (Anagnostakis Ioannis) [2025-02-17]
 * 945a953 - Update README.md (Anagnostakis Ioannis) [2025-02-16]
 * b2478c3 - add gitignore (Anagnostakis Ioannis) [2025-02-16]
 * c728214 - upgrade pkgs (Anagnostakis Ioannis) [2025-02-16]
