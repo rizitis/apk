@@ -1,1 +1,1 @@
-Mon Feb 17 13:08:23 EET 2025: rebuild
+Mon Feb 17 13:10:02 EET 2025: remove: kdsoap-qt6,polkit-qt-1-qt6, quazip-qt6 and rebuild kde apps also remove qca qcoro quazip-qt6
