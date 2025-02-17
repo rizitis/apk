@@ -1,4 +1,4 @@
-# Sun Feb 16 15:47:18 EET 2025
+# Mon Feb 17 10:44:34 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -234,7 +234,6 @@ kdnssd-6.11.0-x86_64-1_rtz.tlz
 kdnssd5-5.116.0-x86_64-1_rtz.tlz
 kdoctools-6.11.0-x86_64-1_rtz.tlz
 kdoctools5-5.116.0-x86_64-1_rtz.tlz
-kdsoap-qt6-2.2.0-x86_64-1_rtz.tlz
 kdsoap-ws-discovery-client-0.4.0-x86_64-1_rtz.tlz
 keditbookmarks-24.12.2-x86_64-1_rtz.tlz
 kemoticons5-5.116.0-x86_64-1_rtz.tlz
@@ -510,7 +509,6 @@ partitionmanager-24.12.2-x86_64-1_rtz.tlz
 passc-v0.1.1-x86_64-1_rtz.tlz
 phonon-backend-vlc-0.12.0-x86_64-1_rtz.tlz
 phonon-mpv-qt6-0.1.0-x86_64-1_rtz.tlz
-phonon-qt6-4.12.0-x86_64-1_rtz.tlz
 picocrypt-gui-1.46-x86_64-1_rtz.tlz
 pim-data-exporter-24.12.2-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.2-x86_64-1_rtz.tlz
@@ -544,7 +542,6 @@ plasma5support-6.3.0-x86_64-1_rtz.tlz
 plasmatube-24.12.2-x86_64-1_rtz.tlz
 plymouth-kcm-6.3.0-x86_64-1_rtz.tlz
 polkit-kde-agent-1-6.3.0-x86_64-1_rtz.tlz
-polkit-qt-1-qt6-0.200.0-x86_64-1_rtz.tlz
 power-profiles-daemon-0.23-x86_64-1_rtz.tlz
 powerdevil-6.3.0-x86_64-1_rtz.tlz
 poxml-24.12.2-x86_64-1_rtz.tlz
@@ -561,15 +558,12 @@ python-librivox-0.1-x86_64-1_rtz.tlz
 python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
 qbs-2.5.0-x86_64-1_rtz.tlz
-qca-2.3.9-x86_64-1_rtz.tlz
-qcoro-0.11.0-x86_64-1_rtz.tlz
 qmlkonsole-24.12.2-x86_64-1_rtz.tlz
 qqc2-breeze-style-6.3.0-x86_64-1_rtz.tlz
 qqc2-desktop-style-6.11.0-x86_64-1_rtz.tlz
 qrca-3aa66ae91d8f0624d88d6de0e32ac46927023c8d-x86_64-1_rtz.tlz
 qt-sudo-2.0.1-x86_64-1_rtz.tlz
 qtcreator-15.0.1-x86_64-1_rtz.tlz
-quazip-qt6-1.4-x86_64-1_rtz.tlz
 rewise-0.3.0-x86_64-1_rtz.tlz
 rkward-0.8.0-x86_64-1_rtz.tlz
 rocs-24.12.2-x86_64-1_rtz.tlz

@@ -1,6 +1,10 @@
 # Changelog
-Generated on: Sun Feb 16 15:47:23 EET 2025
+Generated on: Mon Feb 17 10:44:46 EET 2025
 
+* 945a953 - Update README.md (Anagnostakis Ioannis) [2025-02-16]
+* b2478c3 - add gitignore (Anagnostakis Ioannis) [2025-02-16]
+* c728214 - upgrade pkgs (Anagnostakis Ioannis) [2025-02-16]
+* e31be10 - upgrade pkgs (Anagnostakis Ioannis) [2025-02-16]
 * 9c8df72 - upgrade version blueprint-compiler (Anagnostakis Ioannis) [2025-02-15]
 * 9ec17c3 - upgrade version blueprint-compiler (Anagnostakis Ioannis) [2025-02-15]
 * 62fac1e - update git script2 (Anagnostakis Ioannis) [2025-02-15]
