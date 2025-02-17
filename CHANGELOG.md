@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Feb 17 13:28:54 EET 2025
+Generated on: Mon Feb 17 13:43:18 EET 2025
 
+* 04fc9fb - rebuild for fix required (Anagnostakis Ioannis) [2025-02-17]
+* 9309ebf - rebuild for fix required (Anagnostakis Ioannis) [2025-02-17]
 * 6fb8846 - remove: kdsoap-qt6,polkit-qt-1-qt6, quazip-qt6 and rebuild kde apps also remove qca qcoro quazip-qt6 (Anagnostakis Ioannis) [2025-02-17]
 * 125a3c8 - remove: kdsoap-qt6,polkit-qt-1-qt6, quazip-qt6 and rebuild kde apps also remove qca qcoro quazip-qt6 (Anagnostakis Ioannis) [2025-02-17]
 * 3f3c629 - rebuild (Anagnostakis Ioannis) [2025-02-17]
