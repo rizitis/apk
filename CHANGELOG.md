@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Feb 19 01:32:52 EET 2025
+Generated on: Wed Feb 19 01:34:01 EET 2025
 
+* 17a6e4b - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
+* cc46bfb - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * a139bec - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * cfdfdc5 - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * 2113b7a - add xapian-bindings (Anagnostakis Ioannis) [2025-02-17]
