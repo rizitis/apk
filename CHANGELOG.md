@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Feb 17 13:43:18 EET 2025
+Generated on: Wed Feb 19 01:31:26 EET 2025
 
+* 2113b7a - add xapian-bindings (Anagnostakis Ioannis) [2025-02-17]
+* 182166c - add xapian-bindings (Anagnostakis Ioannis) [2025-02-17]
 * 04fc9fb - rebuild for fix required (Anagnostakis Ioannis) [2025-02-17]
 * 9309ebf - rebuild for fix required (Anagnostakis Ioannis) [2025-02-17]
 * 6fb8846 - remove: kdsoap-qt6,polkit-qt-1-qt6, quazip-qt6 and rebuild kde apps also remove qca qcoro quazip-qt6 (Anagnostakis Ioannis) [2025-02-17]
