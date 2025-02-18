@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Feb 19 01:34:01 EET 2025
+Generated on: Wed Feb 19 01:35:02 EET 2025
 
+* 3beae5b - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
+* 69a2b44 - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * 17a6e4b - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * cc46bfb - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
 * a139bec - upgrade to 6.3.1 (Anagnostakis Ioannis) [2025-02-19]
