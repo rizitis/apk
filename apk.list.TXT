@@ -1,4 +1,4 @@
-# Wed Feb 19 01:34:56 EET 2025
+# Wed Feb 19 10:34:50 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -76,7 +76,7 @@ chatgpt.sh-d3fd328f_git-x86_64-1_rtz.tlz
 colord-kde-24.12.2-x86_64-1_rtz.tlz
 coppwr-1.6.1-x86_64-1_rtz.tlz
 csbooks-8.5.0-x86_64-1_rtz.tlz
-ddcutil-2.1.4-x86_64-1_rtz.tlz
+ddcutil-2.2.0-x86_64-1_rtz.tlz
 debian-archive-keyring-2023.4-x86_64-1_rtz.tlz
 digikam-8.5.0-x86_64-1_rtz.tlz
 discount-3.0.0d-x86_64-1_rtz.tlz
@@ -476,7 +476,7 @@ mauikit-filebrowsing-4.0.0-x86_64-1_rtz.tlz
 mauikit-4.0.0-x86_64-1_rtz.tlz
 mauiman-4.0.0-x86_64-1_rtz.tlz
 mdbook-mermaid-0.14.1-x86_64-1_rtz.tlz
-mdbook-0.4.44-x86_64-1_rtz.tlz
+mdbook-0.4.45-x86_64-1_rtz.tlz
 media-downloader-5.2.0-x86_64-1_rtz.tlz
 mepo-1.3.3-x86_64-1_rtz.tlz
 mergiraf-0.5.1-x86_64-1_rtz.tlz
@@ -587,7 +587,7 @@ solid-6.11.0-x86_64-1_rtz.tlz
 solid5-5.116.0-x86_64-1_rtz.tlz
 sonnet-6.11.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
-sourcegit-2025.04-x86_64-2_rtz.tlz
+sourcegit-2025.05-x86_64-2_rtz.tlz
 spacebar-6.3.1-x86_64-1_rtz.tlz
 spdlog-1.15.1-x86_64-1_rtz.tlz
 spectacle-6.3.1-x86_64-1_rtz.tlz
