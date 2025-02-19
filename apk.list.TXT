@@ -1,4 +1,4 @@
-# Wed Feb 19 10:34:50 EET 2025
+# Wed Feb 19 10:48:38 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -433,7 +433,7 @@ libdisplay-info-0.2.0-x86_64-1_rtz.tlz
 libebml-1.4.5-x86_64-1_rtz.tlz
 libfprint-1.94.8-x86_64-1_rtz.tlz
 libgravatar-24.12.2-x86_64-1_rtz.tlz
-libindi-2.1.2-x86_64-1_rtz.tlz
+libindi-2.1.2.1-x86_64-1_rtz.tlz
 libkcddb-24.12.2-x86_64-1_rtz.tlz
 libkcompactdisc-24.12.2-x86_64-1_rtz.tlz
 libkdcraw-24.12.2-x86_64-1_rtz.tlz
