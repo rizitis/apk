@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Feb 19 19:47:06 EET 2025
+Generated on: Wed Feb 19 22:58:00 EET 2025
 
+* 40681af - upgrade plasma-mobile rebuild kwin and plasma-desktop with patch (Anagnostakis Ioannis) [2025-02-19]
+* 45dd6f4 - upgrade plasma-mobile rebuild kwin and plasma-desktop with patch (Anagnostakis Ioannis) [2025-02-19]
 * 1d2474d - upgrade (Anagnostakis Ioannis) [2025-02-19]
 * 2c15242 - upgrade (Anagnostakis Ioannis) [2025-02-19]
 * 883f7fd - update versions (Anagnostakis Ioannis) [2025-02-19]
