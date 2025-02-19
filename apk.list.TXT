@@ -1,4 +1,4 @@
-# Wed Feb 19 10:48:38 EET 2025
+# Wed Feb 19 19:47:00 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -524,7 +524,7 @@ plasma-disks-6.3.1-x86_64-1_rtz.tlz
 plasma-firewall-6.3.1-x86_64-1_rtz.tlz
 plasma-framework5-5.116.0-x86_64-1_rtz.tlz
 plasma-integration-6.3.1-x86_64-1_rtz.tlz
-plasma-mobile-6.3.0-x86_64-1_rtz.tlz
+plasma-mobile-6.3.1-x86_64-1_rtz.tlz
 plasma-nano-6.3.1-x86_64-1_rtz.tlz
 plasma-nm-6.3.1-x86_64-1_rtz.tlz
 plasma-pa-6.3.1-x86_64-1_rtz.tlz
