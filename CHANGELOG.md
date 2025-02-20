@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Feb 20 21:39:07 EET 2025
+Generated on: Thu Feb 20 21:53:35 EET 2025
 
+* ca96bec - add kgeotag (Anagnostakis Ioannis) [2025-02-20]
+* ea0003c - add kgeotag (Anagnostakis Ioannis) [2025-02-20]
 * 32e0b55 - update - rebuild kimageannotator (Anagnostakis Ioannis) [2025-02-20]
 * 493e78b - update - rebuild kimageannotator (Anagnostakis Ioannis) [2025-02-20]
 * e0970e4 - upgrade (Anagnostakis Ioannis) [2025-02-20]
