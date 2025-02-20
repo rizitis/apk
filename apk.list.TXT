@@ -1,4 +1,4 @@
-# Thu Feb 20 10:26:32 EET 2025
+# Thu Feb 20 11:12:39 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -509,7 +509,7 @@ partitionmanager-24.12.2-x86_64-1_rtz.tlz
 passc-v0.1.1-x86_64-1_rtz.tlz
 phonon-backend-vlc-0.12.0-x86_64-1_rtz.tlz
 phonon-mpv-qt6-0.1.0-x86_64-1_rtz.tlz
-picocrypt-gui-1.46-x86_64-1_rtz.tlz
+picocrypt-gui-1.47-x86_64-1_rtz.tlz
 pim-data-exporter-24.12.2-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.2-x86_64-1_rtz.tlz
 pimcommon-24.12.2-x86_64-1_rtz.tlz
