@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Feb 20 12:56:44 EET 2025
+Generated on: Thu Feb 20 18:15:12 EET 2025
 
+* e0970e4 - upgrade (Anagnostakis Ioannis) [2025-02-20]
+* 4faaca0 - upgrade (Anagnostakis Ioannis) [2025-02-20]
 * 997c0f0 - upgrade picocrypt-gui (Anagnostakis Ioannis) [2025-02-20]
 * 0811eac - upgrade picocrypt-gui (Anagnostakis Ioannis) [2025-02-20]
 * ce087a0 - upgrade spectacle plasma-desktop (Anagnostakis Ioannis) [2025-02-20]
