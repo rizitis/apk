@@ -1,4 +1,4 @@
-# Thu Feb 20 11:12:39 EET 2025
+# Thu Feb 20 12:56:35 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -542,7 +542,7 @@ plasma5support-6.3.1-x86_64-1_rtz.tlz
 plasmatube-24.12.2-x86_64-1_rtz.tlz
 plymouth-kcm-6.3.1-x86_64-1_rtz.tlz
 polkit-kde-agent-1-6.3.1-x86_64-1_rtz.tlz
-power-profiles-daemon-0.23-x86_64-1_rtz.tlz
+power-profiles-daemon-0.30-x86_64-1_rtz.tlz
 powerdevil-6.3.1-x86_64-1_rtz.tlz
 poxml-24.12.2-x86_64-1_rtz.tlz
 print-manager-6.3.1-x86_64-1_rtz.tlz
