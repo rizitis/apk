@@ -455,6 +455,11 @@
         "type": "file"
     },
     {
+        "name": "kgeotag.sha256sum",
+        "path": "https://github.com/rizitis/apk/kgeotag.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "kmail.sha256sum",
         "path": "https://github.com/rizitis/apk/kmail.sha256sum",
         "type": "file"
@@ -2437,6 +2442,11 @@
     {
         "name": ".gitignore",
         "path": "https://github.com/rizitis/apk/.gitignore",
+        "type": "file"
+    },
+    {
+        "name": "kgeotag.tar.lz4",
+        "path": "https://github.com/rizitis/apk/kgeotag.tar.lz4",
         "type": "file"
     },
     {
@@ -6865,6 +6875,11 @@
         "type": "file"
     },
     {
+        "name": "3e78bac1d7ae1e1acc49ed85d5975f5bc075d6",
+        "path": "https://github.com/rizitis/apk/.git/objects/49/3e78bac1d7ae1e1acc49ed85d5975f5bc075d6",
+        "type": "file"
+    },
+    {
         "name": "f7abb09b6d34e5c0a3707bcba274a5dbcb9920",
         "path": "https://github.com/rizitis/apk/.git/objects/49/f7abb09b6d34e5c0a3707bcba274a5dbcb9920",
         "type": "file"
@@ -7082,6 +7097,11 @@
     {
         "name": "05c9941eabae35f16c8b6e152ebf48b05922dd",
         "path": "https://github.com/rizitis/apk/.git/objects/6c/05c9941eabae35f16c8b6e152ebf48b05922dd",
+        "type": "file"
+    },
+    {
+        "name": "82263b891322399ef4c5d2f05d629e5500c11d",
+        "path": "https://github.com/rizitis/apk/.git/objects/6c/82263b891322399ef4c5d2f05d629e5500c11d",
         "type": "file"
     },
     {
@@ -7870,6 +7890,11 @@
         "type": "file"
     },
     {
+        "name": "7d60dacaf3a809bd015e61ec1ee2a69f05c7f6",
+        "path": "https://github.com/rizitis/apk/.git/objects/9e/7d60dacaf3a809bd015e61ec1ee2a69f05c7f6",
+        "type": "file"
+    },
+    {
         "name": "b534f4d8286e8dab7bbcb1a737a5163b8ed0d9",
         "path": "https://github.com/rizitis/apk/.git/objects/9e/b534f4d8286e8dab7bbcb1a737a5163b8ed0d9",
         "type": "file"
@@ -7997,6 +8022,11 @@
     {
         "name": "be03c42287290301fdc8f240b16190180e0dd9",
         "path": "https://github.com/rizitis/apk/.git/objects/19/be03c42287290301fdc8f240b16190180e0dd9",
+        "type": "file"
+    },
+    {
+        "name": "4315aeb0d73d4a76c46bac6ddb10b317c26f69",
+        "path": "https://github.com/rizitis/apk/.git/objects/57/4315aeb0d73d4a76c46bac6ddb10b317c26f69",
         "type": "file"
     },
     {
@@ -9260,6 +9290,11 @@
         "type": "file"
     },
     {
+        "name": "e87df831ac54074179ab592a26fc52f4deee5f",
+        "path": "https://github.com/rizitis/apk/.git/objects/25/e87df831ac54074179ab592a26fc52f4deee5f",
+        "type": "file"
+    },
+    {
         "name": "5b7a977ddca778387afcf2513ba3241f394364",
         "path": "https://github.com/rizitis/apk/.git/objects/25/5b7a977ddca778387afcf2513ba3241f394364",
         "type": "file"
@@ -9387,6 +9422,11 @@
     {
         "name": "df71af7bdd73be7e6e8bfba3f4ace6312ee4a3",
         "path": "https://github.com/rizitis/apk/.git/objects/7e/df71af7bdd73be7e6e8bfba3f4ace6312ee4a3",
+        "type": "file"
+    },
+    {
+        "name": "b276c1697ea1ded1ed24eb7417ae800f2a4e88",
+        "path": "https://github.com/rizitis/apk/.git/objects/7e/b276c1697ea1ded1ed24eb7417ae800f2a4e88",
         "type": "file"
     },
     {
@@ -9855,6 +9895,11 @@
         "type": "file"
     },
     {
+        "name": "baf876f3bc232b073b63242c39c0923998a9f0",
+        "path": "https://github.com/rizitis/apk/.git/objects/f2/baf876f3bc232b073b63242c39c0923998a9f0",
+        "type": "file"
+    },
+    {
         "name": "3baf3096c9a88336619ae26f62fce896101db1",
         "path": "https://github.com/rizitis/apk/.git/objects/f2/3baf3096c9a88336619ae26f62fce896101db1",
         "type": "file"
@@ -9930,6 +9975,11 @@
         "type": "file"
     },
     {
+        "name": "c7a4d788e52520de28527dc601023945e907cd",
+        "path": "https://github.com/rizitis/apk/.git/objects/bf/c7a4d788e52520de28527dc601023945e907cd",
+        "type": "file"
+    },
+    {
         "name": "cff2f56bf5a3b513aca1cce892122bb58fbd53",
         "path": "https://github.com/rizitis/apk/.git/objects/bf/cff2f56bf5a3b513aca1cce892122bb58fbd53",
         "type": "file"
@@ -9997,6 +10047,11 @@
     {
         "name": "fabf7b16aff7d986f54354606b9abd09ec2237",
         "path": "https://github.com/rizitis/apk/.git/objects/32/fabf7b16aff7d986f54354606b9abd09ec2237",
+        "type": "file"
+    },
+    {
+        "name": "e0b554f0a412484da27243065b3dc956976702",
+        "path": "https://github.com/rizitis/apk/.git/objects/32/e0b554f0a412484da27243065b3dc956976702",
         "type": "file"
     },
     {
@@ -10512,6 +10567,11 @@
     {
         "name": "fcaf04618c4a807bfcf540b236d4095ac94e0f",
         "path": "https://github.com/rizitis/apk/.git/objects/d5/fcaf04618c4a807bfcf540b236d4095ac94e0f",
+        "type": "file"
+    },
+    {
+        "name": "101d189d5d9258f55953493c7ded32f7ab83ca",
+        "path": "https://github.com/rizitis/apk/.git/objects/d5/101d189d5d9258f55953493c7ded32f7ab83ca",
         "type": "file"
     },
     {

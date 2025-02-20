@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Feb 20 18:15:12 EET 2025
+Generated on: Thu Feb 20 21:39:07 EET 2025
 
+* 32e0b55 - update - rebuild kimageannotator (Anagnostakis Ioannis) [2025-02-20]
+* 493e78b - update - rebuild kimageannotator (Anagnostakis Ioannis) [2025-02-20]
 * e0970e4 - upgrade (Anagnostakis Ioannis) [2025-02-20]
 * 4faaca0 - upgrade (Anagnostakis Ioannis) [2025-02-20]
 * 997c0f0 - upgrade picocrypt-gui (Anagnostakis Ioannis) [2025-02-20]

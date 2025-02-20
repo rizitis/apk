@@ -1,4 +1,4 @@
-# Thu Feb 20 18:15:03 EET 2025
+# Thu Feb 20 21:39:00 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -244,6 +244,7 @@ kfind-24.12.2-x86_64-1_rtz.tlz
 kfourinline-24.12.2-x86_64-1_rtz.tlz
 kgamma-6.3.1-x86_64-1_rtz.tlz
 kgeography-24.12.2-x86_64-1_rtz.tlz
+kgeotag-1.7.0-x86_64-1_rtz.tlz
 kget-24.12.2-x86_64-1_rtz.tlz
 kglobalaccel-6.11.0-x86_64-1_rtz.tlz
 kglobalaccel5-5.116.0-x86_64-1_rtz.tlz
