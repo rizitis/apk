@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Feb 22 00:05:15 EET 2025
+Generated on: Sat Feb 22 00:27:23 EET 2025
 
+* 21c4991 - add qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
+* 02b66b7 - add qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 0d3d5cb - upgrade halloy xdg-desktop-portal-gtk unciv static-web-server libphonenumber gitify (Anagnostakis Ioannis) [2025-02-21]
 * 29c622a - upgrade halloy xdg-desktop-portal-gtk unciv static-web-server libphonenumber gitify (Anagnostakis Ioannis) [2025-02-21]
 * bc24457 - add plasma-workspace-wallpapers1 and plasma-workspace-wallpapers2 (Anagnostakis Ioannis) [2025-02-21]
