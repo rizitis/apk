@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Feb 20 21:53:35 EET 2025
+Generated on: Fri Feb 21 21:01:42 EET 2025
 
+* a5f31cb - upgrade plasma-settings (Anagnostakis Ioannis) [2025-02-20]
+* fa6a075 - upgrade plasma-settings (Anagnostakis Ioannis) [2025-02-20]
 * ca96bec - add kgeotag (Anagnostakis Ioannis) [2025-02-20]
 * ea0003c - add kgeotag (Anagnostakis Ioannis) [2025-02-20]
 * 32e0b55 - update - rebuild kimageannotator (Anagnostakis Ioannis) [2025-02-20]
