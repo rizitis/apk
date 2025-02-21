@@ -1,4 +1,4 @@
-# Fri Feb 21 21:42:38 EET 2025
+# Sat Feb 22 00:05:05 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -567,6 +567,7 @@ qqc2-desktop-style-6.11.0-x86_64-1_rtz.tlz
 qrca-3aa66ae91d8f0624d88d6de0e32ac46927023c8d-x86_64-1_rtz.tlz
 qt-sudo-2.0.1-x86_64-1_rtz.tlz
 qtcreator-15.0.1-x86_64-1_rtz.tlz
+qtscrcpy-a8d3609_git-x86_64-1_rtz.tlz
 rewise-0.3.0-x86_64-1_rtz.tlz
 rkward-0.8.0-x86_64-1_rtz.tlz
 rocs-24.12.2-x86_64-1_rtz.tlz
