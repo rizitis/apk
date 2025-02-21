@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Feb 21 21:01:42 EET 2025
+Generated on: Fri Feb 21 21:42:47 EET 2025
 
+* bc24457 - add plasma-workspace-wallpapers1 and plasma-workspace-wallpapers2 (Anagnostakis Ioannis) [2025-02-21]
+* 3f22aa5 - add plasma-workspace-wallpapers1 and plasma-workspace-wallpapers2 (Anagnostakis Ioannis) [2025-02-21]
 * a5f31cb - upgrade plasma-settings (Anagnostakis Ioannis) [2025-02-20]
 * fa6a075 - upgrade plasma-settings (Anagnostakis Ioannis) [2025-02-20]
 * ca96bec - add kgeotag (Anagnostakis Ioannis) [2025-02-20]
