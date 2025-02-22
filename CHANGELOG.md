@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Feb 22 00:27:23 EET 2025
+Generated on: Sat Feb 22 11:13:28 EET 2025
 
+* faae559 - update libfprint a68g bash-language-server babel-loader qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
+* 4df1d04 - update libfprint a68g bash-language-server babel-loader qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 21c4991 - add qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 02b66b7 - add qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 0d3d5cb - upgrade halloy xdg-desktop-portal-gtk unciv static-web-server libphonenumber gitify (Anagnostakis Ioannis) [2025-02-21]
