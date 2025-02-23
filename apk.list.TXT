@@ -1,4 +1,4 @@
-# Sun Feb 23 11:23:45 EET 2025
+# Sun Feb 23 11:33:09 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -68,7 +68,7 @@ breeze-6.3.1-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.2-x86_64-1_rtz.tlz
 calindori-24.12.2-x86_64-1_rtz.tlz
-callaudiod-0.1.7-x86_64-1_rtz.tlz
+callaudiod-0.1.10-x86_64-1_rtz.tlz
 calligra-24.12.1-x86_64-1_rtz.tlz
 cantor-24.12.2-x86_64-1_rtz.tlz
 cargo-auditable-0.6.6-x86_64-1_rtz.tlz
