@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Feb 23 21:46:50 EET 2025
+Generated on: Sun Feb 23 23:08:26 EET 2025
 
+* 0864079 - upgrade fcitx5-qt (Anagnostakis Ioannis) [2025-02-23]
+* 348f0bf - upgrade fcitx5-qt (Anagnostakis Ioannis) [2025-02-23]
 * 18c1a10 - add plasma-mobile-sounds (Anagnostakis Ioannis) [2025-02-23]
 * 56dc847 - add plasma-mobile-sounds (Anagnostakis Ioannis) [2025-02-23]
 * fa0497e - Update README.md (Anagnostakis Ioannis) [2025-02-23]
