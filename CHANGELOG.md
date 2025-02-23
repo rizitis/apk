@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Feb 23 11:48:16 EET 2025
+Generated on: Sun Feb 23 12:07:37 EET 2025
 
+* 86c4048 - add kdiff3 (Anagnostakis Ioannis) [2025-02-23]
+* 3e5f6a5 - add kdiff3 (Anagnostakis Ioannis) [2025-02-23]
 * c29d660 - upgrade callaudiod (Anagnostakis Ioannis) [2025-02-23]
 * 5428e9c - upgrade callaudiod (Anagnostakis Ioannis) [2025-02-23]
 * a09b220 - upgrade timewall (Anagnostakis Ioannis) [2025-02-23]

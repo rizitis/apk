@@ -1,4 +1,4 @@
-# Sun Feb 23 11:48:06 EET 2025
+# Sun Feb 23 12:07:29 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -404,6 +404,7 @@ ktorrent-24.12.2-x86_64-1_rtz.tlz
 ktouch-24.12.2-x86_64-1_rtz.tlz
 ktrip-24.12.2-x86_64-1_rtz.tlz
 kturtle-24.12.2-x86_64-1_rtz.tlz
+kunifiedpush-1.0.0-x86_64-1_rtz.tlz
 kunitconversion-6.11.0-x86_64-1_rtz.tlz
 kup-0.10.0-x86_64-1_rtz.tlz
 kuserfeedback-6.11.0-x86_64-1_rtz.tlz
