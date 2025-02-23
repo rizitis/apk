@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Feb 23 12:11:23 EET 2025
+Generated on: Sun Feb 23 14:00:25 EET 2025
 
+* a0b0871 - fix wrong version (Anagnostakis Ioannis) [2025-02-23]
+* 3e2d39f - fix wrong version (Anagnostakis Ioannis) [2025-02-23]
 * f68fb71 - add kunifiedpush (Anagnostakis Ioannis) [2025-02-23]
 * b1b504a - add kunifiedpush (Anagnostakis Ioannis) [2025-02-23]
 * 86c4048 - add kdiff3 (Anagnostakis Ioannis) [2025-02-23]
