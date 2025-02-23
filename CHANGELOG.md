@@ -1,6 +1,9 @@
 # Changelog
-Generated on: Sun Feb 23 14:00:25 EET 2025
+Generated on: Sun Feb 23 21:46:50 EET 2025
 
+* 18c1a10 - add plasma-mobile-sounds (Anagnostakis Ioannis) [2025-02-23]
+* 56dc847 - add plasma-mobile-sounds (Anagnostakis Ioannis) [2025-02-23]
+* fa0497e - Update README.md (Anagnostakis Ioannis) [2025-02-23]
 * a0b0871 - fix wrong version (Anagnostakis Ioannis) [2025-02-23]
 * 3e2d39f - fix wrong version (Anagnostakis Ioannis) [2025-02-23]
 * f68fb71 - add kunifiedpush (Anagnostakis Ioannis) [2025-02-23]

@@ -1,4 +1,4 @@
-# Sun Feb 23 14:00:16 EET 2025
+# Sun Feb 23 21:46:41 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -95,7 +95,7 @@ eventviews-24.12.2-x86_64-1_rtz.tlz
 extra-cmake-modules-6.11.0-x86_64-1_rtz.tlz
 falkon-24.12.2-x86_64-1_rtz.tlz
 fcitx5-configtool-5.1.8-x86_64-1_rtz.tlz
-fcitx5-qt-5.1.8-x86_64-1_rtz.tlz
+fcitx5-qt-5.1.9-x86_64-1_rtz.tlz
 fcitx5-5.1.12-x86_64-1_rtz.tlz
 ffmpegthumbs-24.12.2-x86_64-1_rtz.tlz
 fielding-d9e0818_git-x86_64-1_rtz.tlz
