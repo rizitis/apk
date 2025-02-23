@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Feb 22 11:13:28 EET 2025
+Generated on: Sun Feb 23 11:15:57 EET 2025
 
+* ad13b7f - rebuild qtscrcpy , fmt stock rebuilded and android tools need also rebuild (Anagnostakis Ioannis) [2025-02-22]
+* 6d2b437 - rebuild qtscrcpy , fmt stock rebuilded and android tools need also rebuild (Anagnostakis Ioannis) [2025-02-22]
 * faae559 - update libfprint a68g bash-language-server babel-loader qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 4df1d04 - update libfprint a68g bash-language-server babel-loader qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
 * 21c4991 - add qtscrcpy (Anagnostakis Ioannis) [2025-02-22]
