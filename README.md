@@ -13,7 +13,7 @@ It work like this:<br>
 Every Package has
  - package_name.tar.lz4
  - package_name.sha256sum
-<br>In `*.lz4` are all metadata and the binary `package_name.t?z`<br>
+<br>**Inside** `*.lz4` are all metadata and the binary `package_name.t?z`<br>
 
 1. **For install-upgrade a package, apk *before* extract tar.lz4 do:** 
  - compare sha256sum and if its valid continue.<br>
