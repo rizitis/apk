@@ -73,20 +73,23 @@ Repo files can be found [here](./repo_contents.json)
 # === Commands for  Download,Install,Upgrade,Remove,Search <packages> === #
     #
     # apk add pkg       Add/Install a package and its dependencies if exist in apk repository
-    # apk del pkg       Delete a package (only if it was installed from this apk repo)
-    # apk search pkg    Search for a package and its sum file (if exist in this apk repo)
-    # apk show pkg      Print information about a package (so.file, dependencies, README etc...)
-    # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
+    # apk del pkg       Delete a package
+    # apk search pkg    Search for packages
+    # apk show pkg      Print information about a package
+    # apk fix pkg       Repair package or Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
+    # apk local /path/to/pkg Install a local untrusted pkg.tar.lz4 (no check sums will be for local files)
+    #    -- Example: apk /home/my-builds/foo | That mean a foo.tar.lz4 exist there which will be installed.
     #
     # === Commands which not followed by <package> === #
     #
-    # apk update        Update apk repository database
+    # apk update        Update apk repository {local files and package list}.
     # apk upgrade       Upgrade all installed packages from the apk repository ONLY.
     # apk info          List all installed packages from the apk repository ONLY.
-    # apk stats         Show statistics (ONLY about apk repository and installations).
-    # apk upgrade-apk   Upgrade apk script it self and apk.env.
-    # apk restore-apk   downgrade apk script it self and apk.env to previous status before last upgrade-apk.
+    # apk list          List all apk repo available packages.
+    # apk stats         Show statistics ONLY about apk repository and installations.
+    # apk upgrade-apk   Upgrade apk script version and apk.env.
+    # apk restore-apk   downgrade apk script and apk.env to previous status before upgrade-apk.
     # apk help          Print help message
 ```
 - To uninstall apk, as root: `rm -rf /etc/apk /usr/share/apk /usr/local/sbin/apk /var/lib/apk` 
