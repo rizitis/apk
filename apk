@@ -115,7 +115,8 @@ case $command in
         echo "Failed to create temporary directory"
         exit 1
         fi
-        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4 -C "$temp_dir"
+        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4 -C "$temp_dir" || { echo "\"$PKG\".tar.lz4 not found. Please use 'apk help' for more information."; exit 1; }
+
         cd "$temp_dir"/* || exit
         FN="$(cat BIN_NAME)"
         echo "$FN"
