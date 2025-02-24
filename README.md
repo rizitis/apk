@@ -79,7 +79,7 @@ Repo files can be found [here](./repo_contents.json)
     # apk fix pkg       Repair package or Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
     # apk local /path/to/pkg Install a local untrusted pkg.tar.lz4 (no check sums will be for local files)
-    #    -- Example: apk /home/my-builds/foo | That mean a foo.tar.lz4 exist there which will be installed.
+    #    -- Example: apk local /home/my-builds/foo | That mean a foo.tar.lz4 exist there which will be installed.
     #
     # === Commands which not followed by <package> === #
     #
