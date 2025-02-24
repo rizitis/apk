@@ -1,1 +1,1 @@
-Mon Feb 24 16:49:00 EET 2025: update README in kinfocenter https://bugs.kde.org/show_bug.cgi?id=500637
+Mon Feb 24 17:42:25 EET 2025: upgrade apk to support local pkg.tar.lz4 installation. NOTE apk upgrade-apk needed. After upgrade apk , cmd: apk help
