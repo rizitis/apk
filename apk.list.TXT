@@ -1,4 +1,4 @@
-# Mon Feb 24 11:08:53 EET 2025
+# Mon Feb 24 16:49:00 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -276,7 +276,7 @@ kimageannotator-0.7.1-x86_64-1_rtz.tlz
 kimageformats-6.11.0-x86_64-1_rtz.tlz
 kimagemapeditor-24.12.2-x86_64-1_rtz.tlz
 kimap-24.12.2-x86_64-1_rtz.tlz
-kinfocenter-6.3.1-x86_64-1_rtz.tlz
+kinfocenter-6.3.1-x86_64-3_rtz.tlz
 kinit5-5.116.0-x86_64-1_rtz.tlz
 kio-admin-24.12.2-x86_64-1_rtz.tlz
 kio-extras-24.12.2-x86_64-1_rtz.tlz
