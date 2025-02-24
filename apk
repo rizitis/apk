@@ -22,6 +22,7 @@ saved_dir=$(pwd)
 # Extract the command argument
 command=$1
 PKG=$2
+#opt=$3 for future useage...
 
 # List of commands that do not accept $2
 invalid_with_second_arg="update|upgrade|restore-apk|upgrade-apk|info|list|stats|help|--help|-h"
@@ -35,7 +36,7 @@ if [[ "$1" =~ $invalid_with_second_arg ]]; then
     fi
 fi
 
-must_have_second_arg="add|del|search|fix|download|show"
+must_have_second_arg="add|del|search|fix|download|show|local"
 
 if [[ "$1" =~ $must_have_second_arg && -z "$2" ]]; then
     echo "Error: Command '$1' must be followed by a package_name." >&2
@@ -54,6 +55,8 @@ if [[ "$1" == "--help" || "$1" == "-h" || "$1" == "help" ]]; then
     # apk show pkg      Print information about a package
     # apk fix pkg       Repair package or Upgrade it without modifying dependencies
     # apk download pkg  Download package files but not install
+    # apk local /path/to/pkg Install a local untrusted pkg.tar.lz4 (no check sums will be for local files)
+    #    -- Example: apk /home/my-builds/foo | That mean a foo.tar.lz4 exist there which will be installed.
     #
     # === Commands which not followed by <package> === #
     #
@@ -70,7 +73,7 @@ else
     # Check if at least one argument is provided
 if [ "$#" -lt 1 ]; then
     echo "Usage: $0 <command> [<package>]"
-    echo "Commands: fix, show, add, download, search, upgrade, del, update, info, stats, upgrade-apk, restore-apk, help"
+    echo "Commands: fix, show, add, download, search, upgrade, del, update, info, stats, upgrade-apk, restore-apk, local, help"
     echo '
     # apk update        Update apk repository local files and package list
     # apk upgrade       Upgrade all installed pkg from apk repository
@@ -78,6 +81,7 @@ if [ "$#" -lt 1 ]; then
     # apk del pkg       Delete a package
     # apk search pkg    Search for packages
     # apk show pkg      Print information about a package
+    # apk local /path/to/pkg       Install a local untrusted pkg.tar.lz4 (apk help more for more infos)
     # apk info          List all installed packages
     # apk list          List all apk repo available packages
     # apk fix           Repair (Reinstall) a package or Install/Upgrade it without modifying dependencies
@@ -85,7 +89,7 @@ if [ "$#" -lt 1 ]; then
     # apk download pkg  Download package files but not install
     # apk upgrade-apk   Upgrade apk version
     # apk restore-apk   downgrade apk one version back
-    # apk help          Print help message
+    # apk help          Print help message with more details...
     '
     exit 1
 fi
@@ -102,6 +106,26 @@ shift
 case $command in
     list)
         python "$_APKG"
+        ;;
+   local)
+        echo -e "${BLUE}Install/Reinstall/Upgrade using an untrusted local $PKG.${NC}"
+        echo -e "${RED}Attension:${NC} Untrusted means not md5sum or other sha checks will executed!"
+        temp_dir=$(mktemp -d)
+        if [ ! -d "$temp_dir" ]; then
+        echo "Failed to create temporary directory"
+        exit 1
+        fi
+        tar --use-compress-program=lz4 -xvf "$PKG".tar.lz4 -C "$temp_dir"
+        cd "$temp_dir"/* || exit
+        FN="$(cat BIN_NAME)"
+        echo "$FN"
+        upgradepkg --reinstall --install-new "$FN"
+        for file in *.so.file; do
+        [ -e "$file" ] || continue  # Skip if no matching files
+        cp "$file" /usr/doc/"${FN%-x86_64*}"/
+        done
+        cd "$saved_dir" || exit
+        rm -rf "$temp_dir"
         ;;
     fix)
         echo -e "${BLUE}Fixing $PKG (Install/Reinstall/Upgrade) but not dependencies.${NC}"

@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Feb 24 16:49:10 EET 2025
+Generated on: Mon Feb 24 17:42:33 EET 2025
 
+* f4dd5ce - update README in kinfocenter https://bugs.kde.org/show_bug.cgi?id=500637 (Anagnostakis Ioannis) [2025-02-24]
+* d7252ab - update README in kinfocenter https://bugs.kde.org/show_bug.cgi?id=500637 (Anagnostakis Ioannis) [2025-02-24]
 * a77e8be - update sourcegit (Anagnostakis Ioannis) [2025-02-24]
 * 6934a13 - update sourcegit (Anagnostakis Ioannis) [2025-02-24]
 * d71b219 - update audit (Anagnostakis Ioannis) [2025-02-23]
