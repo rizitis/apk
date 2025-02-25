@@ -1,4 +1,4 @@
-# Tue Feb 25 16:37:10 EET 2025
+# Tue Feb 25 21:46:55 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -64,7 +64,7 @@ bomber-24.12.2-x86_64-1_rtz.tlz
 bovo-24.12.2-x86_64-1_rtz.tlz
 breeze-gtk-6.3.1-x86_64-1_rtz.tlz
 breeze-icons-6.11.0-x86_64-1_rtz.tlz
-breeze-6.3.1-x86_64-1_rtz.tlz
+breeze-6.3.2-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.2-x86_64-1_rtz.tlz
 calindori-24.12.2-x86_64-1_rtz.tlz
@@ -420,7 +420,7 @@ kweather-24.12.2-x86_64-1_rtz.tlz
 kweathercore-0.8.0-x86_64-1_rtz.tlz
 kwidgetsaddons-6.11.0-x86_64-1_rtz.tlz
 kwidgetsaddons5-5.116.0-x86_64-1_rtz.tlz
-kwin-6.3.1-x86_64-1_rtz.tlz
+kwin-6.3.2-x86_64-1_rtz.tlz
 kwindowsystem-6.11.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.2-x86_64-1_rtz.tlz
@@ -460,7 +460,7 @@ libnova-0.15.0-x86_64-1_rtz.tlz
 libnpupnp-6.2.0-x86_64-1_rtz.tlz
 libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
 libphonenumber-8.13.55-x86_64-1_rtz.tlz
-libplasma-6.3.1-x86_64-1_rtz.tlz
+libplasma-6.3.2-x86_64-1_rtz.tlz
 libqaccessibilityclient-0.6.0-x86_64-1_rtz.tlz
 libquotient-0.9.1-x86_64-1_rtz.tlz
 libredwg-0.13.3-x86_64-1_rtz.tlz
@@ -495,7 +495,7 @@ mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.2-x86_64-1_rtz.tlz
 networkmanager-qt-6.11.0-x86_64-1_rtz.tlz
 noisetorch-6d895f3_git-x86_64-1_rtz.tlz
-ocean-sound-theme-6.3.1-x86_64-1_rtz.tlz
+ocean-sound-theme-6.3.2-x86_64-1_rtz.tlz
 okteta-0.26.19-x86_64-1_rtz.tlz
 okular-24.12.2-x86_64-1_rtz.tlz
 olm-3.2.16-x86_64-1_rtz.tlz
@@ -506,7 +506,7 @@ openxr-1.1.43-x86_64-1_rtz.tlz
 optiimage-a9eaa64c_git-x86_64-1_rtz.tlz
 oxygen-icons-6.1.0-x86_64-1_rtz.tlz
 oxygen-sounds-6.3.1-x86_64-1_rtz.tlz
-oxygen-6.3.1-x86_64-1_rtz.tlz
+oxygen-6.3.2-x86_64-1_rtz.tlz
 panwriter-0.8.9-x86_64-1_rtz.tlz
 parley-24.12.2-x86_64-1_rtz.tlz
 partitionmanager-24.12.2-x86_64-1_rtz.tlz
@@ -522,7 +522,7 @@ plasma-activities-stats-6.3.1-x86_64-1_rtz.tlz
 plasma-activities-6.3.1-x86_64-1_rtz.tlz
 plasma-browser-integration-6.3.1-x86_64-1_rtz.tlz
 plasma-camera-1.0_git20240819-x86_64-1_rtz.tlz
-plasma-desktop-6.3.1.1-x86_64-1_rtz.tlz
+plasma-desktop-6.3.2-x86_64-1_rtz.tlz
 plasma-dialer-6.3.1-x86_64-1_rtz.tlz
 plasma-disks-6.3.1-x86_64-1_rtz.tlz
 plasma-firewall-6.3.1-x86_64-1_rtz.tlz
@@ -542,9 +542,9 @@ plasma-thunderbolt-6.3.1-x86_64-1_rtz.tlz
 plasma-vault-6.3.1-x86_64-1_rtz.tlz
 plasma-wayland-protocols-1.16.0-x86_64-1_rtz.tlz
 plasma-welcome-6.3.1-x86_64-1_rtz.tlz
-plasma-workspace-wallpapers1-6.3.1-x86_64-1_rtz.tlz
-plasma-workspace-wallpapers2-6.3.1-x86_64-1_rtz.tlz
-plasma-workspace-6.3.1-x86_64-1_rtz.tlz
+plasma-workspace-wallpapers1-6.3.2-x86_64-1_rtz.tlz
+plasma-workspace-wallpapers2-6.3.2-x86_64-1_rtz.tlz
+plasma-workspace-6.3.2-x86_64-1_rtz.tlz
 plasma5support-6.3.1-x86_64-1_rtz.tlz
 plasmatube-24.12.2-x86_64-1_rtz.tlz
 plymouth-kcm-6.3.1-x86_64-1_rtz.tlz

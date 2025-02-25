@@ -6390,6 +6390,11 @@
         "type": "file"
     },
     {
+        "name": "apk_repo_contents.json",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk_repo_contents.json",
+        "type": "file"
+    },
+    {
         "name": "babel-loader.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/babel-loader.tar.lz4",
         "type": "file"

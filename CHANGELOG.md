@@ -1,6 +1,9 @@
 # Changelog
-Generated on: Tue Feb 25 16:37:19 EET 2025
+Generated on: Tue Feb 25 21:47:01 EET 2025
 
+* 3900276 - rename json (Anagnostakis Ioannis) [2025-02-25]
+* da49738 - fix fetch-local script for valid json output (Anagnostakis Ioannis) [2025-02-25]
+* 7a661f0 - fix fetch-local script for valid json output (Anagnostakis Ioannis) [2025-02-25]
 * 821ee5e - fix json file (Anagnostakis Ioannis) [2025-02-25]
 * a39cdca - fix json file (Anagnostakis Ioannis) [2025-02-25]
 * be62381 - upgrade haruna (Anagnostakis Ioannis) [2025-02-25]
