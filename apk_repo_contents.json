@@ -3805,11 +3805,6 @@
         "type": "file"
     },
     {
-        "name": "repo_contents.json",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/repo_contents.json",
-        "type": "file"
-    },
-    {
         "name": "futuresql.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/futuresql.sha256sum",
         "type": "file"

@@ -23,7 +23,7 @@ def generate_json():
             })
 
     # Save the output to a JSON file
-    with open("repo_contents.json", "w") as json_file:
+    with open("apk_repo_contents.json", "w") as json_file:
         json.dump(file_info, json_file, indent=4)
 
 # Call the function to generate the JSON
