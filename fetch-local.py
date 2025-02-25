@@ -18,7 +18,7 @@ def generate_json():
             # Add file information to the list in the desired format
             file_info.append({
                 'name': file,
-                'path': os.path.join(root, file),
+                'path': os.path.join("https://raw.githubusercontent.com/rizitis/apk/refs/heads/main", file),
                 'type': 'file'
             })
 

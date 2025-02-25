@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Feb 25 11:07:19 EET 2025
+Generated on: Tue Feb 25 16:37:19 EET 2025
 
+* 821ee5e - fix json file (Anagnostakis Ioannis) [2025-02-25]
+* a39cdca - fix json file (Anagnostakis Ioannis) [2025-02-25]
 * be62381 - upgrade haruna (Anagnostakis Ioannis) [2025-02-25]
 * a304648 - upgrade haruna (Anagnostakis Ioannis) [2025-02-25]
 * 68e8c1f - add error message and exit for wrong apk local cmd (Anagnostakis Ioannis) [2025-02-24]
