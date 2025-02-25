@@ -1,6 +1,12 @@
 # Changelog
-Generated on: Mon Feb 24 17:42:33 EET 2025
+Generated on: Tue Feb 25 09:54:41 EET 2025
 
+* 68e8c1f - add error message and exit for wrong apk local cmd (Anagnostakis Ioannis) [2025-02-24]
+* 9f12195 - fix help and read me for cmd: apk local (Anagnostakis Ioannis) [2025-02-24]
+* 051dcbe - Update README.md (Anagnostakis Ioannis) [2025-02-24]
+* 018c125 - Update README.md (Anagnostakis Ioannis) [2025-02-24]
+* 8bad317 - upgrade apk to support local pkg.tar.lz4 installation. NOTE apk upgrade-apk needed. After upgrade apk , cmd: apk help (Anagnostakis Ioannis) [2025-02-24]
+* 6578d9b - upgrade apk to support local pkg.tar.lz4 installation. NOTE apk upgrade-apk needed. After upgrade apk , cmd: apk help (Anagnostakis Ioannis) [2025-02-24]
 * f4dd5ce - update README in kinfocenter https://bugs.kde.org/show_bug.cgi?id=500637 (Anagnostakis Ioannis) [2025-02-24]
 * d7252ab - update README in kinfocenter https://bugs.kde.org/show_bug.cgi?id=500637 (Anagnostakis Ioannis) [2025-02-24]
 * a77e8be - update sourcegit (Anagnostakis Ioannis) [2025-02-24]
