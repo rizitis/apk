@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Feb 25 21:47:01 EET 2025
+Generated on: Tue Feb 25 21:49:24 EET 2025
 
+* 8dbc8b5 - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
+* 133803b - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * 3900276 - rename json (Anagnostakis Ioannis) [2025-02-25]
 * da49738 - fix fetch-local script for valid json output (Anagnostakis Ioannis) [2025-02-25]
 * 7a661f0 - fix fetch-local script for valid json output (Anagnostakis Ioannis) [2025-02-25]
