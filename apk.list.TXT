@@ -1,4 +1,4 @@
-# Tue Feb 25 21:49:19 EET 2025
+# Tue Feb 25 21:50:21 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -101,7 +101,7 @@ ffmpegthumbs-24.12.2-x86_64-1_rtz.tlz
 fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz
 filelight-24.12.2-x86_64-1_rtz.tlz
-flatpak-kcm-6.3.1-x86_64-1_rtz.tlz
+flatpak-kcm-6.3.2-x86_64-1_rtz.tlz
 frameworkintegration-6.11.0-x86_64-1_rtz.tlz
 frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.2-x86_64-1_rtz.tlz
@@ -385,7 +385,7 @@ kservice-6.11.0-x86_64-1_rtz.tlz
 kservice5-5.116.0-x86_64-1_rtz.tlz
 ksirk-24.12.2-x86_64-1_rtz.tlz
 ksmtp-24.12.2-x86_64-1_rtz.tlz
-ksshaskpass-6.3.1-x86_64-1_rtz.tlz
+ksshaskpass-6.3.2-x86_64-1_rtz.tlz
 kstatusnotifieritem-6.11.0-x86_64-1_rtz.tlz
 ksvg-6.11.0-x86_64-1_rtz.tlz
 ksystemlog-24.12.2-x86_64-1_rtz.tlz
@@ -408,12 +408,12 @@ kunifiedpush-24.12.2-x86_64-1_rtz.tlz
 kunitconversion-6.11.0-x86_64-1_rtz.tlz
 kup-0.10.0-x86_64-1_rtz.tlz
 kuserfeedback-6.11.0-x86_64-1_rtz.tlz
-kwallet-pam-6.3.1-x86_64-1_rtz.tlz
+kwallet-pam-6.3.2-x86_64-1_rtz.tlz
 kwallet-6.11.0-x86_64-1_rtz.tlz
 kwallet5-5.116.0-x86_64-1_rtz.tlz
 kwalletmanager-24.12.2-x86_64-1_rtz.tlz
 kwave-24.12.2-x86_64-1_rtz.tlz
-kwayland-integration-6.3.1-x86_64-1_rtz.tlz
+kwayland-integration-6.3.2-x86_64-1_rtz.tlz
 kwayland-6.3.2-x86_64-1_rtz.tlz
 kwayland5-5.116.0-x86_64-1_rtz.tlz
 kweather-24.12.2-x86_64-1_rtz.tlz
@@ -425,10 +425,10 @@ kwindowsystem-6.11.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.2-x86_64-1_rtz.tlz
 kwrite-24.12.2-x86_64-1_rtz.tlz
-kwrited-6.3.1-x86_64-1_rtz.tlz
+kwrited-6.3.2-x86_64-1_rtz.tlz
 kxmlgui-6.11.0-x86_64-1_rtz.tlz
 kxmlgui5-5.116.0-x86_64-1_rtz.tlz
-layer-shell-qt-6.3.1-x86_64-1_rtz.tlz
+layer-shell-qt-6.3.2-x86_64-1_rtz.tlz
 libaccounts-glib-1.27-x86_64-1_rtz.tlz
 libaccounts-qt-1.17-x86_64-1_rtz.tlz
 libadwaita-1.6.4-x86_64-1_rtz.tlz
@@ -530,7 +530,7 @@ plasma-framework5-5.116.0-x86_64-1_rtz.tlz
 plasma-integration-6.3.2-x86_64-1_rtz.tlz
 plasma-mobile-sounds-0.1-x86_64-1_rtz.tlz
 plasma-mobile-6.3.1-x86_64-1_rtz.tlz
-plasma-nano-6.3.1-x86_64-1_rtz.tlz
+plasma-nano-6.3.2-x86_64-1_rtz.tlz
 plasma-nm-6.3.2-x86_64-1_rtz.tlz
 plasma-pa-6.3.2-x86_64-1_rtz.tlz
 plasma-phonebook-24.02.0-x86_64-1_rtz.tlz
@@ -548,7 +548,7 @@ plasma-workspace-6.3.2-x86_64-1_rtz.tlz
 plasma5support-6.3.2-x86_64-1_rtz.tlz
 plasmatube-24.12.2-x86_64-1_rtz.tlz
 plymouth-kcm-6.3.2-x86_64-1_rtz.tlz
-polkit-kde-agent-1-6.3.1-x86_64-1_rtz.tlz
+polkit-kde-agent-1-6.3.2-x86_64-1_rtz.tlz
 power-profiles-daemon-0.30-x86_64-1_rtz.tlz
 powerdevil-6.3.2-x86_64-1_rtz.tlz
 poxml-24.12.2-x86_64-1_rtz.tlz

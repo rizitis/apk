@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Feb 25 21:49:24 EET 2025
+Generated on: Tue Feb 25 21:50:26 EET 2025
 
+* c990a5a - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
+* fb4f0f2 - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * 8dbc8b5 - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * 133803b - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * 3900276 - rename json (Anagnostakis Ioannis) [2025-02-25]
