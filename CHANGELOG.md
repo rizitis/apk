@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Feb 25 21:54:58 EET 2025
+Generated on: Tue Feb 25 22:51:58 EET 2025
 
+* 2c063b4 - upgrade plasma to 6.3.2 (! plasma-mobile) (Anagnostakis Ioannis) [2025-02-25]
+* 9b6c03f - upgrade plasma to 6.3.2 (! plasma-mobile) (Anagnostakis Ioannis) [2025-02-25]
 * d59f516 - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * df09839 - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * c990a5a - upgrade 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
