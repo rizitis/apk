@@ -1,8 +1,8 @@
 import os
 import json
 
-# Path to the local cloned repository
-repo_path = "/home/omen/GITHUB/apk"
+# Get the current working directory
+repo_path = os.getcwd()
 
 # Function to generate the JSON file in the desired format
 def generate_json():
@@ -10,6 +10,10 @@ def generate_json():
 
     # Traverse the repo directory
     for root, dirs, files in os.walk(repo_path):
+        # Skip the .git directory and its contents
+        if '.git' in root:
+            continue
+
         for file in files:
             # Add file information to the list in the desired format
             file_info.append({

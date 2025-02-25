@@ -29,6 +29,7 @@ Every Package has
  - Since apk delete **only** packages that was installed from apk (dont touch slack packages or SBo or anything else)
  - Althought its has its own database for installed packages (apk stats) 
  - It also read systems packages log, so because we want to be 100% sure it will ask you 2 times to confirm before del pkg.
+ - `apk del` **might** not find or remove `untrusted` packages. Untrusted are packages you build/install manually using `apk local` command. General speaking local packages is better to be removed using `removepkg`...
  
 4. **I want this tool to work **only** with this repo to not have conflicts with other repos.**
  - But if a dependency is missing from here (probably for size limmit git-lfs not enough), its ok to install it from other REPO using slpkg,sbopkg,slackpkg+ etc...or you can build it from [athos](https://github.com/rizitis/PLASMA_WORLD/tree/main/AthOS) if exist there.

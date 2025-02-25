@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Feb 25 09:54:41 EET 2025
+Generated on: Tue Feb 25 11:07:19 EET 2025
 
+* be62381 - upgrade haruna (Anagnostakis Ioannis) [2025-02-25]
+* a304648 - upgrade haruna (Anagnostakis Ioannis) [2025-02-25]
 * 68e8c1f - add error message and exit for wrong apk local cmd (Anagnostakis Ioannis) [2025-02-24]
 * 9f12195 - fix help and read me for cmd: apk local (Anagnostakis Ioannis) [2025-02-24]
 * 051dcbe - Update README.md (Anagnostakis Ioannis) [2025-02-24]
