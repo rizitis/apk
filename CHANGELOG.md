@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Feb 26 09:24:42 EET 2025
+Generated on: Wed Feb 26 09:35:02 EET 2025
 
+* 14b5744 - upgrade kwin 6.3.2.1 Rebuild: plasma-{workspace,desktop,mobile} (Anagnostakis Ioannis) [2025-02-26]
+* 01569b7 - upgrade kwin 6.3.2.1 Rebuild: plasma-{workspace,desktop,mobile} (Anagnostakis Ioannis) [2025-02-26]
 * 8e3a346 - upgrade plasma-mobile 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * fc7d7de - upgrade plasma-mobile 6.3.2 (Anagnostakis Ioannis) [2025-02-25]
 * 2c063b4 - upgrade plasma to 6.3.2 (! plasma-mobile) (Anagnostakis Ioannis) [2025-02-25]
