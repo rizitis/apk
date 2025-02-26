@@ -1,4 +1,4 @@
-# Tue Feb 25 22:51:52 EET 2025
+# Wed Feb 26 09:24:36 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -420,7 +420,7 @@ kweather-24.12.2-x86_64-1_rtz.tlz
 kweathercore-0.8.0-x86_64-1_rtz.tlz
 kwidgetsaddons-6.11.0-x86_64-1_rtz.tlz
 kwidgetsaddons5-5.116.0-x86_64-1_rtz.tlz
-kwin-6.3.2-x86_64-1_rtz.tlz
+kwin-6.3.2.1-x86_64-1_rtz.tlz
 kwindowsystem-6.11.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.2-x86_64-1_rtz.tlz
