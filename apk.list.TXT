@@ -1,4 +1,4 @@
-# Wed Feb 26 14:54:29 EET 2025
+# Wed Feb 26 23:03:06 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -458,6 +458,7 @@ libmatroska-1.7.1-x86_64-1_rtz.tlz
 libmicrohttpd-1.0.1-x86_64-1_rtz.tlz
 libnova-0.15.0-x86_64-1_rtz.tlz
 libnpupnp-6.2.0-x86_64-1_rtz.tlz
+libofx-0.9.11-x86_64-1_rtz.tlz
 libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
 libphonenumber-8.13.55-x86_64-1_rtz.tlz
 libplasma-6.3.2-x86_64-1_rtz.tlz
@@ -589,6 +590,7 @@ sirikali-1.8.1-x86_64-1_rtz.tlz
 skanlite-24.12.2-x86_64-1_rtz.tlz
 skia-sharp-0.0.0-x86_64-1_rtz.tlz
 skladnik-0.5.2-x86_64-1_rtz.tlz
+skrooge-25.1.0-x86_64-1_rtz.tlz
 soapy-sdr-remote-0.5.2-x86_64-1_rtz.tlz
 soapy-sdr-0.8.1-x86_64-1_rtz.tlz
 solid-6.11.0-x86_64-1_rtz.tlz
@@ -599,6 +601,7 @@ sourcegit-2025.06-x86_64-2_rtz.tlz
 spacebar-6.3.2-x86_64-1_rtz.tlz
 spdlog-1.15.1-x86_64-1_rtz.tlz
 spectacle-6.3.2.1-x86_64-1_rtz.tlz
+sqlcipher-4.4.2-x86_64-1_rtz.tlz
 static-web-server-2.36.0-x86_64-1_rtz.tlz
 step-24.12.2-x86_64-1_rtz.tlz
 superhtml-0.5.3-x86_64-1_rtz.tlz

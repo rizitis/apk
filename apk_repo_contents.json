@@ -65,6 +65,11 @@
         "type": "file"
     },
     {
+        "name": "libofx.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libofx.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "bubblewrap.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/bubblewrap.sha256sum",
         "type": "file"
@@ -1272,6 +1277,11 @@
     {
         "name": "libksysguard.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libksysguard.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "sqlcipher.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/sqlcipher.tar.lz4",
         "type": "file"
     },
     {
@@ -2580,6 +2590,11 @@
         "type": "file"
     },
     {
+        "name": "skrooge.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/skrooge.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "tellico.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/tellico.tar.lz4",
         "type": "file"
@@ -3232,6 +3247,11 @@
     {
         "name": "knotifications5.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/knotifications5.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "sqlcipher.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/sqlcipher.sha256sum",
         "type": "file"
     },
     {
@@ -4750,6 +4770,11 @@
         "type": "file"
     },
     {
+        "name": "skrooge.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/skrooge.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "colord-kde.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/colord-kde.tar.lz4",
         "type": "file"
@@ -5912,6 +5937,11 @@
     {
         "name": "mailimporter.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/mailimporter.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "libofx.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libofx.tar.lz4",
         "type": "file"
     },
     {
