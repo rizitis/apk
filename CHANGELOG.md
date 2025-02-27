@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Feb 26 23:03:15 EET 2025
+Generated on: Thu Feb 27 09:50:15 EET 2025
 
+* 6f2d64b - added libofx sqlcipher skrooge (Anagnostakis Ioannis) [2025-02-26]
+* 03bac3e - added libofx sqlcipher skrooge (Anagnostakis Ioannis) [2025-02-26]
 * 9e18cc1 - upgrade plasma-smart-video-wallpaper-reborn (Anagnostakis Ioannis) [2025-02-26]
 * d946cda - upgrade plasma-smart-video-wallpaper-reborn (Anagnostakis Ioannis) [2025-02-26]
 * 85b6c2e - upgrade spectacle 6.3.2.1 (Anagnostakis Ioannis) [2025-02-26]
