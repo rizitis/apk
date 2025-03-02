@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Feb 27 09:50:15 EET 2025
+Generated on: Sun Mar  2 16:05:02 EET 2025
 
+* c64d5b9 - upgrade sqlcipher (Anagnostakis Ioannis) [2025-02-27]
+* 73c1f9d - upgrade sqlcipher (Anagnostakis Ioannis) [2025-02-27]
 * 6f2d64b - added libofx sqlcipher skrooge (Anagnostakis Ioannis) [2025-02-26]
 * 03bac3e - added libofx sqlcipher skrooge (Anagnostakis Ioannis) [2025-02-26]
 * 9e18cc1 - upgrade plasma-smart-video-wallpaper-reborn (Anagnostakis Ioannis) [2025-02-26]

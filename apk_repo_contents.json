@@ -160,6 +160,11 @@
         "type": "file"
     },
     {
+        "name": "config-file-validator.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/config-file-validator.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "kimageformats.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kimageformats.sha256sum",
         "type": "file"
@@ -3297,6 +3302,11 @@
     {
         "name": "sirikali.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/sirikali.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "config-file-validator.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/config-file-validator.tar.lz4",
         "type": "file"
     },
     {
