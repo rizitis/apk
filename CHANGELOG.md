@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Mar  3 09:06:42 EET 2025
+Generated on: Mon Mar  3 09:12:02 EET 2025
 
+* b48a431 - upgrade  kquickimageeditor (Anagnostakis Ioannis) [2025-03-03]
+* 8f6586c - upgrade  kquickimageeditor (Anagnostakis Ioannis) [2025-03-03]
 * 3440b70 - add config-file-validator (Anagnostakis Ioannis) [2025-03-02]
 * e4d6178 - add config-file-validator (Anagnostakis Ioannis) [2025-03-02]
 * c64d5b9 - upgrade sqlcipher (Anagnostakis Ioannis) [2025-02-27]
