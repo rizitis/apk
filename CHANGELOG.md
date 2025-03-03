@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar  2 16:05:02 EET 2025
+Generated on: Mon Mar  3 09:06:42 EET 2025
 
+* 3440b70 - add config-file-validator (Anagnostakis Ioannis) [2025-03-02]
+* e4d6178 - add config-file-validator (Anagnostakis Ioannis) [2025-03-02]
 * c64d5b9 - upgrade sqlcipher (Anagnostakis Ioannis) [2025-02-27]
 * 73c1f9d - upgrade sqlcipher (Anagnostakis Ioannis) [2025-02-27]
 * 6f2d64b - added libofx sqlcipher skrooge (Anagnostakis Ioannis) [2025-02-26]

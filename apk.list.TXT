@@ -1,4 +1,4 @@
-# Sun Mar  2 16:04:52 EET 2025
+# Mon Mar  3 09:06:32 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -370,7 +370,7 @@ kpty5-5.116.0-x86_64-1_rtz.tlz
 kpublictransport-24.12.2-x86_64-1_rtz.tlz
 kqtquickcharts-24.12.2-x86_64-1_rtz.tlz
 kquickcharts-6.11.0-x86_64-1_rtz.tlz
-kquickimageeditor-0.5.0-x86_64-1_rtz.tlz
+kquickimageeditor-0.5.1-x86_64-1_rtz.tlz
 krdc-24.12.2-x86_64-1_rtz.tlz
 krdp-6.3.2-x86_64-1_rtz.tlz
 krename-5.0.2-x86_64-1_rtz.tlz
