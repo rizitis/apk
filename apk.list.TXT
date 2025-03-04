@@ -1,4 +1,4 @@
-# Tue Mar  4 10:34:12 EET 2025
+# Wed Mar  5 00:07:07 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -90,7 +90,7 @@ dragon-24.12.2-x86_64-1_rtz.tlz
 drkonqi-6.3.2-x86_64-1_rtz.tlz
 dstp-0.4.23-x86_64-1_rtz.tlz
 elisa-24.12.2-x86_64-1_rtz.tlz
-envman-2.5.1-x86_64-1_rtz.tlz
+envman-2.5.2-x86_64-1_rtz.tlz
 epub2txt2-2.08-x86_64-1_rtz.tlz
 eventviews-24.12.2-x86_64-1_rtz.tlz
 extra-cmake-modules-6.11.0-x86_64-1_rtz.tlz
@@ -121,7 +121,7 @@ granatier-24.12.2-x86_64-1_rtz.tlz
 grantlee-editor-24.12.2-x86_64-1_rtz.tlz
 grantleetheme-24.12.2-x86_64-1_rtz.tlz
 gsa-24.3.0-x86_64-1_rtz.tlz
-gtk-fortran-4.7.0-x86_64-1_rtz.tlz
+gtk-fortran-4.7.1-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.2-x86_64-1_rtz.tlz
 gxr-0.16.0-x86_64-1_rtz.tlz

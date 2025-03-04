@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Mar  4 10:34:17 EET 2025
+Generated on: Wed Mar  5 00:07:18 EET 2025
 
+* 3b4b4c2 - upgrade okteta (Anagnostakis Ioannis) [2025-03-04]
+* 42b7fd3 - upgrade okteta (Anagnostakis Ioannis) [2025-03-04]
 * 91d9b06 - upgrade sourcegit (Anagnostakis Ioannis) [2025-03-03]
 * 62d0c71 - upgrade sourcegit (Anagnostakis Ioannis) [2025-03-03]
 * b48a431 - upgrade  kquickimageeditor (Anagnostakis Ioannis) [2025-03-03]
