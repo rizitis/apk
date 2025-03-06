@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Mar  5 00:07:18 EET 2025
+Generated on: Thu Mar  6 10:21:00 EET 2025
 
+* 22dcdc2 - upgrade envman gtk-fortran (Anagnostakis Ioannis) [2025-03-05]
+* ea8a520 - upgrade envman gtk-fortran (Anagnostakis Ioannis) [2025-03-05]
 * 3b4b4c2 - upgrade okteta (Anagnostakis Ioannis) [2025-03-04]
 * 42b7fd3 - upgrade okteta (Anagnostakis Ioannis) [2025-03-04]
 * 91d9b06 - upgrade sourcegit (Anagnostakis Ioannis) [2025-03-03]
