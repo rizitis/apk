@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar  7 13:21:31 EET 2025
+Generated on: Fri Mar  7 13:23:19 EET 2025
 
+* 2fe751d - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
+* e83faf9 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * 4bf5a48 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * 8298ff2 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * a9c4980 - rebuild for poppler upgrade (Anagnostakis Ioannis) [2025-03-06]
