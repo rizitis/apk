@@ -1,4 +1,4 @@
-# Thu Mar  6 10:20:54 EET 2025
+# Fri Mar  7 13:18:55 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -139,7 +139,7 @@ isoimagewriter-24.12.2-x86_64-1_rtz.tlz
 itinerary-24.12.2-x86_64-1_rtz.tlz
 jnv-0.5.0-x86_64-1_rtz.tlz
 juk-24.12.2-x86_64-1_rtz.tlz
-k3b-24.12.2-x86_64-1_rtz.tlz
+k3b-24.12.3-x86_64-1_rtz.tlz
 kaccounts-integration-24.12.2-x86_64-1_rtz.tlz
 kaccounts-providers-24.12.1-x86_64-1_rtz.tlz
 kactivities5-5.116.0-x86_64-1_rtz.tlz
@@ -216,7 +216,7 @@ kdeedu-data-24.12.2-x86_64-1_rtz.tlz
 kdegraphics-mobipocket-24.12.2-x86_64-1_rtz.tlz
 kdegraphics-thumbnailers-24.12.2-x86_64-1_rtz.tlz
 kdenetwork-filesharing-24.12.2-x86_64-1_rtz.tlz
-kdenlive-24.12.2-x86_64-1_rtz.tlz
+kdenlive-24.12.3-x86_64-1_rtz.tlz
 kdepim-addons-24.12.2-x86_64-1_rtz.tlz
 kdepim-runtime-24.12.2-x86_64-1_rtz.tlz
 kdeplasma-addons-6.3.2-x86_64-1_rtz.tlz
@@ -246,7 +246,7 @@ kfilemetadata5-5.116.0-x86_64-1_rtz.tlz
 kfind-24.12.2-x86_64-1_rtz.tlz
 kfourinline-24.12.2-x86_64-1_rtz.tlz
 kgamma-6.3.2-x86_64-1_rtz.tlz
-kgeography-24.12.2-x86_64-1_rtz.tlz
+kgeography-24.12.3-x86_64-1_rtz.tlz
 kgeotag-1.7.0-x86_64-1_rtz.tlz
 kget-24.12.2-x86_64-1_rtz.tlz
 kglobalaccel-6.11.0-x86_64-1_rtz.tlz
@@ -297,14 +297,14 @@ kitemmodels-6.11.0-x86_64-1_rtz.tlz
 kitemmodels5-5.116.0-x86_64-1_rtz.tlz
 kitemviews-6.11.0-x86_64-1_rtz.tlz
 kitemviews5-5.116.0-x86_64-1_rtz.tlz
-kiten-24.12.2-x86_64-1_rtz.tlz
+kiten-24.12.3-x86_64-1_rtz.tlz
 kitinerary-24.12.2-x86_64-1_rtz.tlz
 kjobwidgets-6.11.0-x86_64-1_rtz.tlz
 kjobwidgets5-5.116.0-x86_64-1_rtz.tlz
 kjumpingcube-24.12.2-x86_64-1_rtz.tlz
 kldap-24.12.2-x86_64-1_rtz.tlz
 kleopatra-24.12.2-x86_64-1_rtz.tlz
-klettres-24.12.2-x86_64-1_rtz.tlz
+klettres-24.12.3-x86_64-1_rtz.tlz
 klevernotes-1.1.0-x86_64-1_rtz.tlz
 klickety-24.12.2-x86_64-1_rtz.tlz
 klines-24.12.2-x86_64-1_rtz.tlz
@@ -475,7 +475,7 @@ lokalize-24.12.2-x86_64-1_rtz.tlz
 mailcommon-24.12.2-x86_64-1_rtz.tlz
 mailimporter-24.12.2-x86_64-1_rtz.tlz
 maliit-framework-2.3.0-x86_64-1_rtz.tlz
-marble-24.12.2-x86_64-1_rtz.tlz
+marble-24.12.3-x86_64-1_rtz.tlz
 marknote-1.3.0-x86_64-1_rtz.tlz
 massif-visualizer-0.8.0-x86_64-1_rtz.tlz
 mauikit-filebrowsing-4.0.0-x86_64-1_rtz.tlz
@@ -491,7 +491,7 @@ messagelib-24.12.2-x86_64-1_rtz.tlz
 mikumikubeam-289eff9-x86_64-1_rtz.tlz
 milou-6.3.2-x86_64-1_rtz.tlz
 mimetreeparser-24.12.2-x86_64-1_rtz.tlz
-minuet-24.12.2-x86_64-1_rtz.tlz
+minuet-24.12.3-x86_64-1_rtz.tlz
 modemmanager-qt-6.11.0-x86_64-1_rtz.tlz
 mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.2-x86_64-1_rtz.tlz

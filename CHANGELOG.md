@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Mar  6 10:21:00 EET 2025
+Generated on: Fri Mar  7 13:19:01 EET 2025
 
+* a9c4980 - rebuild for poppler upgrade (Anagnostakis Ioannis) [2025-03-06]
+* 83e4b90 - rebuild for poppler upgrade (Anagnostakis Ioannis) [2025-03-06]
 * 22dcdc2 - upgrade envman gtk-fortran (Anagnostakis Ioannis) [2025-03-05]
 * ea8a520 - upgrade envman gtk-fortran (Anagnostakis Ioannis) [2025-03-05]
 * 3b4b4c2 - upgrade okteta (Anagnostakis Ioannis) [2025-03-04]
