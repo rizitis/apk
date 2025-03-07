@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar  7 17:52:10 EET 2025
+Generated on: Fri Mar  7 21:39:45 EET 2025
 
+* 08420db - upgrade libphonenumber rebuild: spacebar plasma-mobile (Anagnostakis Ioannis) [2025-03-07]
+* 191a041 - upgrade libphonenumber rebuild: spacebar plasma-mobile (Anagnostakis Ioannis) [2025-03-07]
 * dbcdd9a - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * e6e5607 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * d631813 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
