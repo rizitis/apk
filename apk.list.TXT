@@ -1,4 +1,4 @@
-# Fri Mar  7 13:28:31 EET 2025
+# Fri Mar  7 17:51:59 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -461,7 +461,7 @@ libnova-0.15.0-x86_64-1_rtz.tlz
 libnpupnp-6.2.0-x86_64-1_rtz.tlz
 libofx-0.9.11-x86_64-1_rtz.tlz
 libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
-libphonenumber-8.13.55-x86_64-1_rtz.tlz
+libphonenumber-9.0.0-x86_64-1_rtz.tlz
 libplasma-6.3.2-x86_64-1_rtz.tlz
 libqaccessibilityclient-0.6.0-x86_64-1_rtz.tlz
 libquotient-0.9.1-x86_64-1_rtz.tlz

@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar  7 13:28:36 EET 2025
+Generated on: Fri Mar  7 17:52:10 EET 2025
 
+* dbcdd9a - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
+* e6e5607 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * d631813 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * 097941e - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
 * 406e347 - 24.12.3 (Anagnostakis Ioannis) [2025-03-07]
