@@ -2780,6 +2780,11 @@
         "type": "file"
     },
     {
+        "name": "qca.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/qca.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "gxr.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/gxr.tar.lz4",
         "type": "file"
@@ -4107,6 +4112,11 @@
     {
         "name": "akonadi-calendar.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/akonadi-calendar.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "qca.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/qca.sha256sum",
         "type": "file"
     },
     {
@@ -6217,6 +6227,11 @@
     {
         "name": "kwin.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kwin.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": ".directory",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/.directory",
         "type": "file"
     },
     {

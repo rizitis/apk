@@ -1,4 +1,4 @@
-# Sun Mar  9 11:13:03 EET 2025
+# Sun Mar  9 21:22:13 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -567,6 +567,7 @@ python-librivox-0.1-x86_64-1_rtz.tlz
 python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
 qbs-2.5.0-x86_64-1_rtz.tlz
+qca-2.3.10-x86_64-1_rtz.tlz
 qmlkonsole-24.12.3-x86_64-1_rtz.tlz
 qqc2-breeze-style-6.3.2-x86_64-1_rtz.tlz
 qqc2-desktop-style-6.11.0-x86_64-1_rtz.tlz

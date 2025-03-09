@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar  9 11:13:09 EET 2025
+Generated on: Sun Mar  9 21:22:23 EET 2025
 
+* 5f18a98 - upgrade mdbook witsy (Anagnostakis Ioannis) [2025-03-09]
+* 04e1da7 - upgrade mdbook witsy (Anagnostakis Ioannis) [2025-03-09]
 * 5164cba - upgrade optiimage (Anagnostakis Ioannis) [2025-03-07]
 * 2783784 - upgrade optiimage (Anagnostakis Ioannis) [2025-03-07]
 * 08420db - upgrade libphonenumber rebuild: spacebar plasma-mobile (Anagnostakis Ioannis) [2025-03-07]
