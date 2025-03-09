@@ -60,6 +60,11 @@
         "type": "file"
     },
     {
+        "name": "witsy.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/witsy.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "oxygen.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/oxygen.tar.lz4",
         "type": "file"
@@ -6242,6 +6247,11 @@
     {
         "name": "falkon.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/falkon.sha256sum",
+        "type": "file"
+    },
+    {
+        "name": "witsy.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/witsy.sha256sum",
         "type": "file"
     },
     {
