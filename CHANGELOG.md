@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar  9 21:22:23 EET 2025
+Generated on: Mon Mar 10 08:44:29 EET 2025
 
+* 585578f - add qca (Anagnostakis Ioannis) [2025-03-09]
+* e0d4e7a - add qca (Anagnostakis Ioannis) [2025-03-09]
 * 5f18a98 - upgrade mdbook witsy (Anagnostakis Ioannis) [2025-03-09]
 * 04e1da7 - upgrade mdbook witsy (Anagnostakis Ioannis) [2025-03-09]
 * 5164cba - upgrade optiimage (Anagnostakis Ioannis) [2025-03-07]
