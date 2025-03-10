@@ -1,4 +1,4 @@
-# Mon Mar 10 08:44:22 EET 2025
+# Mon Mar 10 22:05:30 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -482,7 +482,7 @@ mauikit-filebrowsing-4.0.0-x86_64-1_rtz.tlz
 mauikit-4.0.0-x86_64-1_rtz.tlz
 mauiman-4.0.0-x86_64-1_rtz.tlz
 mdbook-mermaid-0.14.1-x86_64-1_rtz.tlz
-mdbook-0.4.46-x86_64-1_rtz.tlz
+mdbook-0.4.47-x86_64-1_rtz.tlz
 media-downloader-5.2.0-x86_64-1_rtz.tlz
 mepo-1.3.3-x86_64-1_rtz.tlz
 mergiraf-0.5.1-x86_64-1_rtz.tlz

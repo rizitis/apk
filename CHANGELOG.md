@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Mar 10 08:44:29 EET 2025
+Generated on: Mon Mar 10 22:05:41 EET 2025
 
+* eb6853e - upgrade sourcegit (Anagnostakis Ioannis) [2025-03-10]
+* 11e57f9 - upgrade sourcegit (Anagnostakis Ioannis) [2025-03-10]
 * 585578f - add qca (Anagnostakis Ioannis) [2025-03-09]
 * e0d4e7a - add qca (Anagnostakis Ioannis) [2025-03-09]
 * 5f18a98 - upgrade mdbook witsy (Anagnostakis Ioannis) [2025-03-09]
