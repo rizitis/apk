@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Mar 12 12:11:49 EET 2025
+Generated on: Wed Mar 12 13:50:47 EET 2025
 
+* e3e9ce5 - upgrade libxmlb (Anagnostakis Ioannis) [2025-03-12]
+* ebf06fb - upgrade libxmlb (Anagnostakis Ioannis) [2025-03-12]
 * b08eb49 - upgrade envman (Anagnostakis Ioannis) [2025-03-11]
 * 8089162 - upgrade envman (Anagnostakis Ioannis) [2025-03-11]
 * ffbadc8 - upgrade 6.3.3 (Anagnostakis Ioannis) [2025-03-11]

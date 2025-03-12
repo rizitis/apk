@@ -1,4 +1,4 @@
-# Wed Mar 12 12:11:40 EET 2025
+# Wed Mar 12 13:50:37 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -225,7 +225,7 @@ kdesdk-thumbnailers-24.12.3-x86_64-1_rtz.tlz
 kdesu-6.11.0-x86_64-1_rtz.tlz
 kdesu5-5.116.0-x86_64-1_rtz.tlz
 kdev-python-24.12.3-x86_64-1_rtz.tlz
-kdevelop-pg-qt-2.3.0-x86_64-1_rtz.tlz
+kdevelop-pg-qt-2.4.0-x86_64-1_rtz.tlz
 kdevelop-24.12.3-x86_64-1_rtz.tlz
 kdf-24.12.3-x86_64-1_rtz.tlz
 kdiagram-3.0.1-x86_64-1_rtz.tlz
