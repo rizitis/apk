@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Mar 11 21:54:24 EET 2025
+Generated on: Wed Mar 12 12:11:49 EET 2025
 
+* b08eb49 - upgrade envman (Anagnostakis Ioannis) [2025-03-11]
+* 8089162 - upgrade envman (Anagnostakis Ioannis) [2025-03-11]
 * ffbadc8 - upgrade 6.3.3 (Anagnostakis Ioannis) [2025-03-11]
 * a18e044 - upgrade 6.3.3 (Anagnostakis Ioannis) [2025-03-11]
 * e3f5dd0 - upgrade 6.3.3 (Anagnostakis Ioannis) [2025-03-11]
