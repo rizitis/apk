@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Mar 12 13:50:47 EET 2025
+Generated on: Wed Mar 12 21:39:57 EET 2025
 
+* 04c2296 - upgrade kdevelop-pg-qt (Anagnostakis Ioannis) [2025-03-12]
+* 0785737 - upgrade kdevelop-pg-qt (Anagnostakis Ioannis) [2025-03-12]
 * e3e9ce5 - upgrade libxmlb (Anagnostakis Ioannis) [2025-03-12]
 * ebf06fb - upgrade libxmlb (Anagnostakis Ioannis) [2025-03-12]
 * b08eb49 - upgrade envman (Anagnostakis Ioannis) [2025-03-11]
