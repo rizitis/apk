@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Mar 13 17:09:05 EET 2025
+Generated on: Thu Mar 13 17:12:34 EET 2025
 
+* dfafaa1 - upgrade kwin (Anagnostakis Ioannis) [2025-03-13]
+* 2c1bd12 - upgrade kwin (Anagnostakis Ioannis) [2025-03-13]
 * b9a24e0 - upgrade qrca (Anagnostakis Ioannis) [2025-03-12]
 * e4483dc - upgrade qrca (Anagnostakis Ioannis) [2025-03-12]
 * 40252cc - upgrade gitify (Anagnostakis Ioannis) [2025-03-12]
