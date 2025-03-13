@@ -1,4 +1,4 @@
-# Thu Mar 13 17:12:24 EET 2025
+# Thu Mar 13 22:24:10 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -519,7 +519,7 @@ picocrypt-gui-1.47-x86_64-1_rtz.tlz
 pim-data-exporter-24.12.3-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.3-x86_64-1_rtz.tlz
 pimcommon-24.12.3-x86_64-1_rtz.tlz
-pinepods-0.7.3-x86_64-1_rtz.tlz
+pinepods-0.7.4-x86_64-1_rtz.tlz
 plasma-activities-stats-6.3.3-x86_64-1_rtz.tlz
 plasma-activities-6.3.3-x86_64-1_rtz.tlz
 plasma-browser-integration-6.3.3-x86_64-1_rtz.tlz

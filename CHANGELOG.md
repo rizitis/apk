@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Mar 13 17:12:34 EET 2025
+Generated on: Thu Mar 13 22:24:20 EET 2025
 
+* d9660fb - upgrade plasma-mobile (Anagnostakis Ioannis) [2025-03-13]
+* b67d1b2 - upgrade plasma-mobile (Anagnostakis Ioannis) [2025-03-13]
 * dfafaa1 - upgrade kwin (Anagnostakis Ioannis) [2025-03-13]
 * 2c1bd12 - upgrade kwin (Anagnostakis Ioannis) [2025-03-13]
 * b9a24e0 - upgrade qrca (Anagnostakis Ioannis) [2025-03-12]
