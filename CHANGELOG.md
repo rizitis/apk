@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Mar 12 21:50:55 EET 2025
+Generated on: Thu Mar 13 17:09:05 EET 2025
 
+* b9a24e0 - upgrade qrca (Anagnostakis Ioannis) [2025-03-12]
+* e4483dc - upgrade qrca (Anagnostakis Ioannis) [2025-03-12]
 * 40252cc - upgrade gitify (Anagnostakis Ioannis) [2025-03-12]
 * bd91d37 - upgrade gitify (Anagnostakis Ioannis) [2025-03-12]
 * 04c2296 - upgrade kdevelop-pg-qt (Anagnostakis Ioannis) [2025-03-12]
