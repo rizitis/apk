@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar 14 22:19:53 EET 2025
+Generated on: Fri Mar 14 22:20:34 EET 2025
 
+* 4be9cb0 - upgrade (Anagnostakis Ioannis) [2025-03-14]
+* 95c02fc - upgrade (Anagnostakis Ioannis) [2025-03-14]
 * af681ef - upgrade (Anagnostakis Ioannis) [2025-03-14]
 * 3247375 - upgrade (Anagnostakis Ioannis) [2025-03-14]
 * 29200ff - rebuild tiled for qbs upgrade (Anagnostakis Ioannis) [2025-03-14]

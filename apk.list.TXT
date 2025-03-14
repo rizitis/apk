@@ -1,4 +1,4 @@
-# Fri Mar 14 22:19:47 EET 2025
+# Fri Mar 14 22:20:28 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -41,7 +41,7 @@ asio-1.30.2-x86_64-1_rtz.tlz
 asn1crypto-1.5.1-x86_64-1_rtz.tlz
 asterisk-20.11.0-x86_64-1_rtz.tlz
 atlantik-3.5.10_git20240323-x86_64-1_rtz.tlz
-attica-6.11.0-x86_64-1_rtz.tlz
+attica-6.12.0-x86_64-1_rtz.tlz
 attica5-5.116.0-x86_64-1_rtz.tlz
 audex-24.12.3-x86_64-1_rtz.tlz
 audiocd-kio-24.12.3-x86_64-1_rtz.tlz
@@ -51,7 +51,7 @@ awscrt-0.23.0-x86_64-1_rtz.tlz
 ayatana-ido-0.10.4-x86_64-1_rtz.tlz
 babel-loader-9.2.1-x86_64-1_rtz.tlz
 baloo-widgets-24.12.3-x86_64-1_rtz.tlz
-baloo-6.11.0-x86_64-1_rtz.tlz
+baloo-6.12.0-x86_64-1_rtz.tlz
 bash-language-server-5.4.3-x86_64-1_rtz.tlz
 binocle-41159f6_git-x86_64-1_rtz.tlz
 bionic_translation-20240525_git-x86_64-1_rtz.tlz
@@ -59,11 +59,11 @@ black-hole-solver-1.12.0-x86_64-1_rtz.tlz
 blinken-24.12.3-x86_64-1_rtz.tlz
 bluedevil-6.3.3-x86_64-1_rtz.tlz
 blueprint-compiler-0.16.0-x86_64-1_rtz.tlz
-bluez-qt-6.11.0-x86_64-1_rtz.tlz
+bluez-qt-6.12.0-x86_64-1_rtz.tlz
 bomber-24.12.3-x86_64-1_rtz.tlz
 bovo-24.12.3-x86_64-1_rtz.tlz
 breeze-gtk-6.3.3-x86_64-1_rtz.tlz
-breeze-icons-6.11.0-x86_64-1_rtz.tlz
+breeze-icons-6.12.0-x86_64-1_rtz.tlz
 breeze-6.3.3-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.3-x86_64-1_rtz.tlz
@@ -93,7 +93,7 @@ elisa-24.12.3-x86_64-1_rtz.tlz
 envman-2.5.3-x86_64-1_rtz.tlz
 epub2txt2-2.08-x86_64-1_rtz.tlz
 eventviews-24.12.3-x86_64-1_rtz.tlz
-extra-cmake-modules-6.11.0-x86_64-1_rtz.tlz
+extra-cmake-modules-6.12.0-x86_64-1_rtz.tlz
 falkon-24.12.3-x86_64-1_rtz.tlz
 fcitx5-configtool-5.1.8-x86_64-1_rtz.tlz
 fcitx5-qt-5.1.9-x86_64-1_rtz.tlz
@@ -103,7 +103,7 @@ fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz
 filelight-24.12.3-x86_64-1_rtz.tlz
 flatpak-kcm-6.3.3-x86_64-1_rtz.tlz
-frameworkintegration-6.11.0-x86_64-1_rtz.tlz
+frameworkintegration-6.12.0-x86_64-1_rtz.tlz
 frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.3-x86_64-1_rtz.tlz
 futuresql-0.1.1-x86_64-1_rtz.tlz
@@ -153,27 +153,27 @@ kalzium-24.12.3-x86_64-1_rtz.tlz
 kamera-24.12.3-x86_64-1_rtz.tlz
 kamoso-24.12.3-x86_64-1_rtz.tlz
 kanagram-24.12.3-x86_64-1_rtz.tlz
-kapidox-6.11.0-x86_64-1_rtz.tlz
+kapidox-6.12.0-x86_64-1_rtz.tlz
 kapman-24.12.3-x86_64-1_rtz.tlz
 kapptemplate-24.12.3-x86_64-1_rtz.tlz
-karchive-6.11.0-x86_64-1_rtz.tlz
+karchive-6.12.0-x86_64-1_rtz.tlz
 karchive5-5.116.0-x86_64-1_rtz.tlz
 kasts-24.12.3-x86_64-1_rtz.tlz
 kate-24.12.3-x86_64-1_rtz.tlz
 katomic-24.12.3-x86_64-1_rtz.tlz
-kauth-6.11.0-x86_64-1_rtz.tlz
+kauth-6.12.0-x86_64-1_rtz.tlz
 kauth5-5.116.0-x86_64-1_rtz.tlz
 kbackup-24.12.3-x86_64-1_rtz.tlz
 kblackbox-24.12.3-x86_64-1_rtz.tlz
 kblocks-24.12.3-x86_64-1_rtz.tlz
-kbookmarks-6.11.0-x86_64-1_rtz.tlz
+kbookmarks-6.12.0-x86_64-1_rtz.tlz
 kbookmarks5-5.116.0-x86_64-1_rtz.tlz
 kbounce-24.12.3-x86_64-1_rtz.tlz
 kbreakout-24.12.3-x86_64-1_rtz.tlz
 kbruch-24.12.3-x86_64-1_rtz.tlz
 kcachegrind-24.12.3-x86_64-1_rtz.tlz
 kcalc-24.12.3-x86_64-1_rtz.tlz
-kcalendarcore-6.11.0-x86_64-1_rtz.tlz
+kcalendarcore-6.12.0-x86_64-1_rtz.tlz
 kcalendarcore5-5.116.0-x86_64-1_rtz.tlz
 kcalutils-24.12.3-x86_64-1_rtz.tlz
 kcharselect-24.12.3-x86_64-1_rtz.tlz
