@@ -1,4 +1,4 @@
-# Fri Mar 14 10:24:34 EET 2025
+# Fri Mar 14 14:48:48 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -566,7 +566,7 @@ pyonji-0.1.0-x86_64-1_rtz.tlz
 python-librivox-0.1-x86_64-1_rtz.tlz
 python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
-qbs-2.5.0-x86_64-1_rtz.tlz
+qbs-2.6.0-x86_64-1_rtz.tlz
 qca-2.3.10-x86_64-1_rtz.tlz
 qmlkonsole-24.12.3-x86_64-1_rtz.tlz
 qqc2-breeze-style-6.3.3-x86_64-1_rtz.tlz
