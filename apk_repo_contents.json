@@ -2310,11 +2310,6 @@
         "type": "file"
     },
     {
-        "name": "smartmontools-7.4-x86_64-1.txz",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/smartmontools-7.4-x86_64-1.txz",
-        "type": "file"
-    },
-    {
         "name": "bomber.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/bomber.tar.lz4",
         "type": "file"
@@ -4427,11 +4422,6 @@
     {
         "name": "plasma-mobile.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/plasma-mobile.sha256sum",
-        "type": "file"
-    },
-    {
-        "name": "viddy-build.log",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/viddy-build.log",
         "type": "file"
     },
     {
