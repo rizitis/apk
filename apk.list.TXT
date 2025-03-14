@@ -1,4 +1,4 @@
-# Fri Mar 14 14:51:45 EET 2025
+# Fri Mar 14 22:19:01 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -419,15 +419,15 @@ kwayland-6.3.3-x86_64-1_rtz.tlz
 kwayland5-5.116.0-x86_64-1_rtz.tlz
 kweather-24.12.3-x86_64-1_rtz.tlz
 kweathercore-0.8.0-x86_64-1_rtz.tlz
-kwidgetsaddons-6.11.0-x86_64-1_rtz.tlz
+kwidgetsaddons-6.12.0-x86_64-1_rtz.tlz
 kwidgetsaddons5-5.116.0-x86_64-1_rtz.tlz
 kwin-6.3.3.1-x86_64-1_rtz.tlz
-kwindowsystem-6.11.0-x86_64-1_rtz.tlz
+kwindowsystem-6.12.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.3-x86_64-1_rtz.tlz
 kwrite-24.12.3-x86_64-1_rtz.tlz
 kwrited-6.3.3-x86_64-1_rtz.tlz
-kxmlgui-6.11.0-x86_64-1_rtz.tlz
+kxmlgui-6.12.0-x86_64-1_rtz.tlz
 kxmlgui5-5.116.0-x86_64-1_rtz.tlz
 layer-shell-qt-6.3.3-x86_64-1_rtz.tlz
 libaccounts-glib-1.27-x86_64-1_rtz.tlz
@@ -492,10 +492,10 @@ mikumikubeam-289eff9-x86_64-1_rtz.tlz
 milou-6.3.3-x86_64-1_rtz.tlz
 mimetreeparser-24.12.3-x86_64-1_rtz.tlz
 minuet-24.12.3-x86_64-1_rtz.tlz
-modemmanager-qt-6.11.0-x86_64-1_rtz.tlz
+modemmanager-qt-6.12.0-x86_64-1_rtz.tlz
 mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.3-x86_64-1_rtz.tlz
-networkmanager-qt-6.11.0-x86_64-1_rtz.tlz
+networkmanager-qt-6.12.0-x86_64-1_rtz.tlz
 noisetorch-6d895f3_git-x86_64-1_rtz.tlz
 ocean-sound-theme-6.3.3-x86_64-1_rtz.tlz
 okteta-0.26.20-x86_64-1_rtz.tlz
@@ -555,11 +555,11 @@ power-profiles-daemon-0.30-x86_64-1_rtz.tlz
 powerdevil-6.3.3-x86_64-1_rtz.tlz
 poxml-24.12.3-x86_64-1_rtz.tlz
 print-manager-6.3.3-x86_64-1_rtz.tlz
-prison-6.11.0-x86_64-1_rtz.tlz
+prison-6.12.0-x86_64-1_rtz.tlz
 prison5-5.116.0-x86_64-1_rtz.tlz
 pugixml-1.15-x86_64-1_rtz.tlz
 pulseaudio-qt-1.6.1-x86_64-1_rtz.tlz
-purpose-6.11.0-x86_64-1_rtz.tlz
+purpose-6.12.0-x86_64-1_rtz.tlz
 purpose5-5.116.0-x86_64-1_rtz.tlz
 pygdbmi-0.11.0.0-x86_64-1_rtz.tlz
 pyonji-0.1.0-x86_64-1_rtz.tlz
@@ -570,7 +570,7 @@ qbs-2.6.0-x86_64-1_rtz.tlz
 qca-2.3.10-x86_64-1_rtz.tlz
 qmlkonsole-24.12.3-x86_64-1_rtz.tlz
 qqc2-breeze-style-6.3.3-x86_64-1_rtz.tlz
-qqc2-desktop-style-6.11.0-x86_64-1_rtz.tlz
+qqc2-desktop-style-6.12.0-x86_64-1_rtz.tlz
 qrca-30bb754667d8d1b30f28061953cd7c1a5c373a41-x86_64-1_rtz.tlz
 qt-sudo-2.0.1-x86_64-1_rtz.tlz
 qtcreator-15.0.1-x86_64-1_rtz.tlz
@@ -595,9 +595,9 @@ skladnik-0.5.2-x86_64-1_rtz.tlz
 skrooge-25.1.0-x86_64-1_rtz.tlz
 soapy-sdr-remote-0.5.2-x86_64-1_rtz.tlz
 soapy-sdr-0.8.1-x86_64-1_rtz.tlz
-solid-6.11.0-x86_64-1_rtz.tlz
+solid-6.12.0-x86_64-1_rtz.tlz
 solid5-5.116.0-x86_64-1_rtz.tlz
-sonnet-6.11.0-x86_64-1_rtz.tlz
+sonnet-6.12.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
 sourcegit-2025.08-x86_64-2_rtz.tlz
 spacebar-6.3.3-x86_64-1_rtz.tlz
@@ -610,9 +610,9 @@ superhtml-0.5.3-x86_64-1_rtz.tlz
 svgpart-24.12.3-x86_64-1_rtz.tlz
 sweeper-24.12.3-x86_64-1_rtz.tlz
 symboleditor-2.1.0-x86_64-1_rtz.tlz
-syndication-6.11.0-x86_64-1_rtz.tlz
+syndication-6.12.0-x86_64-1_rtz.tlz
 syndication5-5.116.0-x86_64-1_rtz.tlz
-syntax-highlighting-6.11.0-x86_64-1_rtz.tlz
+syntax-highlighting-6.12.0-x86_64-1_rtz.tlz
 syntax-highlighting5-5.116.0-x86_64-1_rtz.tlz
 systemsettings-6.3.3-x86_64-1_rtz.tlz
 tags-1.2-x86_64-1_rtz.tlz
@@ -620,7 +620,7 @@ tar-split-0.12.1-x86_64-1_rtz.tlz
 telepathy-qt-0.9.8-x86_64-1_rtz.tlz
 tellico-4.0.1-x86_64-1_rtz.tlz
 telly-skout-24.12.3-x86_64-1_rtz.tlz
-threadweaver-6.11.0-x86_64-1_rtz.tlz
+threadweaver-6.12.0-x86_64-1_rtz.tlz
 threadweaver5-5.116.0-x86_64-1_rtz.tlz
 tiled-1.11.1-x86_64-1_rtz.tlz
 timewall-1.5.0-x86_64-1_rtz.tlz
