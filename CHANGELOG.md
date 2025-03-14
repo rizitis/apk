@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar 14 14:48:58 EET 2025
+Generated on: Fri Mar 14 14:51:55 EET 2025
 
+* b84d7da - upgrade qbs (Anagnostakis Ioannis) [2025-03-14]
+* d2fd7ff - upgrade qbs (Anagnostakis Ioannis) [2025-03-14]
 * 91fade6 - upgrade pinepods (Anagnostakis Ioannis) [2025-03-14]
 * 1e6a3ce - upgrade pinepods (Anagnostakis Ioannis) [2025-03-14]
 * a0180aa - upgrade pinepods (Anagnostakis Ioannis) [2025-03-13]
