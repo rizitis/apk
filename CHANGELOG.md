@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Mar 13 22:24:20 EET 2025
+Generated on: Fri Mar 14 10:24:43 EET 2025
 
+* a0180aa - upgrade pinepods (Anagnostakis Ioannis) [2025-03-13]
+* d736556 - upgrade pinepods (Anagnostakis Ioannis) [2025-03-13]
 * d9660fb - upgrade plasma-mobile (Anagnostakis Ioannis) [2025-03-13]
 * b67d1b2 - upgrade plasma-mobile (Anagnostakis Ioannis) [2025-03-13]
 * dfafaa1 - upgrade kwin (Anagnostakis Ioannis) [2025-03-13]
