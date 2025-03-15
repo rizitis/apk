@@ -1,4 +1,4 @@
-# Fri Mar 14 22:24:44 EET 2025
+# Sat Mar 15 13:11:26 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -80,7 +80,7 @@ coppwr-1.6.1-x86_64-1_rtz.tlz
 csbooks-8.5.0-x86_64-1_rtz.tlz
 ddcutil-2.2.0-x86_64-1_rtz.tlz
 debian-archive-keyring-2023.4-x86_64-1_rtz.tlz
-digikam-8.5.0-x86_64-1_rtz.tlz
+digikam-8.6.0-x86_64-1_rtz.tlz
 discount-3.0.0d-x86_64-1_rtz.tlz
 discover-6.3.3-x86_64-1_rtz.tlz
 dolphin-plugins-24.12.3-x86_64-1_rtz.tlz
@@ -125,7 +125,7 @@ gtk-fortran-4.7.1-x86_64-1_rtz.tlz
 gulkan-0.16.0-x86_64-1_rtz.tlz
 gwenview-24.12.3-x86_64-1_rtz.tlz
 gxr-0.16.0-x86_64-1_rtz.tlz
-halloy-2025.2-x86_64-1_rtz.tlz
+halloy-2025.3-x86_64-1_rtz.tlz
 haruna-1.3.3-x86_64-1_rtz.tlz
 hashomatic-1.0.1-x86_64-1_rtz.tlz
 htmlq-0.4.0-x86_64-1_rtz.tlz

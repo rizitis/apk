@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Mar 14 22:24:54 EET 2025
+Generated on: Sat Mar 15 13:11:32 EET 2025
 
+* 00926c7 - upgrade Frameworks (Anagnostakis Ioannis) [2025-03-14]
+* 781a7cf - upgrade Frameworks (Anagnostakis Ioannis) [2025-03-14]
 * 6746eb1 - upgrade (Anagnostakis Ioannis) [2025-03-14]
 * 04993a0 - upgrade (Anagnostakis Ioannis) [2025-03-14]
 * b40ebe7 - upgrade (Anagnostakis Ioannis) [2025-03-14]
