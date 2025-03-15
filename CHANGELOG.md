@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Mar 15 13:11:32 EET 2025
+Generated on: Sat Mar 15 16:43:20 EET 2025
 
+* e7eb51f - upgrade digikam halloy (Anagnostakis Ioannis) [2025-03-15]
+* 9035d58 - upgrade digikam halloy (Anagnostakis Ioannis) [2025-03-15]
 * 00926c7 - upgrade Frameworks (Anagnostakis Ioannis) [2025-03-14]
 * 781a7cf - upgrade Frameworks (Anagnostakis Ioannis) [2025-03-14]
 * 6746eb1 - upgrade (Anagnostakis Ioannis) [2025-03-14]
