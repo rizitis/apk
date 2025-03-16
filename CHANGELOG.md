@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar 16 19:23:23 EET 2025
+Generated on: Sun Mar 16 23:26:43 EET 2025
 
+* 8920482 - upgrade witsy (Anagnostakis Ioannis) [2025-03-16]
+* 8e6c7d5 - upgrade witsy (Anagnostakis Ioannis) [2025-03-16]
 * a990079 - rebuild/update digikam (Anagnostakis Ioannis) [2025-03-16]
 * 9736468 - rebuild/update digikam (Anagnostakis Ioannis) [2025-03-16]
 * f71c781 - update massif-visualizer (Anagnostakis Ioannis) [2025-03-15]
