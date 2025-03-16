@@ -2185,11 +2185,6 @@
         "type": "file"
     },
     {
-        "name": "futuresql.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/futuresql.tar.lz4",
-        "type": "file"
-    },
-    {
         "name": "android-tools.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/android-tools.tar.lz4",
         "type": "file"
@@ -2772,11 +2767,6 @@
     {
         "name": "kdesu5.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kdesu5.sha256sum",
-        "type": "file"
-    },
-    {
-        "name": "qca.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/qca.tar.lz4",
         "type": "file"
     },
     {
@@ -3840,11 +3830,6 @@
         "type": "file"
     },
     {
-        "name": "futuresql.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/futuresql.sha256sum",
-        "type": "file"
-    },
-    {
         "name": "kpty5.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kpty5.sha256sum",
         "type": "file"
@@ -4107,11 +4092,6 @@
     {
         "name": "akonadi-calendar.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/akonadi-calendar.sha256sum",
-        "type": "file"
-    },
-    {
-        "name": "qca.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/qca.sha256sum",
         "type": "file"
     },
     {
@@ -5145,11 +5125,6 @@
         "type": "file"
     },
     {
-        "name": "digikam.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/digikam.sha256sum",
-        "type": "file"
-    },
-    {
         "name": "kxmlgui.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kxmlgui.tar.lz4",
         "type": "file"
@@ -5642,11 +5617,6 @@
     {
         "name": "tokodon.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/tokodon.tar.lz4",
-        "type": "file"
-    },
-    {
-        "name": "digikam.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/digikam.tar.lz4",
         "type": "file"
     },
     {

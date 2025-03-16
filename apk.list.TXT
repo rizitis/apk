@@ -1,4 +1,4 @@
-# Sun Mar 16 23:32:24 EET 2025
+# Sun Mar 16 23:35:25 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -80,7 +80,6 @@ coppwr-1.6.1-x86_64-1_rtz.tlz
 csbooks-8.5.0-x86_64-1_rtz.tlz
 ddcutil-2.2.0-x86_64-1_rtz.tlz
 debian-archive-keyring-2023.4-x86_64-1_rtz.tlz
-digikam-8.6.0-x86_64-1_rtz.tlz
 discount-3.0.0d-x86_64-1_rtz.tlz
 discover-6.3.3-x86_64-1_rtz.tlz
 dolphin-plugins-24.12.3-x86_64-1_rtz.tlz
@@ -106,7 +105,6 @@ flatpak-kcm-6.3.3-x86_64-1_rtz.tlz
 frameworkintegration-6.12.0-x86_64-1_rtz.tlz
 frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.3-x86_64-1_rtz.tlz
-futuresql-0.1.1-x86_64-1_rtz.tlz
 gcab-1.6-x86_64-1_rtz.tlz
 gerbera-3ea9c20_git-x86_64-1_rtz.tlz
 geteltorito-46474a4_git-x86_64-1_rtz.tlz
@@ -567,7 +565,6 @@ python-librivox-0.1-x86_64-1_rtz.tlz
 python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
 qbs-2.6.0-x86_64-1_rtz.tlz
-qca-2.3.10-x86_64-1_rtz.tlz
 qmlkonsole-24.12.3-x86_64-1_rtz.tlz
 qqc2-breeze-style-6.3.3-x86_64-1_rtz.tlz
 qqc2-desktop-style-6.12.0-x86_64-1_rtz.tlz
