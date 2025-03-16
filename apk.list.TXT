@@ -1,4 +1,4 @@
-# Sun Mar 16 23:26:34 EET 2025
+# Sun Mar 16 23:32:24 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -201,10 +201,10 @@ kcron-24.12.3-x86_64-1_rtz.tlz
 kdav-6.12.0-x86_64-1_rtz.tlz
 kdbusaddons-6.12.0-x86_64-1_rtz.tlz
 kdbusaddons5-5.116.0-x86_64-1_rtz.tlz
-kde-cli-tools-6.3.2-x86_64-1_rtz.tlz
+kde-cli-tools-6.3.3-x86_64-1_rtz.tlz
 kde-dev-scripts-24.12.3-x86_64-1_rtz.tlz
 kde-dev-utils-24.12.3-x86_64-1_rtz.tlz
-kde-gtk-config-6.3.2-x86_64-1_rtz.tlz
+kde-gtk-config-6.3.3-x86_64-1_rtz.tlz
 kde-inotify-survey-24.12.3-x86_64-1_rtz.tlz
 kdebugsettings-24.12.3-x86_64-1_rtz.tlz
 kdeclarative-6.12.0-x86_64-1_rtz.tlz
