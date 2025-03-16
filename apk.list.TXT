@@ -1,4 +1,4 @@
-# Sun Mar 16 10:26:41 EET 2025
+# Sun Mar 16 19:23:15 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -637,7 +637,7 @@ washipad-54ee2fba_git-x86_64-1_rtz.tlz
 wcslib-8.4-x86_64-1_rtz.tlz
 webkit2gtk6.0-2.46.4-x86_64-1_rtz.tlz
 when-changed-dca0737_git-x86_64-1_rtz.tlz
-witsy-2.0.1-x86_64-1_rtz.tlz
+witsy-2.1.6-x86_64-1_rtz.tlz
 wolfssl-5.7.4-x86_64-1_rtz.tlz
 xapian-bindings-1.4.27-x86_64-1_rtz.tlz
 xdg-dbus-proxy-0.1.6-x86_64-1_rtz.tlz
