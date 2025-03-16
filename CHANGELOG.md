@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Mar 15 16:43:20 EET 2025
+Generated on: Sun Mar 16 10:26:47 EET 2025
 
+* f71c781 - update massif-visualizer (Anagnostakis Ioannis) [2025-03-15]
+* 5375cf5 - update massif-visualizer (Anagnostakis Ioannis) [2025-03-15]
 * e7eb51f - upgrade digikam halloy (Anagnostakis Ioannis) [2025-03-15]
 * 9035d58 - upgrade digikam halloy (Anagnostakis Ioannis) [2025-03-15]
 * 00926c7 - upgrade Frameworks (Anagnostakis Ioannis) [2025-03-14]
