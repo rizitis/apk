@@ -4,7 +4,7 @@ import requests
 
 # Function to load and parse the JSON from URL
 def load_json():
-    url = "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/repo_contents.json"
+    url = "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk_repo_contents.json"
     response = requests.get(url)
     files_data = response.json()
 
