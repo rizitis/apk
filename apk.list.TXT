@@ -1,4 +1,4 @@
-# Tue Mar 18 11:33:41 EET 2025
+# Tue Mar 18 11:35:09 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -534,7 +534,7 @@ plasma-pa-6.3.3-x86_64-1_rtz.tlz
 plasma-phonebook-24.02.0-x86_64-1_rtz.tlz
 plasma-sdk-6.3.3-x86_64-1_rtz.tlz
 plasma-settings-25.02.0-x86_64-1_rtz.tlz
-plasma-smart-video-wallpaper-reborn-2.0.0-x86_64-1_rtz.tlz
+plasma-smart-video-wallpaper-reborn-2.1.0-x86_64-1_rtz.tlz
 plasma-systemmonitor-6.3.3-x86_64-1_rtz.tlz
 plasma-thunderbolt-6.3.3-x86_64-1_rtz.tlz
 plasma-vault-6.3.3-x86_64-1_rtz.tlz
