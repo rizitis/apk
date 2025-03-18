@@ -445,11 +445,6 @@
         "type": "file"
     },
     {
-        "name": "libdisplay-info.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libdisplay-info.tar.lz4",
-        "type": "file"
-    },
-    {
         "name": "static-web-server.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/static-web-server.sha256sum",
         "type": "file"
@@ -1167,16 +1162,6 @@
     {
         "name": "mdbook.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/mdbook.sha256sum",
-        "type": "file"
-    },
-    {
-        "name": "gimp.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/gimp.tar.lz4",
-        "type": "file"
-    },
-    {
-        "name": "gimp.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/gimp.sha256sum",
         "type": "file"
     },
     {
@@ -4472,11 +4457,6 @@
     {
         "name": "kidletime5.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kidletime5.sha256sum",
-        "type": "file"
-    },
-    {
-        "name": "libdisplay-info.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libdisplay-info.sha256sum",
         "type": "file"
     },
     {

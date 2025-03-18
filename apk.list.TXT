@@ -1,4 +1,4 @@
-# Mon Mar 17 19:47:51 EET 2025
+# Tue Mar 18 11:33:41 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -109,7 +109,6 @@ gcab-1.6-x86_64-1_rtz.tlz
 gerbera-3ea9c20_git-x86_64-1_rtz.tlz
 geteltorito-46474a4_git-x86_64-1_rtz.tlz
 ghostwriter-24.12.3-x86_64-1_rtz.tlz
-gimp-3.0.0_RC3-x86_64-1.tlz
 gitify-6.2.0-x86_64-1_rtz.tlz
 gnome-podcasts-0.7.2-x86_64-1_rtz.tlz
 gptscript-0.9.5-x86_64-1_rtz.tlz
@@ -432,7 +431,6 @@ libaccounts-glib-1.27-x86_64-1_rtz.tlz
 libaccounts-qt-1.17-x86_64-1_rtz.tlz
 libadwaita-1.6.4-x86_64-1_rtz.tlz
 libbacktrace-3d0be_git-x86_64-1_rtz.tlz
-libdisplay-info-0.2.0-x86_64-1_rtz.tlz
 libebml-1.4.5-x86_64-1_rtz.tlz
 libfprint-1.94.9-x86_64-1_rtz.tlz
 libgravatar-24.12.3-x86_64-1_rtz.tlz
