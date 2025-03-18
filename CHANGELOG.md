@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Mar 18 11:35:18 EET 2025
+Generated on: Tue Mar 18 12:50:43 EET 2025
 
+* 0b3f85e - update (Anagnostakis Ioannis) [2025-03-18]
+* f0cac24 - update (Anagnostakis Ioannis) [2025-03-18]
 * 0693b60 - remove gimp libdisplay-info (Anagnostakis Ioannis) [2025-03-18]
 * ed6ac61 - remove gimp libdisplay-info (Anagnostakis Ioannis) [2025-03-18]
 * b9dc954 - upgrade sourcegit, witsy (Anagnostakis Ioannis) [2025-03-17]
