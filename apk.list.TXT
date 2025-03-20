@@ -1,4 +1,4 @@
-# Tue Mar 18 12:50:33 EET 2025
+# Thu Mar 20 20:57:01 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -302,7 +302,7 @@ kjumpingcube-24.12.3-x86_64-1_rtz.tlz
 kldap-24.12.3-x86_64-1_rtz.tlz
 kleopatra-24.12.3-x86_64-1_rtz.tlz
 klettres-24.12.3-x86_64-1_rtz.tlz
-klevernotes-1.2.0-x86_64-1_rtz.tlz
+klevernotes-1.2.1-x86_64-1_rtz.tlz
 klickety-24.12.3-x86_64-1_rtz.tlz
 klines-24.12.3-x86_64-1_rtz.tlz
 kmag-24.12.3-x86_64-1_rtz.tlz
