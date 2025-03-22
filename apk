@@ -334,10 +334,10 @@ else
 
     # And again...
     for dep in $(cat "$PKGDEP4"); do
-        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep1"/"$dep1".dep > /dev/null 2>&1; then
+        if ! curl -sL "$RF"/"$dep".tar.lz4 | tar --use-compress-program=lz4 -xOf - "$dep"/"$dep".dep > /dev/null 2>&1; then
             PKGDEP5=all_deps5.txt
             > "$PKGDEP5"
-            echo "$dep1" >> "$PKGDEP5"
+            echo "$dep" >> "$PKGDEP5"
         fi
     done
 
