@@ -21,3 +21,5 @@ package-*
 *.AppImage
 *-build.log
 *.snap
+coped_*
+dbus-*
