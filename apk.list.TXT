@@ -1,4 +1,4 @@
-# Sat Mar 22 19:26:09 EET 2025
+# Sun Mar 23 08:43:16 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -229,7 +229,7 @@ kdiagram-3.0.1-x86_64-1_rtz.tlz
 kdiagram5-2.8.0-x86_64-1_rtz.tlz
 kdialog-24.12.3-x86_64-1_rtz.tlz
 kdiamond-24.12.3-x86_64-1_rtz.tlz
-kdiff3-1.12.1-x86_64-1_rtz.tlz
+kdiff3-1.12.2-x86_64-1_rtz.tlz
 kdnssd-6.12.0-x86_64-1_rtz.tlz
 kdnssd5-5.116.0-x86_64-1_rtz.tlz
 kdoctools-6.12.0-x86_64-1_rtz.tlz
