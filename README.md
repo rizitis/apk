@@ -52,7 +52,7 @@ Every Package has
 ### !
 This is not apk-tools (Alpine Package Keeper) or  Chimera`s next-generation version 3.<br>
 This apk is a simple bash script which was written from scratch to work exclusively with this repository. <br>
-Repo files can be found [here](./repo_contents.json)
+Repo files can be found [here](https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/apk_repo_contents.json)
 
 ---
 
