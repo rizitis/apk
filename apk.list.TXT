@@ -1,4 +1,4 @@
-# Sun Mar 23 08:43:16 EET 2025
+# Mon Mar 24 20:54:33 EET 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -515,7 +515,7 @@ picocrypt-gui-1.47-x86_64-1_rtz.tlz
 pim-data-exporter-24.12.3-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.3-x86_64-1_rtz.tlz
 pimcommon-24.12.3-x86_64-1_rtz.tlz
-pinepods-0.7.5-x86_64-1_rtz.tlz
+pinepods-0.7.7-x86_64-1_rtz.tlz
 plasma-activities-stats-6.3.3-x86_64-1_rtz.tlz
 plasma-activities-6.3.3-x86_64-1_rtz.tlz
 plasma-browser-integration-6.3.3-x86_64-1_rtz.tlz
@@ -594,7 +594,7 @@ solid-6.12.0-x86_64-1_rtz.tlz
 solid5-5.116.0-x86_64-1_rtz.tlz
 sonnet-6.12.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
-sourcegit-2025.09-x86_64-2_rtz.tlz
+sourcegit-2025.10-x86_64-2_rtz.tlz
 spacebar-6.3.3-x86_64-1_rtz.tlz
 spdlog-1.15.1-x86_64-1_rtz.tlz
 spectacle-6.3.3-x86_64-1_rtz.tlz
