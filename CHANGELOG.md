@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Mar 24 20:54:43 EET 2025
+Generated on: Tue Mar 25 09:44:47 EET 2025
 
+* afeb651 - upgrade (Anagnostakis Ioannis) [2025-03-24]
+* 210ef66 - upgrade (Anagnostakis Ioannis) [2025-03-24]
 * d38ceb7 - Update .gitignore (Anagnostakis Ioannis) [2025-03-23]
 * 9b2927c - Update .gitignore (Anagnostakis Ioannis) [2025-03-23]
 * 20caf51 - Update README.md (Anagnostakis Ioannis) [2025-03-23]
