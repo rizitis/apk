@@ -1275,11 +1275,6 @@
         "type": "file"
     },
     {
-        "name": "sqlcipher.tar.lz4",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/sqlcipher.tar.lz4",
-        "type": "file"
-    },
-    {
         "name": "kirigami-addons.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kirigami-addons.tar.lz4",
         "type": "file"
@@ -3232,11 +3227,6 @@
     {
         "name": "knotifications5.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/knotifications5.tar.lz4",
-        "type": "file"
-    },
-    {
-        "name": "sqlcipher.sha256sum",
-        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/sqlcipher.sha256sum",
         "type": "file"
     },
     {
