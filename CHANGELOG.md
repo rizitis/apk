@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Mar 26 21:43:28 EET 2025
+Generated on: Fri Mar 28 09:54:53 EET 2025
 
+* 1aea536 - remove garbage (Anagnostakis Ioannis) [2025-03-26]
+* a784462 - remove garbage (Anagnostakis Ioannis) [2025-03-26]
 * 01d4212 - upgrade klevernotes sqlcipher (Anagnostakis Ioannis) [2025-03-25]
 * 02e9fdf - upgrade klevernotes sqlcipher (Anagnostakis Ioannis) [2025-03-25]
 * 3913013 - upgrade witsy (Anagnostakis Ioannis) [2025-03-25]
