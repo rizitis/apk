@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar 30 11:31:49 EEST 2025
+Generated on: Sun Mar 30 12:27:51 EEST 2025
 
+* fb3c147 - rebuild for new google-go-lang (Anagnostakis Ioannis) [2025-03-30]
+* 8f04c10 - rebuild for new google-go-lang (Anagnostakis Ioannis) [2025-03-30]
 * 8f7a5f6 - upgrade spdlog (Anagnostakis Ioannis) [2025-03-29]
 * d71a93b - upgrade spdlog (Anagnostakis Ioannis) [2025-03-29]
 * a3731bd - rebuild (Anagnostakis Ioannis) [2025-03-29]
