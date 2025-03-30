@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Mar 29 17:18:51 EET 2025
+Generated on: Sun Mar 30 11:31:49 EEST 2025
 
+* 8f7a5f6 - upgrade spdlog (Anagnostakis Ioannis) [2025-03-29]
+* d71a93b - upgrade spdlog (Anagnostakis Ioannis) [2025-03-29]
 * a3731bd - rebuild (Anagnostakis Ioannis) [2025-03-29]
 * 352f2f2 - rebuild (Anagnostakis Ioannis) [2025-03-29]
 * 184a6d8 - rebuild (Anagnostakis Ioannis) [2025-03-28]
