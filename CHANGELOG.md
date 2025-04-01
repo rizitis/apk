@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Apr  1 09:45:53 EEST 2025
+Generated on: Tue Apr  1 22:24:16 EEST 2025
 
+* 7ea2fb2 - Upgrade: witsy mdbook (Anagnostakis Ioannis) [2025-04-01]
+* 1508f62 - Upgrade: witsy mdbook (Anagnostakis Ioannis) [2025-04-01]
 * 51d0bac - upgrade gsa (Anagnostakis Ioannis) [2025-03-30]
 * dbc9610 - upgrade gsa (Anagnostakis Ioannis) [2025-03-30]
 * fb3c147 - rebuild for new google-go-lang (Anagnostakis Ioannis) [2025-03-30]

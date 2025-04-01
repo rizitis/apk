@@ -1,4 +1,4 @@
-# Tue Apr  1 09:45:46 EEST 2025
+# Tue Apr  1 22:24:06 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -134,7 +134,7 @@ intel-media-driver-24.3.4-x86_64-1_rtz.tlz
 inxifetch-2024.07.191-x86_64-1_rtz.tlz
 isoimagewriter-24.12.3-x86_64-1_rtz.tlz
 itinerary-24.12.3-x86_64-1_rtz.tlz
-jnv-0.5.0-x86_64-1_rtz.tlz
+jnv-0.6.0-x86_64-1_rtz.tlz
 juk-24.12.3-x86_64-1_rtz.tlz
 k3b-24.12.3-x86_64-1_rtz.tlz
 kaccounts-integration-24.12.3-x86_64-1_rtz.tlz
