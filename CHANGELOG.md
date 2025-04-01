@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Mar 30 12:27:51 EEST 2025
+Generated on: Tue Apr  1 09:45:53 EEST 2025
 
+* 51d0bac - upgrade gsa (Anagnostakis Ioannis) [2025-03-30]
+* dbc9610 - upgrade gsa (Anagnostakis Ioannis) [2025-03-30]
 * fb3c147 - rebuild for new google-go-lang (Anagnostakis Ioannis) [2025-03-30]
 * 8f04c10 - rebuild for new google-go-lang (Anagnostakis Ioannis) [2025-03-30]
 * 8f7a5f6 - upgrade spdlog (Anagnostakis Ioannis) [2025-03-29]
