@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Apr  2 13:09:16 EEST 2025
+Generated on: Wed Apr  2 13:10:00 EEST 2025
 
+* 419483f - update for plasma 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
+* ad0209a - update for plasma 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * 8a33687 - upgrade 5.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * 266e152 - upgrade 5.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * deb41cc - update 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
