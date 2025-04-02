@@ -1,4 +1,4 @@
-# Wed Apr  2 13:06:08 EEST 2025
+# Wed Apr  2 13:06:50 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -377,7 +377,7 @@ krunner-6.12.0-x86_64-1_rtz.tlz
 krunner5-5.116.0-x86_64-1_rtz.tlz
 krusader-2.8.1-x86_64-1_rtz.tlz
 ksanecore-24.12.3-x86_64-1_rtz.tlz
-kscreen-6.3.3-x86_64-1_rtz.tlz
+kscreen-6.3.4-x86_64-1_rtz.tlz
 kscreenlocker-6.3.3-x86_64-1_rtz.tlz
 kservice-6.12.0-x86_64-1_rtz.tlz
 kservice5-5.116.0-x86_64-1_rtz.tlz
@@ -447,7 +447,7 @@ libkleo-24.12.3-x86_64-1_rtz.tlz
 libkmahjongg-24.12.3-x86_64-1_rtz.tlz
 libkomparediff2-24.12.3-x86_64-1_rtz.tlz
 libksane-24.12.3-x86_64-1_rtz.tlz
-libkscreen-6.3.3-x86_64-1_rtz.tlz
+libkscreen-6.3.4-x86_64-1_rtz.tlz
 libksieve-24.12.3-x86_64-1_rtz.tlz
 libksysguard-6.3.4-x86_64-1_rtz.tlz
 libktorrent-24.12.3-x86_64-1_rtz.tlz
@@ -516,28 +516,28 @@ pim-data-exporter-24.12.3-x86_64-1_rtz.tlz
 pim-sieve-editor-24.12.3-x86_64-1_rtz.tlz
 pimcommon-24.12.3-x86_64-1_rtz.tlz
 pinepods-0.7.7-x86_64-1_rtz.tlz
-plasma-activities-stats-6.3.3-x86_64-1_rtz.tlz
-plasma-activities-6.3.3-x86_64-1_rtz.tlz
+plasma-activities-stats-6.3.4-x86_64-1_rtz.tlz
+plasma-activities-6.3.4-x86_64-1_rtz.tlz
 plasma-browser-integration-6.3.3-x86_64-1_rtz.tlz
 plasma-camera-1.0_git20240819-x86_64-1_rtz.tlz
 plasma-desktop-6.3.4-x86_64-1_rtz.tlz
-plasma-dialer-6.3.3-x86_64-1_rtz.tlz
+plasma-dialer-6.3.4-x86_64-1_rtz.tlz
 plasma-disks-6.3.3-x86_64-1_rtz.tlz
-plasma-firewall-6.3.3-x86_64-1_rtz.tlz
+plasma-firewall-6.3.4-x86_64-1_rtz.tlz
 plasma-framework5-5.116.0-x86_64-1_rtz.tlz
 plasma-integration-6.3.3-x86_64-1_rtz.tlz
 plasma-mobile-sounds-0.1-x86_64-1_rtz.tlz
 plasma-mobile-6.3.4-x86_64-1_rtz.tlz
 plasma-nano-6.3.3-x86_64-1_rtz.tlz
 plasma-nm-6.3.4-x86_64-1_rtz.tlz
-plasma-pa-6.3.3-x86_64-1_rtz.tlz
+plasma-pa-6.3.4-x86_64-1_rtz.tlz
 plasma-phonebook-24.02.0-x86_64-1_rtz.tlz
-plasma-sdk-6.3.3-x86_64-1_rtz.tlz
+plasma-sdk-6.3.4-x86_64-1_rtz.tlz
 plasma-settings-25.02.0-x86_64-1_rtz.tlz
 plasma-smart-video-wallpaper-reborn-2.1.0-x86_64-1_rtz.tlz
-plasma-systemmonitor-6.3.3-x86_64-1_rtz.tlz
+plasma-systemmonitor-6.3.4-x86_64-1_rtz.tlz
 plasma-thunderbolt-6.3.3-x86_64-1_rtz.tlz
-plasma-vault-6.3.3-x86_64-1_rtz.tlz
+plasma-vault-6.3.4-x86_64-1_rtz.tlz
 plasma-wayland-protocols-1.17.0-x86_64-1_rtz.tlz
 plasma-welcome-6.3.4-x86_64-1_rtz.tlz
 plasma-workspace-wallpapers1-6.3.4-x86_64-1_rtz.tlz
@@ -564,7 +564,7 @@ python-project-generator-2.0.8-x86_64-1_rtz.tlz
 python3-watchdog-6.0.0-x86_64-1_rtz.tlz
 qbs-2.6.0-x86_64-1_rtz.tlz
 qmlkonsole-24.12.3-x86_64-1_rtz.tlz
-qqc2-breeze-style-6.3.3-x86_64-1_rtz.tlz
+qqc2-breeze-style-6.3.4-x86_64-1_rtz.tlz
 qqc2-desktop-style-6.12.0-x86_64-1_rtz.tlz
 qrca-30bb754667d8d1b30f28061953cd7c1a5c373a41-x86_64-1_rtz.tlz
 qt-sudo-2.0.1-x86_64-1_rtz.tlz
@@ -595,7 +595,7 @@ solid5-5.116.0-x86_64-1_rtz.tlz
 sonnet-6.12.0-x86_64-1_rtz.tlz
 sonnet5-5.116.0-x86_64-1_rtz.tlz
 sourcegit-2025.10-x86_64-2_rtz.tlz
-spacebar-6.3.3-x86_64-1_rtz.tlz
+spacebar-6.3.4-x86_64-1_rtz.tlz
 spdlog-1.15.2-x86_64-1_rtz.tlz
 spectacle-6.3.4-x86_64-1_rtz.tlz
 static-web-server-2.36.0-x86_64-1_rtz.tlz
@@ -608,7 +608,7 @@ syndication-6.12.0-x86_64-1_rtz.tlz
 syndication5-5.116.0-x86_64-1_rtz.tlz
 syntax-highlighting-6.12.0-x86_64-1_rtz.tlz
 syntax-highlighting5-5.116.0-x86_64-1_rtz.tlz
-systemsettings-6.3.3-x86_64-1_rtz.tlz
+systemsettings-6.3.4-x86_64-1_rtz.tlz
 tags-1.2-x86_64-1_rtz.tlz
 tar-split-0.12.1-x86_64-1_rtz.tlz
 telepathy-qt-0.9.8-x86_64-1_rtz.tlz
@@ -636,7 +636,7 @@ wolfssl-5.7.4-x86_64-1_rtz.tlz
 xapian-bindings-1.4.27-x86_64-1_rtz.tlz
 xdg-dbus-proxy-0.1.6-x86_64-1_rtz.tlz
 xdg-desktop-portal-gtk-1.15.2-x86_64-1_rtz.tlz
-xdg-desktop-portal-kde-6.3.3-x86_64-1_rtz.tlz
+xdg-desktop-portal-kde-6.3.4-x86_64-1_rtz.tlz
 xsettingsd-1.0.2-x86_64-1_rtz.tlz
 xwaylandvideobridge-0.4.0-x86_64-1_rtz.tlz
 yakuake-24.12.3-x86_64-1_rtz.tlz
