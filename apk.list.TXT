@@ -1,4 +1,4 @@
-# Tue Apr  1 22:24:06 EEST 2025
+# Wed Apr  2 13:01:42 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -540,8 +540,8 @@ plasma-thunderbolt-6.3.3-x86_64-1_rtz.tlz
 plasma-vault-6.3.3-x86_64-1_rtz.tlz
 plasma-wayland-protocols-1.17.0-x86_64-1_rtz.tlz
 plasma-welcome-6.3.3-x86_64-1_rtz.tlz
-plasma-workspace-wallpapers1-6.3.3-x86_64-1_rtz.tlz
-plasma-workspace-wallpapers2-6.3.3-x86_64-1_rtz.tlz
+plasma-workspace-wallpapers1-6.3.4-x86_64-1_rtz.tlz
+plasma-workspace-wallpapers2-6.3.4-x86_64-1_rtz.tlz
 plasma-workspace-6.3.3-x86_64-1_rtz.tlz
 plasma5support-6.3.3-x86_64-1_rtz.tlz
 plasmatube-24.12.3-x86_64-1_rtz.tlz
