@@ -1,4 +1,4 @@
-# Wed Apr  2 13:06:50 EEST 2025
+# Wed Apr  2 13:07:19 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -62,7 +62,7 @@ blueprint-compiler-0.16.0-x86_64-1_rtz.tlz
 bluez-qt-6.12.0-x86_64-1_rtz.tlz
 bomber-24.12.3-x86_64-1_rtz.tlz
 bovo-24.12.3-x86_64-1_rtz.tlz
-breeze-gtk-6.3.3-x86_64-1_rtz.tlz
+breeze-gtk-6.3.4-x86_64-1_rtz.tlz
 breeze-icons-6.12.0-x86_64-1_rtz.tlz
 breeze-6.3.4-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
@@ -140,7 +140,7 @@ k3b-24.12.3-x86_64-1_rtz.tlz
 kaccounts-integration-24.12.3-x86_64-1_rtz.tlz
 kaccounts-providers-24.12.1-x86_64-1_rtz.tlz
 kactivities5-5.116.0-x86_64-1_rtz.tlz
-kactivitymanagerd-6.3.3-x86_64-1_rtz.tlz
+kactivitymanagerd-6.3.4-x86_64-1_rtz.tlz
 kaddressbook-24.12.3-x86_64-1_rtz.tlz
 kalarm-24.12.3-x86_64-1_rtz.tlz
 kalgebra-24.12.3-x86_64-1_rtz.tlz
@@ -207,7 +207,7 @@ kdebugsettings-24.12.3-x86_64-1_rtz.tlz
 kdeclarative-6.12.0-x86_64-1_rtz.tlz
 kdeclarative5-5.116.0-x86_64-1_rtz.tlz
 kdeconnect-24.12.3-x86_64-1_rtz.tlz
-kdecoration-6.3.3-x86_64-1_rtz.tlz
+kdecoration-6.3.4-x86_64-1_rtz.tlz
 kded-6.12.0-x86_64-1_rtz.tlz
 kdeedu-data-24.12.3-x86_64-1_rtz.tlz
 kdegraphics-mobipocket-24.12.3-x86_64-1_rtz.tlz
@@ -242,13 +242,13 @@ kfilemetadata-6.12.0-x86_64-1_rtz.tlz
 kfilemetadata5-5.116.0-x86_64-1_rtz.tlz
 kfind-24.12.3-x86_64-1_rtz.tlz
 kfourinline-24.12.3-x86_64-1_rtz.tlz
-kgamma-6.3.3-x86_64-1_rtz.tlz
+kgamma-6.3.4-x86_64-1_rtz.tlz
 kgeography-24.12.3-x86_64-1_rtz.tlz
 kgeotag-1.7.0-x86_64-1_rtz.tlz
 kget-24.12.3-x86_64-1_rtz.tlz
 kglobalaccel-6.12.0-x86_64-1_rtz.tlz
 kglobalaccel5-5.116.0-x86_64-1_rtz.tlz
-kglobalacceld-6.3.3-x86_64-1_rtz.tlz
+kglobalacceld-6.3.4-x86_64-1_rtz.tlz
 kgoldrunner-24.12.3-x86_64-1_rtz.tlz
 kgpg-24.12.3-x86_64-1_rtz.tlz
 kgraphviewer-2.5.0-x86_64-1_rtz.tlz
@@ -357,7 +357,7 @@ kpeople5-5.116.0-x86_64-1_rtz.tlz
 kpeoplevcard-0.1-x86_64-1_rtz.tlz
 kphotoalbum-6.0.1-x86_64-1_rtz.tlz
 kpimtextedit-24.12.3-x86_64-1_rtz.tlz
-kpipewire-6.3.3-x86_64-1_rtz.tlz
+kpipewire-6.3.4-x86_64-1_rtz.tlz
 kpkpass-24.12.3-x86_64-1_rtz.tlz
 kplotting-6.12.0-x86_64-1_rtz.tlz
 kplotting5-5.116.0-x86_64-1_rtz.tlz
@@ -369,7 +369,7 @@ kqtquickcharts-24.12.3-x86_64-1_rtz.tlz
 kquickcharts-6.12.0-x86_64-1_rtz.tlz
 kquickimageeditor-0.5.1-x86_64-1_rtz.tlz
 krdc-24.12.3-x86_64-1_rtz.tlz
-krdp-6.3.3-x86_64-1_rtz.tlz
+krdp-6.3.4-x86_64-1_rtz.tlz
 krename-5.0.2-x86_64-1_rtz.tlz
 krfb-24.12.3-x86_64-1_rtz.tlz
 kruler-24.12.3-x86_64-1_rtz.tlz
@@ -378,7 +378,7 @@ krunner5-5.116.0-x86_64-1_rtz.tlz
 krusader-2.8.1-x86_64-1_rtz.tlz
 ksanecore-24.12.3-x86_64-1_rtz.tlz
 kscreen-6.3.4-x86_64-1_rtz.tlz
-kscreenlocker-6.3.3-x86_64-1_rtz.tlz
+kscreenlocker-6.3.4-x86_64-1_rtz.tlz
 kservice-6.12.0-x86_64-1_rtz.tlz
 kservice5-5.116.0-x86_64-1_rtz.tlz
 ksirk-24.12.3-x86_64-1_rtz.tlz
@@ -387,7 +387,7 @@ ksshaskpass-6.3.3-x86_64-1_rtz.tlz
 kstatusnotifieritem-6.12.0-x86_64-1_rtz.tlz
 ksvg-6.12.0-x86_64-1_rtz.tlz
 ksystemlog-24.12.3-x86_64-1_rtz.tlz
-ksystemstats-6.3.3-x86_64-1_rtz.tlz
+ksystemstats-6.3.4-x86_64-1_rtz.tlz
 kteatime-24.12.3-x86_64-1_rtz.tlz
 ktextaddons-1.5.4-x86_64-1_rtz.tlz
 ktexteditor-6.12.0-x86_64-1_rtz.tlz
@@ -518,14 +518,14 @@ pimcommon-24.12.3-x86_64-1_rtz.tlz
 pinepods-0.7.7-x86_64-1_rtz.tlz
 plasma-activities-stats-6.3.4-x86_64-1_rtz.tlz
 plasma-activities-6.3.4-x86_64-1_rtz.tlz
-plasma-browser-integration-6.3.3-x86_64-1_rtz.tlz
+plasma-browser-integration-6.3.4-x86_64-1_rtz.tlz
 plasma-camera-1.0_git20240819-x86_64-1_rtz.tlz
 plasma-desktop-6.3.4-x86_64-1_rtz.tlz
 plasma-dialer-6.3.4-x86_64-1_rtz.tlz
-plasma-disks-6.3.3-x86_64-1_rtz.tlz
+plasma-disks-6.3.4-x86_64-1_rtz.tlz
 plasma-firewall-6.3.4-x86_64-1_rtz.tlz
 plasma-framework5-5.116.0-x86_64-1_rtz.tlz
-plasma-integration-6.3.3-x86_64-1_rtz.tlz
+plasma-integration-6.3.4-x86_64-1_rtz.tlz
 plasma-mobile-sounds-0.1-x86_64-1_rtz.tlz
 plasma-mobile-6.3.4-x86_64-1_rtz.tlz
 plasma-nano-6.3.3-x86_64-1_rtz.tlz
@@ -536,7 +536,7 @@ plasma-sdk-6.3.4-x86_64-1_rtz.tlz
 plasma-settings-25.02.0-x86_64-1_rtz.tlz
 plasma-smart-video-wallpaper-reborn-2.1.0-x86_64-1_rtz.tlz
 plasma-systemmonitor-6.3.4-x86_64-1_rtz.tlz
-plasma-thunderbolt-6.3.3-x86_64-1_rtz.tlz
+plasma-thunderbolt-6.3.4-x86_64-1_rtz.tlz
 plasma-vault-6.3.4-x86_64-1_rtz.tlz
 plasma-wayland-protocols-1.17.0-x86_64-1_rtz.tlz
 plasma-welcome-6.3.4-x86_64-1_rtz.tlz
@@ -576,7 +576,7 @@ rocs-24.12.3-x86_64-1_rtz.tlz
 run-virt-x-0.0.2_RC-x86_64-1_rtz.tlz
 ruqola-2.4.1-x86_64-1_rtz.tlz
 s-0.7.1-x86_64-1_rtz.tlz
-sddm-kcm-6.3.3-x86_64-1_rtz.tlz
+sddm-kcm-6.3.4-x86_64-1_rtz.tlz
 sddm-0.21.0-x86_64-1_rtz.tlz
 sfml-2.6.1-x86_64-1_rtz.tlz
 sierrabreezeenhanced-2.0.1-x86_64-1_rtz.tlz
