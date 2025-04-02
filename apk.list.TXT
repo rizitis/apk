@@ -1,4 +1,4 @@
-# Wed Apr  2 13:05:06 EEST 2025
+# Wed Apr  2 13:05:35 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -458,7 +458,7 @@ libnpupnp-6.2.0-x86_64-1_rtz.tlz
 libofx-0.9.11-x86_64-1_rtz.tlz
 libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
 libphonenumber-9.0.0-x86_64-1_rtz.tlz
-libplasma-6.3.3-x86_64-1_rtz.tlz
+libplasma-6.3.4-x86_64-1_rtz.tlz
 libqaccessibilityclient-0.6.0-x86_64-1_rtz.tlz
 libquotient-0.9.1-x86_64-1_rtz.tlz
 libredwg-0.13.3-x86_64-1_rtz.tlz
@@ -493,7 +493,7 @@ mpvqt-1.0.1-x86_64-1_rtz.tlz
 neochat-24.12.3-x86_64-1_rtz.tlz
 networkmanager-qt-6.12.0-x86_64-1_rtz.tlz
 noisetorch-6d895f3_git-x86_64-1_rtz.tlz
-ocean-sound-theme-6.3.3-x86_64-1_rtz.tlz
+ocean-sound-theme-6.3.4-x86_64-1_rtz.tlz
 okteta-0.26.20-x86_64-1_rtz.tlz
 okular-24.12.3-x86_64-1_rtz.tlz
 olm-3.2.16-x86_64-1_rtz.tlz
@@ -503,8 +503,8 @@ openseachest-24.08.1-x86_64-1_rtz.tlz
 openxr-1.1.43-x86_64-1_rtz.tlz
 optiimage-a5b2f69347a2b44e2ab72685663697035a7eaa20-x86_64-1_rtz.tlz
 oxygen-icons-6.1.0-x86_64-1_rtz.tlz
-oxygen-sounds-6.3.3-x86_64-1_rtz.tlz
-oxygen-6.3.3-x86_64-1_rtz.tlz
+oxygen-sounds-6.3.4-x86_64-1_rtz.tlz
+oxygen-6.3.4-x86_64-1_rtz.tlz
 panwriter-0.8.9-x86_64-1_rtz.tlz
 parley-24.12.3-x86_64-1_rtz.tlz
 partitionmanager-24.12.3-x86_64-1_rtz.tlz
@@ -527,9 +527,9 @@ plasma-firewall-6.3.3-x86_64-1_rtz.tlz
 plasma-framework5-5.116.0-x86_64-1_rtz.tlz
 plasma-integration-6.3.3-x86_64-1_rtz.tlz
 plasma-mobile-sounds-0.1-x86_64-1_rtz.tlz
-plasma-mobile-6.3.3-x86_64-1_rtz.tlz
+plasma-mobile-6.3.4-x86_64-1_rtz.tlz
 plasma-nano-6.3.3-x86_64-1_rtz.tlz
-plasma-nm-6.3.3-x86_64-1_rtz.tlz
+plasma-nm-6.3.4-x86_64-1_rtz.tlz
 plasma-pa-6.3.3-x86_64-1_rtz.tlz
 plasma-phonebook-24.02.0-x86_64-1_rtz.tlz
 plasma-sdk-6.3.3-x86_64-1_rtz.tlz
@@ -597,7 +597,7 @@ sonnet5-5.116.0-x86_64-1_rtz.tlz
 sourcegit-2025.10-x86_64-2_rtz.tlz
 spacebar-6.3.3-x86_64-1_rtz.tlz
 spdlog-1.15.2-x86_64-1_rtz.tlz
-spectacle-6.3.3-x86_64-1_rtz.tlz
+spectacle-6.3.4-x86_64-1_rtz.tlz
 static-web-server-2.36.0-x86_64-1_rtz.tlz
 step-24.12.3-x86_64-1_rtz.tlz
 superhtml-0.5.3-x86_64-1_rtz.tlz
