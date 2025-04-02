@@ -1,4 +1,4 @@
-# Wed Apr  2 15:00:58 EEST 2025
+# Wed Apr  2 15:25:39 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -97,6 +97,7 @@ falkon-24.12.3-x86_64-1_rtz.tlz
 fcitx5-configtool-5.1.8-x86_64-1_rtz.tlz
 fcitx5-qt-5.1.9-x86_64-1_rtz.tlz
 fcitx5-5.1.12-x86_64-1_rtz.tlz
+ffmpeg4-4.4.5-x86_64-1_rtz.tlz
 ffmpegthumbs-24.12.3-x86_64-1_rtz.tlz
 fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz

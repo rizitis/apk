@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Apr  2 15:01:07 EEST 2025
+Generated on: Wed Apr  2 15:25:49 EEST 2025
 
+* 5f02a3d - rebuild libindi (Anagnostakis Ioannis) [2025-04-02]
+* 3ed6853 - rebuild libindi (Anagnostakis Ioannis) [2025-04-02]
 * 54f5f1d - upgrade for Plasma 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * b34d97f - upgrade for Plasma 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * 419483f - update for plasma 6.3.4 (Anagnostakis Ioannis) [2025-04-02]

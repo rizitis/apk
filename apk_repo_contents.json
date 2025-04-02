@@ -2095,6 +2095,11 @@
         "type": "file"
     },
     {
+        "name": "ffmpeg4.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/ffmpeg4.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "kontactinterface.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kontactinterface.tar.lz4",
         "type": "file"
@@ -6342,6 +6347,11 @@
     {
         "name": "skanlite.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/skanlite.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "ffmpeg4.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/ffmpeg4.sha256sum",
         "type": "file"
     },
     {
