@@ -1,4 +1,4 @@
-# Wed Apr  2 13:07:19 EEST 2025
+# Wed Apr  2 13:07:48 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -101,7 +101,7 @@ ffmpegthumbs-24.12.3-x86_64-1_rtz.tlz
 fielding-d9e0818_git-x86_64-1_rtz.tlz
 figlet-2.2.5-x86_64-1_rtz.tlz
 filelight-24.12.3-x86_64-1_rtz.tlz
-flatpak-kcm-6.3.3-x86_64-1_rtz.tlz
+flatpak-kcm-6.3.4-x86_64-1_rtz.tlz
 frameworkintegration-6.12.0-x86_64-1_rtz.tlz
 frameworkintegration5-5.116.0-x86_64-1_rtz.tlz
 francis-24.12.3-x86_64-1_rtz.tlz
@@ -201,7 +201,7 @@ kdbusaddons5-5.116.0-x86_64-1_rtz.tlz
 kde-cli-tools-6.3.4-x86_64-1_rtz.tlz
 kde-dev-scripts-24.12.3-x86_64-1_rtz.tlz
 kde-dev-utils-24.12.3-x86_64-1_rtz.tlz
-kde-gtk-config-6.3.3-x86_64-1_rtz.tlz
+kde-gtk-config-6.3.4-x86_64-1_rtz.tlz
 kde-inotify-survey-24.12.3-x86_64-1_rtz.tlz
 kdebugsettings-24.12.3-x86_64-1_rtz.tlz
 kdeclarative-6.12.0-x86_64-1_rtz.tlz
@@ -383,7 +383,7 @@ kservice-6.12.0-x86_64-1_rtz.tlz
 kservice5-5.116.0-x86_64-1_rtz.tlz
 ksirk-24.12.3-x86_64-1_rtz.tlz
 ksmtp-24.12.3-x86_64-1_rtz.tlz
-ksshaskpass-6.3.3-x86_64-1_rtz.tlz
+ksshaskpass-6.3.4-x86_64-1_rtz.tlz
 kstatusnotifieritem-6.12.0-x86_64-1_rtz.tlz
 ksvg-6.12.0-x86_64-1_rtz.tlz
 ksystemlog-24.12.3-x86_64-1_rtz.tlz
@@ -406,12 +406,12 @@ kunifiedpush-24.12.2-x86_64-1_rtz.tlz
 kunitconversion-6.12.0-x86_64-1_rtz.tlz
 kup-0.10.0-x86_64-1_rtz.tlz
 kuserfeedback-6.12.0-x86_64-1_rtz.tlz
-kwallet-pam-6.3.3-x86_64-1_rtz.tlz
+kwallet-pam-6.3.4-x86_64-1_rtz.tlz
 kwallet-6.12.0-x86_64-1_rtz.tlz
 kwallet5-5.116.0-x86_64-1_rtz.tlz
 kwalletmanager-24.12.3-x86_64-1_rtz.tlz
 kwave-24.12.3-x86_64-1_rtz.tlz
-kwayland-integration-6.3.3-x86_64-1_rtz.tlz
+kwayland-integration-6.3.4-x86_64-1_rtz.tlz
 kwayland-6.3.4-x86_64-1_rtz.tlz
 kwayland5-5.116.0-x86_64-1_rtz.tlz
 kweather-24.12.3-x86_64-1_rtz.tlz
@@ -423,10 +423,10 @@ kwindowsystem-6.12.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.3-x86_64-1_rtz.tlz
 kwrite-24.12.3-x86_64-1_rtz.tlz
-kwrited-6.3.3-x86_64-1_rtz.tlz
+kwrited-6.3.4-x86_64-1_rtz.tlz
 kxmlgui-6.12.0-x86_64-1_rtz.tlz
 kxmlgui5-5.116.0-x86_64-1_rtz.tlz
-layer-shell-qt-6.3.3-x86_64-1_rtz.tlz
+layer-shell-qt-6.3.4-x86_64-1_rtz.tlz
 libaccounts-glib-1.27-x86_64-1_rtz.tlz
 libaccounts-qt-1.17-x86_64-1_rtz.tlz
 libadwaita-1.6.4-x86_64-1_rtz.tlz
@@ -485,7 +485,7 @@ mergiraf-0.5.1-x86_64-1_rtz.tlz
 merkuro-24.12.3-x86_64-1_rtz.tlz
 messagelib-24.12.3-x86_64-1_rtz.tlz
 mikumikubeam-289eff9-x86_64-1_rtz.tlz
-milou-6.3.3-x86_64-1_rtz.tlz
+milou-6.3.4-x86_64-1_rtz.tlz
 mimetreeparser-24.12.3-x86_64-1_rtz.tlz
 minuet-24.12.3-x86_64-1_rtz.tlz
 modemmanager-qt-6.12.0-x86_64-1_rtz.tlz
@@ -528,7 +528,7 @@ plasma-framework5-5.116.0-x86_64-1_rtz.tlz
 plasma-integration-6.3.4-x86_64-1_rtz.tlz
 plasma-mobile-sounds-0.1-x86_64-1_rtz.tlz
 plasma-mobile-6.3.4-x86_64-1_rtz.tlz
-plasma-nano-6.3.3-x86_64-1_rtz.tlz
+plasma-nano-6.3.4-x86_64-1_rtz.tlz
 plasma-nm-6.3.4-x86_64-1_rtz.tlz
 plasma-pa-6.3.4-x86_64-1_rtz.tlz
 plasma-phonebook-24.02.0-x86_64-1_rtz.tlz
@@ -545,8 +545,8 @@ plasma-workspace-wallpapers2-6.3.4-x86_64-1_rtz.tlz
 plasma-workspace-6.3.4-x86_64-1_rtz.tlz
 plasma5support-6.3.4-x86_64-1_rtz.tlz
 plasmatube-24.12.3-x86_64-1_rtz.tlz
-plymouth-kcm-6.3.3-x86_64-1_rtz.tlz
-polkit-kde-agent-1-6.3.3-x86_64-1_rtz.tlz
+plymouth-kcm-6.3.4-x86_64-1_rtz.tlz
+polkit-kde-agent-1-6.3.4-x86_64-1_rtz.tlz
 power-profiles-daemon-0.30-x86_64-1_rtz.tlz
 powerdevil-6.3.4-x86_64-1_rtz.tlz
 poxml-24.12.3-x86_64-1_rtz.tlz
