@@ -1,4 +1,4 @@
-# Wed Apr  2 13:01:42 EEST 2025
+# Wed Apr  2 13:04:25 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -64,7 +64,7 @@ bomber-24.12.3-x86_64-1_rtz.tlz
 bovo-24.12.3-x86_64-1_rtz.tlz
 breeze-gtk-6.3.3-x86_64-1_rtz.tlz
 breeze-icons-6.12.0-x86_64-1_rtz.tlz
-breeze-6.3.3-x86_64-1_rtz.tlz
+breeze-6.3.4-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.3-x86_64-1_rtz.tlz
 calindori-24.12.3-x86_64-1_rtz.tlz
@@ -418,7 +418,7 @@ kweather-24.12.3-x86_64-1_rtz.tlz
 kweathercore-0.8.0-x86_64-1_rtz.tlz
 kwidgetsaddons-6.12.0-x86_64-1_rtz.tlz
 kwidgetsaddons5-5.116.0-x86_64-1_rtz.tlz
-kwin-6.3.3.1-x86_64-1_rtz.tlz
+kwin-6.3.4-x86_64-1_rtz.tlz
 kwindowsystem-6.12.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.3-x86_64-1_rtz.tlz
@@ -520,7 +520,7 @@ plasma-activities-stats-6.3.3-x86_64-1_rtz.tlz
 plasma-activities-6.3.3-x86_64-1_rtz.tlz
 plasma-browser-integration-6.3.3-x86_64-1_rtz.tlz
 plasma-camera-1.0_git20240819-x86_64-1_rtz.tlz
-plasma-desktop-6.3.3-x86_64-1_rtz.tlz
+plasma-desktop-6.3.4-x86_64-1_rtz.tlz
 plasma-dialer-6.3.3-x86_64-1_rtz.tlz
 plasma-disks-6.3.3-x86_64-1_rtz.tlz
 plasma-firewall-6.3.3-x86_64-1_rtz.tlz
@@ -542,7 +542,7 @@ plasma-wayland-protocols-1.17.0-x86_64-1_rtz.tlz
 plasma-welcome-6.3.3-x86_64-1_rtz.tlz
 plasma-workspace-wallpapers1-6.3.4-x86_64-1_rtz.tlz
 plasma-workspace-wallpapers2-6.3.4-x86_64-1_rtz.tlz
-plasma-workspace-6.3.3-x86_64-1_rtz.tlz
+plasma-workspace-6.3.4-x86_64-1_rtz.tlz
 plasma5support-6.3.3-x86_64-1_rtz.tlz
 plasmatube-24.12.3-x86_64-1_rtz.tlz
 plymouth-kcm-6.3.3-x86_64-1_rtz.tlz
