@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Apr  2 13:07:54 EEST 2025
+Generated on: Wed Apr  2 13:09:16 EEST 2025
 
+* 8a33687 - upgrade 5.3.4 (Anagnostakis Ioannis) [2025-04-02]
+* 266e152 - upgrade 5.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * deb41cc - update 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * 865261c - update 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
 * 26e4a0d - upgrade 6.3.4 (Anagnostakis Ioannis) [2025-04-02]
