@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Apr  2 23:19:47 EEST 2025
+Generated on: Thu Apr  3 09:51:01 EEST 2025
 
+* f93a88a - fix permissions (Anagnostakis Ioannis) [2025-04-02]
+* fa97ce6 - fix permissions (Anagnostakis Ioannis) [2025-04-02]
 * a75d6fb - ffmpeg4 (Anagnostakis Ioannis) [2025-04-02]
 * 253e321 - ffmpeg4 (Anagnostakis Ioannis) [2025-04-02]
 * 5f02a3d - rebuild libindi (Anagnostakis Ioannis) [2025-04-02]

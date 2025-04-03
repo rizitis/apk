@@ -1,4 +1,4 @@
-# Wed Apr  2 23:19:38 EEST 2025
+# Thu Apr  3 09:50:51 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -69,7 +69,7 @@ bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.3-x86_64-1_rtz.tlz
 calindori-24.12.3-x86_64-1_rtz.tlz
 callaudiod-0.1.10-x86_64-1_rtz.tlz
-calligra-24.12.2-x86_64-1_rtz.tlz
+calligra-24.12.3-x86_64-1_rtz.tlz
 cantor-24.12.3-x86_64-1_rtz.tlz
 cargo-auditable-0.6.6-x86_64-1_rtz.tlz
 cervisia-24.12.3-x86_64-1_rtz.tlz
