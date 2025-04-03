@@ -1,4 +1,4 @@
-# Thu Apr  3 09:50:51 EEST 2025
+# Thu Apr  3 20:24:30 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -113,7 +113,7 @@ ghostwriter-24.12.3-x86_64-1_rtz.tlz
 gitify-6.2.0-x86_64-1_rtz.tlz
 gnome-podcasts-0.7.2-x86_64-1_rtz.tlz
 gptscript-0.9.5-x86_64-1_rtz.tlz
-gpu-recorder-gtk-r431.1dd7ed9-x86_64-1_rtz.tlz
+gpu-recorder-gtk-r480.3532d9c-x86_64-1_rtz.tlz
 gpu-screen-recorder-r942.b68400c-x86_64-1_rtz.tlz
 granatier-24.12.3-x86_64-1_rtz.tlz
 grantlee-editor-24.12.3-x86_64-1_rtz.tlz
