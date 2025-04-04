@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Apr  3 20:24:40 EEST 2025
+Generated on: Fri Apr  4 21:51:44 EEST 2025
 
+* fb18c37 - upgrade (Anagnostakis Ioannis) [2025-04-03]
+* 179fc7c - upgrade (Anagnostakis Ioannis) [2025-04-03]
 * aadab87 - rebuild (Anagnostakis Ioannis) [2025-04-03]
 * 82a2e04 - rebuild (Anagnostakis Ioannis) [2025-04-03]
 * f93a88a - fix permissions (Anagnostakis Ioannis) [2025-04-02]
