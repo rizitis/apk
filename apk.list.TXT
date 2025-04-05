@@ -1,4 +1,4 @@
-# Fri Apr  4 21:51:34 EEST 2025
+# Sat Apr  5 17:12:25 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -461,7 +461,7 @@ libopensles-standalone-20240221_git-x86_64-1_rtz.tlz
 libphonenumber-9.0.0-x86_64-1_rtz.tlz
 libplasma-6.3.4-x86_64-1_rtz.tlz
 libqaccessibilityclient-0.6.0-x86_64-1_rtz.tlz
-libquotient-0.9.1-x86_64-1_rtz.tlz
+libquotient-0.9.3-x86_64-1_rtz.tlz
 libredwg-0.13.3-x86_64-1_rtz.tlz
 libstemmer-2.2.0-x86_64-1_rtz.tlz
 libusbsio-2.1.13-x86_64-1_rtz.tlz
