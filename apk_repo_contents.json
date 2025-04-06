@@ -5100,6 +5100,11 @@
         "type": "file"
     },
     {
+        "name": "digikam.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/digikam.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "kxmlgui.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kxmlgui.tar.lz4",
         "type": "file"
@@ -5592,6 +5597,11 @@
     {
         "name": "tokodon.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/tokodon.tar.lz4",
+        "type": "file"
+    },
+    {
+        "name": "digikam.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/digikam.tar.lz4",
         "type": "file"
     },
     {

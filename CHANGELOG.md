@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Apr  5 17:12:31 EEST 2025
+Generated on: Sun Apr  6 12:02:25 EEST 2025
 
+* 5786f21 - upgrade libquotient (Anagnostakis Ioannis) [2025-04-05]
+* c3a793d - upgrade libquotient (Anagnostakis Ioannis) [2025-04-05]
 * baa4fba - upgrade okteta (Anagnostakis Ioannis) [2025-04-04]
 * 308217e - upgrade okteta (Anagnostakis Ioannis) [2025-04-04]
 * fb18c37 - upgrade (Anagnostakis Ioannis) [2025-04-03]

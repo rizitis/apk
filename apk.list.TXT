@@ -1,4 +1,4 @@
-# Sat Apr  5 17:12:25 EEST 2025
+# Sun Apr  6 12:02:18 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -80,6 +80,7 @@ coppwr-1.6.1-x86_64-1_rtz.tlz
 csbooks-8.5.0-x86_64-1_rtz.tlz
 ddcutil-2.2.0-x86_64-1_rtz.tlz
 debian-archive-keyring-2023.4-x86_64-1_rtz.tlz
+digikam-8.5.0-x86_64-1_rtz.tlz
 discount-3.0.0d-x86_64-1_rtz.tlz
 discover-6.3.4-x86_64-1_rtz.tlz
 dolphin-plugins-24.12.3-x86_64-1_rtz.tlz
