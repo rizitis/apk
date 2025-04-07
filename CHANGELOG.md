@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sun Apr  6 12:02:25 EEST 2025
+Generated on: Mon Apr  7 17:06:06 EEST 2025
 
+* c980d4b - add digikam (Anagnostakis Ioannis) [2025-04-06]
+* cc4751e - add digikam (Anagnostakis Ioannis) [2025-04-06]
 * 5786f21 - upgrade libquotient (Anagnostakis Ioannis) [2025-04-05]
 * c3a793d - upgrade libquotient (Anagnostakis Ioannis) [2025-04-05]
 * baa4fba - upgrade okteta (Anagnostakis Ioannis) [2025-04-04]
