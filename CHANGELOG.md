@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Apr  7 17:06:06 EEST 2025
+Generated on: Mon Apr  7 21:17:00 EEST 2025
 
+* 220a0ee - upgrade ruqola (Anagnostakis Ioannis) [2025-04-07]
+* 8d21bf9 - upgrade ruqola (Anagnostakis Ioannis) [2025-04-07]
 * c980d4b - add digikam (Anagnostakis Ioannis) [2025-04-06]
 * cc4751e - add digikam (Anagnostakis Ioannis) [2025-04-06]
 * 5786f21 - upgrade libquotient (Anagnostakis Ioannis) [2025-04-05]
