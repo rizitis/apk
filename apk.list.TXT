@@ -1,4 +1,4 @@
-# Mon Apr  7 21:16:50 EEST 2025
+# Tue Apr  8 10:33:22 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -491,7 +491,7 @@ milou-6.3.4-x86_64-1_rtz.tlz
 mimetreeparser-24.12.3-x86_64-1_rtz.tlz
 minuet-24.12.3-x86_64-1_rtz.tlz
 modemmanager-qt-6.12.0-x86_64-1_rtz.tlz
-mpvqt-1.0.1-x86_64-1_rtz.tlz
+mpvqt-1.1.0-x86_64-1_rtz.tlz
 neochat-24.12.3-x86_64-1_rtz.tlz
 networkmanager-qt-6.12.0-x86_64-1_rtz.tlz
 noisetorch-6d895f3_git-x86_64-1_rtz.tlz

@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Mon Apr  7 21:17:00 EEST 2025
+Generated on: Tue Apr  8 10:33:32 EEST 2025
 
+* 1b4ad7f - upgrade halloy (Anagnostakis Ioannis) [2025-04-07]
+* 89dde22 - upgrade halloy (Anagnostakis Ioannis) [2025-04-07]
 * 220a0ee - upgrade ruqola (Anagnostakis Ioannis) [2025-04-07]
 * 8d21bf9 - upgrade ruqola (Anagnostakis Ioannis) [2025-04-07]
 * c980d4b - add digikam (Anagnostakis Ioannis) [2025-04-06]
