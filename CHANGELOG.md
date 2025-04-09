@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Tue Apr  8 10:33:32 EEST 2025
+Generated on: Wed Apr  9 10:46:17 EEST 2025
 
+* b1d83ec - upgrade mpvqt (Anagnostakis Ioannis) [2025-04-08]
+* f4780e3 - upgrade mpvqt (Anagnostakis Ioannis) [2025-04-08]
 * 1b4ad7f - upgrade halloy (Anagnostakis Ioannis) [2025-04-07]
 * 89dde22 - upgrade halloy (Anagnostakis Ioannis) [2025-04-07]
 * 220a0ee - upgrade ruqola (Anagnostakis Ioannis) [2025-04-07]
