@@ -4535,6 +4535,11 @@
         "type": "file"
     },
     {
+        "name": "slpkg-5.2.3-x86_64-1_SBo.tgz",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/slpkg-5.2.3-x86_64-1_SBo.tgz",
+        "type": "file"
+    },
+    {
         "name": "krename.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/krename.sha256sum",
         "type": "file"

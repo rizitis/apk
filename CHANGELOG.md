@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Apr 12 21:51:55 EEST 2025
+Generated on: Sat Apr 12 21:52:48 EEST 2025
 
+* c2a95de - upgrade frameworks (Anagnostakis Ioannis) [2025-04-12]
+* 14e9228 - upgrade frameworks (Anagnostakis Ioannis) [2025-04-12]
 * 92f70f1 - rebuild (Anagnostakis Ioannis) [2025-04-12]
 * 29906d4 - rebuild (Anagnostakis Ioannis) [2025-04-12]
 * 1c91101 - rebuild (Anagnostakis Ioannis) [2025-04-12]
