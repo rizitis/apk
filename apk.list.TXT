@@ -1,4 +1,4 @@
-# Sat Apr 12 17:26:50 EEST 2025
+# Sat Apr 12 21:51:48 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.3.0-x86_64-1_rtz.tlz
@@ -63,7 +63,7 @@ bluez-qt-6.12.0-x86_64-1_rtz.tlz
 bomber-24.12.3-x86_64-1_rtz.tlz
 bovo-24.12.3-x86_64-1_rtz.tlz
 breeze-gtk-6.3.4-x86_64-1_rtz.tlz
-breeze-icons-6.12.0-x86_64-1_rtz.tlz
+breeze-icons-6.13.0-x86_64-1_rtz.tlz
 breeze-6.3.4-x86_64-1_rtz.tlz
 bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.3-x86_64-1_rtz.tlz
