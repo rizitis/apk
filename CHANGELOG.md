@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Sat Apr 12 21:54:54 EEST 2025
+Generated on: Mon Apr 14 15:20:22 EEST 2025
 
+* 818f637 - Upgrade Plasma Frameworks 6.13.0 (Anagnostakis Ioannis) [2025-04-12]
+* 7f41728 - Upgrade Plasma Frameworks 6.13.0 (Anagnostakis Ioannis) [2025-04-12]
 * 61600b3 - upgrade frameworks 6.13.0 (Anagnostakis Ioannis) [2025-04-12]
 * 74cc238 - upgrade frameworks 6.13.0 (Anagnostakis Ioannis) [2025-04-12]
 * c2a95de - upgrade frameworks (Anagnostakis Ioannis) [2025-04-12]
