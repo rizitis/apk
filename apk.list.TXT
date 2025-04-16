@@ -1,4 +1,4 @@
-# Wed Apr 16 11:44:02 EEST 2025
+# Wed Apr 16 14:39:34 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.4.0-x86_64-1_rtz.tlz
@@ -600,6 +600,7 @@ sourcegit-2025.13-x86_64-2_rtz.tlz
 spacebar-6.3.4-x86_64-1_rtz.tlz
 spdlog-1.15.2-x86_64-1_rtz.tlz
 spectacle-6.3.4-x86_64-1_rtz.tlz
+star-tex-0.7.1-x86_64-1_rtz.tlz
 static-web-server-2.36.0-x86_64-1_rtz.tlz
 step-24.12.3-x86_64-1_rtz.tlz
 superhtml-0.5.3-x86_64-1_rtz.tlz
