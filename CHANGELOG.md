@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Wed Apr 16 23:11:06 EEST 2025
+Generated on: Thu Apr 17 16:35:36 EEST 2025
 
+* c7df705 - Upgrade haruna (Anagnostakis Ioannis) [2025-04-16]
+* 7438c4b - Upgrade haruna (Anagnostakis Ioannis) [2025-04-16]
 * d121235 - add star-tex (Anagnostakis Ioannis) [2025-04-16]
 * 336926f - add star-tex (Anagnostakis Ioannis) [2025-04-16]
 * c8b8d43 - Upgrade: /tmp/Impression.tar.lz4 /tmp/Impression.sha256sum /tmp/libadwaita.tar.lz4 /tmp/libadwaita.sha256sum /tmp/mpvqt.tar.lz4 /tmp/mpvqt.sha256sum (Anagnostakis Ioannis) [2025-04-16]

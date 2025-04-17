@@ -1,4 +1,4 @@
-# Wed Apr 16 23:10:55 EEST 2025
+# Thu Apr 17 16:35:30 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.4.0-x86_64-1_rtz.tlz
@@ -69,7 +69,7 @@ bubblewrap-0.11.0-x86_64-1_rtz.tlz
 calendarsupport-24.12.3-x86_64-1_rtz.tlz
 calindori-24.12.3-x86_64-1_rtz.tlz
 callaudiod-0.1.10-x86_64-1_rtz.tlz
-calligra-24.12.3-x86_64-1_rtz.tlz
+calligra-25.04.0-x86_64-1_rtz.tlz
 cantor-24.12.3-x86_64-1_rtz.tlz
 cargo-auditable-0.6.6-x86_64-1_rtz.tlz
 cervisia-24.12.3-x86_64-1_rtz.tlz
@@ -473,7 +473,7 @@ lokalize-24.12.3-x86_64-1_rtz.tlz
 mailcommon-24.12.3-x86_64-1_rtz.tlz
 mailimporter-24.12.3-x86_64-1_rtz.tlz
 maliit-framework-2.3.0-x86_64-1_rtz.tlz
-marble-24.12.3-x86_64-1_rtz.tlz
+marble-25.04.0-x86_64-1_rtz.tlz
 marknote-1.3.0-x86_64-1_rtz.tlz
 massif-visualizer-24.12.3-x86_64-1_rtz.tlz
 mauikit-filebrowsing-4.0.0-x86_64-1_rtz.tlz
