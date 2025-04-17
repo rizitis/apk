@@ -4195,6 +4195,11 @@
         "type": "file"
     },
     {
+        "name": "freerdp3.sha256sum",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/freerdp3.sha256sum",
+        "type": "file"
+    },
+    {
         "name": "libkleo.sha256sum",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/libkleo.sha256sum",
         "type": "file"
