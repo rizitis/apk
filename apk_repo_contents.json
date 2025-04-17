@@ -400,6 +400,11 @@
         "type": "file"
     },
     {
+        "name": "freerdp3.tar.lz4",
+        "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/freerdp3.tar.lz4",
+        "type": "file"
+    },
+    {
         "name": "kwayland.tar.lz4",
         "path": "https://raw.githubusercontent.com/rizitis/apk/refs/heads/main/kwayland.tar.lz4",
         "type": "file"
