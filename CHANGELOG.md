@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Apr 17 16:39:21 EEST 2025
+Generated on: Thu Apr 17 16:42:38 EEST 2025
 
+* 3fa6e2d - upgrade KDE APPS (Anagnostakis Ioannis) [2025-04-17]
+* 975d6d1 - upgrade KDE APPS (Anagnostakis Ioannis) [2025-04-17]
 * 993d405 - upgrade KDE apps (Anagnostakis Ioannis) [2025-04-17]
 * b8455be - upgrade KDE apps (Anagnostakis Ioannis) [2025-04-17]
 * 232afff - Upgrade KDE (Anagnostakis Ioannis) [2025-04-17]
