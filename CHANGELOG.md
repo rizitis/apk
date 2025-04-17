@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Apr 17 16:35:36 EEST 2025
+Generated on: Thu Apr 17 16:38:35 EEST 2025
 
+* 232afff - Upgrade KDE (Anagnostakis Ioannis) [2025-04-17]
+* 7b48677 - Upgrade KDE (Anagnostakis Ioannis) [2025-04-17]
 * c7df705 - Upgrade haruna (Anagnostakis Ioannis) [2025-04-16]
 * 7438c4b - Upgrade haruna (Anagnostakis Ioannis) [2025-04-16]
 * d121235 - add star-tex (Anagnostakis Ioannis) [2025-04-16]

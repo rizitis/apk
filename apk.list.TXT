@@ -1,4 +1,4 @@
-# Thu Apr 17 16:35:30 EEST 2025
+# Thu Apr 17 16:38:29 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.4.0-x86_64-1_rtz.tlz
@@ -138,7 +138,7 @@ isoimagewriter-24.12.3-x86_64-1_rtz.tlz
 itinerary-24.12.3-x86_64-1_rtz.tlz
 jnv-0.6.0-x86_64-1_rtz.tlz
 juk-24.12.3-x86_64-1_rtz.tlz
-k3b-24.12.3-x86_64-1_rtz.tlz
+k3b-25.04.0-x86_64-1_rtz.tlz
 kaccounts-integration-24.12.3-x86_64-1_rtz.tlz
 kaccounts-providers-24.12.1-x86_64-1_rtz.tlz
 kactivities5-5.116.0-x86_64-1_rtz.tlz
@@ -158,7 +158,7 @@ kapptemplate-24.12.3-x86_64-1_rtz.tlz
 karchive-6.13.0-x86_64-1_rtz.tlz
 karchive5-5.116.0-x86_64-1_rtz.tlz
 kasts-24.12.3-x86_64-1_rtz.tlz
-kate-24.12.3-x86_64-1_rtz.tlz
+kate-25.04.0-x86_64-1_rtz.tlz
 katomic-24.12.3-x86_64-1_rtz.tlz
 kauth-6.13.0-x86_64-1_rtz.tlz
 kauth5-5.116.0-x86_64-1_rtz.tlz
@@ -208,14 +208,14 @@ kde-inotify-survey-24.12.3-x86_64-1_rtz.tlz
 kdebugsettings-24.12.3-x86_64-1_rtz.tlz
 kdeclarative-6.13.0-x86_64-1_rtz.tlz
 kdeclarative5-5.116.0-x86_64-1_rtz.tlz
-kdeconnect-24.12.3-x86_64-1_rtz.tlz
+kdeconnect-25.04.0-x86_64-1_rtz.tlz
 kdecoration-6.3.4-x86_64-1_rtz.tlz
 kded-6.13.0-x86_64-1_rtz.tlz
 kdeedu-data-24.12.3-x86_64-1_rtz.tlz
 kdegraphics-mobipocket-24.12.3-x86_64-1_rtz.tlz
 kdegraphics-thumbnailers-24.12.3-x86_64-1_rtz.tlz
 kdenetwork-filesharing-24.12.3-x86_64-1_rtz.tlz
-kdenlive-24.12.3-x86_64-1_rtz.tlz
+kdenlive-25.04.0-x86_64-1_rtz.tlz
 kdepim-addons-24.12.3-x86_64-1_rtz.tlz
 kdepim-runtime-24.12.3-x86_64-1_rtz.tlz
 kdeplasma-addons-6.3.4-x86_64-1_rtz.tlz
@@ -225,7 +225,7 @@ kdesu-6.13.0-x86_64-1_rtz.tlz
 kdesu5-5.116.0-x86_64-1_rtz.tlz
 kdev-python-24.12.3-x86_64-1_rtz.tlz
 kdevelop-pg-qt-2.4.0-x86_64-1_rtz.tlz
-kdevelop-24.12.3-x86_64-1_rtz.tlz
+kdevelop-25.04.0-x86_64-1_rtz.tlz
 kdf-24.12.3-x86_64-1_rtz.tlz
 kdiagram-3.0.1-x86_64-1_rtz.tlz
 kdiagram5-2.8.0-x86_64-1_rtz.tlz
@@ -245,7 +245,7 @@ kfilemetadata5-5.116.0-x86_64-1_rtz.tlz
 kfind-24.12.3-x86_64-1_rtz.tlz
 kfourinline-24.12.3-x86_64-1_rtz.tlz
 kgamma-6.3.4-x86_64-1_rtz.tlz
-kgeography-24.12.3-x86_64-1_rtz.tlz
+kgeography-25.04.0-x86_64-1_rtz.tlz
 kgeotag-1.7.0-x86_64-1_rtz.tlz
 kget-24.12.3-x86_64-1_rtz.tlz
 kglobalaccel-6.13.0-x86_64-1_rtz.tlz
@@ -296,14 +296,14 @@ kitemmodels-6.13.0-x86_64-1_rtz.tlz
 kitemmodels5-5.116.0-x86_64-1_rtz.tlz
 kitemviews-6.13.0-x86_64-1_rtz.tlz
 kitemviews5-5.116.0-x86_64-1_rtz.tlz
-kiten-24.12.3-x86_64-1_rtz.tlz
+kiten-25.04.0-x86_64-1_rtz.tlz
 kitinerary-24.12.3-x86_64-1_rtz.tlz
 kjobwidgets-6.13.0-x86_64-1_rtz.tlz
 kjobwidgets5-5.116.0-x86_64-1_rtz.tlz
 kjumpingcube-24.12.3-x86_64-1_rtz.tlz
 kldap-24.12.3-x86_64-1_rtz.tlz
 kleopatra-24.12.3-x86_64-1_rtz.tlz
-klettres-24.12.3-x86_64-1_rtz.tlz
+klettres-25.04.0-x86_64-1_rtz.tlz
 klevernotes-1.2.2-x86_64-1_rtz.tlz
 klickety-24.12.3-x86_64-1_rtz.tlz
 klines-24.12.3-x86_64-1_rtz.tlz
@@ -338,7 +338,7 @@ kolourpaint-24.12.3-x86_64-1_rtz.tlz
 kommit-1.6.0-x86_64-1_rtz.tlz
 kompare-24.12.3-x86_64-1_rtz.tlz
 kongress-24.12.3-x86_64-1_rtz.tlz
-konqueror-24.12.3-x86_64-1_rtz.tlz
+konqueror-25.04.0-x86_64-1_rtz.tlz
 konquest-24.12.3-x86_64-1_rtz.tlz
 konsole-24.12.3-x86_64-1_rtz.tlz
 kontact-24.12.3-x86_64-1_rtz.tlz
@@ -424,7 +424,7 @@ kwin-6.3.4-x86_64-1_rtz.tlz
 kwindowsystem-6.13.0-x86_64-1_rtz.tlz
 kwindowsystem5-5.116.0-x86_64-1_rtz.tlz
 kwordquiz-24.12.3-x86_64-1_rtz.tlz
-kwrite-24.12.3-x86_64-1_rtz.tlz
+kwrite-25.04.0-x86_64-1_rtz.tlz
 kwrited-6.3.4-x86_64-1_rtz.tlz
 kxmlgui-6.13.0-x86_64-1_rtz.tlz
 kxmlgui5-5.116.0-x86_64-1_rtz.tlz
@@ -440,7 +440,7 @@ libindi-2.1.2.1-x86_64-1_rtz.tlz
 libkcddb-24.12.3-x86_64-1_rtz.tlz
 libkcompactdisc-24.12.3-x86_64-1_rtz.tlz
 libkdcraw-24.12.3-x86_64-1_rtz.tlz
-libkdegames-24.12.3-x86_64-1_rtz.tlz
+libkdegames-25.04.0-x86_64-1_rtz.tlz
 libkdepim-24.12.3-x86_64-1_rtz.tlz
 libkeduvocdocument-24.12.3-x86_64-1_rtz.tlz
 libkexiv2-24.12.3-x86_64-1_rtz.tlz
@@ -489,7 +489,7 @@ messagelib-24.12.3-x86_64-1_rtz.tlz
 mikumikubeam-289eff9-x86_64-1_rtz.tlz
 milou-6.3.4-x86_64-1_rtz.tlz
 mimetreeparser-24.12.3-x86_64-1_rtz.tlz
-minuet-24.12.3-x86_64-1_rtz.tlz
+minuet-25.04.0-x86_64-1_rtz.tlz
 modemmanager-qt-6.13.0-x86_64-1_rtz.tlz
 mpvqt-1.1.1-x86_64-1_rtz.tlz
 neochat-24.12.3-x86_64-1_rtz.tlz
