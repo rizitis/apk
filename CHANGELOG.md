@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Thu Apr 17 16:46:00 EEST 2025
+Generated on: Fri Apr 18 13:20:57 EEST 2025
 
+* 59a8245 - update kde 25.04 (Anagnostakis Ioannis) [2025-04-17]
+* 80e7deb - update kde 25.04 (Anagnostakis Ioannis) [2025-04-17]
 * ac9effb - UPGRADE KDE (Anagnostakis Ioannis) [2025-04-17]
 * 8cc288e - UPGRADE KDE (Anagnostakis Ioannis) [2025-04-17]
 * f5aa04d - upgrade KDE APPS (Anagnostakis Ioannis) [2025-04-17]

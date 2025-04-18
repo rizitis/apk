@@ -1,4 +1,4 @@
-# Thu Apr 17 16:45:55 EEST 2025
+# Fri Apr 18 13:20:47 EEST 2025
 
 EmojiRunner-3.0.5-x86_64-1_rtz.tlz
 Impression-3.4.0-x86_64-1_rtz.tlz
@@ -25,7 +25,7 @@ analitza-25.04.0-x86_64-1_rtz.tlz
 android-tools-35.0.2-x86_64-1_rtz.tlz
 angelfish-25.04.0-x86_64-1_rtz.tlz
 apngasm-3.1.10-x86_64-1_rtz.tlz
-appmenu-gtk-module-24.05-x86_64-1_rtz.tlz
+appmenu-gtk-module-25.04-x86_64-1_rtz.tlz
 appstream-qt-1.0.3-x86_64-1_rtz.tlz
 appstream-1.0.3-x86_64-1_rtz.tlz
 apt-2.9.24-x86_64-1_rtz.tlz
