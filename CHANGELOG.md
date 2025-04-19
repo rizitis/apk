@@ -1,6 +1,8 @@
 # Changelog
-Generated on: Fri Apr 18 13:20:57 EEST 2025
+Generated on: Sat Apr 19 15:47:19 EEST 2025
 
+* c6329bb - upgrade appmenu-gtk-module (Anagnostakis Ioannis) [2025-04-18]
+* c57af98 - upgrade appmenu-gtk-module (Anagnostakis Ioannis) [2025-04-18]
 * 59a8245 - update kde 25.04 (Anagnostakis Ioannis) [2025-04-17]
 * 80e7deb - update kde 25.04 (Anagnostakis Ioannis) [2025-04-17]
 * ac9effb - UPGRADE KDE (Anagnostakis Ioannis) [2025-04-17]
